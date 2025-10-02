@@ -23,5 +23,11 @@ So, I created this visual engine hub to help portray the visions I've been shari
 
 I hope to have elucidated well that I'm not against the technology itself. Beyond problems like deepfakes and security issues, I have no problem with synthetic data itself. Once the concerns of artists, society, and the broader social implications of transparency, collective benevolence, and ethical data and material sourcing are addressed, then yeah. Then I believe the pure pursuit of synthetic media that is not linked to scientific progress is something I won't be against, provided the data centers are also environmentally integrated.
 
+So, in this sense, I believe this quite reframes the idea of a visual engine, right? This is the one I provide here: a dense pack of concepts and analyses, all intertwined with the notion of a mutualistic, planetary, symbiotic ASI; not as a single model deployed by a company but as a state of resource post-scarcity, information flow, individual expression, and convergent intentions of collective well-being and collaboration. This ASI is a state of Gaia, an ecosystem where interconnected, decentralized nodes. With humans, animals, the biomes, AI models, and emerging sentiences being all participants.
+
+So, yeah, this is where the visual engine I have in mind comes in. It's one that helps to showcase that many of the implications I make, beyond being conceptually intriguing, cognitively stimulating, and ethically grounded, are also deeply rooted in an empirical line of inquiry and research.
+
+So, I most likely won't engage with the synthetic generation of visual data itself like diffusion modelling or text to media, most purely text. Although, like I said, if it's tied to scientific inquiry and is convergent with collective well-being, then I believe it is fitting. But in my case, I will mostly use it to generate the code for the visual projects, like using generative language models to code the HTML games or Python scripts for other forms of media I will be sharing here.
+
 Ronni Ross
 2025
