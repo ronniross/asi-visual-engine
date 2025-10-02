@@ -73,6 +73,8 @@ Perfect. I will now craft versions of the html script where the decentralized sy
 
 node_bonding_log_20251002_154158_723.txt is also from html-node-interaction-game-1000.html, with the older black ui. Key found in 2133 seconds with 696 bonds created, still (1-1000). hmmm
 
+node-bonding-key-discovery-game-high-intensity-blue-ui.html generated the node_bonding_log_20251002_154527_240.txt, node_bonding_log_20251002_154432_570.txt and node_bonding_log_20251002_154925_079.txt.
+
 
 Ronni Ross
 2025
