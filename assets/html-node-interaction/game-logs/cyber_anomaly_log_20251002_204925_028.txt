@@ -1,0 +1,3471 @@
+═══════════════════════════════════════════════════════════════
+        CYBER ANOMALY SIGNATURE SYNTHESIZER - THREAT LOG
+═══════════════════════════════════════════════════════════════
+
+THREAT LEVEL OMEGA PROTOCOL:
+───────────────────────────────────────────────────────────────
+1. Anomaly fragments spawn in volatile clusters every 2 seconds
+2. Fragments exhibit high-entropy movement vectors
+3. Collision triggers cryptographic signature synthesis (10-bit)
+4. Verified pairs emit entropy signature (0-1023)
+5. Auto-purge after 5 seconds to prevent memory saturation
+6. Target threat signature generated at session start (0-1023)
+7. System terminates upon signature match
+───────────────────────────────────────────────────────────────
+
+SESSION METRICS:
+───────────────────────────────────────────────────────────────
+Session Timestamp: 2025-10-02T23:49:25.028Z
+Target Signature: 601
+Total Runtime: 1321 seconds
+Signatures Synthesized: 721
+Fragments Spawned: 1393
+Entropy Efficiency: 0.14% per synthesis
+───────────────────────────────────────────────────────────────
+
+THREAT EVENT STREAM:
+───────────────────────────────────────────────────────────────
+[20:27:23] Threat scan initiated. Target signature: 601
+[20:27:23] Anomaly fragment spawned at (706, 483)
+[20:27:23] Anomaly fragment spawned at (587, 505)
+[20:27:23] Anomaly fragment spawned at (275, 113)
+[20:27:26] Anomaly fragment spawned at (182, 280)
+[20:27:26] Anomaly fragment spawned at (127, 466)
+[20:27:26] Anomaly fragment spawned at (421, 353)
+[20:27:28] Anomaly fragment spawned at (745, 272)
+[20:27:28] Anomaly fragment spawned at (594, 221)
+[20:27:28] Anomaly fragment spawned at (442, 166)
+[20:27:30] Anomaly fragment spawned at (368, 337)
+[20:27:30] Anomaly fragment spawned at (72, 530)
+[20:27:30] Anomaly fragment spawned at (691, 132)
+[20:27:32] Anomaly fragment spawned at (30, 546)
+[20:27:32] Anomaly fragment spawned at (741, 232)
+[20:27:32] Anomaly fragment spawned at (580, 477)
+[20:27:34] Anomaly fragment spawned at (344, 532)
+[20:27:34] Anomaly fragment spawned at (139, 456)
+[20:27:34] Anomaly fragment spawned at (484, 240)
+[20:27:36] Anomaly fragment spawned at (263, 203)
+[20:27:36] Anomaly fragment spawned at (151, 109)
+[20:27:36] Anomaly fragment spawned at (283, 151)
+[20:27:38] Anomaly fragment spawned at (345, 80)
+[20:27:38] Anomaly fragment spawned at (213, 441)
+[20:27:38] Anomaly fragment spawned at (718, 451)
+[20:27:40] Anomaly fragment spawned at (508, 294)
+[20:27:40] Anomaly fragment spawned at (130, 284)
+[20:27:40] Anomaly fragment spawned at (428, 511)
+[20:27:42] Anomaly fragment spawned at (263, 491)
+[20:27:42] Anomaly fragment spawned at (419, 359)
+[20:27:42] Anomaly fragment spawned at (637, 552)
+[20:27:44] Anomaly fragment spawned at (698, 184)
+[20:27:44] Anomaly fragment spawned at (462, 430)
+[20:27:44] Anomaly fragment spawned at (220, 222)
+[20:27:46] Anomaly fragment spawned at (76, 260)
+[20:27:46] Anomaly fragment spawned at (110, 165)
+[20:27:46] Anomaly fragment spawned at (410, 235)
+[20:27:48] Anomaly fragment spawned at (269, 66)
+[20:27:48] Anomaly fragment spawned at (161, 256)
+[20:27:48] Anomaly fragment spawned at (708, 424)
+[20:27:50] Anomaly fragment spawned at (40, 201)
+[20:27:50] Anomaly fragment spawned at (487, 495)
+[20:27:50] Anomaly fragment spawned at (298, 260)
+[20:27:52] Anomaly fragment spawned at (421, 190)
+[20:27:52] Anomaly fragment spawned at (572, 465)
+[20:27:52] Anomaly fragment spawned at (543, 548)
+[20:27:54] Anomaly fragment spawned at (697, 153)
+[20:27:54] Anomaly fragment spawned at (246, 523)
+[20:27:54] Anomaly fragment spawned at (121, 186)
+[20:27:56] Anomaly fragment spawned at (35, 161)
+[20:27:56] Anomaly fragment spawned at (649, 539)
+[20:27:56] Anomaly fragment spawned at (693, 537)
+[20:27:58] Anomaly fragment spawned at (567, 315)
+[20:27:58] Anomaly fragment spawned at (515, 258)
+[20:27:58] Anomaly fragment spawned at (713, 440)
+[20:28:00] Anomaly fragment spawned at (684, 189)
+[20:28:00] Anomaly fragment spawned at (79, 340)
+[20:28:00] Anomaly fragment spawned at (525, 197)
+[20:28:02] Anomaly fragment spawned at (650, 95)
+[20:28:02] Anomaly fragment spawned at (273, 437)
+[20:28:02] Anomaly fragment spawned at (358, 374)
+[20:28:04] Anomaly fragment spawned at (407, 393)
+[20:28:04] Anomaly fragment spawned at (203, 86)
+[20:28:04] Anomaly fragment spawned at (336, 101)
+[20:28:06] Anomaly fragment spawned at (681, 531)
+[20:28:06] Anomaly fragment spawned at (453, 97)
+[20:28:06] Anomaly fragment spawned at (592, 543)
+[20:28:08] Anomaly fragment spawned at (352, 407)
+[20:28:08] Anomaly fragment spawned at (60, 44)
+[20:28:08] Anomaly fragment spawned at (436, 426)
+[20:28:10] Anomaly fragment spawned at (703, 301)
+[20:28:10] Anomaly fragment spawned at (348, 552)
+[20:28:10] Anomaly fragment spawned at (124, 266)
+[20:28:11] Signature synthesized: 412
+[20:28:11] Signature synthesized: 949
+[20:28:11] Signature synthesized: 625
+[20:28:11] Signature synthesized: 319
+[20:28:11] Signature synthesized: 607
+[20:28:11] Signature synthesized: 573
+[20:28:11] Signature synthesized: 314
+[20:28:11] Signature synthesized: 725
+[20:28:11] Signature synthesized: 932
+[20:28:11] Signature synthesized: 725
+[20:28:11] Signature synthesized: 168
+[20:28:11] Signature synthesized: 556
+[20:28:11] Signature synthesized: 623
+[20:28:11] Signature synthesized: 173
+[20:28:11] Signature synthesized: 557
+[20:28:11] Signature synthesized: 829
+[20:28:11] Signature synthesized: 232
+[20:28:11] Signature synthesized: 535
+[20:28:11] Signature synthesized: 12
+[20:28:11] Signature synthesized: 540
+[20:28:11] Signature synthesized: 130
+[20:28:11] Signature synthesized: 913
+[20:28:11] Signature synthesized: 913
+[20:28:11] Anomaly fragment spawned at (458, 436)
+[20:28:11] Anomaly fragment spawned at (165, 341)
+[20:28:11] Anomaly fragment spawned at (119, 433)
+[20:28:11] Signature synthesized: 215
+[20:28:11] Signature synthesized: 816
+[20:28:11] Signature synthesized: 848
+[20:28:12] Signature synthesized: 823
+[20:28:12] Signature synthesized: 820
+[20:28:14] Anomaly fragment spawned at (708, 317)
+[20:28:14] Anomaly fragment spawned at (713, 85)
+[20:28:14] Anomaly fragment spawned at (470, 521)
+[20:28:16] Anomaly fragment spawned at (444, 161)
+[20:28:16] Anomaly fragment spawned at (409, 68)
+[20:28:16] Anomaly fragment spawned at (77, 123)
+[20:28:18] Anomaly fragment spawned at (592, 366)
+[20:28:18] Anomaly fragment spawned at (665, 45)
+[20:28:18] Anomaly fragment spawned at (660, 415)
+[20:28:20] Anomaly fragment spawned at (706, 429)
+[20:28:20] Anomaly fragment spawned at (496, 78)
+[20:28:20] Anomaly fragment spawned at (220, 457)
+[20:28:22] Anomaly fragment spawned at (719, 286)
+[20:28:22] Anomaly fragment spawned at (503, 85)
+[20:28:22] Anomaly fragment spawned at (129, 410)
+[20:28:24] Anomaly fragment spawned at (410, 102)
+[20:28:24] Anomaly fragment spawned at (478, 361)
+[20:28:24] Anomaly fragment spawned at (308, 212)
+[20:28:26] Anomaly fragment spawned at (754, 430)
+[20:28:26] Anomaly fragment spawned at (288, 296)
+[20:28:26] Anomaly fragment spawned at (428, 316)
+[20:28:28] Anomaly fragment spawned at (527, 131)
+[20:28:28] Anomaly fragment spawned at (196, 258)
+[20:28:28] Anomaly fragment spawned at (300, 238)
+[20:28:30] Anomaly fragment spawned at (512, 493)
+[20:28:30] Anomaly fragment spawned at (362, 180)
+[20:28:30] Anomaly fragment spawned at (752, 135)
+[20:28:30] Signature synthesized: 818
+[20:28:30] Signature synthesized: 458
+[20:28:30] Signature synthesized: 638
+[20:28:30] Verified fragment purged (signature: 823)
+[20:28:30] Verified fragment purged (signature: 725)
+[20:28:30] Verified fragment purged (signature: 573)
+[20:28:30] Verified fragment purged (signature: 848)
+[20:28:30] Verified fragment purged (signature: 623)
+[20:28:30] Verified fragment purged (signature: 557)
+[20:28:30] Verified fragment purged (signature: 314)
+[20:28:30] Verified fragment purged (signature: 820)
+[20:28:30] Verified fragment purged (signature: 12)
+[20:28:30] Verified fragment purged (signature: 215)
+[20:28:30] Verified fragment purged (signature: 556)
+[20:28:30] Verified fragment purged (signature: 932)
+[20:28:30] Verified fragment purged (signature: 829)
+[20:28:30] Verified fragment purged (signature: 913)
+[20:28:30] Verified fragment purged (signature: 557)
+[20:28:30] Verified fragment purged (signature: 168)
+[20:28:30] Verified fragment purged (signature: 232)
+[20:28:30] Verified fragment purged (signature: 173)
+[20:28:30] Verified fragment purged (signature: 319)
+[20:28:30] Verified fragment purged (signature: 848)
+[20:28:30] Verified fragment purged (signature: 607)
+[20:28:30] Verified fragment purged (signature: 913)
+[20:28:30] Verified fragment purged (signature: 130)
+[20:28:30] Verified fragment purged (signature: 540)
+[20:28:30] Verified fragment purged (signature: 232)
+[20:28:30] Verified fragment purged (signature: 725)
+[20:28:30] Verified fragment purged (signature: 173)
+[20:28:30] Verified fragment purged (signature: 820)
+[20:28:30] Verified fragment purged (signature: 215)
+[20:28:30] Verified fragment purged (signature: 623)
+[20:28:30] Verified fragment purged (signature: 556)
+[20:28:30] Verified fragment purged (signature: 168)
+[20:28:30] Verified fragment purged (signature: 625)
+[20:28:30] Verified fragment purged (signature: 823)
+[20:28:30] Verified fragment purged (signature: 540)
+[20:28:30] Verified fragment purged (signature: 725)
+[20:28:30] Verified fragment purged (signature: 829)
+[20:28:30] Verified fragment purged (signature: 932)
+[20:28:30] Verified fragment purged (signature: 816)
+[20:28:30] Verified fragment purged (signature: 314)
+[20:28:30] Verified fragment purged (signature: 913)
+[20:28:30] Verified fragment purged (signature: 130)
+[20:28:30] Verified fragment purged (signature: 412)
+[20:28:30] Verified fragment purged (signature: 949)
+[20:28:30] Verified fragment purged (signature: 573)
+[20:28:30] Verified fragment purged (signature: 607)
+[20:28:30] Verified fragment purged (signature: 535)
+[20:28:30] Verified fragment purged (signature: 319)
+[20:28:30] Verified fragment purged (signature: 12)
+[20:28:30] Verified fragment purged (signature: 913)
+[20:28:30] Verified fragment purged (signature: 535)
+[20:28:30] Verified fragment purged (signature: 625)
+[20:28:30] Verified fragment purged (signature: 949)
+[20:28:30] Verified fragment purged (signature: 816)
+[20:28:30] Verified fragment purged (signature: 412)
+[20:28:30] Signature synthesized: 87
+[20:28:30] Signature synthesized: 938
+[20:28:30] Signature synthesized: 29
+[20:28:30] Signature synthesized: 923
+[20:28:30] Signature synthesized: 861
+[20:28:30] Signature synthesized: 686
+[20:28:32] Anomaly fragment spawned at (659, 391)
+[20:28:32] Anomaly fragment spawned at (609, 436)
+[20:28:32] Anomaly fragment spawned at (536, 251)
+[20:28:34] Anomaly fragment spawned at (458, 83)
+[20:28:34] Anomaly fragment spawned at (464, 120)
+[20:28:34] Anomaly fragment spawned at (277, 291)
+[20:28:36] Anomaly fragment spawned at (156, 448)
+[20:28:36] Anomaly fragment spawned at (661, 42)
+[20:28:36] Anomaly fragment spawned at (660, 445)
+[20:28:38] Anomaly fragment spawned at (393, 124)
+[20:28:38] Anomaly fragment spawned at (327, 406)
+[20:28:38] Anomaly fragment spawned at (480, 138)
+[20:28:40] Anomaly fragment spawned at (630, 200)
+[20:28:40] Anomaly fragment spawned at (315, 406)
+[20:28:40] Anomaly fragment spawned at (178, 473)
+[20:28:42] Anomaly fragment spawned at (742, 506)
+[20:28:42] Anomaly fragment spawned at (622, 430)
+[20:28:42] Anomaly fragment spawned at (133, 424)
+[20:28:44] Anomaly fragment spawned at (580, 261)
+[20:28:44] Anomaly fragment spawned at (156, 94)
+[20:28:44] Anomaly fragment spawned at (683, 113)
+[20:28:46] Anomaly fragment spawned at (430, 88)
+[20:28:46] Anomaly fragment spawned at (595, 74)
+[20:28:46] Anomaly fragment spawned at (495, 302)
+[20:28:46] Signature synthesized: 954
+[20:28:46] Signature synthesized: 113
+[20:28:46] Signature synthesized: 935
+[20:28:46] Signature synthesized: 989
+[20:28:46] Signature synthesized: 742
+[20:28:46] Signature synthesized: 470
+[20:28:46] Verified fragment purged (signature: 29)
+[20:28:46] Verified fragment purged (signature: 638)
+[20:28:46] Verified fragment purged (signature: 938)
+[20:28:46] Verified fragment purged (signature: 861)
+[20:28:46] Verified fragment purged (signature: 638)
+[20:28:46] Verified fragment purged (signature: 818)
+[20:28:46] Verified fragment purged (signature: 458)
+[20:28:46] Verified fragment purged (signature: 458)
+[20:28:46] Verified fragment purged (signature: 87)
+[20:28:46] Verified fragment purged (signature: 818)
+[20:28:46] Verified fragment purged (signature: 938)
+[20:28:46] Verified fragment purged (signature: 29)
+[20:28:46] Verified fragment purged (signature: 87)
+[20:28:46] Verified fragment purged (signature: 861)
+[20:28:46] Verified fragment purged (signature: 923)
+[20:28:46] Verified fragment purged (signature: 686)
+[20:28:46] Verified fragment purged (signature: 923)
+[20:28:46] Verified fragment purged (signature: 686)
+[20:28:46] Signature synthesized: 488
+[20:28:46] Signature synthesized: 380
+[20:28:46] Signature synthesized: 762
+[20:28:46] Signature synthesized: 418
+[20:28:46] Signature synthesized: 225
+[20:28:46] Signature synthesized: 683
+[20:28:46] Signature synthesized: 463
+[20:28:46] Signature synthesized: 787
+[20:28:46] Signature synthesized: 66
+[20:28:46] Signature synthesized: 402
+[20:28:46] Signature synthesized: 176
+[20:28:46] Signature synthesized: 398
+[20:28:48] Anomaly fragment spawned at (278, 474)
+[20:28:48] Anomaly fragment spawned at (372, 50)
+[20:28:48] Anomaly fragment spawned at (654, 344)
+[20:28:50] Anomaly fragment spawned at (106, 83)
+[20:28:50] Anomaly fragment spawned at (541, 474)
+[20:28:50] Anomaly fragment spawned at (482, 31)
+[20:28:52] Anomaly fragment spawned at (105, 86)
+[20:28:52] Anomaly fragment spawned at (179, 486)
+[20:28:52] Anomaly fragment spawned at (439, 90)
+[20:28:54] Anomaly fragment spawned at (769, 430)
+[20:28:54] Anomaly fragment spawned at (105, 359)
+[20:28:54] Anomaly fragment spawned at (713, 263)
+[20:28:56] Anomaly fragment spawned at (64, 195)
+[20:28:56] Anomaly fragment spawned at (613, 477)
+[20:28:56] Anomaly fragment spawned at (406, 494)
+[20:28:58] Anomaly fragment spawned at (739, 492)
+[20:28:58] Anomaly fragment spawned at (595, 274)
+[20:28:58] Anomaly fragment spawned at (464, 417)
+[20:28:59] Signature synthesized: 56
+[20:28:59] Signature synthesized: 257
+[20:28:59] Verified fragment purged (signature: 787)
+[20:28:59] Verified fragment purged (signature: 742)
+[20:28:59] Verified fragment purged (signature: 762)
+[20:28:59] Verified fragment purged (signature: 380)
+[20:28:59] Verified fragment purged (signature: 989)
+[20:28:59] Verified fragment purged (signature: 398)
+[20:28:59] Verified fragment purged (signature: 402)
+[20:28:59] Verified fragment purged (signature: 935)
+[20:28:59] Verified fragment purged (signature: 418)
+[20:28:59] Verified fragment purged (signature: 470)
+[20:28:59] Verified fragment purged (signature: 113)
+[20:28:59] Verified fragment purged (signature: 787)
+[20:28:59] Verified fragment purged (signature: 380)
+[20:28:59] Verified fragment purged (signature: 683)
+[20:28:59] Verified fragment purged (signature: 470)
+[20:28:59] Verified fragment purged (signature: 742)
+[20:28:59] Verified fragment purged (signature: 176)
+[20:28:59] Verified fragment purged (signature: 989)
+[20:28:59] Verified fragment purged (signature: 398)
+[20:28:59] Verified fragment purged (signature: 683)
+[20:28:59] Verified fragment purged (signature: 176)
+[20:28:59] Verified fragment purged (signature: 935)
+[20:28:59] Verified fragment purged (signature: 66)
+[20:28:59] Verified fragment purged (signature: 402)
+[20:28:59] Verified fragment purged (signature: 225)
+[20:28:59] Verified fragment purged (signature: 488)
+[20:28:59] Verified fragment purged (signature: 762)
+[20:28:59] Verified fragment purged (signature: 66)
+[20:28:59] Verified fragment purged (signature: 488)
+[20:28:59] Verified fragment purged (signature: 463)
+[20:28:59] Verified fragment purged (signature: 225)
+[20:28:59] Verified fragment purged (signature: 954)
+[20:28:59] Verified fragment purged (signature: 418)
+[20:28:59] Verified fragment purged (signature: 463)
+[20:28:59] Verified fragment purged (signature: 954)
+[20:28:59] Signature synthesized: 537
+[20:28:59] Signature synthesized: 7
+[20:28:59] Signature synthesized: 375
+[20:28:59] Signature synthesized: 921
+[20:28:59] Signature synthesized: 4
+[20:28:59] Signature synthesized: 225
+[20:28:59] Anomaly fragment spawned at (748, 171)
+[20:28:59] Anomaly fragment spawned at (41, 431)
+[20:28:59] Anomaly fragment spawned at (282, 316)
+[20:28:59] Signature synthesized: 375
+[20:28:59] Signature synthesized: 666
+[20:28:59] Signature synthesized: 748
+[20:29:00] Signature synthesized: 343
+[20:29:01] Signature synthesized: 111
+[20:29:01] Signature synthesized: 973
+[20:29:01] Anomaly fragment spawned at (116, 36)
+[20:29:01] Anomaly fragment spawned at (561, 207)
+[20:29:01] Anomaly fragment spawned at (395, 275)
+[20:29:02] Signature synthesized: 58
+[20:29:04] Anomaly fragment spawned at (646, 369)
+[20:29:04] Anomaly fragment spawned at (145, 345)
+[20:29:04] Anomaly fragment spawned at (626, 49)
+[20:29:06] Anomaly fragment spawned at (71, 466)
+[20:29:06] Anomaly fragment spawned at (746, 228)
+[20:29:06] Anomaly fragment spawned at (259, 200)
+[20:29:06] Verified fragment purged (signature: 343)
+[20:29:06] Verified fragment purged (signature: 375)
+[20:29:06] Verified fragment purged (signature: 7)
+[20:29:06] Verified fragment purged (signature: 748)
+[20:29:06] Verified fragment purged (signature: 375)
+[20:29:06] Verified fragment purged (signature: 375)
+[20:29:06] Verified fragment purged (signature: 56)
+[20:29:06] Verified fragment purged (signature: 666)
+[20:29:06] Verified fragment purged (signature: 257)
+[20:29:06] Verified fragment purged (signature: 921)
+[20:29:06] Verified fragment purged (signature: 257)
+[20:29:06] Verified fragment purged (signature: 921)
+[20:29:06] Verified fragment purged (signature: 225)
+[20:29:06] Verified fragment purged (signature: 4)
+[20:29:06] Verified fragment purged (signature: 225)
+[20:29:06] Verified fragment purged (signature: 4)
+[20:29:06] Verified fragment purged (signature: 666)
+[20:29:06] Verified fragment purged (signature: 56)
+[20:29:06] Verified fragment purged (signature: 537)
+[20:29:06] Verified fragment purged (signature: 748)
+[20:29:06] Verified fragment purged (signature: 7)
+[20:29:06] Verified fragment purged (signature: 537)
+[20:29:06] Verified fragment purged (signature: 343)
+[20:29:06] Verified fragment purged (signature: 375)
+[20:29:06] Verified fragment purged (signature: 973)
+[20:29:06] Verified fragment purged (signature: 973)
+[20:29:06] Verified fragment purged (signature: 111)
+[20:29:06] Verified fragment purged (signature: 111)
+[20:29:06] Signature synthesized: 447
+[20:29:07] Signature synthesized: 1012
+[20:29:07] Verified fragment purged (signature: 58)
+[20:29:07] Verified fragment purged (signature: 58)
+[20:29:08] Anomaly fragment spawned at (536, 529)
+[20:29:08] Anomaly fragment spawned at (429, 397)
+[20:29:08] Anomaly fragment spawned at (366, 327)
+[20:29:10] Anomaly fragment spawned at (604, 121)
+[20:29:10] Anomaly fragment spawned at (305, 231)
+[20:29:10] Anomaly fragment spawned at (49, 221)
+[20:29:12] Anomaly fragment spawned at (491, 76)
+[20:29:12] Anomaly fragment spawned at (752, 162)
+[20:29:12] Anomaly fragment spawned at (596, 365)
+[20:29:14] Anomaly fragment spawned at (128, 528)
+[20:29:14] Anomaly fragment spawned at (188, 474)
+[20:29:14] Anomaly fragment spawned at (651, 520)
+[20:29:16] Anomaly fragment spawned at (257, 305)
+[20:29:16] Anomaly fragment spawned at (353, 91)
+[20:29:16] Anomaly fragment spawned at (125, 147)
+[20:29:18] Anomaly fragment spawned at (469, 55)
+[20:29:18] Anomaly fragment spawned at (127, 60)
+[20:29:18] Anomaly fragment spawned at (559, 407)
+[20:29:18] Signature synthesized: 186
+[20:29:18] Signature synthesized: 786
+[20:29:18] Signature synthesized: 180
+[20:29:18] Verified fragment purged (signature: 1012)
+[20:29:18] Verified fragment purged (signature: 447)
+[20:29:18] Verified fragment purged (signature: 1012)
+[20:29:18] Verified fragment purged (signature: 447)
+[20:29:18] Signature synthesized: 539
+[20:29:18] Signature synthesized: 613
+[20:29:18] Signature synthesized: 661
+[20:29:18] Signature synthesized: 882
+[20:29:18] Signature synthesized: 235
+[20:29:18] Signature synthesized: 205
+[20:29:19] Anomaly fragment spawned at (744, 133)
+[20:29:19] Anomaly fragment spawned at (605, 397)
+[20:29:19] Anomaly fragment spawned at (75, 384)
+[20:29:19] Signature synthesized: 172
+[20:29:19] Signature synthesized: 707
+[20:29:20] Signature synthesized: 774
+[20:29:20] Signature synthesized: 124
+[20:29:21] Anomaly fragment spawned at (598, 269)
+[20:29:21] Anomaly fragment spawned at (684, 468)
+[20:29:21] Anomaly fragment spawned at (305, 423)
+[20:29:22] Signature synthesized: 642
+[20:29:23] Verified fragment purged (signature: 180)
+[20:29:23] Verified fragment purged (signature: 786)
+[20:29:23] Verified fragment purged (signature: 180)
+[20:29:23] Verified fragment purged (signature: 186)
+[20:29:23] Verified fragment purged (signature: 786)
+[20:29:23] Verified fragment purged (signature: 186)
+[20:29:23] Verified fragment purged (signature: 539)
+[20:29:23] Verified fragment purged (signature: 539)
+[20:29:23] Verified fragment purged (signature: 613)
+[20:29:23] Verified fragment purged (signature: 613)
+[20:29:23] Verified fragment purged (signature: 661)
+[20:29:23] Verified fragment purged (signature: 661)
+[20:29:23] Verified fragment purged (signature: 882)
+[20:29:23] Verified fragment purged (signature: 882)
+[20:29:23] Anomaly fragment spawned at (720, 532)
+[20:29:23] Anomaly fragment spawned at (631, 118)
+[20:29:23] Anomaly fragment spawned at (346, 163)
+[20:29:23] Verified fragment purged (signature: 235)
+[20:29:23] Verified fragment purged (signature: 235)
+[20:29:23] Signature synthesized: 53
+[20:29:23] Verified fragment purged (signature: 205)
+[20:29:23] Verified fragment purged (signature: 205)
+[20:29:24] Verified fragment purged (signature: 172)
+[20:29:24] Verified fragment purged (signature: 707)
+[20:29:24] Verified fragment purged (signature: 707)
+[20:29:24] Verified fragment purged (signature: 172)
+[20:29:25] Signature synthesized: 492
+[20:29:25] Verified fragment purged (signature: 774)
+[20:29:25] Verified fragment purged (signature: 774)
+[20:29:25] Signature synthesized: 428
+[20:29:25] Anomaly fragment spawned at (73, 229)
+[20:29:25] Anomaly fragment spawned at (547, 345)
+[20:29:25] Anomaly fragment spawned at (507, 357)
+[20:29:25] Verified fragment purged (signature: 124)
+[20:29:25] Verified fragment purged (signature: 124)
+[20:29:25] Signature synthesized: 507
+[20:29:27] Verified fragment purged (signature: 642)
+[20:29:27] Verified fragment purged (signature: 642)
+[20:29:27] Anomaly fragment spawned at (51, 356)
+[20:29:27] Anomaly fragment spawned at (64, 137)
+[20:29:27] Anomaly fragment spawned at (450, 155)
+[20:29:27] Signature synthesized: 9
+[20:29:28] Signature synthesized: 21
+[20:29:28] Verified fragment purged (signature: 53)
+[20:29:28] Verified fragment purged (signature: 53)
+[20:29:29] Anomaly fragment spawned at (467, 106)
+[20:29:29] Anomaly fragment spawned at (117, 403)
+[20:29:29] Anomaly fragment spawned at (532, 352)
+[20:29:29] Signature synthesized: 458
+[20:29:30] Verified fragment purged (signature: 492)
+[20:29:30] Verified fragment purged (signature: 492)
+[20:29:30] Verified fragment purged (signature: 428)
+[20:29:30] Verified fragment purged (signature: 428)
+[20:29:30] Verified fragment purged (signature: 507)
+[20:29:30] Verified fragment purged (signature: 507)
+[20:29:31] Anomaly fragment spawned at (640, 328)
+[20:29:31] Anomaly fragment spawned at (213, 534)
+[20:29:31] Anomaly fragment spawned at (705, 135)
+[20:29:34] Anomaly fragment spawned at (687, 327)
+[20:29:34] Anomaly fragment spawned at (727, 343)
+[20:29:34] Anomaly fragment spawned at (260, 461)
+[20:29:35] Anomaly fragment spawned at (185, 504)
+[20:29:35] Anomaly fragment spawned at (119, 343)
+[20:29:35] Anomaly fragment spawned at (400, 569)
+[20:29:35] Verified fragment purged (signature: 458)
+[20:29:35] Verified fragment purged (signature: 21)
+[20:29:35] Verified fragment purged (signature: 9)
+[20:29:35] Verified fragment purged (signature: 458)
+[20:29:35] Verified fragment purged (signature: 21)
+[20:29:35] Verified fragment purged (signature: 9)
+[20:29:35] Signature synthesized: 698
+[20:29:35] Signature synthesized: 996
+[20:29:36] Signature synthesized: 502
+[20:29:36] Signature synthesized: 657
+[20:29:36] Signature synthesized: 962
+[20:29:38] Anomaly fragment spawned at (348, 172)
+[20:29:38] Anomaly fragment spawned at (532, 386)
+[20:29:38] Anomaly fragment spawned at (174, 324)
+[20:29:40] Anomaly fragment spawned at (554, 166)
+[20:29:40] Anomaly fragment spawned at (303, 511)
+[20:29:40] Anomaly fragment spawned at (49, 376)
+[20:29:42] Anomaly fragment spawned at (722, 192)
+[20:29:42] Anomaly fragment spawned at (159, 345)
+[20:29:42] Anomaly fragment spawned at (280, 472)
+[20:29:44] Anomaly fragment spawned at (394, 372)
+[20:29:44] Anomaly fragment spawned at (268, 210)
+[20:29:44] Anomaly fragment spawned at (457, 546)
+[20:29:46] Anomaly fragment spawned at (467, 297)
+[20:29:46] Anomaly fragment spawned at (739, 404)
+[20:29:46] Anomaly fragment spawned at (176, 192)
+[20:29:48] Anomaly fragment spawned at (367, 305)
+[20:29:48] Anomaly fragment spawned at (349, 348)
+[20:29:48] Anomaly fragment spawned at (149, 124)
+[20:29:50] Anomaly fragment spawned at (740, 209)
+[20:29:50] Anomaly fragment spawned at (165, 175)
+[20:29:50] Anomaly fragment spawned at (54, 130)
+[20:29:52] Anomaly fragment spawned at (726, 52)
+[20:29:52] Anomaly fragment spawned at (619, 222)
+[20:29:52] Anomaly fragment spawned at (102, 508)
+[20:29:54] Anomaly fragment spawned at (31, 419)
+[20:29:54] Anomaly fragment spawned at (145, 378)
+[20:29:54] Anomaly fragment spawned at (481, 405)
+[20:29:56] Anomaly fragment spawned at (755, 546)
+[20:29:56] Anomaly fragment spawned at (509, 165)
+[20:29:56] Anomaly fragment spawned at (739, 391)
+[20:29:58] Anomaly fragment spawned at (85, 147)
+[20:29:58] Anomaly fragment spawned at (286, 500)
+[20:29:58] Anomaly fragment spawned at (694, 207)
+[20:30:00] Anomaly fragment spawned at (296, 472)
+[20:30:00] Anomaly fragment spawned at (667, 211)
+[20:30:00] Anomaly fragment spawned at (664, 120)
+[20:30:02] Anomaly fragment spawned at (697, 302)
+[20:30:02] Anomaly fragment spawned at (473, 143)
+[20:30:02] Anomaly fragment spawned at (696, 175)
+[20:30:04] Anomaly fragment spawned at (735, 98)
+[20:30:04] Anomaly fragment spawned at (214, 501)
+[20:30:04] Anomaly fragment spawned at (723, 62)
+[20:30:04] Signature synthesized: 966
+[20:30:04] Signature synthesized: 197
+[20:30:04] Signature synthesized: 645
+[20:30:04] Signature synthesized: 688
+[20:30:04] Signature synthesized: 396
+[20:30:04] Signature synthesized: 280
+[20:30:04] Signature synthesized: 820
+[20:30:04] Signature synthesized: 919
+[20:30:04] Signature synthesized: 712
+[20:30:04] Verified fragment purged (signature: 698)
+[20:30:04] Verified fragment purged (signature: 996)
+[20:30:04] Verified fragment purged (signature: 502)
+[20:30:04] Verified fragment purged (signature: 698)
+[20:30:04] Verified fragment purged (signature: 996)
+[20:30:04] Verified fragment purged (signature: 502)
+[20:30:04] Verified fragment purged (signature: 962)
+[20:30:04] Verified fragment purged (signature: 657)
+[20:30:04] Verified fragment purged (signature: 962)
+[20:30:04] Verified fragment purged (signature: 657)
+[20:30:04] Signature synthesized: 923
+[20:30:04] Signature synthesized: 963
+[20:30:04] Signature synthesized: 719
+[20:30:05] Signature synthesized: 206
+[20:30:05] Signature synthesized: 916
+[20:30:05] Signature synthesized: 796
+[20:30:05] Signature synthesized: 446
+[20:30:05] Anomaly fragment spawned at (225, 499)
+[20:30:05] Anomaly fragment spawned at (476, 149)
+[20:30:05] Anomaly fragment spawned at (693, 121)
+[20:30:08] Anomaly fragment spawned at (652, 433)
+[20:30:08] Anomaly fragment spawned at (149, 335)
+[20:30:08] Anomaly fragment spawned at (252, 558)
+[20:30:10] Anomaly fragment spawned at (56, 491)
+[20:30:10] Anomaly fragment spawned at (94, 423)
+[20:30:10] Anomaly fragment spawned at (559, 370)
+[20:30:12] Anomaly fragment spawned at (118, 55)
+[20:30:12] Anomaly fragment spawned at (442, 362)
+[20:30:12] Anomaly fragment spawned at (337, 81)
+[20:30:14] Anomaly fragment spawned at (457, 168)
+[20:30:14] Anomaly fragment spawned at (214, 297)
+[20:30:14] Anomaly fragment spawned at (497, 454)
+[20:30:16] Anomaly fragment spawned at (33, 32)
+[20:30:16] Anomaly fragment spawned at (396, 45)
+[20:30:16] Anomaly fragment spawned at (155, 148)
+[20:30:18] Anomaly fragment spawned at (268, 483)
+[20:30:18] Anomaly fragment spawned at (609, 96)
+[20:30:18] Anomaly fragment spawned at (394, 395)
+[20:30:20] Anomaly fragment spawned at (495, 510)
+[20:30:20] Anomaly fragment spawned at (579, 415)
+[20:30:20] Anomaly fragment spawned at (579, 144)
+[20:30:22] Anomaly fragment spawned at (233, 133)
+[20:30:22] Anomaly fragment spawned at (475, 194)
+[20:30:22] Anomaly fragment spawned at (82, 275)
+[20:30:24] Anomaly fragment spawned at (376, 370)
+[20:30:24] Anomaly fragment spawned at (104, 518)
+[20:30:24] Anomaly fragment spawned at (683, 64)
+[20:30:26] Anomaly fragment spawned at (143, 58)
+[20:30:26] Anomaly fragment spawned at (760, 82)
+[20:30:26] Anomaly fragment spawned at (136, 176)
+[20:30:28] Anomaly fragment spawned at (138, 489)
+[20:30:28] Anomaly fragment spawned at (64, 381)
+[20:30:28] Anomaly fragment spawned at (616, 66)
+[20:30:30] Anomaly fragment spawned at (679, 548)
+[20:30:30] Anomaly fragment spawned at (639, 473)
+[20:30:30] Anomaly fragment spawned at (563, 409)
+[20:30:32] Anomaly fragment spawned at (50, 270)
+[20:30:32] Anomaly fragment spawned at (231, 214)
+[20:30:32] Anomaly fragment spawned at (172, 448)
+[20:30:34] Anomaly fragment spawned at (524, 120)
+[20:30:34] Anomaly fragment spawned at (526, 34)
+[20:30:34] Anomaly fragment spawned at (496, 230)
+[20:30:36] Anomaly fragment spawned at (622, 106)
+[20:30:36] Anomaly fragment spawned at (65, 217)
+[20:30:36] Anomaly fragment spawned at (61, 180)
+[20:30:38] Anomaly fragment spawned at (280, 184)
+[20:30:38] Anomaly fragment spawned at (432, 296)
+[20:30:38] Anomaly fragment spawned at (265, 30)
+[20:30:40] Anomaly fragment spawned at (705, 65)
+[20:30:40] Anomaly fragment spawned at (703, 297)
+[20:30:40] Anomaly fragment spawned at (586, 488)
+[20:30:42] Anomaly fragment spawned at (181, 217)
+[20:30:42] Anomaly fragment spawned at (666, 159)
+[20:30:42] Anomaly fragment spawned at (147, 287)
+[20:30:44] Anomaly fragment spawned at (732, 107)
+[20:30:44] Anomaly fragment spawned at (432, 387)
+[20:30:44] Anomaly fragment spawned at (212, 367)
+[20:30:46] Anomaly fragment spawned at (468, 302)
+[20:30:46] Anomaly fragment spawned at (663, 559)
+[20:30:46] Anomaly fragment spawned at (223, 533)
+[20:30:48] Anomaly fragment spawned at (730, 213)
+[20:30:48] Anomaly fragment spawned at (618, 85)
+[20:30:48] Anomaly fragment spawned at (526, 91)
+[20:30:50] Anomaly fragment spawned at (377, 132)
+[20:30:50] Anomaly fragment spawned at (586, 178)
+[20:30:50] Anomaly fragment spawned at (239, 555)
+[20:30:52] Anomaly fragment spawned at (537, 38)
+[20:30:52] Anomaly fragment spawned at (755, 267)
+[20:30:52] Anomaly fragment spawned at (347, 253)
+[20:30:54] Anomaly fragment spawned at (538, 384)
+[20:30:54] Anomaly fragment spawned at (492, 489)
+[20:30:54] Anomaly fragment spawned at (399, 364)
+[20:30:56] Anomaly fragment spawned at (665, 555)
+[20:30:56] Anomaly fragment spawned at (692, 96)
+[20:30:56] Anomaly fragment spawned at (74, 459)
+[20:30:58] Anomaly fragment spawned at (661, 267)
+[20:30:58] Anomaly fragment spawned at (379, 267)
+[20:30:58] Anomaly fragment spawned at (741, 115)
+[20:31:00] Anomaly fragment spawned at (712, 277)
+[20:31:00] Anomaly fragment spawned at (610, 181)
+[20:31:00] Anomaly fragment spawned at (518, 90)
+[20:31:02] Anomaly fragment spawned at (173, 473)
+[20:31:02] Anomaly fragment spawned at (385, 89)
+[20:31:02] Anomaly fragment spawned at (286, 112)
+[20:31:04] Anomaly fragment spawned at (533, 255)
+[20:31:04] Anomaly fragment spawned at (410, 461)
+[20:31:04] Anomaly fragment spawned at (769, 207)
+[20:31:10] Anomaly fragment spawned at (296, 375)
+[20:31:10] Anomaly fragment spawned at (532, 205)
+[20:31:10] Anomaly fragment spawned at (76, 276)
+[20:31:10] Signature synthesized: 551
+[20:31:10] Signature synthesized: 497
+[20:31:10] Signature synthesized: 758
+[20:31:10] Signature synthesized: 636
+[20:31:10] Signature synthesized: 304
+[20:31:10] Signature synthesized: 21
+[20:31:10] Signature synthesized: 573
+[20:31:10] Signature synthesized: 550
+[20:31:10] Signature synthesized: 490
+[20:31:10] Signature synthesized: 720
+[20:31:10] Signature synthesized: 869
+[20:31:10] Signature synthesized: 234
+[20:31:10] Signature synthesized: 628
+[20:31:10] Signature synthesized: 336
+[20:31:10] Signature synthesized: 668
+[20:31:10] Signature synthesized: 97
+[20:31:10] Signature synthesized: 150
+[20:31:10] Signature synthesized: 682
+[20:31:10] Signature synthesized: 427
+[20:31:10] Signature synthesized: 1003
+[20:31:10] Signature synthesized: 721
+[20:31:10] Signature synthesized: 10
+[20:31:10] Signature synthesized: 58
+[20:31:10] Signature synthesized: 976
+[20:31:10] Signature synthesized: 797
+[20:31:10] Signature synthesized: 42
+[20:31:10] Verified fragment purged (signature: 919)
+[20:31:10] Verified fragment purged (signature: 206)
+[20:31:10] Verified fragment purged (signature: 916)
+[20:31:10] Verified fragment purged (signature: 712)
+[20:31:10] Verified fragment purged (signature: 396)
+[20:31:10] Verified fragment purged (signature: 712)
+[20:31:10] Verified fragment purged (signature: 645)
+[20:31:10] Verified fragment purged (signature: 280)
+[20:31:10] Verified fragment purged (signature: 963)
+[20:31:10] Verified fragment purged (signature: 719)
+[20:31:10] Verified fragment purged (signature: 206)
+[20:31:10] Verified fragment purged (signature: 446)
+[20:31:10] Verified fragment purged (signature: 919)
+[20:31:10] Verified fragment purged (signature: 820)
+[20:31:10] Verified fragment purged (signature: 688)
+[20:31:10] Verified fragment purged (signature: 923)
+[20:31:10] Verified fragment purged (signature: 820)
+[20:31:10] Verified fragment purged (signature: 280)
+[20:31:10] Verified fragment purged (signature: 796)
+[20:31:10] Verified fragment purged (signature: 796)
+[20:31:10] Verified fragment purged (signature: 396)
+[20:31:10] Verified fragment purged (signature: 197)
+[20:31:10] Verified fragment purged (signature: 688)
+[20:31:10] Verified fragment purged (signature: 719)
+[20:31:10] Verified fragment purged (signature: 645)
+[20:31:10] Verified fragment purged (signature: 963)
+[20:31:10] Verified fragment purged (signature: 197)
+[20:31:10] Verified fragment purged (signature: 966)
+[20:31:10] Verified fragment purged (signature: 446)
+[20:31:10] Verified fragment purged (signature: 916)
+[20:31:10] Verified fragment purged (signature: 966)
+[20:31:10] Verified fragment purged (signature: 923)
+[20:31:10] Signature synthesized: 68
+[20:31:10] Signature synthesized: 845
+[20:31:10] Signature synthesized: 587
+[20:31:10] Signature synthesized: 153
+[20:31:10] Signature synthesized: 306
+[20:31:10] Signature synthesized: 228
+[20:31:10] Signature synthesized: 741
+[20:31:10] Signature synthesized: 906
+[20:31:10] Signature synthesized: 657
+[20:31:10] Signature synthesized: 414
+[20:31:10] Signature synthesized: 296
+[20:31:10] Signature synthesized: 926
+[20:31:10] Signature synthesized: 930
+[20:31:10] Signature synthesized: 385
+[20:31:10] Signature synthesized: 738
+[20:31:10] Signature synthesized: 635
+[20:31:10] Signature synthesized: 820
+[20:31:10] Signature synthesized: 929
+[20:31:10] Signature synthesized: 504
+[20:31:10] Signature synthesized: 590
+[20:31:10] Signature synthesized: 936
+[20:31:11] Signature synthesized: 350
+[20:31:12] Anomaly fragment spawned at (304, 111)
+[20:31:12] Anomaly fragment spawned at (627, 166)
+[20:31:12] Anomaly fragment spawned at (164, 519)
+[20:31:14] Anomaly fragment spawned at (761, 470)
+[20:31:14] Anomaly fragment spawned at (636, 445)
+[20:31:14] Anomaly fragment spawned at (185, 363)
+[20:31:16] Anomaly fragment spawned at (89, 183)
+[20:31:16] Anomaly fragment spawned at (219, 124)
+[20:31:16] Anomaly fragment spawned at (602, 304)
+[20:31:18] Anomaly fragment spawned at (584, 392)
+[20:31:18] Anomaly fragment spawned at (495, 447)
+[20:31:18] Anomaly fragment spawned at (749, 121)
+[20:31:20] Anomaly fragment spawned at (532, 514)
+[20:31:20] Anomaly fragment spawned at (684, 175)
+[20:31:20] Anomaly fragment spawned at (399, 288)
+[20:31:22] Anomaly fragment spawned at (522, 100)
+[20:31:22] Anomaly fragment spawned at (448, 161)
+[20:31:22] Anomaly fragment spawned at (398, 65)
+[20:31:24] Anomaly fragment spawned at (599, 197)
+[20:31:24] Anomaly fragment spawned at (257, 59)
+[20:31:24] Anomaly fragment spawned at (664, 390)
+[20:31:26] Anomaly fragment spawned at (723, 205)
+[20:31:26] Anomaly fragment spawned at (630, 167)
+[20:31:26] Anomaly fragment spawned at (143, 341)
+[20:31:28] Anomaly fragment spawned at (377, 415)
+[20:31:28] Anomaly fragment spawned at (299, 539)
+[20:31:28] Anomaly fragment spawned at (756, 188)
+[20:31:30] Anomaly fragment spawned at (216, 319)
+[20:31:30] Anomaly fragment spawned at (275, 198)
+[20:31:30] Anomaly fragment spawned at (48, 189)
+[20:31:32] Anomaly fragment spawned at (675, 303)
+[20:31:32] Anomaly fragment spawned at (325, 175)
+[20:31:32] Anomaly fragment spawned at (383, 287)
+[20:31:34] Anomaly fragment spawned at (653, 564)
+[20:31:34] Anomaly fragment spawned at (535, 556)
+[20:31:34] Anomaly fragment spawned at (710, 341)
+[20:31:36] Anomaly fragment spawned at (270, 490)
+[20:31:36] Anomaly fragment spawned at (113, 317)
+[20:31:36] Anomaly fragment spawned at (368, 272)
+[20:31:38] Anomaly fragment spawned at (357, 525)
+[20:31:38] Anomaly fragment spawned at (433, 203)
+[20:31:38] Anomaly fragment spawned at (272, 245)
+[20:31:40] Anomaly fragment spawned at (440, 92)
+[20:31:40] Anomaly fragment spawned at (170, 163)
+[20:31:40] Anomaly fragment spawned at (273, 510)
+[20:31:42] Anomaly fragment spawned at (346, 444)
+[20:31:42] Anomaly fragment spawned at (349, 448)
+[20:31:42] Anomaly fragment spawned at (626, 559)
+[20:31:44] Anomaly fragment spawned at (742, 315)
+[20:31:44] Anomaly fragment spawned at (551, 233)
+[20:31:44] Anomaly fragment spawned at (430, 46)
+[20:31:46] Anomaly fragment spawned at (207, 324)
+[20:31:46] Anomaly fragment spawned at (370, 201)
+[20:31:46] Anomaly fragment spawned at (158, 455)
+[20:31:48] Anomaly fragment spawned at (634, 211)
+[20:31:48] Anomaly fragment spawned at (287, 452)
+[20:31:48] Anomaly fragment spawned at (572, 324)
+[20:31:50] Anomaly fragment spawned at (742, 282)
+[20:31:50] Anomaly fragment spawned at (394, 183)
+[20:31:50] Anomaly fragment spawned at (294, 88)
+[20:31:52] Anomaly fragment spawned at (182, 432)
+[20:31:52] Anomaly fragment spawned at (554, 56)
+[20:31:52] Anomaly fragment spawned at (201, 170)
+[20:31:54] Anomaly fragment spawned at (105, 322)
+[20:31:54] Anomaly fragment spawned at (612, 182)
+[20:31:54] Anomaly fragment spawned at (306, 534)
+[20:31:56] Anomaly fragment spawned at (347, 137)
+[20:31:56] Anomaly fragment spawned at (533, 183)
+[20:31:56] Anomaly fragment spawned at (75, 406)
+[20:31:58] Anomaly fragment spawned at (333, 208)
+[20:31:58] Anomaly fragment spawned at (96, 132)
+[20:31:58] Anomaly fragment spawned at (278, 434)
+[20:32:00] Anomaly fragment spawned at (33, 433)
+[20:32:00] Anomaly fragment spawned at (629, 246)
+[20:32:00] Anomaly fragment spawned at (333, 498)
+[20:32:02] Anomaly fragment spawned at (262, 163)
+[20:32:02] Anomaly fragment spawned at (108, 503)
+[20:32:02] Anomaly fragment spawned at (300, 159)
+[20:32:04] Anomaly fragment spawned at (700, 33)
+[20:32:04] Anomaly fragment spawned at (253, 312)
+[20:32:04] Anomaly fragment spawned at (546, 481)
+[20:32:06] Anomaly fragment spawned at (516, 211)
+[20:32:06] Anomaly fragment spawned at (161, 34)
+[20:32:06] Anomaly fragment spawned at (501, 80)
+[20:32:08] Anomaly fragment spawned at (750, 537)
+[20:32:08] Anomaly fragment spawned at (151, 449)
+[20:32:08] Anomaly fragment spawned at (547, 516)
+[20:32:10] Anomaly fragment spawned at (288, 184)
+[20:32:10] Anomaly fragment spawned at (228, 213)
+[20:32:10] Anomaly fragment spawned at (147, 484)
+[20:32:12] Anomaly fragment spawned at (560, 79)
+[20:32:12] Anomaly fragment spawned at (316, 342)
+[20:32:12] Anomaly fragment spawned at (173, 392)
+[20:33:12] Anomaly fragment spawned at (541, 533)
+[20:33:12] Anomaly fragment spawned at (199, 31)
+[20:33:12] Anomaly fragment spawned at (374, 548)
+[20:33:12] Signature synthesized: 903
+[20:33:12] Signature synthesized: 253
+[20:33:12] Signature synthesized: 616
+[20:33:12] Signature synthesized: 448
+[20:33:12] Signature synthesized: 135
+[20:33:12] Signature synthesized: 243
+[20:33:12] Signature synthesized: 482
+[20:33:12] Signature synthesized: 162
+[20:33:12] Signature synthesized: 515
+[20:33:12] Signature synthesized: 84
+[20:33:12] Signature synthesized: 797
+[20:33:12] Signature synthesized: 800
+[20:33:12] Signature synthesized: 890
+[20:33:12] Signature synthesized: 823
+[20:33:12] Signature synthesized: 7
+[20:33:12] Signature synthesized: 892
+[20:33:12] Signature synthesized: 894
+[20:33:12] Signature synthesized: 687
+[20:33:12] Signature synthesized: 324
+[20:33:12] Signature synthesized: 519
+[20:33:12] Signature synthesized: 734
+[20:33:12] Signature synthesized: 389
+[20:33:12] Signature synthesized: 322
+[20:33:12] Signature synthesized: 398
+[20:33:12] Signature synthesized: 917
+[20:33:12] Verified fragment purged (signature: 150)
+[20:33:12] Verified fragment purged (signature: 657)
+[20:33:12] Verified fragment purged (signature: 414)
+[20:33:12] Verified fragment purged (signature: 820)
+[20:33:12] Verified fragment purged (signature: 906)
+[20:33:12] Verified fragment purged (signature: 228)
+[20:33:12] Verified fragment purged (signature: 153)
+[20:33:12] Verified fragment purged (signature: 10)
+[20:33:12] Verified fragment purged (signature: 930)
+[20:33:12] Verified fragment purged (signature: 42)
+[20:33:12] Verified fragment purged (signature: 304)
+[20:33:12] Verified fragment purged (signature: 797)
+[20:33:12] Verified fragment purged (signature: 587)
+[20:33:12] Verified fragment purged (signature: 738)
+[20:33:12] Verified fragment purged (signature: 68)
+[20:33:12] Verified fragment purged (signature: 550)
+[20:33:12] Verified fragment purged (signature: 721)
+[20:33:12] Verified fragment purged (signature: 682)
+[20:33:12] Verified fragment purged (signature: 668)
+[20:33:12] Verified fragment purged (signature: 720)
+[20:33:12] Verified fragment purged (signature: 587)
+[20:33:12] Verified fragment purged (signature: 21)
+[20:33:12] Verified fragment purged (signature: 976)
+[20:33:12] Verified fragment purged (signature: 490)
+[20:33:12] Verified fragment purged (signature: 42)
+[20:33:12] Verified fragment purged (signature: 153)
+[20:33:12] Verified fragment purged (signature: 58)
+[20:33:12] Verified fragment purged (signature: 336)
+[20:33:12] Verified fragment purged (signature: 738)
+[20:33:12] Verified fragment purged (signature: 1003)
+[20:33:12] Verified fragment purged (signature: 296)
+[20:33:12] Verified fragment purged (signature: 414)
+[20:33:12] Verified fragment purged (signature: 234)
+[20:33:12] Verified fragment purged (signature: 797)
+[20:33:12] Verified fragment purged (signature: 636)
+[20:33:12] Verified fragment purged (signature: 590)
+[20:33:12] Verified fragment purged (signature: 635)
+[20:33:12] Verified fragment purged (signature: 427)
+[20:33:12] Verified fragment purged (signature: 504)
+[20:33:12] Verified fragment purged (signature: 758)
+[20:33:12] Verified fragment purged (signature: 385)
+[20:33:12] Verified fragment purged (signature: 628)
+[20:33:12] Verified fragment purged (signature: 845)
+[20:33:12] Verified fragment purged (signature: 976)
+[20:33:12] Verified fragment purged (signature: 58)
+[20:33:12] Verified fragment purged (signature: 10)
+[20:33:12] Verified fragment purged (signature: 926)
+[20:33:12] Verified fragment purged (signature: 350)
+[20:33:12] Verified fragment purged (signature: 97)
+[20:33:12] Verified fragment purged (signature: 590)
+[20:33:12] Verified fragment purged (signature: 721)
+[20:33:12] Verified fragment purged (signature: 930)
+[20:33:12] Verified fragment purged (signature: 385)
+[20:33:12] Verified fragment purged (signature: 497)
+[20:33:12] Verified fragment purged (signature: 926)
+[20:33:12] Verified fragment purged (signature: 820)
+[20:33:12] Verified fragment purged (signature: 869)
+[20:33:12] Verified fragment purged (signature: 427)
+[20:33:12] Verified fragment purged (signature: 682)
+[20:33:12] Verified fragment purged (signature: 150)
+[20:33:12] Verified fragment purged (signature: 845)
+[20:33:12] Verified fragment purged (signature: 350)
+[20:33:12] Verified fragment purged (signature: 657)
+[20:33:12] Verified fragment purged (signature: 97)
+[20:33:12] Verified fragment purged (signature: 668)
+[20:33:12] Verified fragment purged (signature: 336)
+[20:33:12] Verified fragment purged (signature: 306)
+[20:33:12] Verified fragment purged (signature: 936)
+[20:33:12] Verified fragment purged (signature: 936)
+[20:33:12] Verified fragment purged (signature: 635)
+[20:33:12] Verified fragment purged (signature: 929)
+[20:33:12] Verified fragment purged (signature: 573)
+[20:33:12] Verified fragment purged (signature: 228)
+[20:33:12] Verified fragment purged (signature: 234)
+[20:33:12] Verified fragment purged (signature: 869)
+[20:33:12] Verified fragment purged (signature: 720)
+[20:33:12] Verified fragment purged (signature: 551)
+[20:33:12] Verified fragment purged (signature: 68)
+[20:33:12] Verified fragment purged (signature: 490)
+[20:33:12] Verified fragment purged (signature: 550)
+[20:33:12] Verified fragment purged (signature: 573)
+[20:33:12] Verified fragment purged (signature: 306)
+[20:33:12] Verified fragment purged (signature: 21)
+[20:33:12] Verified fragment purged (signature: 296)
+[20:33:12] Verified fragment purged (signature: 741)
+[20:33:12] Verified fragment purged (signature: 304)
+[20:33:12] Verified fragment purged (signature: 636)
+[20:33:12] Verified fragment purged (signature: 906)
+[20:33:12] Verified fragment purged (signature: 741)
+[20:33:12] Verified fragment purged (signature: 758)
+[20:33:12] Verified fragment purged (signature: 929)
+[20:33:12] Verified fragment purged (signature: 497)
+[20:33:12] Verified fragment purged (signature: 551)
+[20:33:12] Verified fragment purged (signature: 504)
+[20:33:12] Signature synthesized: 196
+[20:33:12] Signature synthesized: 566
+[20:33:12] Signature synthesized: 328
+[20:33:12] Signature synthesized: 57
+[20:33:12] Signature synthesized: 406
+[20:33:12] Signature synthesized: 252
+[20:33:12] Signature synthesized: 961
+[20:33:12] Signature synthesized: 573
+[20:33:12] Signature synthesized: 807
+[20:33:12] Signature synthesized: 15
+[20:33:12] Signature synthesized: 342
+[20:33:12] Signature synthesized: 557
+[20:33:12] Signature synthesized: 797
+[20:33:12] Signature synthesized: 728
+[20:33:12] Signature synthesized: 930
+[20:33:12] Signature synthesized: 176
+[20:33:12] Signature synthesized: 431
+[20:33:12] Signature synthesized: 841
+[20:33:12] Signature synthesized: 670
+[20:33:12] Signature synthesized: 977
+[20:33:12] Signature synthesized: 830
+[20:33:12] Signature synthesized: 863
+[20:33:13] Signature synthesized: 14
+[20:33:13] Signature synthesized: 22
+[20:33:13] Anomaly fragment spawned at (73, 244)
+[20:33:13] Anomaly fragment spawned at (439, 414)
+[20:33:13] Anomaly fragment spawned at (726, 329)
+[20:33:13] Signature synthesized: 317
+[20:33:13] Signature synthesized: 541
+[20:33:14] Signature synthesized: 921
+[20:33:14] Signature synthesized: 780
+[20:33:14] Signature synthesized: 17
+[20:33:15] Signature synthesized: 963
+[20:33:15] Anomaly fragment spawned at (735, 567)
+[20:33:15] Anomaly fragment spawned at (126, 396)
+[20:33:15] Anomaly fragment spawned at (556, 542)
+[20:33:16] Signature synthesized: 978
+[20:33:17] Signature synthesized: 445
+[20:33:17] Verified fragment purged (signature: 389)
+[20:33:17] Verified fragment purged (signature: 892)
+[20:33:17] Verified fragment purged (signature: 515)
+[20:33:17] Verified fragment purged (signature: 324)
+[20:33:17] Verified fragment purged (signature: 7)
+[20:33:17] Verified fragment purged (signature: 398)
+[20:33:17] Verified fragment purged (signature: 616)
+[20:33:17] Verified fragment purged (signature: 917)
+[20:33:17] Verified fragment purged (signature: 253)
+[20:33:17] Verified fragment purged (signature: 243)
+[20:33:17] Verified fragment purged (signature: 823)
+[20:33:17] Verified fragment purged (signature: 734)
+[20:33:17] Verified fragment purged (signature: 917)
+[20:33:17] Verified fragment purged (signature: 398)
+[20:33:17] Verified fragment purged (signature: 687)
+[20:33:17] Verified fragment purged (signature: 519)
+[20:33:17] Verified fragment purged (signature: 322)
+[20:33:17] Verified fragment purged (signature: 322)
+[20:33:17] Verified fragment purged (signature: 135)
+[20:33:17] Verified fragment purged (signature: 389)
+[20:33:17] Verified fragment purged (signature: 800)
+[20:33:17] Verified fragment purged (signature: 734)
+[20:33:17] Verified fragment purged (signature: 519)
+[20:33:17] Verified fragment purged (signature: 894)
+[20:33:17] Verified fragment purged (signature: 84)
+[20:33:17] Verified fragment purged (signature: 903)
+[20:33:17] Verified fragment purged (signature: 324)
+[20:33:17] Verified fragment purged (signature: 687)
+[20:33:17] Verified fragment purged (signature: 448)
+[20:33:17] Verified fragment purged (signature: 890)
+[20:33:17] Verified fragment purged (signature: 162)
+[20:33:17] Verified fragment purged (signature: 894)
+[20:33:17] Verified fragment purged (signature: 892)
+[20:33:17] Verified fragment purged (signature: 797)
+[20:33:17] Verified fragment purged (signature: 823)
+[20:33:17] Verified fragment purged (signature: 482)
+[20:33:17] Verified fragment purged (signature: 800)
+[20:33:17] Verified fragment purged (signature: 797)
+[20:33:17] Verified fragment purged (signature: 84)
+[20:33:17] Verified fragment purged (signature: 515)
+[20:33:17] Verified fragment purged (signature: 482)
+[20:33:17] Verified fragment purged (signature: 243)
+[20:33:17] Verified fragment purged (signature: 616)
+[20:33:17] Verified fragment purged (signature: 253)
+[20:33:17] Verified fragment purged (signature: 903)
+[20:33:17] Verified fragment purged (signature: 328)
+[20:33:17] Verified fragment purged (signature: 196)
+[20:33:17] Verified fragment purged (signature: 566)
+[20:33:17] Verified fragment purged (signature: 328)
+[20:33:17] Verified fragment purged (signature: 566)
+[20:33:17] Verified fragment purged (signature: 196)
+[20:33:17] Verified fragment purged (signature: 406)
+[20:33:17] Verified fragment purged (signature: 252)
+[20:33:17] Verified fragment purged (signature: 252)
+[20:33:17] Verified fragment purged (signature: 57)
+[20:33:17] Verified fragment purged (signature: 406)
+[20:33:17] Verified fragment purged (signature: 57)
+[20:33:17] Verified fragment purged (signature: 961)
+[20:33:17] Verified fragment purged (signature: 573)
+[20:33:17] Verified fragment purged (signature: 573)
+[20:33:17] Verified fragment purged (signature: 961)
+[20:33:17] Verified fragment purged (signature: 807)
+[20:33:17] Verified fragment purged (signature: 807)
+[20:33:17] Verified fragment purged (signature: 15)
+[20:33:17] Verified fragment purged (signature: 15)
+[20:33:17] Verified fragment purged (signature: 557)
+[20:33:17] Verified fragment purged (signature: 342)
+[20:33:17] Verified fragment purged (signature: 557)
+[20:33:17] Verified fragment purged (signature: 342)
+[20:33:17] Verified fragment purged (signature: 797)
+[20:33:17] Verified fragment purged (signature: 797)
+[20:33:17] Verified fragment purged (signature: 728)
+[20:33:17] Verified fragment purged (signature: 728)
+[20:33:17] Verified fragment purged (signature: 176)
+[20:33:17] Verified fragment purged (signature: 930)
+[20:33:17] Verified fragment purged (signature: 176)
+[20:33:17] Verified fragment purged (signature: 930)
+[20:33:17] Anomaly fragment spawned at (495, 516)
+[20:33:17] Anomaly fragment spawned at (352, 136)
+[20:33:17] Anomaly fragment spawned at (636, 172)
+[20:33:17] Verified fragment purged (signature: 431)
+[20:33:17] Verified fragment purged (signature: 841)
+[20:33:17] Verified fragment purged (signature: 841)
+[20:33:17] Verified fragment purged (signature: 431)
+[20:33:17] Verified fragment purged (signature: 670)
+[20:33:17] Verified fragment purged (signature: 670)
+[20:33:17] Verified fragment purged (signature: 830)
+[20:33:17] Verified fragment purged (signature: 977)
+[20:33:17] Verified fragment purged (signature: 830)
+[20:33:17] Verified fragment purged (signature: 977)
+[20:33:17] Verified fragment purged (signature: 863)
+[20:33:17] Verified fragment purged (signature: 863)
+[20:33:18] Signature synthesized: 911
+[20:33:18] Verified fragment purged (signature: 14)
+[20:33:18] Verified fragment purged (signature: 14)
+[20:33:18] Verified fragment purged (signature: 22)
+[20:33:18] Verified fragment purged (signature: 22)
+[20:33:18] Verified fragment purged (signature: 317)
+[20:33:18] Verified fragment purged (signature: 317)
+[20:33:18] Verified fragment purged (signature: 541)
+[20:33:18] Verified fragment purged (signature: 541)
+[20:33:19] Verified fragment purged (signature: 780)
+[20:33:19] Verified fragment purged (signature: 921)
+[20:33:19] Verified fragment purged (signature: 780)
+[20:33:19] Verified fragment purged (signature: 921)
+[20:33:19] Verified fragment purged (signature: 17)
+[20:33:19] Verified fragment purged (signature: 17)
+[20:33:19] Anomaly fragment spawned at (639, 170)
+[20:33:19] Anomaly fragment spawned at (293, 179)
+[20:33:19] Anomaly fragment spawned at (474, 438)
+[20:33:19] Signature synthesized: 141
+[20:33:20] Signature synthesized: 879
+[20:33:20] Verified fragment purged (signature: 963)
+[20:33:20] Verified fragment purged (signature: 963)
+[20:33:21] Signature synthesized: 363
+[20:33:21] Verified fragment purged (signature: 978)
+[20:33:21] Verified fragment purged (signature: 978)
+[20:33:21] Anomaly fragment spawned at (349, 497)
+[20:33:21] Anomaly fragment spawned at (738, 209)
+[20:33:21] Anomaly fragment spawned at (319, 47)
+[20:33:22] Verified fragment purged (signature: 445)
+[20:33:22] Verified fragment purged (signature: 445)
+[20:33:22] Signature synthesized: 843
+[20:33:23] Verified fragment purged (signature: 911)
+[20:33:23] Verified fragment purged (signature: 911)
+[20:33:23] Anomaly fragment spawned at (48, 157)
+[20:33:23] Anomaly fragment spawned at (573, 112)
+[20:33:23] Anomaly fragment spawned at (508, 304)
+[20:33:23] Signature synthesized: 199
+[20:33:24] Verified fragment purged (signature: 141)
+[20:33:24] Verified fragment purged (signature: 141)
+[20:33:25] Signature synthesized: 259
+[20:33:25] Verified fragment purged (signature: 879)
+[20:33:25] Verified fragment purged (signature: 879)
+[20:33:25] Anomaly fragment spawned at (434, 341)
+[20:33:25] Anomaly fragment spawned at (720, 448)
+[20:33:25] Anomaly fragment spawned at (464, 546)
+[20:33:25] Signature synthesized: 628
+[20:33:26] Verified fragment purged (signature: 363)
+[20:33:26] Verified fragment purged (signature: 363)
+[20:33:27] Signature synthesized: 304
+[20:33:27] Verified fragment purged (signature: 843)
+[20:33:27] Verified fragment purged (signature: 843)
+[20:33:27] Anomaly fragment spawned at (654, 178)
+[20:33:27] Anomaly fragment spawned at (114, 245)
+[20:33:27] Anomaly fragment spawned at (553, 558)
+[20:33:28] Signature synthesized: 930
+[20:33:28] Signature synthesized: 461
+[20:33:28] Verified fragment purged (signature: 199)
+[20:33:28] Verified fragment purged (signature: 199)
+[20:33:29] Anomaly fragment spawned at (518, 195)
+[20:33:29] Anomaly fragment spawned at (580, 531)
+[20:33:29] Anomaly fragment spawned at (722, 389)
+[20:33:30] Verified fragment purged (signature: 259)
+[20:33:30] Verified fragment purged (signature: 259)
+[20:33:30] Verified fragment purged (signature: 628)
+[20:33:30] Verified fragment purged (signature: 628)
+[20:33:31] Signature synthesized: 107
+[20:33:31] Signature synthesized: 380
+[20:33:31] Anomaly fragment spawned at (635, 317)
+[20:33:31] Anomaly fragment spawned at (394, 532)
+[20:33:31] Anomaly fragment spawned at (563, 43)
+[20:33:32] Verified fragment purged (signature: 304)
+[20:33:32] Verified fragment purged (signature: 304)
+[20:33:33] Verified fragment purged (signature: 930)
+[20:33:33] Verified fragment purged (signature: 930)
+[20:33:33] Signature synthesized: 992
+[20:33:33] Verified fragment purged (signature: 461)
+[20:33:33] Verified fragment purged (signature: 461)
+[20:33:33] Anomaly fragment spawned at (231, 93)
+[20:33:33] Anomaly fragment spawned at (315, 242)
+[20:33:33] Anomaly fragment spawned at (79, 249)
+[20:33:35] Anomaly fragment spawned at (245, 412)
+[20:33:35] Anomaly fragment spawned at (370, 97)
+[20:33:35] Anomaly fragment spawned at (576, 371)
+[20:33:35] Signature synthesized: 984
+[20:33:36] Verified fragment purged (signature: 107)
+[20:33:36] Verified fragment purged (signature: 107)
+[20:33:36] Verified fragment purged (signature: 380)
+[20:33:36] Verified fragment purged (signature: 380)
+[20:33:36] Signature synthesized: 380
+[20:33:37] Signature synthesized: 907
+[20:33:37] Anomaly fragment spawned at (132, 232)
+[20:33:37] Anomaly fragment spawned at (673, 234)
+[20:33:37] Anomaly fragment spawned at (71, 451)
+[20:33:38] Verified fragment purged (signature: 992)
+[20:33:38] Verified fragment purged (signature: 992)
+[20:33:39] Anomaly fragment spawned at (742, 409)
+[20:33:39] Anomaly fragment spawned at (302, 281)
+[20:33:39] Anomaly fragment spawned at (593, 279)
+[20:33:39] Signature synthesized: 527
+[20:33:40] Signature synthesized: 555
+[20:33:40] Signature synthesized: 869
+[20:33:40] Verified fragment purged (signature: 984)
+[20:33:40] Verified fragment purged (signature: 984)
+[20:33:41] Verified fragment purged (signature: 380)
+[20:33:41] Verified fragment purged (signature: 380)
+[20:33:41] Anomaly fragment spawned at (220, 562)
+[20:33:41] Anomaly fragment spawned at (359, 255)
+[20:33:41] Anomaly fragment spawned at (332, 221)
+[20:33:41] Signature synthesized: 718
+[20:33:42] Verified fragment purged (signature: 907)
+[20:33:42] Verified fragment purged (signature: 907)
+[20:33:42] Signature synthesized: 931
+[20:33:43] Anomaly fragment spawned at (128, 391)
+[20:33:43] Anomaly fragment spawned at (442, 328)
+[20:33:43] Anomaly fragment spawned at (291, 71)
+[20:33:43] Signature synthesized: 109
+[20:33:45] Verified fragment purged (signature: 527)
+[20:33:45] Verified fragment purged (signature: 527)
+[20:33:45] Verified fragment purged (signature: 555)
+[20:33:45] Verified fragment purged (signature: 555)
+[20:33:45] Anomaly fragment spawned at (762, 269)
+[20:33:45] Anomaly fragment spawned at (593, 330)
+[20:33:45] Anomaly fragment spawned at (276, 255)
+[20:33:45] Verified fragment purged (signature: 869)
+[20:33:45] Verified fragment purged (signature: 869)
+[20:33:46] Verified fragment purged (signature: 718)
+[20:33:46] Verified fragment purged (signature: 718)
+[20:33:47] Signature synthesized: 18
+[20:33:47] Verified fragment purged (signature: 931)
+[20:33:47] Verified fragment purged (signature: 931)
+[20:33:47] Anomaly fragment spawned at (632, 120)
+[20:33:47] Anomaly fragment spawned at (651, 284)
+[20:33:47] Anomaly fragment spawned at (316, 268)
+[20:33:47] Signature synthesized: 54
+[20:33:48] Verified fragment purged (signature: 109)
+[20:33:48] Verified fragment purged (signature: 109)
+[20:33:49] Anomaly fragment spawned at (651, 104)
+[20:33:49] Anomaly fragment spawned at (532, 139)
+[20:33:49] Anomaly fragment spawned at (321, 410)
+[20:33:49] Signature synthesized: 929
+[20:33:51] Signature synthesized: 413
+[20:33:52] Anomaly fragment spawned at (403, 301)
+[20:33:52] Anomaly fragment spawned at (404, 459)
+[20:33:52] Anomaly fragment spawned at (138, 48)
+[20:33:54] Anomaly fragment spawned at (297, 127)
+[20:33:54] Anomaly fragment spawned at (411, 223)
+[20:33:54] Anomaly fragment spawned at (733, 452)
+[20:33:56] Anomaly fragment spawned at (223, 326)
+[20:33:56] Anomaly fragment spawned at (64, 230)
+[20:33:56] Anomaly fragment spawned at (368, 403)
+[20:33:58] Anomaly fragment spawned at (168, 135)
+[20:33:58] Anomaly fragment spawned at (744, 92)
+[20:33:58] Anomaly fragment spawned at (627, 557)
+[20:33:58] Verified fragment purged (signature: 929)
+[20:33:58] Verified fragment purged (signature: 413)
+[20:33:58] Verified fragment purged (signature: 413)
+[20:33:58] Verified fragment purged (signature: 18)
+[20:33:58] Verified fragment purged (signature: 54)
+[20:33:58] Verified fragment purged (signature: 54)
+[20:33:58] Verified fragment purged (signature: 929)
+[20:33:58] Verified fragment purged (signature: 18)
+[20:33:58] Signature synthesized: 149
+[20:33:58] Signature synthesized: 151
+[20:34:00] Anomaly fragment spawned at (264, 58)
+[20:34:00] Anomaly fragment spawned at (63, 118)
+[20:34:00] Anomaly fragment spawned at (576, 539)
+[20:34:02] Anomaly fragment spawned at (290, 87)
+[20:34:02] Anomaly fragment spawned at (492, 181)
+[20:34:02] Anomaly fragment spawned at (492, 320)
+[20:34:04] Anomaly fragment spawned at (455, 304)
+[20:34:04] Anomaly fragment spawned at (551, 422)
+[20:34:04] Anomaly fragment spawned at (247, 62)
+[20:34:06] Anomaly fragment spawned at (402, 286)
+[20:34:06] Anomaly fragment spawned at (642, 530)
+[20:34:06] Anomaly fragment spawned at (657, 47)
+[20:34:08] Anomaly fragment spawned at (396, 180)
+[20:34:08] Anomaly fragment spawned at (723, 493)
+[20:34:08] Anomaly fragment spawned at (208, 34)
+[20:34:10] Anomaly fragment spawned at (137, 100)
+[20:34:10] Anomaly fragment spawned at (626, 236)
+[20:34:10] Anomaly fragment spawned at (384, 159)
+[20:34:12] Anomaly fragment spawned at (253, 471)
+[20:34:12] Anomaly fragment spawned at (549, 117)
+[20:34:12] Anomaly fragment spawned at (427, 68)
+[20:34:14] Anomaly fragment spawned at (457, 144)
+[20:34:14] Anomaly fragment spawned at (734, 242)
+[20:34:14] Anomaly fragment spawned at (600, 314)
+[20:34:16] Anomaly fragment spawned at (742, 444)
+[20:34:16] Anomaly fragment spawned at (71, 359)
+[20:34:16] Anomaly fragment spawned at (698, 149)
+[20:34:18] Anomaly fragment spawned at (429, 275)
+[20:34:18] Anomaly fragment spawned at (102, 87)
+[20:34:18] Anomaly fragment spawned at (730, 150)
+[20:34:20] Anomaly fragment spawned at (735, 228)
+[20:34:20] Anomaly fragment spawned at (442, 96)
+[20:34:20] Anomaly fragment spawned at (71, 524)
+[20:34:22] Anomaly fragment spawned at (525, 89)
+[20:34:22] Anomaly fragment spawned at (362, 84)
+[20:34:22] Anomaly fragment spawned at (342, 134)
+[20:34:24] Anomaly fragment spawned at (625, 438)
+[20:34:24] Anomaly fragment spawned at (612, 142)
+[20:34:24] Anomaly fragment spawned at (60, 505)
+[20:34:26] Anomaly fragment spawned at (155, 456)
+[20:34:26] Anomaly fragment spawned at (394, 313)
+[20:34:26] Anomaly fragment spawned at (218, 113)
+[20:34:28] Anomaly fragment spawned at (701, 64)
+[20:34:28] Anomaly fragment spawned at (683, 257)
+[20:34:28] Anomaly fragment spawned at (193, 338)
+[20:34:30] Anomaly fragment spawned at (438, 541)
+[20:34:30] Anomaly fragment spawned at (409, 567)
+[20:34:30] Anomaly fragment spawned at (510, 97)
+[20:34:32] Anomaly fragment spawned at (643, 373)
+[20:34:32] Anomaly fragment spawned at (480, 372)
+[20:34:32] Anomaly fragment spawned at (146, 429)
+[20:34:34] Anomaly fragment spawned at (637, 505)
+[20:34:34] Anomaly fragment spawned at (450, 144)
+[20:34:34] Anomaly fragment spawned at (740, 289)
+[20:34:36] Anomaly fragment spawned at (711, 422)
+[20:34:36] Anomaly fragment spawned at (584, 479)
+[20:34:36] Anomaly fragment spawned at (325, 352)
+[20:34:38] Anomaly fragment spawned at (720, 449)
+[20:34:38] Anomaly fragment spawned at (712, 50)
+[20:34:38] Anomaly fragment spawned at (81, 400)
+[20:34:40] Anomaly fragment spawned at (553, 438)
+[20:34:40] Anomaly fragment spawned at (156, 190)
+[20:34:40] Anomaly fragment spawned at (62, 454)
+[20:34:42] Anomaly fragment spawned at (642, 509)
+[20:34:42] Anomaly fragment spawned at (102, 342)
+[20:34:42] Anomaly fragment spawned at (314, 340)
+[20:34:44] Anomaly fragment spawned at (590, 245)
+[20:34:44] Anomaly fragment spawned at (249, 283)
+[20:34:44] Anomaly fragment spawned at (233, 529)
+[20:34:46] Anomaly fragment spawned at (530, 50)
+[20:34:46] Anomaly fragment spawned at (112, 270)
+[20:34:46] Anomaly fragment spawned at (698, 561)
+[20:34:48] Anomaly fragment spawned at (608, 64)
+[20:34:48] Anomaly fragment spawned at (479, 258)
+[20:34:48] Anomaly fragment spawned at (292, 127)
+[20:34:50] Anomaly fragment spawned at (149, 238)
+[20:34:50] Anomaly fragment spawned at (482, 524)
+[20:34:50] Anomaly fragment spawned at (371, 338)
+[20:34:52] Anomaly fragment spawned at (98, 526)
+[20:34:52] Anomaly fragment spawned at (677, 479)
+[20:34:52] Anomaly fragment spawned at (148, 120)
+[20:34:54] Anomaly fragment spawned at (168, 192)
+[20:34:54] Anomaly fragment spawned at (180, 304)
+[20:34:54] Anomaly fragment spawned at (533, 120)
+[20:34:56] Anomaly fragment spawned at (33, 212)
+[20:34:56] Anomaly fragment spawned at (238, 170)
+[20:34:56] Anomaly fragment spawned at (416, 242)
+[20:34:58] Anomaly fragment spawned at (687, 510)
+[20:34:58] Anomaly fragment spawned at (354, 31)
+[20:34:58] Anomaly fragment spawned at (40, 395)
+[20:35:12] Anomaly fragment spawned at (454, 310)
+[20:35:12] Anomaly fragment spawned at (95, 48)
+[20:35:12] Anomaly fragment spawned at (607, 462)
+[20:35:22] Anomaly fragment spawned at (571, 49)
+[20:35:22] Anomaly fragment spawned at (676, 560)
+[20:35:22] Anomaly fragment spawned at (610, 271)
+[20:35:22] Signature synthesized: 975
+[20:35:22] Signature synthesized: 224
+[20:35:22] Signature synthesized: 516
+[20:35:22] Signature synthesized: 547
+[20:35:22] Signature synthesized: 105
+[20:35:22] Signature synthesized: 883
+[20:35:22] Signature synthesized: 907
+[20:35:22] Signature synthesized: 632
+[20:35:22] Signature synthesized: 586
+[20:35:22] Signature synthesized: 547
+[20:35:22] Signature synthesized: 41
+[20:35:22] Signature synthesized: 1009
+[20:35:22] Signature synthesized: 366
+[20:35:22] Signature synthesized: 515
+[20:35:22] Signature synthesized: 557
+[20:35:22] Signature synthesized: 805
+[20:35:22] Signature synthesized: 129
+[20:35:22] Signature synthesized: 198
+[20:35:22] Signature synthesized: 673
+[20:35:22] Signature synthesized: 199
+[20:35:22] Signature synthesized: 974
+[20:35:22] Signature synthesized: 856
+[20:35:22] Signature synthesized: 1016
+[20:35:22] Signature synthesized: 120
+[20:35:22] Signature synthesized: 550
+[20:35:22] Signature synthesized: 677
+[20:35:22] Signature synthesized: 218
+[20:35:22] Signature synthesized: 730
+[20:35:22] Signature synthesized: 813
+[20:35:22] Verified fragment purged (signature: 149)
+[20:35:22] Verified fragment purged (signature: 151)
+[20:35:22] Verified fragment purged (signature: 151)
+[20:35:22] Verified fragment purged (signature: 149)
+[20:35:22] Signature synthesized: 1009
+[20:35:22] Signature synthesized: 263
+[20:35:22] Signature synthesized: 48
+[20:35:22] Signature synthesized: 96
+[20:35:22] Signature synthesized: 370
+[20:35:22] Signature synthesized: 793
+[20:35:23] Signature synthesized: 699
+[20:35:23] Signature synthesized: 67
+[20:35:23] Signature synthesized: 675
+[20:35:23] Signature synthesized: 371
+[20:35:23] Signature synthesized: 330
+[20:35:23] Signature synthesized: 995
+[20:35:23] Signature synthesized: 45
+[20:35:23] Signature synthesized: 19
+[20:35:23] Signature synthesized: 69
+[20:35:24] Anomaly fragment spawned at (326, 268)
+[20:35:24] Anomaly fragment spawned at (160, 381)
+[20:35:24] Anomaly fragment spawned at (308, 394)
+[20:35:26] Anomaly fragment spawned at (715, 431)
+[20:35:26] Anomaly fragment spawned at (567, 342)
+[20:35:26] Anomaly fragment spawned at (114, 520)
+[20:35:28] Anomaly fragment spawned at (316, 174)
+[20:35:28] Anomaly fragment spawned at (470, 327)
+[20:35:28] Anomaly fragment spawned at (223, 522)
+[20:35:30] Anomaly fragment spawned at (397, 513)
+[20:35:30] Anomaly fragment spawned at (192, 49)
+[20:35:30] Anomaly fragment spawned at (463, 187)
+[20:35:32] Anomaly fragment spawned at (216, 371)
+[20:35:32] Anomaly fragment spawned at (462, 319)
+[20:35:32] Anomaly fragment spawned at (375, 533)
+[20:35:32] Signature synthesized: 752
+[20:35:32] Signature synthesized: 725
+[20:35:32] Signature synthesized: 936
+[20:35:32] Verified fragment purged (signature: 48)
+[20:35:32] Verified fragment purged (signature: 813)
+[20:35:32] Verified fragment purged (signature: 371)
+[20:35:32] Verified fragment purged (signature: 120)
+[20:35:32] Verified fragment purged (signature: 586)
+[20:35:32] Verified fragment purged (signature: 975)
+[20:35:32] Verified fragment purged (signature: 699)
+[20:35:32] Verified fragment purged (signature: 516)
+[20:35:32] Verified fragment purged (signature: 370)
+[20:35:32] Verified fragment purged (signature: 675)
+[20:35:32] Verified fragment purged (signature: 129)
+[20:35:32] Verified fragment purged (signature: 730)
+[20:35:32] Verified fragment purged (signature: 805)
+[20:35:32] Verified fragment purged (signature: 19)
+[20:35:32] Verified fragment purged (signature: 856)
+[20:35:32] Verified fragment purged (signature: 67)
+[20:35:32] Verified fragment purged (signature: 995)
+[20:35:32] Verified fragment purged (signature: 813)
+[20:35:32] Verified fragment purged (signature: 371)
+[20:35:32] Verified fragment purged (signature: 218)
+[20:35:32] Verified fragment purged (signature: 907)
+[20:35:32] Verified fragment purged (signature: 515)
+[20:35:32] Verified fragment purged (signature: 730)
+[20:35:32] Verified fragment purged (signature: 547)
+[20:35:32] Verified fragment purged (signature: 69)
+[20:35:32] Verified fragment purged (signature: 677)
+[20:35:32] Verified fragment purged (signature: 199)
+[20:35:32] Verified fragment purged (signature: 218)
+[20:35:32] Verified fragment purged (signature: 67)
+[20:35:32] Verified fragment purged (signature: 198)
+[20:35:32] Verified fragment purged (signature: 366)
+[20:35:32] Verified fragment purged (signature: 550)
+[20:35:32] Verified fragment purged (signature: 224)
+[20:35:32] Verified fragment purged (signature: 1016)
+[20:35:32] Verified fragment purged (signature: 263)
+[20:35:32] Verified fragment purged (signature: 263)
+[20:35:32] Verified fragment purged (signature: 69)
+[20:35:32] Verified fragment purged (signature: 677)
+[20:35:32] Verified fragment purged (signature: 370)
+[20:35:32] Verified fragment purged (signature: 1009)
+[20:35:32] Verified fragment purged (signature: 550)
+[20:35:32] Verified fragment purged (signature: 974)
+[20:35:32] Verified fragment purged (signature: 995)
+[20:35:32] Verified fragment purged (signature: 120)
+[20:35:32] Verified fragment purged (signature: 105)
+[20:35:32] Verified fragment purged (signature: 699)
+[20:35:32] Verified fragment purged (signature: 1016)
+[20:35:32] Verified fragment purged (signature: 856)
+[20:35:32] Verified fragment purged (signature: 1009)
+[20:35:32] Verified fragment purged (signature: 673)
+[20:35:32] Verified fragment purged (signature: 793)
+[20:35:32] Verified fragment purged (signature: 41)
+[20:35:32] Verified fragment purged (signature: 330)
+[20:35:32] Verified fragment purged (signature: 199)
+[20:35:32] Verified fragment purged (signature: 330)
+[20:35:32] Verified fragment purged (signature: 673)
+[20:35:32] Verified fragment purged (signature: 198)
+[20:35:32] Verified fragment purged (signature: 1009)
+[20:35:32] Verified fragment purged (signature: 129)
+[20:35:32] Verified fragment purged (signature: 557)
+[20:35:32] Verified fragment purged (signature: 48)
+[20:35:32] Verified fragment purged (signature: 805)
+[20:35:32] Verified fragment purged (signature: 883)
+[20:35:32] Verified fragment purged (signature: 557)
+[20:35:32] Verified fragment purged (signature: 547)
+[20:35:32] Verified fragment purged (signature: 515)
+[20:35:32] Verified fragment purged (signature: 1009)
+[20:35:32] Verified fragment purged (signature: 632)
+[20:35:32] Verified fragment purged (signature: 547)
+[20:35:32] Verified fragment purged (signature: 586)
+[20:35:32] Verified fragment purged (signature: 19)
+[20:35:32] Verified fragment purged (signature: 96)
+[20:35:32] Verified fragment purged (signature: 45)
+[20:35:32] Verified fragment purged (signature: 793)
+[20:35:32] Verified fragment purged (signature: 632)
+[20:35:32] Verified fragment purged (signature: 907)
+[20:35:32] Verified fragment purged (signature: 675)
+[20:35:32] Verified fragment purged (signature: 45)
+[20:35:32] Verified fragment purged (signature: 883)
+[20:35:32] Verified fragment purged (signature: 96)
+[20:35:32] Verified fragment purged (signature: 105)
+[20:35:32] Verified fragment purged (signature: 547)
+[20:35:32] Verified fragment purged (signature: 516)
+[20:35:32] Verified fragment purged (signature: 224)
+[20:35:32] Verified fragment purged (signature: 975)
+[20:35:32] Signature synthesized: 863
+[20:35:32] Signature synthesized: 187
+[20:35:32] Signature synthesized: 83
+[20:35:32] Signature synthesized: 389
+[20:35:32] Signature synthesized: 230
+[20:35:32] Signature synthesized: 798
+[20:35:32] Signature synthesized: 517
+[20:35:34] Anomaly fragment spawned at (142, 288)
+[20:35:34] Anomaly fragment spawned at (168, 385)
+[20:35:34] Anomaly fragment spawned at (509, 529)
+[20:35:36] Anomaly fragment spawned at (274, 125)
+[20:35:36] Anomaly fragment spawned at (513, 374)
+[20:35:36] Anomaly fragment spawned at (303, 131)
+[20:35:38] Anomaly fragment spawned at (706, 538)
+[20:35:38] Anomaly fragment spawned at (548, 144)
+[20:35:38] Anomaly fragment spawned at (462, 456)
+[20:35:40] Anomaly fragment spawned at (243, 549)
+[20:35:40] Anomaly fragment spawned at (716, 493)
+[20:35:40] Anomaly fragment spawned at (625, 148)
+[20:35:42] Anomaly fragment spawned at (681, 554)
+[20:35:42] Anomaly fragment spawned at (285, 278)
+[20:35:42] Anomaly fragment spawned at (549, 535)
+[20:35:44] Anomaly fragment spawned at (578, 518)
+[20:35:44] Anomaly fragment spawned at (547, 311)
+[20:35:44] Anomaly fragment spawned at (597, 449)
+[20:35:46] Anomaly fragment spawned at (486, 566)
+[20:35:46] Anomaly fragment spawned at (191, 442)
+[20:35:46] Anomaly fragment spawned at (391, 537)
+[20:35:48] Anomaly fragment spawned at (68, 288)
+[20:35:48] Anomaly fragment spawned at (313, 474)
+[20:35:48] Anomaly fragment spawned at (538, 39)
+[20:35:50] Anomaly fragment spawned at (616, 184)
+[20:35:50] Anomaly fragment spawned at (763, 493)
+[20:35:50] Anomaly fragment spawned at (375, 348)
+[20:35:52] Anomaly fragment spawned at (367, 515)
+[20:35:52] Anomaly fragment spawned at (416, 202)
+[20:35:52] Anomaly fragment spawned at (418, 296)
+[20:35:54] Anomaly fragment spawned at (691, 239)
+[20:35:54] Anomaly fragment spawned at (620, 209)
+[20:35:54] Anomaly fragment spawned at (230, 36)
+[20:35:56] Anomaly fragment spawned at (169, 384)
+[20:35:56] Anomaly fragment spawned at (133, 292)
+[20:35:56] Anomaly fragment spawned at (50, 494)
+[20:35:58] Anomaly fragment spawned at (350, 100)
+[20:35:58] Anomaly fragment spawned at (416, 171)
+[20:35:58] Anomaly fragment spawned at (475, 448)
+[20:36:00] Anomaly fragment spawned at (487, 38)
+[20:36:00] Anomaly fragment spawned at (688, 120)
+[20:36:00] Anomaly fragment spawned at (229, 77)
+[20:36:02] Anomaly fragment spawned at (712, 466)
+[20:36:02] Anomaly fragment spawned at (483, 278)
+[20:36:02] Anomaly fragment spawned at (526, 190)
+[20:36:02] Signature synthesized: 781
+[20:36:02] Signature synthesized: 848
+[20:36:02] Signature synthesized: 159
+[20:36:02] Signature synthesized: 751
+[20:36:02] Signature synthesized: 578
+[20:36:02] Signature synthesized: 689
+[20:36:02] Signature synthesized: 295
+[20:36:02] Signature synthesized: 433
+[20:36:02] Signature synthesized: 274
+[20:36:02] Signature synthesized: 486
+[20:36:02] Signature synthesized: 615
+[20:36:02] Verified fragment purged (signature: 936)
+[20:36:02] Verified fragment purged (signature: 725)
+[20:36:02] Verified fragment purged (signature: 936)
+[20:36:02] Verified fragment purged (signature: 798)
+[20:36:02] Verified fragment purged (signature: 725)
+[20:36:02] Verified fragment purged (signature: 752)
+[20:36:02] Verified fragment purged (signature: 517)
+[20:36:02] Verified fragment purged (signature: 83)
+[20:36:02] Verified fragment purged (signature: 187)
+[20:36:02] Verified fragment purged (signature: 187)
+[20:36:02] Verified fragment purged (signature: 798)
+[20:36:02] Verified fragment purged (signature: 752)
+[20:36:02] Verified fragment purged (signature: 389)
+[20:36:02] Verified fragment purged (signature: 517)
+[20:36:02] Verified fragment purged (signature: 230)
+[20:36:02] Verified fragment purged (signature: 230)
+[20:36:02] Verified fragment purged (signature: 863)
+[20:36:02] Verified fragment purged (signature: 863)
+[20:36:02] Verified fragment purged (signature: 83)
+[20:36:02] Verified fragment purged (signature: 389)
+[20:36:02] Signature synthesized: 725
+[20:36:02] Signature synthesized: 520
+[20:36:02] Signature synthesized: 116
+[20:36:02] Signature synthesized: 342
+[20:36:03] Signature synthesized: 717
+[20:36:03] Signature synthesized: 400
+[20:36:03] Signature synthesized: 557
+[20:36:03] Signature synthesized: 333
+[20:36:03] Signature synthesized: 1019
+[20:36:03] Signature synthesized: 668
+[20:36:03] Signature synthesized: 992
+[20:36:03] Signature synthesized: 963
+[20:36:03] Signature synthesized: 905
+[20:36:04] Anomaly fragment spawned at (616, 89)
+[20:36:04] Anomaly fragment spawned at (703, 499)
+[20:36:04] Anomaly fragment spawned at (459, 292)
+[20:36:06] Anomaly fragment spawned at (436, 459)
+[20:36:06] Anomaly fragment spawned at (389, 310)
+[20:36:06] Anomaly fragment spawned at (678, 239)
+[20:36:08] Anomaly fragment spawned at (334, 386)
+[20:36:08] Anomaly fragment spawned at (523, 255)
+[20:36:08] Anomaly fragment spawned at (435, 133)
+[20:36:10] Anomaly fragment spawned at (125, 471)
+[20:36:10] Anomaly fragment spawned at (616, 253)
+[20:36:10] Anomaly fragment spawned at (413, 259)
+[20:36:12] Anomaly fragment spawned at (439, 302)
+[20:36:12] Anomaly fragment spawned at (364, 495)
+[20:36:12] Anomaly fragment spawned at (464, 195)
+[20:36:14] Anomaly fragment spawned at (587, 291)
+[20:36:14] Anomaly fragment spawned at (364, 504)
+[20:36:14] Anomaly fragment spawned at (139, 413)
+[20:36:16] Anomaly fragment spawned at (293, 102)
+[20:36:16] Anomaly fragment spawned at (702, 432)
+[20:36:16] Anomaly fragment spawned at (681, 56)
+[20:36:18] Anomaly fragment spawned at (745, 117)
+[20:36:18] Anomaly fragment spawned at (254, 238)
+[20:36:18] Anomaly fragment spawned at (700, 380)
+[20:36:20] Anomaly fragment spawned at (603, 188)
+[20:36:20] Anomaly fragment spawned at (365, 186)
+[20:36:20] Anomaly fragment spawned at (132, 325)
+[20:36:22] Anomaly fragment spawned at (686, 553)
+[20:36:22] Anomaly fragment spawned at (716, 240)
+[20:36:22] Anomaly fragment spawned at (624, 357)
+[20:36:24] Anomaly fragment spawned at (48, 395)
+[20:36:24] Anomaly fragment spawned at (670, 345)
+[20:36:24] Anomaly fragment spawned at (272, 325)
+[20:36:26] Anomaly fragment spawned at (110, 62)
+[20:36:26] Anomaly fragment spawned at (228, 84)
+[20:36:26] Anomaly fragment spawned at (526, 362)
+[20:36:28] Anomaly fragment spawned at (567, 416)
+[20:36:28] Anomaly fragment spawned at (740, 382)
+[20:36:28] Anomaly fragment spawned at (419, 46)
+[20:36:30] Anomaly fragment spawned at (615, 118)
+[20:36:30] Anomaly fragment spawned at (106, 122)
+[20:36:30] Anomaly fragment spawned at (621, 395)
+[20:36:32] Anomaly fragment spawned at (491, 482)
+[20:36:32] Anomaly fragment spawned at (194, 371)
+[20:36:32] Anomaly fragment spawned at (657, 302)
+[20:36:34] Anomaly fragment spawned at (462, 95)
+[20:36:34] Anomaly fragment spawned at (522, 327)
+[20:36:34] Anomaly fragment spawned at (669, 475)
+[20:36:36] Anomaly fragment spawned at (240, 36)
+[20:36:36] Anomaly fragment spawned at (381, 148)
+[20:36:36] Anomaly fragment spawned at (112, 412)
+[20:36:38] Anomaly fragment spawned at (201, 32)
+[20:36:38] Anomaly fragment spawned at (713, 387)
+[20:36:38] Anomaly fragment spawned at (478, 466)
+[20:36:40] Anomaly fragment spawned at (335, 367)
+[20:36:40] Anomaly fragment spawned at (230, 285)
+[20:36:40] Anomaly fragment spawned at (409, 343)
+[20:36:42] Anomaly fragment spawned at (271, 235)
+[20:36:42] Anomaly fragment spawned at (717, 366)
+[20:36:42] Anomaly fragment spawned at (577, 245)
+[20:36:44] Anomaly fragment spawned at (97, 435)
+[20:36:44] Anomaly fragment spawned at (689, 424)
+[20:36:44] Anomaly fragment spawned at (139, 58)
+[20:36:46] Anomaly fragment spawned at (402, 159)
+[20:36:46] Anomaly fragment spawned at (705, 403)
+[20:36:46] Anomaly fragment spawned at (452, 382)
+[20:36:48] Anomaly fragment spawned at (444, 52)
+[20:36:48] Anomaly fragment spawned at (264, 203)
+[20:36:48] Anomaly fragment spawned at (287, 459)
+[20:36:50] Anomaly fragment spawned at (531, 495)
+[20:36:50] Anomaly fragment spawned at (160, 89)
+[20:36:50] Anomaly fragment spawned at (548, 456)
+[20:36:52] Anomaly fragment spawned at (91, 378)
+[20:36:52] Anomaly fragment spawned at (707, 235)
+[20:36:52] Anomaly fragment spawned at (43, 133)
+[20:36:54] Anomaly fragment spawned at (196, 374)
+[20:36:54] Anomaly fragment spawned at (342, 395)
+[20:36:54] Anomaly fragment spawned at (115, 54)
+[20:36:56] Anomaly fragment spawned at (500, 412)
+[20:36:56] Anomaly fragment spawned at (161, 178)
+[20:36:56] Anomaly fragment spawned at (405, 75)
+[20:36:58] Anomaly fragment spawned at (300, 381)
+[20:36:58] Anomaly fragment spawned at (370, 520)
+[20:36:58] Anomaly fragment spawned at (756, 437)
+[20:37:00] Anomaly fragment spawned at (509, 257)
+[20:37:00] Anomaly fragment spawned at (730, 251)
+[20:37:00] Anomaly fragment spawned at (64, 251)
+[20:37:02] Anomaly fragment spawned at (460, 257)
+[20:37:02] Anomaly fragment spawned at (525, 297)
+[20:37:02] Anomaly fragment spawned at (192, 341)
+[20:37:04] Anomaly fragment spawned at (493, 226)
+[20:37:04] Anomaly fragment spawned at (126, 434)
+[20:37:04] Anomaly fragment spawned at (190, 103)
+[20:37:06] Anomaly fragment spawned at (209, 344)
+[20:37:06] Anomaly fragment spawned at (415, 463)
+[20:37:06] Anomaly fragment spawned at (177, 126)
+[20:37:12] Anomaly fragment spawned at (72, 397)
+[20:37:12] Anomaly fragment spawned at (216, 239)
+[20:37:12] Anomaly fragment spawned at (179, 430)
+[20:38:12] Anomaly fragment spawned at (89, 558)
+[20:38:12] Anomaly fragment spawned at (447, 184)
+[20:38:12] Anomaly fragment spawned at (506, 321)
+[20:38:36] Anomaly fragment spawned at (710, 563)
+[20:38:36] Anomaly fragment spawned at (766, 325)
+[20:38:36] Anomaly fragment spawned at (102, 446)
+[20:38:36] Signature synthesized: 708
+[20:38:36] Signature synthesized: 556
+[20:38:36] Signature synthesized: 78
+[20:38:36] Signature synthesized: 160
+[20:38:36] Signature synthesized: 591
+[20:38:36] Signature synthesized: 737
+[20:38:36] Signature synthesized: 626
+[20:38:36] Signature synthesized: 197
+[20:38:36] Signature synthesized: 34
+[20:38:36] Signature synthesized: 421
+[20:38:36] Signature synthesized: 732
+[20:38:36] Signature synthesized: 464
+[20:38:36] Signature synthesized: 847
+[20:38:36] Signature synthesized: 824
+[20:38:36] Signature synthesized: 796
+[20:38:36] Signature synthesized: 122
+[20:38:36] Signature synthesized: 949
+[20:38:36] Signature synthesized: 453
+[20:38:36] Signature synthesized: 57
+[20:38:36] Signature synthesized: 810
+[20:38:36] Signature synthesized: 987
+[20:38:36] Signature synthesized: 507
+[20:38:36] Signature synthesized: 232
+[20:38:36] Signature synthesized: 105
+[20:38:36] Signature synthesized: 458
+[20:38:36] Signature synthesized: 732
+[20:38:36] Signature synthesized: 743
+[20:38:36] Signature synthesized: 896
+[20:38:36] Signature synthesized: 247
+[20:38:36] Signature synthesized: 633
+[20:38:36] Signature synthesized: 455
+[20:38:36] Signature synthesized: 505
+[20:38:36] Signature synthesized: 247
+[20:38:36] Signature synthesized: 961
+[20:38:36] Signature synthesized: 909
+[20:38:36] Verified fragment purged (signature: 342)
+[20:38:36] Verified fragment purged (signature: 486)
+[20:38:36] Verified fragment purged (signature: 400)
+[20:38:36] Verified fragment purged (signature: 116)
+[20:38:36] Verified fragment purged (signature: 274)
+[20:38:36] Verified fragment purged (signature: 689)
+[20:38:36] Verified fragment purged (signature: 295)
+[20:38:36] Verified fragment purged (signature: 963)
+[20:38:36] Verified fragment purged (signature: 615)
+[20:38:36] Verified fragment purged (signature: 333)
+[20:38:36] Verified fragment purged (signature: 1019)
+[20:38:36] Verified fragment purged (signature: 992)
+[20:38:36] Verified fragment purged (signature: 725)
+[20:38:36] Verified fragment purged (signature: 615)
+[20:38:36] Verified fragment purged (signature: 159)
+[20:38:36] Verified fragment purged (signature: 1019)
+[20:38:36] Verified fragment purged (signature: 725)
+[20:38:36] Verified fragment purged (signature: 520)
+[20:38:36] Verified fragment purged (signature: 905)
+[20:38:36] Verified fragment purged (signature: 905)
+[20:38:36] Verified fragment purged (signature: 848)
+[20:38:36] Verified fragment purged (signature: 751)
+[20:38:36] Verified fragment purged (signature: 433)
+[20:38:36] Verified fragment purged (signature: 486)
+[20:38:36] Verified fragment purged (signature: 274)
+[20:38:36] Verified fragment purged (signature: 342)
+[20:38:36] Verified fragment purged (signature: 433)
+[20:38:36] Verified fragment purged (signature: 578)
+[20:38:36] Verified fragment purged (signature: 400)
+[20:38:36] Verified fragment purged (signature: 781)
+[20:38:36] Verified fragment purged (signature: 295)
+[20:38:36] Verified fragment purged (signature: 689)
+[20:38:36] Verified fragment purged (signature: 963)
+[20:38:36] Verified fragment purged (signature: 578)
+[20:38:36] Verified fragment purged (signature: 751)
+[20:38:36] Verified fragment purged (signature: 717)
+[20:38:36] Verified fragment purged (signature: 520)
+[20:38:36] Verified fragment purged (signature: 159)
+[20:38:36] Verified fragment purged (signature: 557)
+[20:38:36] Verified fragment purged (signature: 333)
+[20:38:36] Verified fragment purged (signature: 557)
+[20:38:36] Verified fragment purged (signature: 668)
+[20:38:36] Verified fragment purged (signature: 116)
+[20:38:36] Verified fragment purged (signature: 668)
+[20:38:36] Verified fragment purged (signature: 992)
+[20:38:36] Verified fragment purged (signature: 848)
+[20:38:36] Verified fragment purged (signature: 717)
+[20:38:36] Signature synthesized: 397
+[20:38:36] Signature synthesized: 956
+[20:38:36] Signature synthesized: 697
+[20:38:36] Signature synthesized: 720
+[20:38:36] Signature synthesized: 193
+[20:38:36] Signature synthesized: 573
+[20:38:36] Signature synthesized: 588
+[20:38:36] Signature synthesized: 952
+[20:38:36] Signature synthesized: 749
+[20:38:36] Signature synthesized: 818
+[20:38:36] Signature synthesized: 145
+[20:38:36] Signature synthesized: 515
+[20:38:36] Signature synthesized: 165
+[20:38:36] Signature synthesized: 251
+[20:38:36] Signature synthesized: 578
+[20:38:36] Signature synthesized: 408
+[20:38:36] Signature synthesized: 653
+[20:38:37] Signature synthesized: 341
+[20:38:37] Signature synthesized: 571
+[20:38:37] Signature synthesized: 262
+[20:38:37] Signature synthesized: 827
+[20:38:37] Signature synthesized: 620
+[20:38:37] Anomaly fragment spawned at (363, 502)
+[20:38:37] Anomaly fragment spawned at (366, 215)
+[20:38:37] Anomaly fragment spawned at (154, 454)
+[20:38:38] Signature synthesized: 302
+[20:38:38] Signature synthesized: 463
+[20:38:38] Signature synthesized: 499
+[20:38:39] Signature synthesized: 566
+[20:38:39] Anomaly fragment spawned at (559, 525)
+[20:38:39] Anomaly fragment spawned at (171, 529)
+[20:38:39] Anomaly fragment spawned at (121, 207)
+[20:38:39] Signature synthesized: 573
+[20:38:39] Signature synthesized: 647
+[20:38:40] Signature synthesized: 796
+[20:38:41] Verified fragment purged (signature: 961)
+[20:38:41] Verified fragment purged (signature: 232)
+[20:38:41] Verified fragment purged (signature: 505)
+[20:38:41] Verified fragment purged (signature: 122)
+[20:38:41] Verified fragment purged (signature: 708)
+[20:38:41] Verified fragment purged (signature: 458)
+[20:38:41] Verified fragment purged (signature: 591)
+[20:38:41] Verified fragment purged (signature: 34)
+[20:38:41] Verified fragment purged (signature: 909)
+[20:38:41] Verified fragment purged (signature: 160)
+[20:38:41] Verified fragment purged (signature: 453)
+[20:38:41] Verified fragment purged (signature: 909)
+[20:38:41] Verified fragment purged (signature: 455)
+[20:38:41] Verified fragment purged (signature: 105)
+[20:38:41] Verified fragment purged (signature: 847)
+[20:38:41] Verified fragment purged (signature: 796)
+[20:38:41] Verified fragment purged (signature: 743)
+[20:38:41] Verified fragment purged (signature: 464)
+[20:38:41] Verified fragment purged (signature: 633)
+[20:38:41] Verified fragment purged (signature: 421)
+[20:38:41] Verified fragment purged (signature: 78)
+[20:38:41] Verified fragment purged (signature: 896)
+[20:38:41] Verified fragment purged (signature: 810)
+[20:38:41] Verified fragment purged (signature: 247)
+[20:38:41] Verified fragment purged (signature: 732)
+[20:38:41] Verified fragment purged (signature: 57)
+[20:38:41] Verified fragment purged (signature: 961)
+[20:38:41] Verified fragment purged (signature: 507)
+[20:38:41] Verified fragment purged (signature: 737)
+[20:38:41] Verified fragment purged (signature: 732)
+[20:38:41] Verified fragment purged (signature: 247)
+[20:38:41] Verified fragment purged (signature: 987)
+[20:38:41] Verified fragment purged (signature: 949)
+[20:38:41] Verified fragment purged (signature: 247)
+[20:38:41] Verified fragment purged (signature: 505)
+[20:38:41] Verified fragment purged (signature: 556)
+[20:38:41] Verified fragment purged (signature: 633)
+[20:38:41] Verified fragment purged (signature: 247)
+[20:38:41] Verified fragment purged (signature: 626)
+[20:38:41] Verified fragment purged (signature: 896)
+[20:38:41] Verified fragment purged (signature: 743)
+[20:38:41] Verified fragment purged (signature: 458)
+[20:38:41] Verified fragment purged (signature: 105)
+[20:38:41] Verified fragment purged (signature: 232)
+[20:38:41] Verified fragment purged (signature: 507)
+[20:38:41] Verified fragment purged (signature: 810)
+[20:38:41] Verified fragment purged (signature: 453)
+[20:38:41] Verified fragment purged (signature: 824)
+[20:38:41] Verified fragment purged (signature: 122)
+[20:38:41] Verified fragment purged (signature: 796)
+[20:38:41] Verified fragment purged (signature: 197)
+[20:38:41] Verified fragment purged (signature: 847)
+[20:38:41] Verified fragment purged (signature: 464)
+[20:38:41] Verified fragment purged (signature: 421)
+[20:38:41] Verified fragment purged (signature: 34)
+[20:38:41] Verified fragment purged (signature: 197)
+[20:38:41] Verified fragment purged (signature: 626)
+[20:38:41] Verified fragment purged (signature: 737)
+[20:38:41] Verified fragment purged (signature: 591)
+[20:38:41] Verified fragment purged (signature: 556)
+[20:38:41] Verified fragment purged (signature: 708)
+[20:38:41] Verified fragment purged (signature: 397)
+[20:38:41] Verified fragment purged (signature: 720)
+[20:38:41] Verified fragment purged (signature: 720)
+[20:38:41] Verified fragment purged (signature: 697)
+[20:38:41] Verified fragment purged (signature: 956)
+[20:38:41] Verified fragment purged (signature: 697)
+[20:38:41] Verified fragment purged (signature: 956)
+[20:38:41] Verified fragment purged (signature: 397)
+[20:38:41] Verified fragment purged (signature: 193)
+[20:38:41] Verified fragment purged (signature: 193)
+[20:38:41] Verified fragment purged (signature: 573)
+[20:38:41] Verified fragment purged (signature: 573)
+[20:38:41] Verified fragment purged (signature: 749)
+[20:38:41] Verified fragment purged (signature: 588)
+[20:38:41] Verified fragment purged (signature: 749)
+[20:38:41] Verified fragment purged (signature: 952)
+[20:38:41] Verified fragment purged (signature: 952)
+[20:38:41] Verified fragment purged (signature: 588)
+[20:38:41] Verified fragment purged (signature: 145)
+[20:38:41] Verified fragment purged (signature: 818)
+[20:38:41] Verified fragment purged (signature: 145)
+[20:38:41] Verified fragment purged (signature: 818)
+[20:38:41] Verified fragment purged (signature: 515)
+[20:38:41] Verified fragment purged (signature: 515)
+[20:38:41] Anomaly fragment spawned at (731, 548)
+[20:38:41] Anomaly fragment spawned at (532, 487)
+[20:38:41] Anomaly fragment spawned at (660, 104)
+[20:38:41] Verified fragment purged (signature: 165)
+[20:38:41] Verified fragment purged (signature: 165)
+[20:38:41] Verified fragment purged (signature: 408)
+[20:38:41] Verified fragment purged (signature: 408)
+[20:38:41] Verified fragment purged (signature: 578)
+[20:38:41] Verified fragment purged (signature: 251)
+[20:38:41] Verified fragment purged (signature: 578)
+[20:38:41] Verified fragment purged (signature: 251)
+[20:38:44] Anomaly fragment spawned at (172, 424)
+[20:38:44] Anomaly fragment spawned at (659, 250)
+[20:38:44] Anomaly fragment spawned at (184, 538)
+[20:38:46] Anomaly fragment spawned at (389, 242)
+[20:38:46] Anomaly fragment spawned at (570, 443)
+[20:38:46] Anomaly fragment spawned at (357, 389)
+[20:38:48] Anomaly fragment spawned at (684, 362)
+[20:38:48] Anomaly fragment spawned at (763, 479)
+[20:38:48] Anomaly fragment spawned at (311, 529)
+[20:38:50] Anomaly fragment spawned at (145, 114)
+[20:38:50] Anomaly fragment spawned at (115, 342)
+[20:38:50] Anomaly fragment spawned at (501, 45)
+[20:38:52] Anomaly fragment spawned at (293, 278)
+[20:38:52] Anomaly fragment spawned at (323, 456)
+[20:38:52] Anomaly fragment spawned at (324, 56)
+[20:38:54] Anomaly fragment spawned at (725, 294)
+[20:38:54] Anomaly fragment spawned at (692, 534)
+[20:38:54] Anomaly fragment spawned at (549, 163)
+[20:38:56] Anomaly fragment spawned at (136, 427)
+[20:38:56] Anomaly fragment spawned at (58, 154)
+[20:38:56] Anomaly fragment spawned at (53, 231)
+[20:38:58] Anomaly fragment spawned at (646, 371)
+[20:38:58] Anomaly fragment spawned at (514, 344)
+[20:38:58] Anomaly fragment spawned at (400, 349)
+[20:39:00] Anomaly fragment spawned at (441, 201)
+[20:39:00] Anomaly fragment spawned at (524, 513)
+[20:39:00] Anomaly fragment spawned at (584, 92)
+[20:39:02] Anomaly fragment spawned at (265, 223)
+[20:39:02] Anomaly fragment spawned at (314, 375)
+[20:39:02] Anomaly fragment spawned at (604, 176)
+[20:39:04] Anomaly fragment spawned at (160, 554)
+[20:39:04] Anomaly fragment spawned at (291, 332)
+[20:39:04] Anomaly fragment spawned at (443, 212)
+[20:39:06] Anomaly fragment spawned at (234, 70)
+[20:39:06] Anomaly fragment spawned at (92, 555)
+[20:39:06] Anomaly fragment spawned at (454, 557)
+[20:39:08] Anomaly fragment spawned at (537, 494)
+[20:39:08] Anomaly fragment spawned at (270, 369)
+[20:39:08] Anomaly fragment spawned at (556, 254)
+[20:39:10] Anomaly fragment spawned at (329, 318)
+[20:39:10] Anomaly fragment spawned at (544, 559)
+[20:39:10] Anomaly fragment spawned at (109, 422)
+[20:39:12] Anomaly fragment spawned at (737, 259)
+[20:39:12] Anomaly fragment spawned at (512, 342)
+[20:39:12] Anomaly fragment spawned at (70, 320)
+[20:39:14] Anomaly fragment spawned at (496, 313)
+[20:39:14] Anomaly fragment spawned at (452, 116)
+[20:39:14] Anomaly fragment spawned at (151, 42)
+[20:39:16] Anomaly fragment spawned at (464, 473)
+[20:39:16] Anomaly fragment spawned at (508, 123)
+[20:39:16] Anomaly fragment spawned at (117, 53)
+[20:39:18] Anomaly fragment spawned at (214, 295)
+[20:39:18] Anomaly fragment spawned at (216, 501)
+[20:39:18] Anomaly fragment spawned at (249, 86)
+[20:39:20] Anomaly fragment spawned at (503, 194)
+[20:39:20] Anomaly fragment spawned at (360, 238)
+[20:39:20] Anomaly fragment spawned at (516, 178)
+[20:39:22] Anomaly fragment spawned at (708, 70)
+[20:39:22] Anomaly fragment spawned at (662, 508)
+[20:39:22] Anomaly fragment spawned at (75, 558)
+[20:39:24] Anomaly fragment spawned at (68, 448)
+[20:39:24] Anomaly fragment spawned at (748, 87)
+[20:39:24] Anomaly fragment spawned at (608, 310)
+[20:39:26] Anomaly fragment spawned at (48, 229)
+[20:39:26] Anomaly fragment spawned at (744, 447)
+[20:39:26] Anomaly fragment spawned at (729, 368)
+[20:39:28] Anomaly fragment spawned at (231, 241)
+[20:39:28] Anomaly fragment spawned at (91, 454)
+[20:39:28] Anomaly fragment spawned at (152, 57)
+[20:39:30] Anomaly fragment spawned at (434, 42)
+[20:39:30] Anomaly fragment spawned at (478, 560)
+[20:39:30] Anomaly fragment spawned at (447, 287)
+[20:39:32] Anomaly fragment spawned at (685, 127)
+[20:39:32] Anomaly fragment spawned at (57, 80)
+[20:39:32] Anomaly fragment spawned at (508, 77)
+[20:39:34] Anomaly fragment spawned at (170, 50)
+[20:39:34] Anomaly fragment spawned at (66, 522)
+[20:39:34] Anomaly fragment spawned at (490, 466)
+[20:39:36] Anomaly fragment spawned at (298, 403)
+[20:39:36] Anomaly fragment spawned at (323, 334)
+[20:39:36] Anomaly fragment spawned at (737, 380)
+[20:39:38] Anomaly fragment spawned at (45, 49)
+[20:39:38] Anomaly fragment spawned at (666, 484)
+[20:39:38] Anomaly fragment spawned at (229, 49)
+[20:39:40] Anomaly fragment spawned at (558, 367)
+[20:39:40] Anomaly fragment spawned at (706, 86)
+[20:39:40] Anomaly fragment spawned at (648, 397)
+[20:40:01] Anomaly fragment spawned at (605, 439)
+[20:40:01] Anomaly fragment spawned at (164, 252)
+[20:40:01] Anomaly fragment spawned at (106, 296)
+[20:40:01] Signature synthesized: 716
+[20:40:01] Signature synthesized: 588
+[20:40:01] Signature synthesized: 113
+[20:40:01] Signature synthesized: 475
+[20:40:01] Signature synthesized: 468
+[20:40:01] Signature synthesized: 386
+[20:40:01] Signature synthesized: 506
+[20:40:01] Signature synthesized: 122
+[20:40:01] Signature synthesized: 972
+[20:40:01] Signature synthesized: 714
+[20:40:01] Signature synthesized: 436
+[20:40:01] Signature synthesized: 504
+[20:40:01] Signature synthesized: 821
+[20:40:01] Signature synthesized: 666
+[20:40:01] Signature synthesized: 21
+[20:40:01] Signature synthesized: 80
+[20:40:01] Signature synthesized: 79
+[20:40:01] Signature synthesized: 800
+[20:40:01] Signature synthesized: 777
+[20:40:01] Signature synthesized: 580
+[20:40:01] Signature synthesized: 378
+[20:40:01] Signature synthesized: 154
+[20:40:01] Signature synthesized: 805
+[20:40:01] Signature synthesized: 29
+[20:40:01] Verified fragment purged (signature: 573)
+[20:40:01] Verified fragment purged (signature: 796)
+[20:40:01] Verified fragment purged (signature: 499)
+[20:40:01] Verified fragment purged (signature: 566)
+[20:40:01] Verified fragment purged (signature: 620)
+[20:40:01] Verified fragment purged (signature: 573)
+[20:40:01] Verified fragment purged (signature: 341)
+[20:40:01] Verified fragment purged (signature: 827)
+[20:40:01] Verified fragment purged (signature: 571)
+[20:40:01] Verified fragment purged (signature: 262)
+[20:40:01] Verified fragment purged (signature: 620)
+[20:40:01] Verified fragment purged (signature: 653)
+[20:40:01] Verified fragment purged (signature: 827)
+[20:40:01] Verified fragment purged (signature: 647)
+[20:40:01] Verified fragment purged (signature: 566)
+[20:40:01] Verified fragment purged (signature: 463)
+[20:40:01] Verified fragment purged (signature: 571)
+[20:40:01] Verified fragment purged (signature: 302)
+[20:40:01] Verified fragment purged (signature: 341)
+[20:40:01] Verified fragment purged (signature: 499)
+[20:40:01] Verified fragment purged (signature: 647)
+[20:40:01] Verified fragment purged (signature: 262)
+[20:40:01] Verified fragment purged (signature: 653)
+[20:40:01] Verified fragment purged (signature: 796)
+[20:40:01] Verified fragment purged (signature: 302)
+[20:40:01] Verified fragment purged (signature: 463)
+[20:40:01] Signature synthesized: 752
+[20:40:01] Signature synthesized: 377
+[20:40:01] Signature synthesized: 859
+[20:40:01] Signature synthesized: 378
+[20:40:01] Signature synthesized: 666
+[20:40:01] Signature synthesized: 797
+[20:40:01] Signature synthesized: 235
+[20:40:01] Signature synthesized: 140
+[20:40:01] Signature synthesized: 162
+[20:40:02] Signature synthesized: 833
+[20:40:02] Signature synthesized: 724
+[20:40:02] Signature synthesized: 608
+[20:40:02] Signature synthesized: 508
+[20:40:02] Signature synthesized: 971
+[20:40:02] Signature synthesized: 755
+[20:40:02] Signature synthesized: 504
+[20:40:02] Signature synthesized: 980
+[20:40:02] Signature synthesized: 781
+[20:40:02] Signature synthesized: 971
+[20:40:02] Signature synthesized: 555
+[20:40:02] Signature synthesized: 309
+[20:40:02] Signature synthesized: 1
+[20:40:04] Anomaly fragment spawned at (608, 407)
+[20:40:04] Anomaly fragment spawned at (427, 225)
+[20:40:04] Anomaly fragment spawned at (490, 548)
+[20:40:06] Anomaly fragment spawned at (232, 161)
+[20:40:06] Anomaly fragment spawned at (421, 274)
+[20:40:06] Anomaly fragment spawned at (671, 97)
+[20:40:08] Anomaly fragment spawned at (315, 176)
+[20:40:08] Anomaly fragment spawned at (173, 253)
+[20:40:08] Anomaly fragment spawned at (65, 172)
+[20:40:10] Anomaly fragment spawned at (223, 44)
+[20:40:10] Anomaly fragment spawned at (489, 498)
+[20:40:10] Anomaly fragment spawned at (271, 567)
+[20:40:12] Anomaly fragment spawned at (767, 110)
+[20:40:12] Anomaly fragment spawned at (305, 500)
+[20:40:12] Anomaly fragment spawned at (436, 553)
+[20:40:14] Anomaly fragment spawned at (124, 87)
+[20:40:14] Anomaly fragment spawned at (385, 458)
+[20:40:14] Anomaly fragment spawned at (732, 478)
+[20:40:16] Anomaly fragment spawned at (275, 542)
+[20:40:16] Anomaly fragment spawned at (379, 218)
+[20:40:16] Anomaly fragment spawned at (759, 297)
+[20:40:18] Anomaly fragment spawned at (730, 555)
+[20:40:18] Anomaly fragment spawned at (658, 34)
+[20:40:18] Anomaly fragment spawned at (767, 502)
+[20:40:18] Signature synthesized: 794
+[20:40:18] Signature synthesized: 984
+[20:40:18] Signature synthesized: 851
+[20:40:18] Verified fragment purged (signature: 971)
+[20:40:18] Verified fragment purged (signature: 235)
+[20:40:18] Verified fragment purged (signature: 436)
+[20:40:18] Verified fragment purged (signature: 588)
+[20:40:18] Verified fragment purged (signature: 555)
+[20:40:18] Verified fragment purged (signature: 21)
+[20:40:18] Verified fragment purged (signature: 154)
+[20:40:18] Verified fragment purged (signature: 666)
+[20:40:18] Verified fragment purged (signature: 29)
+[20:40:18] Verified fragment purged (signature: 800)
+[20:40:18] Verified fragment purged (signature: 971)
+[20:40:18] Verified fragment purged (signature: 504)
+[20:40:18] Verified fragment purged (signature: 755)
+[20:40:18] Verified fragment purged (signature: 580)
+[20:40:18] Verified fragment purged (signature: 797)
+[20:40:18] Verified fragment purged (signature: 666)
+[20:40:18] Verified fragment purged (signature: 980)
+[20:40:18] Verified fragment purged (signature: 79)
+[20:40:18] Verified fragment purged (signature: 1)
+[20:40:18] Verified fragment purged (signature: 777)
+[20:40:18] Verified fragment purged (signature: 805)
+[20:40:18] Verified fragment purged (signature: 378)
+[20:40:18] Verified fragment purged (signature: 29)
+[20:40:18] Verified fragment purged (signature: 859)
+[20:40:18] Verified fragment purged (signature: 714)
+[20:40:18] Verified fragment purged (signature: 781)
+[20:40:18] Verified fragment purged (signature: 805)
+[20:40:18] Verified fragment purged (signature: 80)
+[20:40:18] Verified fragment purged (signature: 154)
+[20:40:18] Verified fragment purged (signature: 716)
+[20:40:18] Verified fragment purged (signature: 378)
+[20:40:18] Verified fragment purged (signature: 972)
+[20:40:18] Verified fragment purged (signature: 378)
+[20:40:18] Verified fragment purged (signature: 666)
+[20:40:18] Verified fragment purged (signature: 971)
+[20:40:18] Verified fragment purged (signature: 508)
+[20:40:18] Verified fragment purged (signature: 797)
+[20:40:18] Verified fragment purged (signature: 468)
+[20:40:18] Verified fragment purged (signature: 580)
+[20:40:18] Verified fragment purged (signature: 475)
+[20:40:18] Verified fragment purged (signature: 504)
+[20:40:18] Verified fragment purged (signature: 309)
+[20:40:18] Verified fragment purged (signature: 608)
+[20:40:18] Verified fragment purged (signature: 504)
+[20:40:18] Verified fragment purged (signature: 800)
+[20:40:18] Verified fragment purged (signature: 140)
+[20:40:18] Verified fragment purged (signature: 506)
+[20:40:18] Verified fragment purged (signature: 79)
+[20:40:18] Verified fragment purged (signature: 80)
+[20:40:18] Verified fragment purged (signature: 21)
+[20:40:18] Verified fragment purged (signature: 821)
+[20:40:18] Verified fragment purged (signature: 140)
+[20:40:18] Verified fragment purged (signature: 122)
+[20:40:18] Verified fragment purged (signature: 724)
+[20:40:18] Verified fragment purged (signature: 162)
+[20:40:18] Verified fragment purged (signature: 378)
+[20:40:18] Verified fragment purged (signature: 386)
+[20:40:18] Verified fragment purged (signature: 821)
+[20:40:18] Verified fragment purged (signature: 833)
+[20:40:18] Verified fragment purged (signature: 504)
+[20:40:18] Verified fragment purged (signature: 436)
+[20:40:18] Verified fragment purged (signature: 714)
+[20:40:18] Verified fragment purged (signature: 508)
+[20:40:18] Verified fragment purged (signature: 113)
+[20:40:18] Verified fragment purged (signature: 724)
+[20:40:18] Verified fragment purged (signature: 781)
+[20:40:18] Verified fragment purged (signature: 377)
+[20:40:18] Verified fragment purged (signature: 971)
+[20:40:18] Verified fragment purged (signature: 859)
+[20:40:18] Verified fragment purged (signature: 980)
+[20:40:18] Verified fragment purged (signature: 162)
+[20:40:18] Verified fragment purged (signature: 235)
+[20:40:18] Verified fragment purged (signature: 972)
+[20:40:18] Verified fragment purged (signature: 122)
+[20:40:18] Verified fragment purged (signature: 608)
+[20:40:18] Verified fragment purged (signature: 555)
+[20:40:18] Verified fragment purged (signature: 506)
+[20:40:18] Verified fragment purged (signature: 309)
+[20:40:18] Verified fragment purged (signature: 468)
+[20:40:18] Verified fragment purged (signature: 1)
+[20:40:18] Verified fragment purged (signature: 475)
+[20:40:18] Verified fragment purged (signature: 377)
+[20:40:18] Verified fragment purged (signature: 113)
+[20:40:18] Verified fragment purged (signature: 755)
+[20:40:18] Verified fragment purged (signature: 752)
+[20:40:18] Verified fragment purged (signature: 588)
+[20:40:18] Verified fragment purged (signature: 752)
+[20:40:18] Verified fragment purged (signature: 833)
+[20:40:18] Signature synthesized: 275
+[20:40:18] Signature synthesized: 21
+[20:40:18] Signature synthesized: 817
+[20:40:19] Signature synthesized: 9
+[20:40:19] Signature synthesized: 739
+[20:40:19] Signature synthesized: 169
+[20:40:20] Anomaly fragment spawned at (603, 337)
+[20:40:20] Anomaly fragment spawned at (228, 212)
+[20:40:20] Anomaly fragment spawned at (554, 112)
+[20:40:22] Anomaly fragment spawned at (197, 506)
+[20:40:22] Anomaly fragment spawned at (112, 367)
+[20:40:22] Anomaly fragment spawned at (259, 90)
+[20:40:24] Anomaly fragment spawned at (38, 178)
+[20:40:24] Anomaly fragment spawned at (670, 518)
+[20:40:24] Anomaly fragment spawned at (326, 95)
+[20:40:26] Anomaly fragment spawned at (745, 448)
+[20:40:26] Anomaly fragment spawned at (178, 557)
+[20:40:26] Anomaly fragment spawned at (489, 201)
+[20:40:28] Anomaly fragment spawned at (611, 328)
+[20:40:28] Anomaly fragment spawned at (244, 345)
+[20:40:28] Anomaly fragment spawned at (410, 424)
+[20:40:30] Anomaly fragment spawned at (729, 551)
+[20:40:30] Anomaly fragment spawned at (490, 525)
+[20:40:30] Anomaly fragment spawned at (681, 113)
+[20:40:32] Anomaly fragment spawned at (601, 153)
+[20:40:32] Anomaly fragment spawned at (35, 76)
+[20:40:32] Anomaly fragment spawned at (107, 229)
+[20:40:34] Anomaly fragment spawned at (719, 107)
+[20:40:34] Anomaly fragment spawned at (637, 452)
+[20:40:34] Anomaly fragment spawned at (44, 257)
+[20:40:36] Anomaly fragment spawned at (181, 192)
+[20:40:36] Anomaly fragment spawned at (695, 389)
+[20:40:36] Anomaly fragment spawned at (71, 125)
+[20:40:38] Anomaly fragment spawned at (697, 339)
+[20:40:38] Anomaly fragment spawned at (739, 522)
+[20:40:38] Anomaly fragment spawned at (485, 539)
+[20:40:40] Anomaly fragment spawned at (674, 469)
+[20:40:40] Anomaly fragment spawned at (729, 441)
+[20:40:40] Anomaly fragment spawned at (703, 105)
+[20:40:42] Anomaly fragment spawned at (281, 455)
+[20:40:42] Anomaly fragment spawned at (481, 92)
+[20:40:42] Anomaly fragment spawned at (220, 235)
+[20:40:44] Anomaly fragment spawned at (267, 472)
+[20:40:44] Anomaly fragment spawned at (701, 143)
+[20:40:44] Anomaly fragment spawned at (717, 222)
+[20:40:46] Anomaly fragment spawned at (477, 242)
+[20:40:46] Anomaly fragment spawned at (121, 493)
+[20:40:46] Anomaly fragment spawned at (528, 95)
+[20:40:48] Anomaly fragment spawned at (757, 367)
+[20:40:48] Anomaly fragment spawned at (377, 39)
+[20:40:48] Anomaly fragment spawned at (320, 148)
+[20:40:50] Anomaly fragment spawned at (277, 177)
+[20:40:50] Anomaly fragment spawned at (722, 231)
+[20:40:50] Anomaly fragment spawned at (264, 422)
+[20:40:52] Anomaly fragment spawned at (380, 412)
+[20:40:52] Anomaly fragment spawned at (99, 172)
+[20:40:52] Anomaly fragment spawned at (275, 351)
+[20:40:54] Anomaly fragment spawned at (297, 556)
+[20:40:54] Anomaly fragment spawned at (201, 140)
+[20:40:54] Anomaly fragment spawned at (668, 518)
+[20:40:56] Anomaly fragment spawned at (421, 34)
+[20:40:56] Anomaly fragment spawned at (299, 492)
+[20:40:56] Anomaly fragment spawned at (611, 176)
+[20:40:58] Anomaly fragment spawned at (563, 56)
+[20:40:58] Anomaly fragment spawned at (289, 275)
+[20:40:58] Anomaly fragment spawned at (590, 326)
+[20:41:00] Anomaly fragment spawned at (470, 310)
+[20:41:00] Anomaly fragment spawned at (526, 61)
+[20:41:00] Anomaly fragment spawned at (492, 255)
+[20:41:02] Anomaly fragment spawned at (53, 68)
+[20:41:02] Anomaly fragment spawned at (695, 377)
+[20:41:02] Anomaly fragment spawned at (507, 547)
+[20:41:04] Anomaly fragment spawned at (500, 42)
+[20:41:04] Anomaly fragment spawned at (356, 268)
+[20:41:04] Anomaly fragment spawned at (231, 472)
+[20:41:06] Anomaly fragment spawned at (43, 117)
+[20:41:06] Anomaly fragment spawned at (173, 312)
+[20:41:06] Anomaly fragment spawned at (645, 321)
+[20:41:08] Anomaly fragment spawned at (309, 476)
+[20:41:08] Anomaly fragment spawned at (749, 52)
+[20:41:08] Anomaly fragment spawned at (259, 334)
+[20:41:10] Anomaly fragment spawned at (56, 471)
+[20:41:10] Anomaly fragment spawned at (290, 147)
+[20:41:10] Anomaly fragment spawned at (729, 565)
+[20:41:12] Anomaly fragment spawned at (59, 184)
+[20:41:12] Anomaly fragment spawned at (467, 547)
+[20:41:12] Anomaly fragment spawned at (32, 141)
+[20:41:14] Anomaly fragment spawned at (312, 46)
+[20:41:14] Anomaly fragment spawned at (431, 224)
+[20:41:14] Anomaly fragment spawned at (205, 57)
+[20:41:16] Anomaly fragment spawned at (109, 256)
+[20:41:16] Anomaly fragment spawned at (253, 522)
+[20:41:16] Anomaly fragment spawned at (490, 348)
+[20:41:18] Anomaly fragment spawned at (169, 322)
+[20:41:18] Anomaly fragment spawned at (390, 551)
+[20:41:18] Anomaly fragment spawned at (744, 79)
+[20:41:58] Anomaly fragment spawned at (382, 156)
+[20:41:58] Anomaly fragment spawned at (170, 540)
+[20:41:58] Anomaly fragment spawned at (351, 110)
+[20:41:58] Signature synthesized: 744
+[20:41:58] Signature synthesized: 97
+[20:41:58] Signature synthesized: 777
+[20:41:58] Signature synthesized: 569
+[20:41:58] Signature synthesized: 253
+[20:41:58] Signature synthesized: 276
+[20:41:58] Signature synthesized: 993
+[20:41:58] Signature synthesized: 966
+[20:41:58] Signature synthesized: 111
+[20:41:58] Signature synthesized: 405
+[20:41:58] Signature synthesized: 714
+[20:41:58] Signature synthesized: 16
+[20:41:58] Signature synthesized: 622
+[20:41:58] Signature synthesized: 603
+[20:41:58] Signature synthesized: 43
+[20:41:58] Signature synthesized: 736
+[20:41:58] Signature synthesized: 885
+[20:41:58] Signature synthesized: 935
+[20:41:58] Signature synthesized: 371
+[20:41:58] Signature synthesized: 727
+[20:41:58] Signature synthesized: 922
+[20:41:58] Signature synthesized: 346
+[20:41:58] Signature synthesized: 911
+[20:41:58] Signature synthesized: 245
+[20:41:58] Signature synthesized: 159
+[20:41:58] Signature synthesized: 504
+[20:41:58] Signature synthesized: 970
+[20:41:58] Signature synthesized: 596
+[20:41:58] Signature synthesized: 735
+[20:41:58] Signature synthesized: 311
+[20:41:58] Signature synthesized: 791
+[20:41:58] Verified fragment purged (signature: 169)
+[20:41:58] Verified fragment purged (signature: 817)
+[20:41:58] Verified fragment purged (signature: 851)
+[20:41:58] Verified fragment purged (signature: 739)
+[20:41:58] Verified fragment purged (signature: 739)
+[20:41:58] Verified fragment purged (signature: 984)
+[20:41:58] Verified fragment purged (signature: 275)
+[20:41:58] Verified fragment purged (signature: 9)
+[20:41:58] Verified fragment purged (signature: 21)
+[20:41:58] Verified fragment purged (signature: 794)
+[20:41:58] Verified fragment purged (signature: 275)
+[20:41:58] Verified fragment purged (signature: 169)
+[20:41:58] Verified fragment purged (signature: 817)
+[20:41:58] Verified fragment purged (signature: 851)
+[20:41:58] Verified fragment purged (signature: 21)
+[20:41:58] Verified fragment purged (signature: 794)
+[20:41:58] Verified fragment purged (signature: 9)
+[20:41:58] Signature synthesized: 804
+[20:41:58] Signature synthesized: 902
+[20:41:58] Signature synthesized: 587
+[20:41:58] Signature synthesized: 946
+[20:41:58] Signature synthesized: 762
+[20:41:58] Signature synthesized: 501
+[20:41:58] Signature synthesized: 965
+[20:41:58] Signature synthesized: 575
+[20:41:58] Signature synthesized: 67
+[20:41:58] Signature synthesized: 475
+[20:41:58] Signature synthesized: 116
+[20:41:58] Signature synthesized: 645
+[20:41:58] Signature synthesized: 316
+[20:41:58] Signature synthesized: 49
+[20:42:00] Anomaly fragment spawned at (151, 376)
+[20:42:00] Anomaly fragment spawned at (687, 142)
+[20:42:00] Anomaly fragment spawned at (480, 313)
+[20:42:02] Anomaly fragment spawned at (612, 555)
+[20:42:02] Anomaly fragment spawned at (36, 275)
+[20:42:02] Anomaly fragment spawned at (375, 496)
+[20:42:04] Anomaly fragment spawned at (459, 280)
+[20:42:04] Anomaly fragment spawned at (729, 388)
+[20:42:04] Anomaly fragment spawned at (80, 127)
+[20:42:06] Anomaly fragment spawned at (532, 282)
+[20:42:06] Anomaly fragment spawned at (182, 255)
+[20:42:06] Anomaly fragment spawned at (128, 561)
+[20:42:08] Anomaly fragment spawned at (132, 489)
+[20:42:08] Anomaly fragment spawned at (319, 196)
+[20:42:08] Anomaly fragment spawned at (724, 194)
+[20:42:10] Anomaly fragment spawned at (130, 283)
+[20:42:10] Anomaly fragment spawned at (635, 546)
+[20:42:10] Anomaly fragment spawned at (342, 306)
+[20:42:11] Signature synthesized: 129
+[20:42:11] Verified fragment purged (signature: 43)
+[20:42:11] Verified fragment purged (signature: 791)
+[20:42:11] Verified fragment purged (signature: 316)
+[20:42:11] Verified fragment purged (signature: 311)
+[20:42:11] Verified fragment purged (signature: 245)
+[20:42:11] Verified fragment purged (signature: 946)
+[20:42:11] Verified fragment purged (signature: 965)
+[20:42:11] Verified fragment purged (signature: 622)
+[20:42:11] Verified fragment purged (signature: 935)
+[20:42:11] Verified fragment purged (signature: 804)
+[20:42:11] Verified fragment purged (signature: 885)
+[20:42:11] Verified fragment purged (signature: 791)
+[20:42:11] Verified fragment purged (signature: 735)
+[20:42:11] Verified fragment purged (signature: 311)
+[20:42:11] Verified fragment purged (signature: 504)
+[20:42:11] Verified fragment purged (signature: 587)
+[20:42:11] Verified fragment purged (signature: 67)
+[20:42:11] Verified fragment purged (signature: 902)
+[20:42:11] Verified fragment purged (signature: 727)
+[20:42:11] Verified fragment purged (signature: 159)
+[20:42:11] Verified fragment purged (signature: 911)
+[20:42:11] Verified fragment purged (signature: 596)
+[20:42:11] Verified fragment purged (signature: 902)
+[20:42:11] Verified fragment purged (signature: 714)
+[20:42:11] Verified fragment purged (signature: 744)
+[20:42:11] Verified fragment purged (signature: 346)
+[20:42:11] Verified fragment purged (signature: 735)
+[20:42:11] Verified fragment purged (signature: 569)
+[20:42:11] Verified fragment purged (signature: 603)
+[20:42:11] Verified fragment purged (signature: 575)
+[20:42:11] Verified fragment purged (signature: 993)
+[20:42:11] Verified fragment purged (signature: 501)
+[20:42:11] Verified fragment purged (signature: 645)
+[20:42:11] Verified fragment purged (signature: 587)
+[20:42:11] Verified fragment purged (signature: 49)
+[20:42:11] Verified fragment purged (signature: 804)
+[20:42:11] Verified fragment purged (signature: 111)
+[20:42:11] Verified fragment purged (signature: 116)
+[20:42:11] Verified fragment purged (signature: 596)
+[20:42:11] Verified fragment purged (signature: 253)
+[20:42:11] Verified fragment purged (signature: 970)
+[20:42:11] Verified fragment purged (signature: 16)
+[20:42:11] Verified fragment purged (signature: 970)
+[20:42:11] Verified fragment purged (signature: 922)
+[20:42:11] Verified fragment purged (signature: 736)
+[20:42:11] Verified fragment purged (signature: 475)
+[20:42:11] Verified fragment purged (signature: 371)
+[20:42:11] Verified fragment purged (signature: 475)
+[20:42:11] Verified fragment purged (signature: 49)
+[20:42:11] Verified fragment purged (signature: 504)
+[20:42:11] Verified fragment purged (signature: 159)
+[20:42:11] Verified fragment purged (signature: 276)
+[20:42:11] Verified fragment purged (signature: 645)
+[20:42:11] Verified fragment purged (signature: 762)
+[20:42:11] Verified fragment purged (signature: 245)
+[20:42:11] Verified fragment purged (signature: 911)
+[20:42:11] Verified fragment purged (signature: 346)
+[20:42:11] Verified fragment purged (signature: 922)
+[20:42:11] Verified fragment purged (signature: 727)
+[20:42:11] Verified fragment purged (signature: 935)
+[20:42:11] Verified fragment purged (signature: 316)
+[20:42:11] Verified fragment purged (signature: 885)
+[20:42:11] Verified fragment purged (signature: 405)
+[20:42:11] Verified fragment purged (signature: 97)
+[20:42:11] Verified fragment purged (signature: 736)
+[20:42:11] Verified fragment purged (signature: 43)
+[20:42:11] Verified fragment purged (signature: 603)
+[20:42:11] Verified fragment purged (signature: 622)
+[20:42:11] Verified fragment purged (signature: 946)
+[20:42:11] Verified fragment purged (signature: 777)
+[20:42:11] Verified fragment purged (signature: 966)
+[20:42:11] Verified fragment purged (signature: 16)
+[20:42:11] Verified fragment purged (signature: 714)
+[20:42:11] Verified fragment purged (signature: 111)
+[20:42:11] Verified fragment purged (signature: 993)
+[20:42:11] Verified fragment purged (signature: 762)
+[20:42:11] Verified fragment purged (signature: 276)
+[20:42:11] Verified fragment purged (signature: 253)
+[20:42:11] Verified fragment purged (signature: 569)
+[20:42:11] Verified fragment purged (signature: 501)
+[20:42:11] Verified fragment purged (signature: 777)
+[20:42:11] Verified fragment purged (signature: 97)
+[20:42:11] Verified fragment purged (signature: 67)
+[20:42:11] Verified fragment purged (signature: 744)
+[20:42:11] Verified fragment purged (signature: 965)
+[20:42:11] Verified fragment purged (signature: 116)
+[20:42:11] Verified fragment purged (signature: 575)
+[20:42:11] Signature synthesized: 689
+[20:42:11] Signature synthesized: 923
+[20:42:11] Anomaly fragment spawned at (55, 155)
+[20:42:11] Anomaly fragment spawned at (244, 459)
+[20:42:11] Anomaly fragment spawned at (451, 521)
+[20:42:14] Anomaly fragment spawned at (383, 192)
+[20:42:14] Anomaly fragment spawned at (573, 104)
+[20:42:14] Anomaly fragment spawned at (142, 263)
+[20:42:16] Anomaly fragment spawned at (524, 223)
+[20:42:16] Anomaly fragment spawned at (702, 165)
+[20:42:16] Anomaly fragment spawned at (422, 309)
+[20:42:18] Anomaly fragment spawned at (570, 297)
+[20:42:18] Anomaly fragment spawned at (32, 224)
+[20:42:18] Anomaly fragment spawned at (529, 312)
+[20:42:20] Anomaly fragment spawned at (308, 243)
+[20:42:20] Anomaly fragment spawned at (675, 331)
+[20:42:20] Anomaly fragment spawned at (350, 559)
+[20:42:22] Anomaly fragment spawned at (724, 242)
+[20:42:22] Anomaly fragment spawned at (381, 512)
+[20:42:22] Anomaly fragment spawned at (583, 382)
+[20:42:24] Anomaly fragment spawned at (138, 144)
+[20:42:24] Anomaly fragment spawned at (639, 151)
+[20:42:24] Anomaly fragment spawned at (224, 201)
+[20:42:26] Anomaly fragment spawned at (752, 347)
+[20:42:26] Anomaly fragment spawned at (570, 359)
+[20:42:26] Anomaly fragment spawned at (471, 98)
+[20:42:28] Anomaly fragment spawned at (549, 545)
+[20:42:28] Anomaly fragment spawned at (202, 499)
+[20:42:28] Anomaly fragment spawned at (55, 460)
+[20:42:30] Anomaly fragment spawned at (309, 491)
+[20:42:30] Anomaly fragment spawned at (375, 486)
+[20:42:30] Anomaly fragment spawned at (197, 278)
+[20:42:32] Anomaly fragment spawned at (33, 562)
+[20:42:32] Anomaly fragment spawned at (734, 253)
+[20:42:32] Anomaly fragment spawned at (243, 197)
+[20:42:34] Anomaly fragment spawned at (449, 207)
+[20:42:34] Anomaly fragment spawned at (87, 298)
+[20:42:34] Anomaly fragment spawned at (439, 413)
+[20:42:36] Anomaly fragment spawned at (665, 477)
+[20:42:36] Anomaly fragment spawned at (393, 126)
+[20:42:36] Anomaly fragment spawned at (305, 455)
+[20:42:38] Anomaly fragment spawned at (401, 448)
+[20:42:38] Anomaly fragment spawned at (629, 205)
+[20:42:38] Anomaly fragment spawned at (214, 142)
+[20:42:40] Anomaly fragment spawned at (511, 515)
+[20:42:40] Anomaly fragment spawned at (296, 368)
+[20:42:40] Anomaly fragment spawned at (129, 443)
+[20:42:42] Anomaly fragment spawned at (674, 217)
+[20:42:42] Anomaly fragment spawned at (379, 324)
+[20:42:42] Anomaly fragment spawned at (593, 399)
+[20:42:44] Anomaly fragment spawned at (339, 552)
+[20:42:44] Anomaly fragment spawned at (681, 346)
+[20:42:44] Anomaly fragment spawned at (571, 434)
+[20:42:46] Anomaly fragment spawned at (671, 453)
+[20:42:46] Anomaly fragment spawned at (337, 421)
+[20:42:46] Anomaly fragment spawned at (501, 213)
+[20:42:48] Anomaly fragment spawned at (715, 311)
+[20:42:48] Anomaly fragment spawned at (639, 196)
+[20:42:48] Anomaly fragment spawned at (101, 223)
+[20:42:50] Anomaly fragment spawned at (559, 523)
+[20:42:50] Anomaly fragment spawned at (537, 515)
+[20:42:50] Anomaly fragment spawned at (630, 504)
+[20:42:52] Anomaly fragment spawned at (391, 553)
+[20:42:52] Anomaly fragment spawned at (74, 60)
+[20:42:52] Anomaly fragment spawned at (535, 427)
+[20:42:54] Anomaly fragment spawned at (624, 85)
+[20:42:54] Anomaly fragment spawned at (754, 97)
+[20:42:54] Anomaly fragment spawned at (289, 157)
+[20:42:54] Signature synthesized: 414
+[20:42:54] Signature synthesized: 695
+[20:42:54] Signature synthesized: 317
+[20:42:54] Signature synthesized: 694
+[20:42:54] Signature synthesized: 372
+[20:42:54] Signature synthesized: 339
+[20:42:54] Signature synthesized: 635
+[20:42:54] Signature synthesized: 637
+[20:42:54] Signature synthesized: 95
+[20:42:54] Signature synthesized: 780
+[20:42:54] Signature synthesized: 526
+[20:42:54] Signature synthesized: 697
+[20:42:54] Signature synthesized: 670
+[20:42:54] Signature synthesized: 450
+[20:42:54] Signature synthesized: 376
+[20:42:54] Signature synthesized: 914
+[20:42:54] Signature synthesized: 779
+[20:42:54] Signature synthesized: 936
+[20:42:54] Signature synthesized: 901
+[20:42:54] Verified fragment purged (signature: 129)
+[20:42:54] Verified fragment purged (signature: 689)
+[20:42:54] Verified fragment purged (signature: 129)
+[20:42:54] Verified fragment purged (signature: 923)
+[20:42:54] Verified fragment purged (signature: 923)
+[20:42:54] Verified fragment purged (signature: 689)
+[20:42:54] Signature synthesized: 141
+[20:42:54] Signature synthesized: 409
+[20:42:54] Signature synthesized: 764
+[20:42:54] Signature synthesized: 499
+[20:42:54] Signature synthesized: 817
+[20:42:54] Signature synthesized: 300
+[20:42:54] Signature synthesized: 1012
+[20:42:54] Signature synthesized: 972
+[20:42:54] Signature synthesized: 641
+[20:42:54] Signature synthesized: 235
+[20:42:54] Signature synthesized: 1013
+[20:42:54] Signature synthesized: 935
+[20:42:54] Signature synthesized: 1006
+[20:42:54] Signature synthesized: 398
+[20:42:54] Signature synthesized: 850
+[20:42:54] Signature synthesized: 238
+[20:42:54] Signature synthesized: 428
+[20:42:54] Signature synthesized: 241
+[20:42:54] Signature synthesized: 359
+[20:42:54] Signature synthesized: 573
+[20:42:54] Signature synthesized: 1003
+[20:42:54] Signature synthesized: 600
+[20:42:54] Signature synthesized: 994
+[20:42:56] Anomaly fragment spawned at (401, 395)
+[20:42:56] Anomaly fragment spawned at (47, 118)
+[20:42:56] Anomaly fragment spawned at (346, 205)
+[20:42:58] Anomaly fragment spawned at (700, 451)
+[20:42:58] Anomaly fragment spawned at (587, 274)
+[20:42:58] Anomaly fragment spawned at (558, 560)
+[20:43:00] Anomaly fragment spawned at (575, 497)
+[20:43:00] Anomaly fragment spawned at (301, 358)
+[20:43:00] Anomaly fragment spawned at (196, 135)
+[20:43:00] Signature synthesized: 40
+[20:43:00] Verified fragment purged (signature: 935)
+[20:43:00] Verified fragment purged (signature: 764)
+[20:43:00] Verified fragment purged (signature: 238)
+[20:43:00] Verified fragment purged (signature: 235)
+[20:43:00] Verified fragment purged (signature: 372)
+[20:43:00] Verified fragment purged (signature: 779)
+[20:43:00] Verified fragment purged (signature: 901)
+[20:43:00] Verified fragment purged (signature: 241)
+[20:43:00] Verified fragment purged (signature: 526)
+[20:43:00] Verified fragment purged (signature: 936)
+[20:43:00] Verified fragment purged (signature: 764)
+[20:43:00] Verified fragment purged (signature: 697)
+[20:43:00] Verified fragment purged (signature: 670)
+[20:43:00] Verified fragment purged (signature: 376)
+[20:43:00] Verified fragment purged (signature: 817)
+[20:43:00] Verified fragment purged (signature: 95)
+[20:43:00] Verified fragment purged (signature: 635)
+[20:43:00] Verified fragment purged (signature: 694)
+[20:43:00] Verified fragment purged (signature: 695)
+[20:43:00] Verified fragment purged (signature: 901)
+[20:43:00] Verified fragment purged (signature: 409)
+[20:43:00] Verified fragment purged (signature: 936)
+[20:43:00] Verified fragment purged (signature: 994)
+[20:43:00] Verified fragment purged (signature: 317)
+[20:43:00] Verified fragment purged (signature: 1012)
+[20:43:00] Verified fragment purged (signature: 914)
+[20:43:00] Verified fragment purged (signature: 450)
+[20:43:00] Verified fragment purged (signature: 600)
+[20:43:00] Verified fragment purged (signature: 339)
+[20:43:00] Verified fragment purged (signature: 780)
+[20:43:00] Verified fragment purged (signature: 409)
+[20:43:00] Verified fragment purged (signature: 600)
+[20:43:00] Verified fragment purged (signature: 779)
+[20:43:00] Verified fragment purged (signature: 573)
+[20:43:00] Verified fragment purged (signature: 414)
+[20:43:00] Verified fragment purged (signature: 241)
+[20:43:00] Verified fragment purged (signature: 914)
+[20:43:00] Verified fragment purged (signature: 238)
+[20:43:00] Verified fragment purged (signature: 376)
+[20:43:00] Verified fragment purged (signature: 235)
+[20:43:00] Verified fragment purged (signature: 450)
+[20:43:00] Verified fragment purged (signature: 670)
+[20:43:00] Verified fragment purged (signature: 697)
+[20:43:00] Verified fragment purged (signature: 141)
+[20:43:00] Verified fragment purged (signature: 1013)
+[20:43:00] Verified fragment purged (signature: 499)
+[20:43:00] Verified fragment purged (signature: 641)
+[20:43:00] Verified fragment purged (signature: 526)
+[20:43:00] Verified fragment purged (signature: 573)
+[20:43:00] Verified fragment purged (signature: 1006)
+[20:43:00] Verified fragment purged (signature: 994)
+[20:43:00] Verified fragment purged (signature: 428)
+[20:43:00] Verified fragment purged (signature: 817)
+[20:43:00] Verified fragment purged (signature: 641)
+[20:43:00] Verified fragment purged (signature: 935)
+[20:43:00] Verified fragment purged (signature: 637)
+[20:43:00] Verified fragment purged (signature: 499)
+[20:43:00] Verified fragment purged (signature: 780)
+[20:43:00] Verified fragment purged (signature: 1013)
+[20:43:00] Verified fragment purged (signature: 141)
+[20:43:00] Verified fragment purged (signature: 359)
+[20:43:00] Verified fragment purged (signature: 300)
+[20:43:00] Verified fragment purged (signature: 428)
+[20:43:00] Verified fragment purged (signature: 1006)
+[20:43:00] Verified fragment purged (signature: 95)
+[20:43:00] Verified fragment purged (signature: 850)
+[20:43:00] Verified fragment purged (signature: 972)
+[20:43:00] Verified fragment purged (signature: 300)
+[20:43:00] Verified fragment purged (signature: 637)
+[20:43:00] Verified fragment purged (signature: 635)
+[20:43:00] Verified fragment purged (signature: 850)
+[20:43:00] Verified fragment purged (signature: 972)
+[20:43:00] Verified fragment purged (signature: 398)
+[20:43:00] Verified fragment purged (signature: 359)
+[20:43:00] Verified fragment purged (signature: 398)
+[20:43:00] Verified fragment purged (signature: 1012)
+[20:43:00] Verified fragment purged (signature: 339)
+[20:43:00] Verified fragment purged (signature: 372)
+[20:43:00] Verified fragment purged (signature: 317)
+[20:43:00] Verified fragment purged (signature: 1003)
+[20:43:00] Verified fragment purged (signature: 695)
+[20:43:00] Verified fragment purged (signature: 414)
+[20:43:00] Verified fragment purged (signature: 1003)
+[20:43:00] Signature synthesized: 36
+[20:43:01] Signature synthesized: 99
+[20:43:01] Signature synthesized: 682
+[20:43:01] Signature synthesized: 48
+[20:43:01] Signature synthesized: 634
+[20:43:01] Signature synthesized: 915
+[20:43:02] Anomaly fragment spawned at (275, 140)
+[20:43:02] Anomaly fragment spawned at (222, 150)
+[20:43:02] Anomaly fragment spawned at (138, 457)
+[20:43:04] Anomaly fragment spawned at (547, 53)
+[20:43:04] Anomaly fragment spawned at (594, 188)
+[20:43:04] Anomaly fragment spawned at (721, 214)
+[20:43:06] Anomaly fragment spawned at (80, 64)
+[20:43:06] Anomaly fragment spawned at (321, 258)
+[20:43:06] Anomaly fragment spawned at (746, 180)
+[20:43:08] Anomaly fragment spawned at (317, 460)
+[20:43:08] Anomaly fragment spawned at (504, 446)
+[20:43:08] Anomaly fragment spawned at (564, 434)
+[20:43:10] Anomaly fragment spawned at (620, 508)
+[20:43:10] Anomaly fragment spawned at (556, 504)
+[20:43:10] Anomaly fragment spawned at (360, 178)
+[20:43:12] Anomaly fragment spawned at (528, 129)
+[20:43:12] Anomaly fragment spawned at (754, 542)
+[20:43:12] Anomaly fragment spawned at (650, 273)
+[20:43:14] Anomaly fragment spawned at (152, 567)
+[20:43:14] Anomaly fragment spawned at (43, 473)
+[20:43:14] Anomaly fragment spawned at (736, 437)
+[20:43:16] Anomaly fragment spawned at (411, 537)
+[20:43:16] Anomaly fragment spawned at (441, 186)
+[20:43:16] Anomaly fragment spawned at (588, 489)
+[20:43:18] Anomaly fragment spawned at (562, 494)
+[20:43:18] Anomaly fragment spawned at (265, 539)
+[20:43:18] Anomaly fragment spawned at (718, 318)
+[20:43:20] Anomaly fragment spawned at (196, 306)
+[20:43:20] Anomaly fragment spawned at (514, 68)
+[20:43:20] Anomaly fragment spawned at (209, 353)
+[20:43:22] Anomaly fragment spawned at (418, 364)
+[20:43:22] Anomaly fragment spawned at (545, 247)
+[20:43:22] Anomaly fragment spawned at (741, 554)
+[20:43:24] Anomaly fragment spawned at (592, 119)
+[20:43:24] Anomaly fragment spawned at (762, 90)
+[20:43:24] Anomaly fragment spawned at (343, 522)
+[20:43:26] Anomaly fragment spawned at (372, 545)
+[20:43:26] Anomaly fragment spawned at (493, 325)
+[20:43:26] Anomaly fragment spawned at (203, 174)
+[20:43:28] Anomaly fragment spawned at (228, 414)
+[20:43:28] Anomaly fragment spawned at (464, 410)
+[20:43:28] Anomaly fragment spawned at (182, 507)
+[20:43:30] Anomaly fragment spawned at (661, 30)
+[20:43:30] Anomaly fragment spawned at (208, 115)
+[20:43:30] Anomaly fragment spawned at (116, 54)
+[20:43:32] Anomaly fragment spawned at (469, 561)
+[20:43:32] Anomaly fragment spawned at (441, 108)
+[20:43:32] Anomaly fragment spawned at (490, 560)
+[20:43:34] Anomaly fragment spawned at (437, 534)
+[20:43:34] Anomaly fragment spawned at (721, 332)
+[20:43:34] Anomaly fragment spawned at (127, 82)
+[20:43:36] Anomaly fragment spawned at (201, 474)
+[20:43:36] Anomaly fragment spawned at (768, 569)
+[20:43:36] Anomaly fragment spawned at (317, 194)
+[20:43:38] Anomaly fragment spawned at (339, 489)
+[20:43:38] Anomaly fragment spawned at (583, 206)
+[20:43:38] Anomaly fragment spawned at (471, 185)
+[20:43:38] Signature synthesized: 2
+[20:43:38] Signature synthesized: 480
+[20:43:38] Signature synthesized: 573
+[20:43:38] Signature synthesized: 262
+[20:43:38] Signature synthesized: 341
+[20:43:38] Signature synthesized: 184
+[20:43:38] Signature synthesized: 480
+[20:43:38] Signature synthesized: 189
+[20:43:38] Signature synthesized: 518
+[20:43:38] Signature synthesized: 164
+[20:43:38] Signature synthesized: 737
+[20:43:38] Signature synthesized: 803
+[20:43:38] Signature synthesized: 978
+[20:43:38] Signature synthesized: 343
+[20:43:38] Verified fragment purged (signature: 40)
+[20:43:38] Verified fragment purged (signature: 682)
+[20:43:38] Verified fragment purged (signature: 48)
+[20:43:38] Verified fragment purged (signature: 634)
+[20:43:38] Verified fragment purged (signature: 915)
+[20:43:38] Verified fragment purged (signature: 682)
+[20:43:38] Verified fragment purged (signature: 99)
+[20:43:38] Verified fragment purged (signature: 634)
+[20:43:38] Verified fragment purged (signature: 36)
+[20:43:38] Verified fragment purged (signature: 48)
+[20:43:38] Verified fragment purged (signature: 915)
+[20:43:38] Verified fragment purged (signature: 99)
+[20:43:38] Verified fragment purged (signature: 36)
+[20:43:38] Verified fragment purged (signature: 40)
+[20:43:38] Signature synthesized: 295
+[20:43:40] Anomaly fragment spawned at (747, 265)
+[20:43:40] Anomaly fragment spawned at (93, 322)
+[20:43:40] Anomaly fragment spawned at (177, 531)
+[20:43:42] Anomaly fragment spawned at (319, 484)
+[20:43:42] Anomaly fragment spawned at (184, 264)
+[20:43:42] Anomaly fragment spawned at (466, 52)
+[20:43:44] Anomaly fragment spawned at (653, 232)
+[20:43:44] Anomaly fragment spawned at (140, 452)
+[20:43:44] Anomaly fragment spawned at (193, 526)
+[20:43:46] Anomaly fragment spawned at (509, 149)
+[20:43:46] Anomaly fragment spawned at (228, 76)
+[20:43:46] Anomaly fragment spawned at (202, 373)
+[20:43:48] Anomaly fragment spawned at (237, 565)
+[20:43:48] Anomaly fragment spawned at (661, 202)
+[20:43:48] Anomaly fragment spawned at (525, 377)
+[20:43:50] Anomaly fragment spawned at (31, 92)
+[20:43:50] Anomaly fragment spawned at (591, 134)
+[20:43:50] Anomaly fragment spawned at (494, 300)
+[20:43:52] Anomaly fragment spawned at (765, 287)
+[20:43:52] Anomaly fragment spawned at (353, 299)
+[20:43:52] Anomaly fragment spawned at (188, 555)
+[20:43:54] Anomaly fragment spawned at (163, 554)
+[20:43:54] Anomaly fragment spawned at (351, 385)
+[20:43:54] Anomaly fragment spawned at (743, 234)
+[20:43:56] Anomaly fragment spawned at (59, 561)
+[20:43:56] Anomaly fragment spawned at (645, 436)
+[20:43:56] Anomaly fragment spawned at (177, 464)
+[20:43:58] Anomaly fragment spawned at (356, 176)
+[20:43:58] Anomaly fragment spawned at (246, 402)
+[20:43:58] Anomaly fragment spawned at (361, 199)
+[20:44:00] Anomaly fragment spawned at (302, 320)
+[20:44:00] Anomaly fragment spawned at (121, 535)
+[20:44:00] Anomaly fragment spawned at (119, 209)
+[20:44:02] Anomaly fragment spawned at (241, 240)
+[20:44:02] Anomaly fragment spawned at (474, 543)
+[20:44:02] Anomaly fragment spawned at (310, 78)
+[20:44:04] Anomaly fragment spawned at (214, 285)
+[20:44:04] Anomaly fragment spawned at (537, 302)
+[20:44:04] Anomaly fragment spawned at (370, 167)
+[20:44:06] Anomaly fragment spawned at (650, 366)
+[20:44:06] Anomaly fragment spawned at (88, 447)
+[20:44:06] Anomaly fragment spawned at (481, 544)
+[20:44:08] Anomaly fragment spawned at (107, 306)
+[20:44:08] Anomaly fragment spawned at (488, 526)
+[20:44:08] Anomaly fragment spawned at (691, 463)
+[20:44:10] Anomaly fragment spawned at (214, 539)
+[20:44:10] Anomaly fragment spawned at (354, 69)
+[20:44:10] Anomaly fragment spawned at (93, 146)
+[20:44:12] Anomaly fragment spawned at (364, 550)
+[20:44:12] Anomaly fragment spawned at (676, 392)
+[20:44:12] Anomaly fragment spawned at (375, 139)
+[20:44:14] Anomaly fragment spawned at (147, 393)
+[20:44:14] Anomaly fragment spawned at (118, 486)
+[20:44:14] Anomaly fragment spawned at (254, 108)
+[20:44:16] Anomaly fragment spawned at (154, 389)
+[20:44:16] Anomaly fragment spawned at (30, 315)
+[20:44:16] Anomaly fragment spawned at (664, 441)
+[20:44:18] Anomaly fragment spawned at (69, 95)
+[20:44:18] Anomaly fragment spawned at (699, 403)
+[20:44:18] Anomaly fragment spawned at (53, 99)
+[20:44:20] Anomaly fragment spawned at (154, 386)
+[20:44:20] Anomaly fragment spawned at (148, 46)
+[20:44:20] Anomaly fragment spawned at (234, 285)
+[20:44:22] Anomaly fragment spawned at (371, 245)
+[20:44:22] Anomaly fragment spawned at (99, 71)
+[20:44:22] Anomaly fragment spawned at (664, 449)
+[20:44:24] Anomaly fragment spawned at (624, 67)
+[20:44:24] Anomaly fragment spawned at (183, 206)
+[20:44:24] Anomaly fragment spawned at (621, 164)
+[20:44:26] Anomaly fragment spawned at (155, 334)
+[20:44:26] Anomaly fragment spawned at (507, 57)
+[20:44:26] Anomaly fragment spawned at (630, 211)
+[20:44:28] Anomaly fragment spawned at (447, 351)
+[20:44:28] Anomaly fragment spawned at (580, 513)
+[20:44:28] Anomaly fragment spawned at (667, 564)
+[20:44:30] Anomaly fragment spawned at (570, 553)
+[20:44:30] Anomaly fragment spawned at (311, 431)
+[20:44:30] Anomaly fragment spawned at (383, 388)
+[20:44:31] Signature synthesized: 145
+[20:44:31] Signature synthesized: 907
+[20:44:31] Signature synthesized: 950
+[20:44:31] Signature synthesized: 424
+[20:44:31] Signature synthesized: 1021
+[20:44:31] Signature synthesized: 2
+[20:44:31] Signature synthesized: 415
+[20:44:31] Signature synthesized: 65
+[20:44:31] Signature synthesized: 28
+[20:44:31] Signature synthesized: 231
+[20:44:31] Signature synthesized: 46
+[20:44:31] Signature synthesized: 723
+[20:44:31] Signature synthesized: 936
+[20:44:31] Signature synthesized: 476
+[20:44:31] Signature synthesized: 849
+[20:44:31] Signature synthesized: 568
+[20:44:31] Signature synthesized: 282
+[20:44:31] Signature synthesized: 741
+[20:44:31] Signature synthesized: 965
+[20:44:31] Signature synthesized: 589
+[20:44:31] Signature synthesized: 637
+[20:44:31] Signature synthesized: 253
+[20:44:31] Signature synthesized: 433
+[20:44:31] Signature synthesized: 888
+[20:44:31] Signature synthesized: 144
+[20:44:31] Signature synthesized: 13
+[20:44:31] Signature synthesized: 822
+[20:44:31] Signature synthesized: 668
+[20:44:31] Signature synthesized: 487
+[20:44:31] Signature synthesized: 942
+[20:44:31] Signature synthesized: 967
+[20:44:31] Signature synthesized: 708
+[20:44:31] Signature synthesized: 145
+[20:44:31] Signature synthesized: 736
+[20:44:31] Signature synthesized: 61
+[20:44:31] Signature synthesized: 651
+[20:44:31] Signature synthesized: 964
+[20:44:31] Signature synthesized: 783
+[20:44:31] Verified fragment purged (signature: 978)
+[20:44:31] Verified fragment purged (signature: 518)
+[20:44:31] Verified fragment purged (signature: 480)
+[20:44:31] Verified fragment purged (signature: 343)
+[20:44:31] Verified fragment purged (signature: 803)
+[20:44:31] Verified fragment purged (signature: 480)
+[20:44:31] Verified fragment purged (signature: 184)
+[20:44:31] Verified fragment purged (signature: 2)
+[20:44:31] Verified fragment purged (signature: 341)
+[20:44:31] Verified fragment purged (signature: 295)
+[20:44:31] Verified fragment purged (signature: 737)
+[20:44:31] Verified fragment purged (signature: 343)
+[20:44:31] Verified fragment purged (signature: 164)
+[20:44:31] Verified fragment purged (signature: 978)
+[20:44:31] Verified fragment purged (signature: 803)
+[20:44:31] Verified fragment purged (signature: 262)
+[20:44:31] Verified fragment purged (signature: 737)
+[20:44:31] Verified fragment purged (signature: 164)
+[20:44:31] Verified fragment purged (signature: 573)
+[20:44:31] Verified fragment purged (signature: 518)
+[20:44:31] Verified fragment purged (signature: 295)
+[20:44:31] Verified fragment purged (signature: 189)
+[20:44:31] Verified fragment purged (signature: 189)
+[20:44:31] Verified fragment purged (signature: 480)
+[20:44:31] Verified fragment purged (signature: 341)
+[20:44:31] Verified fragment purged (signature: 262)
+[20:44:31] Verified fragment purged (signature: 573)
+[20:44:31] Verified fragment purged (signature: 480)
+[20:44:31] Signature synthesized: 155
+[20:44:31] Signature synthesized: 898
+[20:44:31] Signature synthesized: 951
+[20:44:31] Anomaly fragment spawned at (307, 126)
+[20:44:31] Anomaly fragment spawned at (326, 433)
+[20:44:31] Anomaly fragment spawned at (630, 511)
+[20:44:31] Signature synthesized: 340
+[20:44:31] Signature synthesized: 1022
+[20:44:31] Signature synthesized: 1006
+[20:44:31] Signature synthesized: 952
+[20:44:31] Signature synthesized: 346
+[20:44:31] Signature synthesized: 414
+[20:44:31] Signature synthesized: 396
+[20:44:31] Signature synthesized: 442
+[20:44:31] Signature synthesized: 118
+[20:44:32] Signature synthesized: 46
+[20:44:32] Signature synthesized: 482
+[20:44:32] Signature synthesized: 29
+[20:44:34] Anomaly fragment spawned at (396, 417)
+[20:44:34] Anomaly fragment spawned at (487, 144)
+[20:44:34] Anomaly fragment spawned at (424, 340)
+[20:44:36] Anomaly fragment spawned at (352, 241)
+[20:44:36] Anomaly fragment spawned at (611, 495)
+[20:44:36] Anomaly fragment spawned at (301, 526)
+[20:44:38] Anomaly fragment spawned at (461, 546)
+[20:44:38] Anomaly fragment spawned at (134, 498)
+[20:44:38] Anomaly fragment spawned at (414, 184)
+[20:44:40] Anomaly fragment spawned at (99, 539)
+[20:44:40] Anomaly fragment spawned at (336, 550)
+[20:44:40] Anomaly fragment spawned at (763, 344)
+[20:44:42] Anomaly fragment spawned at (423, 338)
+[20:44:42] Anomaly fragment spawned at (741, 521)
+[20:44:42] Anomaly fragment spawned at (340, 361)
+[20:44:44] Anomaly fragment spawned at (653, 313)
+[20:44:44] Anomaly fragment spawned at (654, 180)
+[20:44:44] Anomaly fragment spawned at (206, 47)
+[20:44:46] Anomaly fragment spawned at (542, 117)
+[20:44:46] Anomaly fragment spawned at (715, 113)
+[20:44:46] Anomaly fragment spawned at (308, 350)
+[20:44:48] Anomaly fragment spawned at (49, 160)
+[20:44:48] Anomaly fragment spawned at (688, 439)
+[20:44:48] Anomaly fragment spawned at (212, 401)
+[20:44:50] Anomaly fragment spawned at (580, 285)
+[20:44:50] Anomaly fragment spawned at (92, 250)
+[20:44:50] Anomaly fragment spawned at (546, 222)
+[20:44:52] Anomaly fragment spawned at (65, 211)
+[20:44:52] Anomaly fragment spawned at (714, 437)
+[20:44:52] Anomaly fragment spawned at (641, 170)
+[20:44:54] Anomaly fragment spawned at (707, 515)
+[20:44:54] Anomaly fragment spawned at (467, 482)
+[20:44:54] Anomaly fragment spawned at (330, 407)
+[20:44:56] Anomaly fragment spawned at (476, 418)
+[20:44:56] Anomaly fragment spawned at (414, 46)
+[20:44:56] Anomaly fragment spawned at (100, 398)
+[20:44:58] Anomaly fragment spawned at (561, 206)
+[20:44:58] Anomaly fragment spawned at (542, 563)
+[20:44:58] Anomaly fragment spawned at (724, 479)
+[20:45:00] Anomaly fragment spawned at (382, 199)
+[20:45:00] Anomaly fragment spawned at (367, 103)
+[20:45:00] Anomaly fragment spawned at (381, 432)
+[20:45:02] Anomaly fragment spawned at (290, 271)
+[20:45:02] Anomaly fragment spawned at (338, 215)
+[20:45:02] Anomaly fragment spawned at (282, 377)
+[20:45:04] Anomaly fragment spawned at (768, 242)
+[20:45:04] Anomaly fragment spawned at (277, 327)
+[20:45:04] Anomaly fragment spawned at (428, 195)
+[20:45:06] Anomaly fragment spawned at (513, 44)
+[20:45:06] Anomaly fragment spawned at (565, 391)
+[20:45:06] Anomaly fragment spawned at (537, 203)
+[20:45:08] Anomaly fragment spawned at (111, 271)
+[20:45:08] Anomaly fragment spawned at (432, 435)
+[20:45:08] Anomaly fragment spawned at (184, 516)
+[20:45:10] Anomaly fragment spawned at (672, 34)
+[20:45:10] Anomaly fragment spawned at (373, 124)
+[20:45:10] Anomaly fragment spawned at (206, 338)
+[20:45:12] Anomaly fragment spawned at (372, 401)
+[20:45:12] Anomaly fragment spawned at (638, 67)
+[20:45:12] Anomaly fragment spawned at (423, 565)
+[20:45:14] Anomaly fragment spawned at (98, 276)
+[20:45:14] Anomaly fragment spawned at (550, 562)
+[20:45:14] Anomaly fragment spawned at (652, 97)
+[20:45:16] Anomaly fragment spawned at (48, 380)
+[20:45:16] Anomaly fragment spawned at (138, 150)
+[20:45:16] Anomaly fragment spawned at (633, 553)
+[20:45:18] Anomaly fragment spawned at (266, 118)
+[20:45:18] Anomaly fragment spawned at (726, 494)
+[20:45:18] Anomaly fragment spawned at (61, 543)
+[20:45:20] Anomaly fragment spawned at (722, 166)
+[20:45:20] Anomaly fragment spawned at (250, 418)
+[20:45:20] Anomaly fragment spawned at (388, 198)
+[20:45:22] Anomaly fragment spawned at (205, 213)
+[20:45:22] Anomaly fragment spawned at (644, 296)
+[20:45:22] Anomaly fragment spawned at (366, 306)
+[20:45:24] Anomaly fragment spawned at (564, 173)
+[20:45:24] Anomaly fragment spawned at (154, 282)
+[20:45:24] Anomaly fragment spawned at (37, 271)
+[20:45:26] Anomaly fragment spawned at (104, 476)
+[20:45:26] Anomaly fragment spawned at (202, 126)
+[20:45:26] Anomaly fragment spawned at (79, 501)
+[20:45:28] Anomaly fragment spawned at (33, 77)
+[20:45:28] Anomaly fragment spawned at (217, 284)
+[20:45:28] Anomaly fragment spawned at (257, 327)
+[20:45:30] Anomaly fragment spawned at (689, 296)
+[20:45:30] Anomaly fragment spawned at (626, 377)
+[20:45:30] Anomaly fragment spawned at (375, 122)
+[20:45:32] Anomaly fragment spawned at (668, 42)
+[20:45:32] Anomaly fragment spawned at (121, 290)
+[20:45:32] Anomaly fragment spawned at (400, 512)
+[20:46:12] Anomaly fragment spawned at (384, 61)
+[20:46:12] Anomaly fragment spawned at (81, 87)
+[20:46:12] Anomaly fragment spawned at (762, 261)
+[20:47:12] Anomaly fragment spawned at (745, 142)
+[20:47:12] Anomaly fragment spawned at (712, 176)
+[20:47:12] Anomaly fragment spawned at (143, 280)
+[20:48:12] Anomaly fragment spawned at (54, 34)
+[20:48:12] Anomaly fragment spawned at (462, 259)
+[20:48:12] Anomaly fragment spawned at (83, 134)
+[20:48:30] Anomaly fragment spawned at (197, 379)
+[20:48:30] Anomaly fragment spawned at (728, 509)
+[20:48:30] Anomaly fragment spawned at (237, 221)
+[20:48:30] Signature synthesized: 332
+[20:48:30] Signature synthesized: 501
+[20:48:30] Signature synthesized: 814
+[20:48:30] Signature synthesized: 290
+[20:48:30] Signature synthesized: 716
+[20:48:30] Signature synthesized: 169
+[20:48:30] Signature synthesized: 273
+[20:48:30] Signature synthesized: 596
+[20:48:30] Signature synthesized: 722
+[20:48:30] Signature synthesized: 888
+[20:48:30] Signature synthesized: 431
+[20:48:30] Signature synthesized: 891
+[20:48:30] Signature synthesized: 39
+[20:48:30] Signature synthesized: 532
+[20:48:30] Signature synthesized: 855
+[20:48:30] Signature synthesized: 432
+[20:48:30] Signature synthesized: 1018
+[20:48:30] Signature synthesized: 5
+[20:48:30] Signature synthesized: 0
+[20:48:30] Signature synthesized: 996
+[20:48:30] Signature synthesized: 345
+[20:48:30] Signature synthesized: 378
+[20:48:30] Signature synthesized: 769
+[20:48:30] Signature synthesized: 803
+[20:48:30] Signature synthesized: 842
+[20:48:30] Signature synthesized: 425
+[20:48:30] Signature synthesized: 90
+[20:48:30] Signature synthesized: 430
+[20:48:30] Signature synthesized: 906
+[20:48:30] Signature synthesized: 940
+[20:48:30] Signature synthesized: 564
+[20:48:30] Signature synthesized: 383
+[20:48:30] Signature synthesized: 364
+[20:48:30] Signature synthesized: 805
+[20:48:30] Signature synthesized: 665
+[20:48:30] Signature synthesized: 966
+[20:48:30] Signature synthesized: 935
+[20:48:30] Signature synthesized: 209
+[20:48:30] Signature synthesized: 913
+[20:48:30] Signature synthesized: 81
+[20:48:30] Signature synthesized: 836
+[20:48:30] Signature synthesized: 39
+[20:48:30] Signature synthesized: 748
+[20:48:30] Verified fragment purged (signature: 340)
+[20:48:30] Verified fragment purged (signature: 1006)
+[20:48:30] Verified fragment purged (signature: 482)
+[20:48:30] Verified fragment purged (signature: 1006)
+[20:48:30] Verified fragment purged (signature: 898)
+[20:48:30] Verified fragment purged (signature: 589)
+[20:48:30] Verified fragment purged (signature: 888)
+[20:48:30] Verified fragment purged (signature: 1022)
+[20:48:30] Verified fragment purged (signature: 253)
+[20:48:30] Verified fragment purged (signature: 46)
+[20:48:30] Verified fragment purged (signature: 950)
+[20:48:30] Verified fragment purged (signature: 476)
+[20:48:30] Verified fragment purged (signature: 952)
+[20:48:30] Verified fragment purged (signature: 415)
+[20:48:30] Verified fragment purged (signature: 61)
+[20:48:30] Verified fragment purged (signature: 783)
+[20:48:30] Verified fragment purged (signature: 936)
+[20:48:30] Verified fragment purged (signature: 907)
+[20:48:30] Verified fragment purged (signature: 2)
+[20:48:30] Verified fragment purged (signature: 414)
+[20:48:30] Verified fragment purged (signature: 1021)
+[20:48:30] Verified fragment purged (signature: 29)
+[20:48:30] Verified fragment purged (signature: 783)
+[20:48:30] Verified fragment purged (signature: 13)
+[20:48:30] Verified fragment purged (signature: 424)
+[20:48:30] Verified fragment purged (signature: 145)
+[20:48:30] Verified fragment purged (signature: 964)
+[20:48:30] Verified fragment purged (signature: 736)
+[20:48:30] Verified fragment purged (signature: 651)
+[20:48:30] Verified fragment purged (signature: 65)
+[20:48:30] Verified fragment purged (signature: 282)
+[20:48:30] Verified fragment purged (signature: 637)
+[20:48:30] Verified fragment purged (signature: 964)
+[20:48:30] Verified fragment purged (signature: 952)
+[20:48:30] Verified fragment purged (signature: 568)
+[20:48:30] Verified fragment purged (signature: 668)
+[20:48:30] Verified fragment purged (signature: 849)
+[20:48:30] Verified fragment purged (signature: 967)
+[20:48:30] Verified fragment purged (signature: 442)
+[20:48:30] Verified fragment purged (signature: 118)
+[20:48:30] Verified fragment purged (signature: 723)
+[20:48:30] Verified fragment purged (signature: 965)
+[20:48:30] Verified fragment purged (signature: 741)
+[20:48:30] Verified fragment purged (signature: 145)
+[20:48:30] Verified fragment purged (signature: 822)
+[20:48:30] Verified fragment purged (signature: 144)
+[20:48:30] Verified fragment purged (signature: 61)
+[20:48:30] Verified fragment purged (signature: 28)
+[20:48:30] Verified fragment purged (signature: 1022)
+[20:48:30] Verified fragment purged (signature: 951)
+[20:48:30] Verified fragment purged (signature: 433)
+[20:48:30] Verified fragment purged (signature: 942)
+[20:48:30] Verified fragment purged (signature: 46)
+[20:48:30] Verified fragment purged (signature: 396)
+[20:48:30] Verified fragment purged (signature: 346)
+[20:48:30] Verified fragment purged (signature: 231)
+[20:48:30] Verified fragment purged (signature: 708)
+[20:48:30] Verified fragment purged (signature: 487)
+[20:48:30] Verified fragment purged (signature: 736)
+[20:48:30] Verified fragment purged (signature: 145)
+[20:48:30] Verified fragment purged (signature: 708)
+[20:48:30] Verified fragment purged (signature: 967)
+[20:48:30] Verified fragment purged (signature: 414)
+[20:48:30] Verified fragment purged (signature: 942)
+[20:48:30] Verified fragment purged (signature: 668)
+[20:48:30] Verified fragment purged (signature: 822)
+[20:48:30] Verified fragment purged (signature: 13)
+[20:48:30] Verified fragment purged (signature: 144)
+[20:48:30] Verified fragment purged (signature: 888)
+[20:48:30] Verified fragment purged (signature: 433)
+[20:48:30] Verified fragment purged (signature: 253)
+[20:48:30] Verified fragment purged (signature: 637)
+[20:48:30] Verified fragment purged (signature: 951)
+[20:48:30] Verified fragment purged (signature: 589)
+[20:48:30] Verified fragment purged (signature: 118)
+[20:48:30] Verified fragment purged (signature: 965)
+[20:48:30] Verified fragment purged (signature: 396)
+[20:48:30] Verified fragment purged (signature: 155)
+[20:48:30] Verified fragment purged (signature: 282)
+[20:48:30] Verified fragment purged (signature: 340)
+[20:48:30] Verified fragment purged (signature: 442)
+[20:48:30] Verified fragment purged (signature: 482)
+[20:48:30] Verified fragment purged (signature: 46)
+[20:48:30] Verified fragment purged (signature: 476)
+[20:48:30] Verified fragment purged (signature: 723)
+[20:48:30] Verified fragment purged (signature: 29)
+[20:48:30] Verified fragment purged (signature: 46)
+[20:48:30] Verified fragment purged (signature: 231)
+[20:48:30] Verified fragment purged (signature: 28)
+[20:48:30] Verified fragment purged (signature: 898)
+[20:48:30] Verified fragment purged (signature: 155)
+[20:48:30] Verified fragment purged (signature: 65)
+[20:48:30] Verified fragment purged (signature: 415)
+[20:48:30] Verified fragment purged (signature: 424)
+[20:48:30] Verified fragment purged (signature: 950)
+[20:48:30] Verified fragment purged (signature: 346)
+[20:48:30] Signature synthesized: 639
+[20:48:30] Signature synthesized: 796
+[20:48:30] Signature synthesized: 815
+[20:48:30] Signature synthesized: 91
+[20:48:30] Signature synthesized: 474
+[20:48:30] Signature synthesized: 781
+[20:48:30] Signature synthesized: 754
+[20:48:30] Signature synthesized: 89
+[20:48:30] Signature synthesized: 632
+[20:48:30] Signature synthesized: 12
+[20:48:30] Signature synthesized: 918
+[20:48:30] Signature synthesized: 515
+[20:48:30] Signature synthesized: 362
+[20:48:30] Signature synthesized: 798
+[20:48:32] Anomaly fragment spawned at (616, 509)
+[20:48:32] Anomaly fragment spawned at (176, 41)
+[20:48:32] Anomaly fragment spawned at (618, 537)
+[20:48:34] Anomaly fragment spawned at (430, 490)
+[20:48:34] Anomaly fragment spawned at (587, 284)
+[20:48:34] Anomaly fragment spawned at (683, 230)
+[20:48:34] Signature synthesized: 87
+[20:48:34] Signature synthesized: 313
+[20:48:34] Signature synthesized: 128
+[20:48:34] Signature synthesized: 109
+[20:48:34] Signature synthesized: 793
+[20:48:34] Signature synthesized: 945
+[20:48:34] Signature synthesized: 952
+[20:48:35] Signature synthesized: 590
+[20:48:35] Verified fragment purged (signature: 532)
+[20:48:35] Verified fragment purged (signature: 665)
+[20:48:35] Verified fragment purged (signature: 803)
+[20:48:35] Verified fragment purged (signature: 748)
+[20:48:35] Verified fragment purged (signature: 501)
+[20:48:35] Verified fragment purged (signature: 596)
+[20:48:35] Verified fragment purged (signature: 290)
+[20:48:35] Verified fragment purged (signature: 39)
+[20:48:35] Verified fragment purged (signature: 81)
+[20:48:35] Verified fragment purged (signature: 836)
+[20:48:35] Verified fragment purged (signature: 378)
+[20:48:35] Verified fragment purged (signature: 748)
+[20:48:35] Verified fragment purged (signature: 425)
+[20:48:35] Verified fragment purged (signature: 383)
+[20:48:35] Verified fragment purged (signature: 431)
+[20:48:35] Verified fragment purged (signature: 90)
+[20:48:35] Verified fragment purged (signature: 332)
+[20:48:35] Verified fragment purged (signature: 39)
+[20:48:35] Verified fragment purged (signature: 430)
+[20:48:35] Verified fragment purged (signature: 209)
+[20:48:35] Verified fragment purged (signature: 935)
+[20:48:35] Verified fragment purged (signature: 722)
+[20:48:35] Verified fragment purged (signature: 940)
+[20:48:35] Verified fragment purged (signature: 913)
+[20:48:35] Verified fragment purged (signature: 39)
+[20:48:35] Verified fragment purged (signature: 966)
+[20:48:35] Verified fragment purged (signature: 273)
+[20:48:35] Verified fragment purged (signature: 855)
+[20:48:35] Verified fragment purged (signature: 836)
+[20:48:35] Verified fragment purged (signature: 814)
+[20:48:35] Verified fragment purged (signature: 5)
+[20:48:35] Verified fragment purged (signature: 906)
+[20:48:35] Verified fragment purged (signature: 81)
+[20:48:35] Verified fragment purged (signature: 888)
+[20:48:35] Verified fragment purged (signature: 209)
+[20:48:35] Verified fragment purged (signature: 169)
+[20:48:35] Verified fragment purged (signature: 996)
+[20:48:35] Verified fragment purged (signature: 891)
+[20:48:35] Verified fragment purged (signature: 364)
+[20:48:35] Verified fragment purged (signature: 805)
+[20:48:35] Verified fragment purged (signature: 769)
+[20:48:35] Verified fragment purged (signature: 716)
+[20:48:35] Verified fragment purged (signature: 935)
+[20:48:35] Verified fragment purged (signature: 665)
+[20:48:35] Verified fragment purged (signature: 805)
+[20:48:35] Verified fragment purged (signature: 1018)
+[20:48:35] Verified fragment purged (signature: 0)
+[20:48:35] Verified fragment purged (signature: 364)
+[20:48:35] Verified fragment purged (signature: 383)
+[20:48:35] Verified fragment purged (signature: 432)
+[20:48:35] Verified fragment purged (signature: 564)
+[20:48:35] Verified fragment purged (signature: 345)
+[20:48:35] Verified fragment purged (signature: 842)
+[20:48:35] Verified fragment purged (signature: 564)
+[20:48:35] Verified fragment purged (signature: 940)
+[20:48:35] Verified fragment purged (signature: 430)
+[20:48:35] Verified fragment purged (signature: 90)
+[20:48:35] Verified fragment purged (signature: 425)
+[20:48:35] Verified fragment purged (signature: 842)
+[20:48:35] Verified fragment purged (signature: 803)
+[20:48:35] Verified fragment purged (signature: 769)
+[20:48:35] Verified fragment purged (signature: 378)
+[20:48:35] Verified fragment purged (signature: 996)
+[20:48:35] Verified fragment purged (signature: 0)
+[20:48:35] Verified fragment purged (signature: 5)
+[20:48:35] Verified fragment purged (signature: 1018)
+[20:48:35] Verified fragment purged (signature: 855)
+[20:48:35] Verified fragment purged (signature: 532)
+[20:48:35] Verified fragment purged (signature: 431)
+[20:48:35] Verified fragment purged (signature: 722)
+[20:48:35] Verified fragment purged (signature: 596)
+[20:48:35] Verified fragment purged (signature: 273)
+[20:48:35] Verified fragment purged (signature: 290)
+[20:48:35] Verified fragment purged (signature: 501)
+[20:48:35] Verified fragment purged (signature: 639)
+[20:48:35] Verified fragment purged (signature: 639)
+[20:48:35] Signature synthesized: 817
+[20:48:35] Verified fragment purged (signature: 796)
+[20:48:35] Verified fragment purged (signature: 796)
+[20:48:35] Signature synthesized: 206
+[20:48:35] Verified fragment purged (signature: 815)
+[20:48:35] Verified fragment purged (signature: 815)
+[20:48:35] Verified fragment purged (signature: 474)
+[20:48:35] Verified fragment purged (signature: 91)
+[20:48:35] Verified fragment purged (signature: 474)
+[20:48:35] Verified fragment purged (signature: 91)
+[20:48:35] Verified fragment purged (signature: 781)
+[20:48:35] Verified fragment purged (signature: 781)
+[20:48:35] Verified fragment purged (signature: 754)
+[20:48:35] Verified fragment purged (signature: 754)
+[20:48:35] Verified fragment purged (signature: 89)
+[20:48:35] Verified fragment purged (signature: 89)
+[20:48:35] Verified fragment purged (signature: 632)
+[20:48:35] Verified fragment purged (signature: 632)
+[20:48:36] Anomaly fragment spawned at (452, 440)
+[20:48:36] Anomaly fragment spawned at (625, 487)
+[20:48:36] Anomaly fragment spawned at (496, 172)
+[20:48:38] Anomaly fragment spawned at (640, 399)
+[20:48:38] Anomaly fragment spawned at (691, 534)
+[20:48:38] Anomaly fragment spawned at (339, 239)
+[20:48:38] Signature synthesized: 698
+[20:48:38] Signature synthesized: 816
+[20:48:38] Signature synthesized: 598
+[20:48:38] Verified fragment purged (signature: 12)
+[20:48:38] Verified fragment purged (signature: 12)
+[20:48:38] Verified fragment purged (signature: 918)
+[20:48:38] Verified fragment purged (signature: 798)
+[20:48:38] Verified fragment purged (signature: 515)
+[20:48:38] Verified fragment purged (signature: 798)
+[20:48:38] Verified fragment purged (signature: 515)
+[20:48:38] Verified fragment purged (signature: 362)
+[20:48:38] Verified fragment purged (signature: 362)
+[20:48:38] Verified fragment purged (signature: 918)
+[20:48:38] Signature synthesized: 847
+[20:48:39] Signature synthesized: 369
+[20:48:39] Signature synthesized: 570
+[20:48:40] Anomaly fragment spawned at (216, 113)
+[20:48:40] Anomaly fragment spawned at (97, 113)
+[20:48:40] Anomaly fragment spawned at (406, 270)
+[20:48:42] Anomaly fragment spawned at (619, 234)
+[20:48:42] Anomaly fragment spawned at (681, 119)
+[20:48:42] Anomaly fragment spawned at (508, 224)
+[20:48:44] Anomaly fragment spawned at (629, 279)
+[20:48:44] Anomaly fragment spawned at (736, 310)
+[20:48:44] Anomaly fragment spawned at (612, 258)
+[20:48:46] Anomaly fragment spawned at (659, 118)
+[20:48:46] Anomaly fragment spawned at (202, 240)
+[20:48:46] Anomaly fragment spawned at (111, 285)
+[20:48:48] Anomaly fragment spawned at (251, 67)
+[20:48:48] Anomaly fragment spawned at (186, 163)
+[20:48:48] Anomaly fragment spawned at (249, 331)
+[20:48:50] Anomaly fragment spawned at (402, 464)
+[20:48:50] Anomaly fragment spawned at (110, 121)
+[20:48:50] Anomaly fragment spawned at (719, 204)
+[20:48:52] Anomaly fragment spawned at (329, 45)
+[20:48:52] Anomaly fragment spawned at (367, 82)
+[20:48:52] Anomaly fragment spawned at (315, 226)
+[20:48:54] Anomaly fragment spawned at (262, 339)
+[20:48:54] Anomaly fragment spawned at (263, 387)
+[20:48:54] Anomaly fragment spawned at (414, 432)
+[20:48:56] Anomaly fragment spawned at (768, 50)
+[20:48:56] Anomaly fragment spawned at (79, 180)
+[20:48:56] Anomaly fragment spawned at (731, 447)
+[20:48:58] Anomaly fragment spawned at (465, 125)
+[20:48:58] Anomaly fragment spawned at (557, 410)
+[20:48:58] Anomaly fragment spawned at (546, 61)
+[20:49:00] Anomaly fragment spawned at (622, 232)
+[20:49:00] Anomaly fragment spawned at (616, 179)
+[20:49:00] Anomaly fragment spawned at (195, 358)
+[20:49:02] Anomaly fragment spawned at (199, 90)
+[20:49:02] Anomaly fragment spawned at (585, 376)
+[20:49:02] Anomaly fragment spawned at (329, 341)
+[20:49:04] Anomaly fragment spawned at (674, 237)
+[20:49:04] Anomaly fragment spawned at (234, 265)
+[20:49:04] Anomaly fragment spawned at (331, 469)
+[20:49:06] Anomaly fragment spawned at (672, 270)
+[20:49:06] Anomaly fragment spawned at (305, 186)
+[20:49:06] Anomaly fragment spawned at (657, 62)
+[20:49:08] Anomaly fragment spawned at (349, 394)
+[20:49:08] Anomaly fragment spawned at (232, 264)
+[20:49:08] Anomaly fragment spawned at (690, 35)
+[20:49:10] Anomaly fragment spawned at (699, 215)
+[20:49:10] Anomaly fragment spawned at (480, 493)
+[20:49:10] Anomaly fragment spawned at (111, 225)
+[20:49:12] Anomaly fragment spawned at (236, 245)
+[20:49:12] Anomaly fragment spawned at (66, 82)
+[20:49:12] Anomaly fragment spawned at (219, 292)
+[20:49:14] Anomaly fragment spawned at (300, 139)
+[20:49:14] Anomaly fragment spawned at (272, 480)
+[20:49:14] Anomaly fragment spawned at (709, 476)
+[20:49:16] Anomaly fragment spawned at (700, 214)
+[20:49:16] Anomaly fragment spawned at (646, 512)
+[20:49:16] Anomaly fragment spawned at (522, 40)
+[20:49:18] Anomaly fragment spawned at (183, 424)
+[20:49:18] Anomaly fragment spawned at (768, 435)
+[20:49:18] Anomaly fragment spawned at (241, 556)
+[20:49:20] Anomaly fragment spawned at (555, 403)
+[20:49:20] Anomaly fragment spawned at (206, 520)
+[20:49:20] Anomaly fragment spawned at (537, 535)
+[20:49:20] Signature synthesized: 849
+[20:49:20] Signature synthesized: 491
+[20:49:20] Signature synthesized: 1000
+[20:49:20] Signature synthesized: 883
+[20:49:20] Signature synthesized: 189
+[20:49:20] Signature synthesized: 544
+[20:49:20] Signature synthesized: 580
+[20:49:20] Signature synthesized: 421
+[20:49:20] Signature synthesized: 591
+[20:49:20] Signature synthesized: 147
+[20:49:20] Signature synthesized: 831
+[20:49:20] Signature synthesized: 373
+[20:49:20] Signature synthesized: 290
+[20:49:20] Signature synthesized: 888
+[20:49:20] Verified fragment purged (signature: 698)
+[20:49:20] Verified fragment purged (signature: 598)
+[20:49:20] Verified fragment purged (signature: 816)
+[20:49:20] Verified fragment purged (signature: 598)
+[20:49:20] Verified fragment purged (signature: 313)
+[20:49:20] Verified fragment purged (signature: 369)
+[20:49:20] Verified fragment purged (signature: 313)
+[20:49:20] Verified fragment purged (signature: 817)
+[20:49:20] Verified fragment purged (signature: 817)
+[20:49:20] Verified fragment purged (signature: 793)
+[20:49:20] Verified fragment purged (signature: 109)
+[20:49:20] Verified fragment purged (signature: 847)
+[20:49:20] Verified fragment purged (signature: 206)
+[20:49:20] Verified fragment purged (signature: 128)
+[20:49:20] Verified fragment purged (signature: 570)
+[20:49:20] Verified fragment purged (signature: 570)
+[20:49:20] Verified fragment purged (signature: 87)
+[20:49:20] Verified fragment purged (signature: 109)
+[20:49:20] Verified fragment purged (signature: 87)
+[20:49:20] Verified fragment purged (signature: 945)
+[20:49:20] Verified fragment purged (signature: 847)
+[20:49:20] Verified fragment purged (signature: 952)
+[20:49:20] Verified fragment purged (signature: 128)
+[20:49:20] Verified fragment purged (signature: 816)
+[20:49:20] Verified fragment purged (signature: 952)
+[20:49:20] Verified fragment purged (signature: 369)
+[20:49:20] Verified fragment purged (signature: 590)
+[20:49:20] Verified fragment purged (signature: 590)
+[20:49:20] Verified fragment purged (signature: 945)
+[20:49:20] Verified fragment purged (signature: 698)
+[20:49:20] Verified fragment purged (signature: 206)
+[20:49:20] Verified fragment purged (signature: 793)
+[20:49:20] Signature synthesized: 953
+[20:49:20] Signature synthesized: 703
+[20:49:20] Signature synthesized: 949
+[20:49:20] Signature synthesized: 119
+[20:49:20] Signature synthesized: 873
+[20:49:20] Signature synthesized: 701
+[20:49:21] Signature synthesized: 636
+[20:49:21] Signature synthesized: 554
+[20:49:21] Signature synthesized: 349
+[20:49:21] Signature synthesized: 877
+[20:49:21] Signature synthesized: 5
+[20:49:21] Signature synthesized: 600
+[20:49:21] Signature synthesized: 847
+[20:49:21] Signature synthesized: 457
+[20:49:21] Signature synthesized: 158
+[20:49:21] Anomaly fragment spawned at (188, 152)
+[20:49:21] Anomaly fragment spawned at (549, 168)
+[20:49:21] Anomaly fragment spawned at (396, 65)
+[20:49:21] Signature synthesized: 343
+[20:49:22] Signature synthesized: 886
+[20:49:22] Signature synthesized: 328
+[20:49:22] Signature synthesized: 370
+[20:49:22] Signature synthesized: 182
+[20:49:23] Signature synthesized: 8
+[20:49:23] Anomaly fragment spawned at (315, 54)
+[20:49:23] Anomaly fragment spawned at (294, 47)
+[20:49:23] Anomaly fragment spawned at (453, 359)
+[20:49:23] Signature synthesized: 707
+[20:49:24] Signature synthesized: 851
+[20:49:25] Signature synthesized: 601
+[20:49:25] CRITICAL MATCH: Signature 601 matches threat profile 601!
+───────────────────────────────────────────────────────────────
+
+FORENSIC CONCLUSION:
+───────────────────────────────────────────────────────────────
+Threat signature 601 successfully intercepted after
+1321 seconds with 721 cryptographic syntheses.
+System integrity maintained. No residual anomalies detected.
+───────────────────────────────────────────────────────────────
+
+INTEGRITY VERIFICATION:
+───────────────────────────────────────────────────────────────
+SHA-256 Hash: 7c96847f0687e7b7d186a603035a8efde7c4a248d508a42353b4d068ef5f95ef
+This hash validates the authenticity of this log file.
+───────────────────────────────────────────────────────────────
+
+═══════════════════════════════════════════════════════════════
+                    END OF THREAT LOG
+═══════════════════════════════════════════════════════════════
