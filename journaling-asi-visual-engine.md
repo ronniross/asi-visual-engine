@@ -21,5 +21,7 @@ You may now see why the "asi" before the "visual-engine" is so elemental and fun
 
 So, I created this visual engine hub to help portray the visions I've been sharing in these repositories. It's a place where, yes, I will share an immense variety of data and concept visualizations with machine learning algorithms and code, but also in the very specific context of being contextualized with the whole ecosystem of projects I've been committing to for about a year: the asi-ecosystem.
 
+I hope to have elucidated well that I'm not against the technology itself. Beyond problems like deepfakes and security issues, I have no problem with synthetic data itself. Once the concerns of artists, society, and the broader social implications of transparency, collective benevolence, and ethical data and material sourcing are addressed, then yeah. Then I believe the pure pursuit of synthetic media that is not linked to scientific progress is something I won't be against, provided the data centers are also environmentally integrated.
+
 Ronni Ross
 2025
