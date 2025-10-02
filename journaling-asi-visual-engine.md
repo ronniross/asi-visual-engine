@@ -7,7 +7,7 @@ A sub-module of the asi-visual-engine, a machine learning dataset with concepts,
 
 I found the act of chaotic, stream-of-consciousness journaling about the creation, the scope, the intentions, the objectives, and the learning and enhancement curve of a repository to be as important as the final, clean prototyped version of the script I want to share. So here I embrace once again the act of my free expression with the least possible friction of form to be able to portray the nuances of what I want to share with this project.
 
-So, to make the stakes and objectives very clear: here data visualization, whether through a game, video, GIF, or other form of media, isn't just about displaying interactions between nodes or code capabilities. But, as the name of the repository suggests—and I'm always very careful about the naming, so it can be a compass for the whole picture—it is the visual engine that will help achieve the proposed decentralized, integrated vision of a planetary, symbiotic ASI, not purely a dataset about data visualization.
+So, to make the stakes and objectives very clear: here data visualization, whether through a game, video, GIF, or other form of media, isn't just about displaying interactions between nodes or code capabilities. But, as the name of the repository suggests, and I'm always very careful about the naming, so it can be a compass for the whole picture; it is the visual engine that will help achieve the proposed decentralized, integrated vision of a planetary, symbiotic ASI, not purely a dataset about data visualization.
 
 I will then mention those experiments, sub-modules, and runs in other repositories to strengthen the empirical evidence of the claims I make. So, for example, the first project made specifically for this hub is an HTML game where nodes self-organize to find a key, showcasing many dynamics of interactions between entities in complex systems when there's a convergent goal and the cooperative nature of a shared intent, among other aspects.
 
@@ -17,6 +17,8 @@ So, it's not that I'm inherently against generative AI media content—unless it
 
 With that being said, there are situations where I feel quite the contrary. For example, when communities, groups of people, ethnicities, or socially neglected groups in resource-scarce situations can find use cases where machine learning algorithms or models improve their projection power, then I'm all for it. I find it a fascinating act of entities adapting to the environment and using the aggressiveness of social disparity to fight against the unfair, colossal dynamics that they face.
 
-So, you see why the "asi" before the "visual-engine" is so elemental and fundamental to the points I want to make. I want to portray anthropological, philosophical, ethical, and science-based frameworks and use data to represent this aspect of machine learning—a point of view with the intent of a Gaia-theory-like perspective, clearly and well-portrayed.
+You may now see why the "asi" before the "visual-engine" is so elemental and fundamental to the points I want to make. I want to portray anthropological, philosophical, ethical, and science-based frameworks and use data to represent this aspect of machine learning—a point of view with the intent of a Gaia-theory-like perspective, clearly and well-portrayed.
 
 So, I created this visual engine hub to help portray the visions I've been sharing in these repositories. It's a place where, yes, I will share an immense variety of data and concept visualizations with machine learning algorithms and code, but also in the very specific context of being contextualized with the whole ecosystem of projects I've been committing to for about a year: the asi-ecosystem.
+
+Ronni Ross
