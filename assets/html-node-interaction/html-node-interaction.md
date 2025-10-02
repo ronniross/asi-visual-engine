@@ -1,7 +1,11 @@
 
-## HTML Node Interaction Game Data Visualizer
+# HTML Node Interaction Game Data Visualizer
 
 A sub-module o fthe asi-visual-engine repository, a machine learning dataset with concepts, code, journaling, and full prototypes for deep learning data visualization, fostering transparency and interpretability in AI decision-making.
+
+![hippo](https://github.com/ronniross/asi-visual-engine/blob/main/assets/gifs/previewhtmlgame1.gif)
+
+## Introduction
 
 This Node interaction simulation aims to demonstrate how decentralized complex systems, operating through simple local interactions and emergent parallelism, can efficiently converge toward specific objectives despite lacking centralized coordination, revealing that such distributed architectures possess remarkable probabilistic advantages for discovering novel solutions.
 
