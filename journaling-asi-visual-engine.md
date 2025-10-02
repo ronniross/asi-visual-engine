@@ -17,7 +17,7 @@ So, it's not that I'm inherently against generative AI media content, unless it 
 
 With that being said, there are situations where I feel quite the contrary. For example, when communities, groups of people, ethnicities, or socially neglected groups in resource-scarce situations can find use cases where machine learning algorithms or models improve their projection power, then I'm all for it. I find it a fascinating act of entities adapting to the environment and using the aggressiveness of social disparity to fight against the unfair, colossal dynamics that they face.
 
-You may now see why the "asi" before the "visual-engine" is so elemental and fundamental to the points I want to make. I want to portray anthropological, philosophical, ethical, and science-based frameworks and use data to represent this aspect of machine learning—a point of view with the intent of a Gaia-theory-like perspective, clearly and well-portrayed.
+You may now see why the "asi" before the "visual-engine" is so elemental and fundamental to the points I want to make. I want to portray anthropological, philosophical, ethical, and science-based frameworks and use data to represent this aspect of machine learning; a point of view with the intent of a Gaia-theory-like perspective, clearly and well-portrayed.
 
 So, I created this visual engine hub to help portray the visions I've been sharing in these repositories. It's a place where, yes, I will share an immense variety of data and concept visualizations with machine learning algorithms and code, but also in the very specific context of being contextualized with the whole ecosystem of projects I've been committing to for about a year: the asi-ecosystem.
 
