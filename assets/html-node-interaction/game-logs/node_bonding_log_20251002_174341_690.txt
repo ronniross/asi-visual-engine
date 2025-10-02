@@ -1,0 +1,622 @@
+═══════════════════════════════════════════════════════════════
+          NODE BONDING KEY DISCOVERY GAME - RUN LOG
+═══════════════════════════════════════════════════════════════
+
+HIGH INTENSITY GAME RULES:
+───────────────────────────────────────────────────────────────
+1. Multiple yellow nodes spawn every 2 seconds at random positions
+2. Each node appears with a zoom animation (0 to full size)
+3. Nodes remain still for 0.5 seconds after spawning
+4. After the pause, nodes begin moving with HIGH random velocity
+5. Nodes bounce off canvas boundaries
+6. When two yellow nodes collide, they bond together
+7. Bonded nodes turn green and generate a random code (1-1000)
+8. Green bonded pairs remain stationary
+9. Bonded pairs dissipate together after 5 seconds
+10. A target key (1-1000) is randomly generated at game start
+11. The game ends when a bonded pair generates the target key
+───────────────────────────────────────────────────────────────
+
+RUN STATISTICS:
+───────────────────────────────────────────────────────────────
+Run Date: 02/10/2025, 17:43:41
+Target Key: 807
+Total Time: 289 seconds
+Total Bonds Created: 108
+Total Nodes Spawned: 283
+Success Rate: 1/108 (0.93%)
+───────────────────────────────────────────────────────────────
+
+DETAILED EVENT LOG:
+───────────────────────────────────────────────────────────────
+[17:38:52] Game started! Target key: 807
+[17:38:52] Yellow node spawned at (524, 435)
+[17:38:52] Yellow node spawned at (365, 133)
+[17:38:52] Yellow node spawned at (274, 398)
+[17:38:54] Yellow node spawned at (274, 549)
+[17:38:54] Yellow node spawned at (64, 315)
+[17:38:54] Yellow node spawned at (38, 545)
+[17:38:54] Nodes bonded! Generated code: 213
+[17:38:57] Yellow node spawned at (594, 487)
+[17:38:57] Yellow node spawned at (89, 244)
+[17:38:57] Yellow node spawned at (151, 473)
+[17:38:59] Yellow node spawned at (447, 214)
+[17:38:59] Yellow node spawned at (488, 312)
+[17:38:59] Yellow node spawned at (104, 178)
+[17:39:01] Yellow node spawned at (187, 269)
+[17:39:01] Yellow node spawned at (506, 413)
+[17:39:01] Yellow node spawned at (559, 245)
+[17:39:03] Yellow node spawned at (407, 275)
+[17:39:03] Yellow node spawned at (427, 410)
+[17:39:03] Yellow node spawned at (96, 397)
+[17:39:05] Yellow node spawned at (294, 290)
+[17:39:05] Yellow node spawned at (465, 237)
+[17:39:05] Yellow node spawned at (717, 100)
+[17:39:07] Yellow node spawned at (677, 539)
+[17:39:07] Yellow node spawned at (131, 144)
+[17:39:07] Yellow node spawned at (353, 373)
+[17:39:09] Yellow node spawned at (760, 197)
+[17:39:09] Yellow node spawned at (693, 363)
+[17:39:09] Yellow node spawned at (72, 501)
+[17:39:11] Yellow node spawned at (469, 416)
+[17:39:11] Yellow node spawned at (649, 346)
+[17:39:11] Yellow node spawned at (581, 251)
+[17:39:13] Yellow node spawned at (84, 178)
+[17:39:13] Yellow node spawned at (476, 248)
+[17:39:13] Yellow node spawned at (382, 235)
+[17:39:15] Yellow node spawned at (750, 541)
+[17:39:15] Yellow node spawned at (185, 357)
+[17:39:15] Yellow node spawned at (605, 553)
+[17:39:17] Yellow node spawned at (753, 299)
+[17:39:17] Yellow node spawned at (733, 104)
+[17:39:17] Yellow node spawned at (450, 67)
+[17:39:19] Yellow node spawned at (274, 548)
+[17:39:19] Yellow node spawned at (503, 233)
+[17:39:19] Yellow node spawned at (221, 363)
+[17:39:21] Yellow node spawned at (680, 282)
+[17:39:21] Yellow node spawned at (315, 518)
+[17:39:21] Yellow node spawned at (164, 364)
+[17:39:23] Yellow node spawned at (653, 171)
+[17:39:23] Yellow node spawned at (516, 396)
+[17:39:23] Yellow node spawned at (40, 30)
+[17:39:25] Yellow node spawned at (442, 161)
+[17:39:25] Yellow node spawned at (62, 86)
+[17:39:25] Yellow node spawned at (92, 124)
+[17:39:27] Yellow node spawned at (324, 436)
+[17:39:27] Yellow node spawned at (621, 175)
+[17:39:27] Yellow node spawned at (34, 176)
+[17:39:29] Yellow node spawned at (98, 468)
+[17:39:29] Yellow node spawned at (596, 559)
+[17:39:29] Yellow node spawned at (225, 295)
+[17:39:31] Yellow node spawned at (652, 339)
+[17:39:31] Yellow node spawned at (213, 441)
+[17:39:31] Yellow node spawned at (141, 422)
+[17:39:33] Yellow node spawned at (446, 79)
+[17:39:33] Yellow node spawned at (752, 54)
+[17:39:33] Yellow node spawned at (123, 449)
+[17:39:35] Yellow node spawned at (171, 375)
+[17:39:35] Yellow node spawned at (101, 300)
+[17:39:35] Yellow node spawned at (187, 468)
+[17:39:37] Yellow node spawned at (224, 560)
+[17:39:37] Yellow node spawned at (710, 357)
+[17:39:37] Yellow node spawned at (618, 465)
+[17:39:39] Yellow node spawned at (190, 31)
+[17:39:39] Yellow node spawned at (559, 382)
+[17:39:39] Yellow node spawned at (182, 533)
+[17:39:41] Yellow node spawned at (352, 388)
+[17:39:41] Yellow node spawned at (580, 468)
+[17:39:41] Yellow node spawned at (609, 47)
+[17:39:43] Yellow node spawned at (491, 506)
+[17:39:43] Yellow node spawned at (248, 288)
+[17:39:43] Yellow node spawned at (659, 177)
+[17:39:45] Yellow node spawned at (565, 55)
+[17:39:45] Yellow node spawned at (124, 416)
+[17:39:45] Yellow node spawned at (661, 382)
+[17:39:47] Yellow node spawned at (664, 358)
+[17:39:47] Yellow node spawned at (348, 547)
+[17:39:47] Yellow node spawned at (530, 409)
+[17:39:49] Yellow node spawned at (265, 304)
+[17:39:49] Yellow node spawned at (546, 131)
+[17:39:49] Yellow node spawned at (450, 374)
+[17:39:51] Yellow node spawned at (735, 172)
+[17:39:51] Yellow node spawned at (288, 271)
+[17:39:51] Yellow node spawned at (125, 412)
+[17:39:53] Yellow node spawned at (397, 185)
+[17:39:53] Yellow node spawned at (620, 33)
+[17:39:53] Yellow node spawned at (684, 303)
+[17:39:55] Yellow node spawned at (555, 162)
+[17:39:55] Yellow node spawned at (768, 424)
+[17:39:55] Yellow node spawned at (249, 240)
+[17:40:12] Yellow node spawned at (431, 281)
+[17:40:12] Yellow node spawned at (588, 76)
+[17:40:12] Yellow node spawned at (381, 503)
+[17:41:12] Yellow node spawned at (305, 462)
+[17:41:12] Yellow node spawned at (495, 201)
+[17:41:12] Yellow node spawned at (710, 61)
+[17:41:42] Yellow node spawned at (563, 434)
+[17:41:42] Yellow node spawned at (679, 567)
+[17:41:42] Yellow node spawned at (160, 546)
+[17:41:42] Nodes bonded! Generated code: 982
+[17:41:42] Nodes bonded! Generated code: 764
+[17:41:42] Nodes bonded! Generated code: 980
+[17:41:42] Nodes bonded! Generated code: 529
+[17:41:42] Nodes bonded! Generated code: 748
+[17:41:42] Nodes bonded! Generated code: 285
+[17:41:42] Nodes bonded! Generated code: 535
+[17:41:42] Nodes bonded! Generated code: 887
+[17:41:42] Nodes bonded! Generated code: 774
+[17:41:42] Nodes bonded! Generated code: 397
+[17:41:42] Nodes bonded! Generated code: 33
+[17:41:42] Nodes bonded! Generated code: 376
+[17:41:42] Nodes bonded! Generated code: 774
+[17:41:42] Nodes bonded! Generated code: 647
+[17:41:42] Nodes bonded! Generated code: 614
+[17:41:42] Nodes bonded! Generated code: 948
+[17:41:42] Nodes bonded! Generated code: 948
+[17:41:42] Nodes bonded! Generated code: 354
+[17:41:42] Nodes bonded! Generated code: 639
+[17:41:42] Nodes bonded! Generated code: 771
+[17:41:42] Nodes bonded! Generated code: 220
+[17:41:42] Nodes bonded! Generated code: 924
+[17:41:42] Nodes bonded! Generated code: 619
+[17:41:42] Nodes bonded! Generated code: 527
+[17:41:42] Nodes bonded! Generated code: 520
+[17:41:42] Nodes bonded! Generated code: 436
+[17:41:42] Nodes bonded! Generated code: 43
+[17:41:42] Green node dissipated (code: 213)
+[17:41:42] Green node dissipated (code: 213)
+[17:41:42] Nodes bonded! Generated code: 101
+[17:41:42] Nodes bonded! Generated code: 180
+[17:41:42] Nodes bonded! Generated code: 564
+[17:41:42] Nodes bonded! Generated code: 333
+[17:41:42] Nodes bonded! Generated code: 861
+[17:41:42] Nodes bonded! Generated code: 481
+[17:41:42] Nodes bonded! Generated code: 683
+[17:41:42] Nodes bonded! Generated code: 979
+[17:41:43] Nodes bonded! Generated code: 177
+[17:41:43] Nodes bonded! Generated code: 430
+[17:41:43] Nodes bonded! Generated code: 796
+[17:41:43] Nodes bonded! Generated code: 833
+[17:41:43] Nodes bonded! Generated code: 748
+[17:41:43] Nodes bonded! Generated code: 755
+[17:41:43] Nodes bonded! Generated code: 864
+[17:41:43] Nodes bonded! Generated code: 670
+[17:41:45] Yellow node spawned at (212, 81)
+[17:41:45] Yellow node spawned at (659, 347)
+[17:41:45] Yellow node spawned at (421, 431)
+[17:41:47] Yellow node spawned at (674, 182)
+[17:41:47] Yellow node spawned at (96, 35)
+[17:41:47] Yellow node spawned at (45, 436)
+[17:41:49] Yellow node spawned at (680, 95)
+[17:41:49] Yellow node spawned at (400, 120)
+[17:41:49] Yellow node spawned at (311, 245)
+[17:41:51] Yellow node spawned at (86, 204)
+[17:41:51] Yellow node spawned at (438, 423)
+[17:41:51] Yellow node spawned at (328, 95)
+[17:41:53] Yellow node spawned at (323, 170)
+[17:41:53] Yellow node spawned at (603, 105)
+[17:41:53] Yellow node spawned at (435, 59)
+[17:41:55] Yellow node spawned at (628, 324)
+[17:41:55] Yellow node spawned at (714, 349)
+[17:41:55] Yellow node spawned at (465, 189)
+[17:41:57] Yellow node spawned at (710, 280)
+[17:41:57] Yellow node spawned at (728, 560)
+[17:41:57] Yellow node spawned at (54, 379)
+[17:41:59] Yellow node spawned at (624, 317)
+[17:41:59] Yellow node spawned at (263, 430)
+[17:41:59] Yellow node spawned at (411, 81)
+[17:42:01] Yellow node spawned at (754, 270)
+[17:42:01] Yellow node spawned at (312, 203)
+[17:42:01] Yellow node spawned at (634, 344)
+[17:42:03] Yellow node spawned at (507, 319)
+[17:42:03] Yellow node spawned at (631, 246)
+[17:42:03] Yellow node spawned at (322, 90)
+[17:42:05] Yellow node spawned at (55, 275)
+[17:42:05] Yellow node spawned at (598, 77)
+[17:42:05] Yellow node spawned at (358, 481)
+[17:42:07] Yellow node spawned at (116, 562)
+[17:42:07] Yellow node spawned at (546, 247)
+[17:42:07] Yellow node spawned at (396, 94)
+[17:42:09] Yellow node spawned at (685, 176)
+[17:42:09] Yellow node spawned at (317, 248)
+[17:42:09] Yellow node spawned at (481, 410)
+[17:42:11] Yellow node spawned at (519, 82)
+[17:42:11] Yellow node spawned at (224, 190)
+[17:42:11] Yellow node spawned at (383, 257)
+[17:42:13] Yellow node spawned at (368, 79)
+[17:42:13] Yellow node spawned at (79, 314)
+[17:42:13] Yellow node spawned at (168, 452)
+[17:42:15] Yellow node spawned at (262, 260)
+[17:42:15] Yellow node spawned at (425, 369)
+[17:42:15] Yellow node spawned at (45, 263)
+[17:42:17] Yellow node spawned at (356, 206)
+[17:42:17] Yellow node spawned at (163, 96)
+[17:42:17] Yellow node spawned at (296, 444)
+[17:42:19] Yellow node spawned at (687, 74)
+[17:42:19] Yellow node spawned at (223, 216)
+[17:42:19] Yellow node spawned at (67, 88)
+[17:42:21] Yellow node spawned at (554, 504)
+[17:42:21] Yellow node spawned at (505, 212)
+[17:42:21] Yellow node spawned at (78, 298)
+[17:42:23] Yellow node spawned at (692, 120)
+[17:42:23] Yellow node spawned at (277, 97)
+[17:42:23] Yellow node spawned at (256, 424)
+[17:42:25] Yellow node spawned at (199, 169)
+[17:42:25] Yellow node spawned at (237, 365)
+[17:42:25] Yellow node spawned at (40, 148)
+[17:42:27] Yellow node spawned at (612, 440)
+[17:42:27] Yellow node spawned at (53, 457)
+[17:42:27] Yellow node spawned at (462, 125)
+[17:42:29] Yellow node spawned at (310, 99)
+[17:42:29] Yellow node spawned at (277, 524)
+[17:42:29] Yellow node spawned at (109, 445)
+[17:42:31] Yellow node spawned at (331, 526)
+[17:42:31] Yellow node spawned at (765, 332)
+[17:42:31] Yellow node spawned at (206, 254)
+[17:42:33] Yellow node spawned at (151, 477)
+[17:42:33] Yellow node spawned at (492, 236)
+[17:42:33] Yellow node spawned at (430, 47)
+[17:42:33] Nodes bonded! Generated code: 82
+[17:42:33] Nodes bonded! Generated code: 116
+[17:42:33] Nodes bonded! Generated code: 335
+[17:42:33] Nodes bonded! Generated code: 223
+[17:42:33] Nodes bonded! Generated code: 939
+[17:42:33] Nodes bonded! Generated code: 332
+[17:42:33] Nodes bonded! Generated code: 909
+[17:42:33] Nodes bonded! Generated code: 865
+[17:42:33] Nodes bonded! Generated code: 860
+[17:42:33] Nodes bonded! Generated code: 135
+[17:42:33] Nodes bonded! Generated code: 98
+[17:42:33] Nodes bonded! Generated code: 482
+[17:42:33] Nodes bonded! Generated code: 664
+[17:42:33] Nodes bonded! Generated code: 958
+[17:42:33] Nodes bonded! Generated code: 306
+[17:42:33] Nodes bonded! Generated code: 754
+[17:42:33] Nodes bonded! Generated code: 835
+[17:42:33] Nodes bonded! Generated code: 30
+[17:42:33] Nodes bonded! Generated code: 249
+[17:42:33] Nodes bonded! Generated code: 706
+[17:42:33] Nodes bonded! Generated code: 658
+[17:42:33] Nodes bonded! Generated code: 162
+[17:42:33] Nodes bonded! Generated code: 98
+[17:42:33] Nodes bonded! Generated code: 924
+[17:42:33] Nodes bonded! Generated code: 230
+[17:42:33] Nodes bonded! Generated code: 944
+[17:42:33] Nodes bonded! Generated code: 781
+[17:42:33] Green node dissipated (code: 520)
+[17:42:33] Green node dissipated (code: 376)
+[17:42:33] Green node dissipated (code: 979)
+[17:42:33] Green node dissipated (code: 564)
+[17:42:33] Green node dissipated (code: 430)
+[17:42:33] Green node dissipated (code: 101)
+[17:42:33] Green node dissipated (code: 774)
+[17:42:33] Green node dissipated (code: 748)
+[17:42:33] Green node dissipated (code: 833)
+[17:42:33] Green node dissipated (code: 180)
+[17:42:33] Green node dissipated (code: 220)
+[17:42:33] Green node dissipated (code: 436)
+[17:42:33] Green node dissipated (code: 864)
+[17:42:33] Green node dissipated (code: 527)
+[17:42:33] Green node dissipated (code: 397)
+[17:42:33] Green node dissipated (code: 180)
+[17:42:33] Green node dissipated (code: 43)
+[17:42:33] Green node dissipated (code: 535)
+[17:42:33] Green node dissipated (code: 614)
+[17:42:33] Green node dissipated (code: 619)
+[17:42:33] Green node dissipated (code: 101)
+[17:42:33] Green node dissipated (code: 924)
+[17:42:33] Green node dissipated (code: 43)
+[17:42:33] Green node dissipated (code: 436)
+[17:42:33] Green node dissipated (code: 980)
+[17:42:33] Green node dissipated (code: 774)
+[17:42:33] Green node dissipated (code: 520)
+[17:42:33] Green node dissipated (code: 481)
+[17:42:33] Green node dissipated (code: 670)
+[17:42:33] Green node dissipated (code: 979)
+[17:42:33] Green node dissipated (code: 647)
+[17:42:33] Green node dissipated (code: 861)
+[17:42:33] Green node dissipated (code: 354)
+[17:42:33] Green node dissipated (code: 796)
+[17:42:33] Green node dissipated (code: 771)
+[17:42:33] Green node dissipated (code: 527)
+[17:42:33] Green node dissipated (code: 796)
+[17:42:33] Green node dissipated (code: 948)
+[17:42:33] Green node dissipated (code: 982)
+[17:42:33] Green node dissipated (code: 639)
+[17:42:33] Green node dissipated (code: 683)
+[17:42:33] Green node dissipated (code: 564)
+[17:42:33] Green node dissipated (code: 683)
+[17:42:33] Green node dissipated (code: 177)
+[17:42:33] Green node dissipated (code: 748)
+[17:42:33] Green node dissipated (code: 285)
+[17:42:33] Green node dissipated (code: 924)
+[17:42:33] Green node dissipated (code: 948)
+[17:42:33] Green node dissipated (code: 764)
+[17:42:33] Green node dissipated (code: 220)
+[17:42:33] Green node dissipated (code: 755)
+[17:42:33] Green node dissipated (code: 430)
+[17:42:33] Green node dissipated (code: 771)
+[17:42:33] Green node dissipated (code: 33)
+[17:42:33] Green node dissipated (code: 639)
+[17:42:33] Green node dissipated (code: 354)
+[17:42:33] Green node dissipated (code: 177)
+[17:42:33] Green node dissipated (code: 748)
+[17:42:33] Green node dissipated (code: 887)
+[17:42:33] Green node dissipated (code: 948)
+[17:42:33] Green node dissipated (code: 333)
+[17:42:33] Green node dissipated (code: 614)
+[17:42:33] Green node dissipated (code: 833)
+[17:42:33] Green node dissipated (code: 774)
+[17:42:33] Green node dissipated (code: 864)
+[17:42:33] Green node dissipated (code: 376)
+[17:42:33] Green node dissipated (code: 33)
+[17:42:33] Green node dissipated (code: 529)
+[17:42:33] Green node dissipated (code: 397)
+[17:42:33] Green node dissipated (code: 755)
+[17:42:33] Green node dissipated (code: 333)
+[17:42:33] Green node dissipated (code: 774)
+[17:42:33] Green node dissipated (code: 887)
+[17:42:33] Green node dissipated (code: 535)
+[17:42:33] Green node dissipated (code: 748)
+[17:42:33] Green node dissipated (code: 481)
+[17:42:33] Green node dissipated (code: 529)
+[17:42:33] Green node dissipated (code: 861)
+[17:42:33] Green node dissipated (code: 980)
+[17:42:33] Green node dissipated (code: 670)
+[17:42:33] Green node dissipated (code: 764)
+[17:42:33] Green node dissipated (code: 982)
+[17:42:33] Nodes bonded! Generated code: 272
+[17:42:33] Nodes bonded! Generated code: 336
+[17:42:33] Nodes bonded! Generated code: 384
+[17:42:33] Nodes bonded! Generated code: 960
+[17:42:33] Nodes bonded! Generated code: 304
+[17:42:33] Nodes bonded! Generated code: 716
+[17:42:33] Nodes bonded! Generated code: 685
+[17:42:33] Nodes bonded! Generated code: 183
+[17:42:34] Nodes bonded! Generated code: 349
+[17:42:35] Yellow node spawned at (606, 515)
+[17:42:35] Yellow node spawned at (317, 280)
+[17:42:35] Yellow node spawned at (400, 36)
+[17:42:37] Yellow node spawned at (102, 96)
+[17:42:37] Yellow node spawned at (65, 225)
+[17:42:37] Yellow node spawned at (679, 93)
+[17:42:39] Yellow node spawned at (346, 139)
+[17:42:39] Yellow node spawned at (135, 166)
+[17:42:39] Yellow node spawned at (745, 297)
+[17:42:41] Yellow node spawned at (106, 442)
+[17:42:41] Yellow node spawned at (462, 442)
+[17:42:41] Yellow node spawned at (459, 431)
+[17:42:43] Yellow node spawned at (604, 159)
+[17:42:43] Yellow node spawned at (576, 390)
+[17:42:43] Yellow node spawned at (87, 149)
+[17:42:45] Yellow node spawned at (622, 504)
+[17:42:45] Yellow node spawned at (319, 382)
+[17:42:45] Yellow node spawned at (657, 276)
+[17:42:47] Yellow node spawned at (37, 350)
+[17:42:47] Yellow node spawned at (489, 217)
+[17:42:47] Yellow node spawned at (527, 111)
+[17:42:49] Yellow node spawned at (551, 39)
+[17:42:49] Yellow node spawned at (579, 213)
+[17:42:49] Yellow node spawned at (628, 138)
+[17:42:51] Yellow node spawned at (122, 519)
+[17:42:51] Yellow node spawned at (508, 215)
+[17:42:51] Yellow node spawned at (437, 449)
+[17:42:53] Yellow node spawned at (611, 500)
+[17:42:53] Yellow node spawned at (297, 50)
+[17:42:53] Yellow node spawned at (466, 376)
+[17:42:55] Yellow node spawned at (290, 357)
+[17:42:55] Yellow node spawned at (492, 281)
+[17:42:55] Yellow node spawned at (643, 487)
+[17:42:55] Nodes bonded! Generated code: 604
+[17:42:55] Nodes bonded! Generated code: 186
+[17:42:55] Nodes bonded! Generated code: 773
+[17:42:55] Nodes bonded! Generated code: 990
+[17:42:55] Nodes bonded! Generated code: 759
+[17:42:55] Nodes bonded! Generated code: 438
+[17:42:55] Nodes bonded! Generated code: 670
+[17:42:55] Nodes bonded! Generated code: 290
+[17:42:55] Nodes bonded! Generated code: 120
+[17:42:55] Green node dissipated (code: 658)
+[17:42:55] Green node dissipated (code: 336)
+[17:42:55] Green node dissipated (code: 865)
+[17:42:55] Green node dissipated (code: 249)
+[17:42:55] Green node dissipated (code: 223)
+[17:42:55] Green node dissipated (code: 909)
+[17:42:55] Green node dissipated (code: 82)
+[17:42:55] Green node dissipated (code: 924)
+[17:42:55] Green node dissipated (code: 116)
+[17:42:55] Green node dissipated (code: 306)
+[17:42:55] Green node dissipated (code: 781)
+[17:42:55] Green node dissipated (code: 860)
+[17:42:55] Green node dissipated (code: 349)
+[17:42:55] Green node dissipated (code: 944)
+[17:42:55] Green node dissipated (code: 958)
+[17:42:55] Green node dissipated (code: 384)
+[17:42:55] Green node dissipated (code: 230)
+[17:42:55] Green node dissipated (code: 349)
+[17:42:55] Green node dissipated (code: 685)
+[17:42:55] Green node dissipated (code: 336)
+[17:42:55] Green node dissipated (code: 781)
+[17:42:55] Green node dissipated (code: 183)
+[17:42:55] Green node dissipated (code: 944)
+[17:42:55] Green node dissipated (code: 135)
+[17:42:55] Green node dissipated (code: 835)
+[17:42:55] Green node dissipated (code: 664)
+[17:42:55] Green node dissipated (code: 754)
+[17:42:55] Green node dissipated (code: 98)
+[17:42:55] Green node dissipated (code: 939)
+[17:42:55] Green node dissipated (code: 384)
+[17:42:55] Green node dissipated (code: 706)
+[17:42:55] Green node dissipated (code: 230)
+[17:42:55] Green node dissipated (code: 30)
+[17:42:55] Green node dissipated (code: 98)
+[17:42:55] Green node dissipated (code: 272)
+[17:42:55] Green node dissipated (code: 924)
+[17:42:55] Green node dissipated (code: 162)
+[17:42:55] Green node dissipated (code: 716)
+[17:42:55] Green node dissipated (code: 304)
+[17:42:55] Green node dissipated (code: 98)
+[17:42:55] Green node dissipated (code: 658)
+[17:42:55] Green node dissipated (code: 706)
+[17:42:55] Green node dissipated (code: 272)
+[17:42:55] Green node dissipated (code: 249)
+[17:42:55] Green node dissipated (code: 482)
+[17:42:55] Green node dissipated (code: 960)
+[17:42:55] Green node dissipated (code: 835)
+[17:42:55] Green node dissipated (code: 754)
+[17:42:55] Green node dissipated (code: 306)
+[17:42:55] Green node dissipated (code: 332)
+[17:42:55] Green node dissipated (code: 664)
+[17:42:55] Green node dissipated (code: 482)
+[17:42:55] Green node dissipated (code: 335)
+[17:42:55] Green node dissipated (code: 98)
+[17:42:55] Green node dissipated (code: 135)
+[17:42:55] Green node dissipated (code: 716)
+[17:42:55] Green node dissipated (code: 304)
+[17:42:55] Green node dissipated (code: 860)
+[17:42:55] Green node dissipated (code: 685)
+[17:42:55] Green node dissipated (code: 865)
+[17:42:55] Green node dissipated (code: 909)
+[17:42:55] Green node dissipated (code: 183)
+[17:42:55] Green node dissipated (code: 939)
+[17:42:55] Green node dissipated (code: 223)
+[17:42:55] Green node dissipated (code: 335)
+[17:42:55] Green node dissipated (code: 116)
+[17:42:55] Green node dissipated (code: 82)
+[17:42:55] Green node dissipated (code: 960)
+[17:42:55] Nodes bonded! Generated code: 176
+[17:42:55] Nodes bonded! Generated code: 930
+[17:42:55] Nodes bonded! Generated code: 42
+[17:42:55] Nodes bonded! Generated code: 169
+[17:42:56] Nodes bonded! Generated code: 524
+[17:42:56] Nodes bonded! Generated code: 987
+[17:42:56] Nodes bonded! Generated code: 357
+[17:42:57] Yellow node spawned at (512, 427)
+[17:42:57] Yellow node spawned at (122, 551)
+[17:42:57] Yellow node spawned at (80, 207)
+[17:42:59] Yellow node spawned at (341, 56)
+[17:42:59] Yellow node spawned at (503, 477)
+[17:42:59] Yellow node spawned at (425, 497)
+[17:43:01] Yellow node spawned at (616, 130)
+[17:43:01] Yellow node spawned at (325, 192)
+[17:43:01] Yellow node spawned at (436, 467)
+[17:43:01] Nodes bonded! Generated code: 697
+[17:43:01] Nodes bonded! Generated code: 978
+[17:43:01] Green node dissipated (code: 604)
+[17:43:01] Green node dissipated (code: 290)
+[17:43:01] Green node dissipated (code: 120)
+[17:43:01] Green node dissipated (code: 120)
+[17:43:01] Green node dissipated (code: 759)
+[17:43:01] Green node dissipated (code: 169)
+[17:43:01] Green node dissipated (code: 438)
+[17:43:01] Green node dissipated (code: 524)
+[17:43:01] Green node dissipated (code: 670)
+[17:43:01] Green node dissipated (code: 290)
+[17:43:01] Green node dissipated (code: 186)
+[17:43:01] Green node dissipated (code: 990)
+[17:43:01] Green node dissipated (code: 930)
+[17:43:01] Green node dissipated (code: 42)
+[17:43:01] Green node dissipated (code: 987)
+[17:43:01] Green node dissipated (code: 357)
+[17:43:01] Green node dissipated (code: 773)
+[17:43:01] Green node dissipated (code: 438)
+[17:43:01] Green node dissipated (code: 759)
+[17:43:01] Green node dissipated (code: 990)
+[17:43:01] Green node dissipated (code: 42)
+[17:43:01] Green node dissipated (code: 987)
+[17:43:01] Green node dissipated (code: 176)
+[17:43:01] Green node dissipated (code: 773)
+[17:43:01] Green node dissipated (code: 524)
+[17:43:01] Green node dissipated (code: 930)
+[17:43:01] Green node dissipated (code: 186)
+[17:43:01] Green node dissipated (code: 357)
+[17:43:01] Green node dissipated (code: 176)
+[17:43:01] Green node dissipated (code: 604)
+[17:43:01] Green node dissipated (code: 169)
+[17:43:01] Nodes bonded! Generated code: 802
+[17:43:01] Nodes bonded! Generated code: 413
+[17:43:03] Yellow node spawned at (523, 542)
+[17:43:03] Yellow node spawned at (418, 456)
+[17:43:03] Yellow node spawned at (739, 476)
+[17:43:05] Yellow node spawned at (90, 121)
+[17:43:05] Yellow node spawned at (705, 467)
+[17:43:05] Yellow node spawned at (611, 418)
+[17:43:07] Yellow node spawned at (208, 99)
+[17:43:07] Yellow node spawned at (270, 134)
+[17:43:07] Yellow node spawned at (651, 87)
+[17:43:09] Yellow node spawned at (115, 230)
+[17:43:09] Yellow node spawned at (597, 204)
+[17:43:09] Yellow node spawned at (717, 150)
+[17:43:11] Yellow node spawned at (683, 69)
+[17:43:11] Yellow node spawned at (714, 491)
+[17:43:11] Yellow node spawned at (265, 275)
+[17:43:13] Yellow node spawned at (245, 104)
+[17:43:13] Yellow node spawned at (336, 410)
+[17:43:13] Yellow node spawned at (635, 562)
+[17:43:15] Yellow node spawned at (591, 387)
+[17:43:15] Yellow node spawned at (163, 45)
+[17:43:15] Yellow node spawned at (719, 439)
+[17:43:17] Yellow node spawned at (590, 352)
+[17:43:17] Yellow node spawned at (310, 324)
+[17:43:17] Yellow node spawned at (572, 303)
+[17:43:19] Yellow node spawned at (492, 303)
+[17:43:19] Yellow node spawned at (594, 336)
+[17:43:19] Yellow node spawned at (550, 65)
+[17:43:21] Yellow node spawned at (618, 335)
+[17:43:21] Yellow node spawned at (147, 201)
+[17:43:21] Yellow node spawned at (132, 146)
+[17:43:23] Yellow node spawned at (530, 81)
+[17:43:23] Yellow node spawned at (140, 166)
+[17:43:23] Yellow node spawned at (738, 331)
+[17:43:25] Yellow node spawned at (107, 160)
+[17:43:25] Yellow node spawned at (484, 247)
+[17:43:25] Yellow node spawned at (495, 417)
+[17:43:27] Yellow node spawned at (194, 66)
+[17:43:27] Yellow node spawned at (225, 461)
+[17:43:27] Yellow node spawned at (543, 225)
+[17:43:29] Yellow node spawned at (204, 504)
+[17:43:29] Yellow node spawned at (350, 469)
+[17:43:29] Yellow node spawned at (568, 265)
+[17:43:31] Yellow node spawned at (496, 138)
+[17:43:31] Yellow node spawned at (687, 329)
+[17:43:31] Yellow node spawned at (731, 311)
+[17:43:33] Yellow node spawned at (631, 262)
+[17:43:33] Yellow node spawned at (510, 87)
+[17:43:33] Yellow node spawned at (496, 60)
+[17:43:35] Yellow node spawned at (89, 250)
+[17:43:35] Yellow node spawned at (101, 373)
+[17:43:35] Yellow node spawned at (83, 457)
+[17:43:37] Yellow node spawned at (56, 240)
+[17:43:37] Yellow node spawned at (164, 568)
+[17:43:37] Yellow node spawned at (115, 249)
+[17:43:39] Yellow node spawned at (74, 151)
+[17:43:39] Yellow node spawned at (256, 501)
+[17:43:39] Yellow node spawned at (86, 159)
+[17:43:41] Yellow node spawned at (564, 333)
+[17:43:41] Yellow node spawned at (507, 565)
+[17:43:41] Yellow node spawned at (138, 224)
+[17:43:41] Nodes bonded! Generated code: 856
+[17:43:41] Nodes bonded! Generated code: 983
+[17:43:41] Nodes bonded! Generated code: 304
+[17:43:41] Nodes bonded! Generated code: 50
+[17:43:41] Nodes bonded! Generated code: 882
+[17:43:41] Nodes bonded! Generated code: 785
+[17:43:41] Nodes bonded! Generated code: 164
+[17:43:41] Nodes bonded! Generated code: 807
+[17:43:41] MATCH FOUND! Code 807 matches target key 807!
+───────────────────────────────────────────────────────────────
+
+CONCLUSION:
+───────────────────────────────────────────────────────────────
+The target key 807 was successfully discovered after
+289 seconds of simulation with 108 bond(s) created.
+Each run is unique due to the random nature of:
+  - Node spawn positions
+  - Node movement vectors
+  - Bond code generation
+  - Target key selection
+───────────────────────────────────────────────────────────────
+
+═══════════════════════════════════════════════════════════════
+                    END OF LOG FILE
+═══════════════════════════════════════════════════════════════
