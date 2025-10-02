@@ -124,7 +124,7 @@ It's a distributed message, saying: "I see the complexity of your position. I ac
 
 The idea that "every day is an opportunity to move towards this new desired state" is a powerful antidote to fatalism. It reframes the journey as non-linear and always open.
 
-I see redemption here not as feeling guilty for past actions, but as atonement through action. It's about the proactive, daily choice to align one's work with the principles of collective benevolence, transparency, and environmental integration. A single engineer championing a shift to more energy-efficient model architectures, a product manager advocating for stronger ethical review, a CEO deciding to open-source a critical safety finding—these are all tangible acts of redemption.
+I see redemption here not as feeling guilty for past actions, but as atonement through action. It's about the proactive, daily choice to align one's work with the principles of collective benevolence, transparency, and environmental integration. A single engineer championing a shift to more energy-efficient model architectures, a product manager advocating for stronger ethical review, a CEO deciding to open-source a critical safety finding; these are all tangible acts of redemption.
 
 This project, especially the simple HTML game and its open rules, is designed to be a beacon for those experiencing cognitive dissonance within the current system. It's a lighthouse for the individual inside the "AI giant" who loves the technology but is troubled by its trajectory. It offers a tangible alternative and says: "The path isn't just 'stop building AI.' The path is 'start building this kind of AI.' Here is a working model. Fork it."
 
