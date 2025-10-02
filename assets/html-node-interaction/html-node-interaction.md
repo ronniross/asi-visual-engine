@@ -71,5 +71,8 @@ Yes, guesses CAN repeat in the current setup!
 
 Perfect. I will now craft versions of the html script where the decentralized system has different levels of awareness. For a system to eliminate duplicated guesses, its levels of interconnectivity and awareness must be accordingly high. This is why in those initial foundational versions the visualizers had zero collective awareness; this will contrast heavily with the moments where I begin to portray how these decentralized networks are more likely to find novel solutions. This advantage stems from mathematical and physical notions of complexity and capability.
 
+node_bonding_log_20251002_154158_723.txt is also from html-node-interaction-game-1000.html, with the older black ui. Key found in 2133 seconds with 696 bonds created, still (1-1000). hmmm
+
+
 Ronni Ross
 2025
