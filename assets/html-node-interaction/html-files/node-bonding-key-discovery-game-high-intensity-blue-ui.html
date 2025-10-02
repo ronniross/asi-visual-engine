@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Interaction Game Data Visualizer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0d1117; /* GitHub dark mode background */
+            color: #e0e0e0;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #ffeb3b;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .rules {
+            background: #161b22; /* GitHub dark mode card background */
+            border: 2px solid #30363d; /* GitHub dark mode border */
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .rules h2 {
+            color: #ffeb3b;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .rules ul {
+            list-style-position: inside;
+            line-height: 1.6;
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background: #ffeb3b;
+            color: #0a0a0a;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: #fdd835;
+            transform: scale(1.05);
+        }
+        
+        button:disabled {
+            background: #555;
+            color: #888;
+            cursor: not-allowed;
+            transform: scale(1);
+        }
+        
+        .info-panel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .info-box {
+            background: #161b22; /* GitHub dark mode card background */
+            border: 2px solid #30363d; /* GitHub dark mode border */
+            border-radius: 8px;
+            padding: 15px;
+        }
+        
+        .info-label {
+            color: #888;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .info-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffeb3b;
+        }
+        
+        .target-key {
+            color: #4caf50;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 20px;
+        }
+        
+        .canvas-container {
+            background: #161b22; /* GitHub dark mode card background */
+            border: 2px solid #30363d; /* GitHub dark mode border */
+            border-radius: 8px;
+            padding: 10px;
+        }
+        
+        canvas {
+            display: block;
+            width: 100%;
+            background: #0d1117; /* GitHub dark mode background */
+            border-radius: 5px;
+        }
+        
+        .log-container {
+            background: #161b22; /* GitHub dark mode card background */
+            border: 2px solid #30363d; /* GitHub dark mode border */
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .log-container h3 {
+            color: #ffeb3b;
+            margin-bottom: 10px;
+            position: sticky;
+            top: 0;
+            background: #161b22; /* GitHub dark mode card background */
+            padding-bottom: 10px;
+        }
+        
+        .log-entry {
+            padding: 8px;
+            margin-bottom: 5px;
+            border-left: 3px solid #30363d; /* GitHub dark mode border */
+            font-size: 13px;
+            line-height: 1.4;
+        }
+        
+        .log-spawn {
+            border-left-color: #ffeb3b;
+            color: #ffeb3b;
+        }
+        
+        .log-bond {
+            border-left-color: #4caf50;
+            color: #4caf50;
+        }
+        
+        .log-dissipate {
+            border-left-color: #888;
+            color: #888;
+        }
+        
+        .log-match {
+            border-left-color: #ff5722;
+            color: #ff5722;
+            font-weight: bold;
+            animation: pulse 0.5s ease-in-out;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .victory {
+            background: #4caf50;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Node Bonding Key Discovery Game - HIGH INTENSITY</h1>
+        
+        <div class="rules">
+            <h2>High Intensity Rules:</h2>
+            <ul>
+                <li>Multiple yellow nodes spawn every 2 seconds</li>
+                <li>Nodes move at high velocities for intense action</li>
+                <li>Nodes can bond with other yellow nodes when they collide</li>
+                <li>Bonded nodes turn green and produce a random code (1-1000)</li>
+                <li>Green bonded pairs dissipate together after 5 seconds</li>
+                <li>A target key (1-1000) is generated at the start of each game</li>
+                <li>Goal: Wait for a bonded pair to produce the matching key!</li>
+            </ul>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn" onclick="startGame()">Start Game</button>
+            <button id="resetBtn" onclick="resetGame()" disabled>Reset Game</button>
+        </div>
+        
+        <div class="info-panel">
+            <div class="info-box">
+                <div class="info-label">Target Key</div>
+                <div class="info-value target-key" id="targetKey">-</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Active Nodes</div>
+                <div class="info-value" id="activeNodes">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Bonds Created</div>
+                <div class="info-value" id="bondsCreated">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Elapsed Time</div>
+                <div class="info-value" id="elapsedTime">0s</div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="canvas-container">
+                <canvas id="canvas" width="800" height="600"></canvas>
+            </div>
+            
+            <div class="log-container">
+                <h3>Event Log</h3>
+                <div id="log"></div>
+            </div>
+        </div>
+        
+        <div id="victory" style="display: none;"></div>
+    </div>
+    
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let gameActive = false;
+        let nodes = [];
+        let targetKey = 0;
+        let bondsCreated = 0;
+        let startTime = 0;
+        let spawnInterval = null;
+        let animationFrame = null;
+        let lastTime = 0;
+        let eventLog = []; // Store all events for file export
+        
+        // High intensity parameters
+        const SPAWN_INTERVAL = 2000; // 2 seconds instead of 5
+        const NODES_PER_SPAWN = 3; // Spawn multiple nodes at once
+        const MIN_VELOCITY = 2; // Increased from ~1
+        const MAX_VELOCITY = 6; // Increased from ~2
+        const DISSIPATE_TIME = 5000; // 5 seconds instead of 10
+        const SPAWN_PAUSE = 500; // Reduced pause after spawn (0.5 seconds)
+        
+        class Node {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.vx = (Math.random() - 0.5) * (MAX_VELOCITY - MIN_VELOCITY) + (Math.random() < 0.5 ? MIN_VELOCITY : -MIN_VELOCITY);
+                this.vy = (Math.random() - 0.5) * (MAX_VELOCITY - MIN_VELOCITY) + (Math.random() < 0.5 ? MIN_VELOCITY : -MIN_VELOCITY);
+                this.radius = 15;
+                this.targetRadius = 15;
+                this.currentRadius = 0;
+                this.state = 'yellow'; // yellow, green
+                this.bondPartner = null;
+                this.code = null;
+                this.dissipateTime = null;
+                this.id = Date.now() + Math.random();
+                this.spawnTime = Date.now();
+                this.canMove = false;
+                this.spawnComplete = false;
+            }
+            
+            update() {
+                const now = Date.now();
+                const timeSinceSpawn = now - this.spawnTime;
+                
+                // Spawn animation: zoom from 0 to full size over 0.2 seconds
+                if (!this.spawnComplete) {
+                    if (timeSinceSpawn < 200) {
+                        this.currentRadius = (timeSinceSpawn / 200) * this.targetRadius;
+                    } else if (timeSinceSpawn < 200 + SPAWN_PAUSE) {
+                        // Stay still for a short time after reaching full size
+                        this.currentRadius = this.targetRadius;
+                        this.canMove = false;
+                    } else {
+                        this.currentRadius = this.targetRadius;
+                        this.canMove = true;
+                        this.spawnComplete = true;
+                    }
+                    return;
+                }
+                
+                if (this.state === 'green' || !this.canMove) return;
+                
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                if (this.x - this.radius < 0 || this.x + this.radius > canvas.width) {
+                    this.vx *= -1;
+                    this.x = Math.max(this.radius, Math.min(canvas.width - this.radius, this.x));
+                }
+                if (this.y - this.radius < 0 || this.y + this.radius > canvas.height) {
+                    this.vy *= -1;
+                    this.y = Math.max(this.radius, Math.min(canvas.height - this.radius, this.y));
+                }
+            }
+            
+            draw() {
+                const drawRadius = this.spawnComplete ? this.radius : this.currentRadius;
+                
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, drawRadius, 0, Math.PI * 2);
+                ctx.fillStyle = this.state === 'yellow' ? '#ffeb3b' : '#4caf50';
+                ctx.fill();
+                ctx.strokeStyle = this.state === 'yellow' ? '#fdd835' : '#66bb6a';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                
+                if (this.code !== null && this.spawnComplete) {
+                    ctx.fillStyle = '#fff';
+                    ctx.font = 'bold 10px Courier New';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText(this.code, this.x, this.y);
+                }
+            }
+            
+            distanceTo(other) {
+                const dx = this.x - other.x;
+                const dy = this.y - other.y;
+                return Math.sqrt(dx * dx + dy * dy);
+            }
+        }
+        
+        function startGame() {
+            gameActive = true;
+            nodes = [];
+            bondsCreated = 0;
+            startTime = Date.now();
+            targetKey = Math.floor(Math.random() * 1000) + 1; // Changed from 10000 to 1000
+            eventLog = []; // Clear event log for new game
+            
+            document.getElementById('startBtn').disabled = true;
+            document.getElementById('resetBtn').disabled = false;
+            document.getElementById('targetKey').textContent = targetKey;
+            document.getElementById('victory').style.display = 'none';
+            
+            clearLog();
+            addLog(`Game started! Target key: ${targetKey}`, 'spawn');
+            
+            spawnInterval = setInterval(spawnNodes, SPAWN_INTERVAL);
+            spawnNodes(); // Spawn first nodes immediately
+            
+            lastTime = Date.now();
+            animate();
+        }
+        
+        function resetGame() {
+            gameActive = false;
+            nodes = [];
+            bondsCreated = 0;
+            
+            if (spawnInterval) clearInterval(spawnInterval);
+            if (animationFrame) cancelAnimationFrame(animationFrame);
+            
+            document.getElementById('startBtn').disabled = false;
+            document.getElementById('resetBtn').disabled = true;
+            document.getElementById('activeNodes').textContent = '0';
+            document.getElementById('bondsCreated').textContent = '0';
+            document.getElementById('elapsedTime').textContent = '0s';
+            document.getElementById('targetKey').textContent = '-';
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+        
+        function spawnNodes() {
+            if (!gameActive) return;
+            
+            for (let i = 0; i < NODES_PER_SPAWN; i++) {
+                const x = Math.random() * (canvas.width - 60) + 30;
+                const y = Math.random() * (canvas.height - 60) + 30;
+                const node = new Node(x, y);
+                nodes.push(node);
+                
+                addLog(`Yellow node spawned at (${Math.floor(x)}, ${Math.floor(y)})`, 'spawn');
+            }
+        }
+        
+        function checkCollisions() {
+            for (let i = 0; i < nodes.length; i++) {
+                if (nodes[i].state !== 'yellow') continue;
+                
+                for (let j = i + 1; j < nodes.length; j++) {
+                    if (nodes[j].state !== 'yellow') continue;
+                    
+                    const distance = nodes[i].distanceTo(nodes[j]);
+                    if (distance < nodes[i].radius + nodes[j].radius) {
+                        createBond(nodes[i], nodes[j]);
+                    }
+                }
+            }
+        }
+        
+        function createBond(node1, node2) {
+            const code = Math.floor(Math.random() * 1000) + 1; // Changed from 10000 to 1000
+            
+            node1.state = 'green';
+            node2.state = 'green';
+            node1.bondPartner = node2;
+            node2.bondPartner = node1;
+            node1.code = code;
+            node2.code = code;
+            node1.dissipateTime = Date.now() + DISSIPATE_TIME;
+            node2.dissipateTime = Date.now() + DISSIPATE_TIME;
+            
+            bondsCreated++;
+            
+            addLog(`Nodes bonded! Generated code: ${code}`, 'bond');
+            
+            if (code === targetKey) {
+                addLog(`MATCH FOUND! Code ${code} matches target key ${targetKey}!`, 'match');
+                endGame(true);
+            }
+        }
+        
+        function checkDissipation() {
+            const now = Date.now();
+            const nodesToRemove = [];
+            
+            for (let i = nodes.length - 1; i >= 0; i--) {
+                const node = nodes[i];
+                if (node.dissipateTime && now >= node.dissipateTime) {
+                    nodesToRemove.push(node);
+                }
+            }
+            
+            for (const node of nodesToRemove) {
+                const index = nodes.indexOf(node);
+                if (index > -1) {
+                    nodes.splice(index, 1);
+                    addLog(`Green node dissipated (code: ${node.code})`, 'dissipate');
+                }
+            }
+        }
+        
+        function animate() {
+            if (!gameActive) return;
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            for (const node of nodes) {
+                node.update();
+                node.draw();
+            }
+            
+            checkCollisions();
+            checkDissipation();
+            
+            document.getElementById('activeNodes').textContent = nodes.length;
+            document.getElementById('bondsCreated').textContent = bondsCreated;
+            
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            document.getElementById('elapsedTime').textContent = elapsed + 's';
+            
+            animationFrame = requestAnimationFrame(animate);
+        }
+        
+        function endGame(victory) {
+            gameActive = false;
+            if (spawnInterval) clearInterval(spawnInterval);
+            
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            
+            if (victory) {
+                const victoryEl = document.getElementById('victory');
+                victoryEl.textContent = `Victory! Key found in ${elapsed} seconds with ${bondsCreated} bonds created!`;
+                victoryEl.style.display = 'block';
+                
+                // Generate and download log file
+                generateLogFile(elapsed);
+            }
+            
+            document.getElementById('startBtn').disabled = false;
+        }
+        
+        function generateLogFile(elapsed) {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const milliseconds = String(now.getMilliseconds()).padStart(3, '0');
+            
+            const timestamp = `${year}${month}${day}_${hours}${minutes}${seconds}_${milliseconds}`;
+            const filename = `node_bonding_log_${timestamp}.txt`;
+            
+            let content = '';
+            content += '═══════════════════════════════════════════════════════════════\n';
+            content += '          NODE BONDING KEY DISCOVERY GAME - RUN LOG\n';
+            content += '═══════════════════════════════════════════════════════════════\n\n';
+            
+            content += 'HIGH INTENSITY GAME RULES:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += '1. Multiple yellow nodes spawn every 2 seconds at random positions\n';
+            content += '2. Each node appears with a zoom animation (0 to full size)\n';
+            content += '3. Nodes remain still for 0.5 seconds after spawning\n';
+            content += '4. After the pause, nodes begin moving with HIGH random velocity\n';
+            content += '5. Nodes bounce off canvas boundaries\n';
+            content += '6. When two yellow nodes collide, they bond together\n';
+            content += '7. Bonded nodes turn green and generate a random code (1-1000)\n'; // Updated
+            content += '8. Green bonded pairs remain stationary\n';
+            content += '9. Bonded pairs dissipate together after 5 seconds\n';
+            content += '10. A target key (1-1000) is randomly generated at game start\n'; // Updated
+            content += '11. The game ends when a bonded pair generates the target key\n';
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += 'RUN STATISTICS:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += `Run Date: ${new Date().toLocaleString()}\n`;
+            content += `Target Key: ${targetKey}\n`;
+            content += `Total Time: ${elapsed} seconds\n`;
+            content += `Total Bonds Created: ${bondsCreated}\n`;
+            content += `Total Nodes Spawned: ${eventLog.filter(e => e.type === 'spawn').length}\n`;
+            content += `Success Rate: 1/${bondsCreated} (${(100/bondsCreated).toFixed(2)}%)\n`;
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += 'DETAILED EVENT LOG:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            eventLog.forEach(event => {
+                content += `[${event.timestamp}] ${event.message}\n`;
+            });
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += 'CONCLUSION:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += `The target key ${targetKey} was successfully discovered after\n`;
+            content += `${elapsed} seconds of simulation with ${bondsCreated} bond(s) created.\n`;
+            content += 'Each run is unique due to the random nature of:\n';
+            content += '  - Node spawn positions\n';
+            content += '  - Node movement vectors\n';
+            content += '  - Bond code generation\n';
+            content += '  - Target key selection\n';
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += '═══════════════════════════════════════════════════════════════\n';
+            content += '                    END OF LOG FILE\n';
+            content += '═══════════════════════════════════════════════════════════════\n';
+            
+            // Create and download the file
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            addLog(`Log file generated: ${filename}`, 'spawn');
+        }
+        
+        function addLog(message, type) {
+            const logDiv = document.getElementById('log');
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            
+            const time = new Date().toLocaleTimeString();
+            entry.textContent = `[${time}] ${message}`;
+            
+            // Store in event log for file export
+            eventLog.push({
+                timestamp: time,
+                message: message,
+                type: type
+            });
+            
+            logDiv.insertBefore(entry, logDiv.firstChild);
+            
+            if (logDiv.children.length > 100) {
+                logDiv.removeChild(logDiv.lastChild);
+            }
+        }
+        
+        function clearLog() {
+            document.getElementById('log').innerHTML = '';
+        }
+    </script>
+</body>
+</html>
