@@ -13,7 +13,7 @@ I will then mention those experiments, sub-modules, and runs in other repositori
 
 Due to environmental damage, I am not very fond of generative synthetic media, especially because the current setups of data centers are not environmentally integrated. Quite the contrary, they are damaging in many ways with their chemical and social byproducts from the unethical, generalized development of bigger players, and are water- and energy-hungry with unjust wealth concentration and aristocracy-reinforcing loops. But this is the situation that needs to be faced; it doesn't matter much to complain that it's not what we want yet, as complex systems are inherently chaotic.
 
-So, it's not that I'm inherently against generative AI media content—unless it is intrinsically linked to scientific progress for some niche purpose, but with the current social dynamics, I find it very hard to justify the generation of, let's say, AI slop or AI synthetic media in general. There are nuances, of course, and this need to add those nuances is why I started to integrate this journaling into more phases of the enhancement of the asi-ecosystem; I found it very effective.
+So, it's not that I'm inherently against generative AI media content, unless it is intrinsically linked to scientific progress for some niche purpose, but with the current social dynamics, I find it very hard to justify the generation of, let's say, AI slop or AI synthetic media in general. There are nuances, of course, and this need to add those nuances is why I started to integrate this journaling into more phases of the enhancement of the asi-ecosystem; I found it very effective.
 
 With that being said, there are situations where I feel quite the contrary. For example, when communities, groups of people, ethnicities, or socially neglected groups in resource-scarce situations can find use cases where machine learning algorithms or models improve their projection power, then I'm all for it. I find it a fascinating act of entities adapting to the environment and using the aggressiveness of social disparity to fight against the unfair, colossal dynamics that they face.
 
@@ -22,3 +22,4 @@ You may now see why the "asi" before the "visual-engine" is so elemental and fun
 So, I created this visual engine hub to help portray the visions I've been sharing in these repositories. It's a place where, yes, I will share an immense variety of data and concept visualizations with machine learning algorithms and code, but also in the very specific context of being contextualized with the whole ecosystem of projects I've been committing to for about a year: the asi-ecosystem.
 
 Ronni Ross
+2025
