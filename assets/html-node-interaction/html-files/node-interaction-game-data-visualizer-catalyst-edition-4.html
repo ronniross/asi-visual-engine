@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Interaction Game Data Visualizer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #000000;
+            color: #e0e0e0;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #ffeb3b;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .rules {
+            background: #161b22;
+            border: 2px solid #30363d;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .rules h2 {
+            color: #ffeb3b;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .rules ul {
+            list-style-position: inside;
+            line-height: 1.6;
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background: #ffeb3b;
+            color: #0a0a0a;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: #fdd835;
+            transform: scale(1.05);
+        }
+        
+        button:disabled {
+            background: #555;
+            color: #888;
+            cursor: not-allowed;
+            transform: scale(1);
+        }
+        
+        .info-panel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .info-box {
+            background: #161b22;
+            border: 2px solid #30363d;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        
+        .info-label {
+            color: #888;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .info-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffeb3b;
+        }
+        
+        .target-key {
+            color: #4caf50;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 20px;
+        }
+        
+        .canvas-container {
+            background: #161b22;
+            border: 2px solid #30363d;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        
+        canvas {
+            display: block;
+            width: 100%;
+            background: #000000;
+            border-radius: 5px;
+        }
+        
+        .log-container {
+            background: #161b22;
+            border: 2px solid #30363d;
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .log-container h3 {
+            color: #ffeb3b;
+            margin-bottom: 10px;
+            position: sticky;
+            top: 0;
+            background: #161b22;
+            padding-bottom: 10px;
+        }
+        
+        .log-entry {
+            padding: 8px;
+            margin-bottom: 5px;
+            border-left: 3px solid #30363d;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+        
+        .log-spawn {
+            border-left-color: #ffeb3b;
+            color: #ffeb3b;
+        }
+        
+        .log-bond {
+            border-left-color: #4caf50;
+            color: #4caf50;
+        }
+        
+        .log-dissipate {
+            border-left-color: #888;
+            color: #888;
+        }
+        
+        .log-match {
+            border-left-color: #ff5722;
+            color: #ff5722;
+            font-weight: bold;
+            animation: pulse 0.5s ease-in-out;
+        }
+        
+        .log-catalyst {
+            border-left-color: #9c27b0;
+            color: #9c27b0;
+            font-weight: bold;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .victory {
+            background: #4caf50;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Node Interaction Game - HIGH INTENSITY</h1>
+        
+        <div class="rules">
+            <h2>High Intensity Rules:</h2>
+            <ul>
+                <li>Multiple yellow nodes spawn every 2 seconds</li>
+                <li>Nodes move at high velocities for intense action</li>
+                <li>Nodes can bond with other yellow nodes when they collide</li>
+                <li>Bonded nodes turn green and produce a unique code (1-10000)</li>
+                <li>Each code is only generated once per game (no repeats)</li>
+                <li>Green bonded pairs dissipate together after 5 seconds</li>
+                <li>A target key (1-10000) is generated at the start of each game</li>
+                <li>Goal: Wait for a bonded pair to produce the matching key!</li>
+                <li>NEW: Catalyst nodes spawn with 50% chance every 10 normal nodes</li>
+                <li>Catalyst nodes flicker between multiple colors</li>
+                <li>When two catalyst nodes collide, they attempt 50 guesses at once</li>
+                <li>Normal nodes that interact with catalysts get double guesses next time</li>
+            </ul>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn" onclick="startGame()">Start Game</button>
+            <button id="resetBtn" onclick="resetGame()" disabled>Reset Game</button>
+        </div>
+        
+        <div class="info-panel">
+            <div class="info-box">
+                <div class="info-label">Target Key</div>
+                <div class="info-value target-key" id="targetKey">-</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Active Nodes</div>
+                <div class="info-value" id="activeNodes">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Bonds Created</div>
+                <div class="info-value" id="bondsCreated">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Elapsed Time</div>
+                <div class="info-value" id="elapsedTime">0s</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Codes Remaining</div>
+                <div class="info-value" id="codesRemaining">10000</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Catalyst Nodes</div>
+                <div class="info-value" id="catalystNodes">0</div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="canvas-container">
+                <canvas id="canvas" width="800" height="600"></canvas>
+            </div>
+            
+            <div class="log-container">
+                <h3>Event Log</h3>
+                <div id="log"></div>
+            </div>
+        </div>
+        
+        <div id="victory" style="display: none;"></div>
+    </div>
+    
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let gameActive = false;
+        let nodes = [];
+        let targetKey = 0;
+        let bondsCreated = 0;
+        let startTime = 0;
+        let spawnInterval = null;
+        let animationFrame = null;
+        let lastTime = 0;
+        let eventLog = [];
+        let usedCodes = new Set();
+        let availableCodes = [];
+        let normalNodesSpawned = 0;
+        let catalystNodes = 0;
+        
+        // High intensity parameters
+        const SPAWN_INTERVAL = 2000;
+        const NODES_PER_SPAWN = 3;
+        const MIN_VELOCITY = 2;
+        const MAX_VELOCITY = 6;
+        const DISSIPATE_TIME = 5000;
+        const SPAWN_PAUSE = 500;
+        
+        // Catalyst parameters
+        const CATALYST_CHANCE = 0.5; // 50% chance every 10 normal nodes
+        const CATALYST_GUESSES = 50; // 50 guesses when catalysts interact
+
+        class Node {
+            constructor(x, y, isCatalyst = false) {
+                this.x = x;
+                this.y = y;
+                this.vx = (Math.random() - 0.5) * (MAX_VELOCITY - MIN_VELOCITY) + (Math.random() < 0.5 ? MIN_VELOCITY : -MIN_VELOCITY);
+                this.vy = (Math.random() - 0.5) * (MAX_VELOCITY - MIN_VELOCITY) + (Math.random() < 0.5 ? MIN_VELOCITY : -MIN_VELOCITY);
+                this.radius = 15;
+                this.targetRadius = 15;
+                this.currentRadius = 0;
+                this.state = isCatalyst ? 'catalyst' : 'yellow';
+                this.bondPartner = null;
+                this.code = null;
+                this.dissipateTime = null;
+                this.id = Date.now() + Math.random();
+                this.spawnTime = Date.now();
+                this.canMove = false;
+                this.spawnComplete = false;
+                this.isCatalyst = isCatalyst;
+                this.colorTimer = 0;
+                this.currentColor = '#ff0000';
+                this.doubleNextGuess = false;
+                this.displayCode = null; // Single code to display on the node
+                
+                if (isCatalyst) {
+                    catalystNodes++;
+                }
+            }
+            
+            update() {
+                const now = Date.now();
+                const timeSinceSpawn = now - this.spawnTime;
+                
+                // Spawn animation: zoom from 0 to full size over 0.2 seconds
+                if (!this.spawnComplete) {
+                    if (timeSinceSpawn < 200) {
+                        this.currentRadius = (timeSinceSpawn / 200) * this.targetRadius;
+                    } else if (timeSinceSpawn < 200 + SPAWN_PAUSE) {
+                        // Stay still for a short time after reaching full size
+                        this.currentRadius = this.targetRadius;
+                        this.canMove = false;
+                    } else {
+                        this.currentRadius = this.targetRadius;
+                        this.canMove = true;
+                        this.spawnComplete = true;
+                    }
+                    return;
+                }
+                
+                // Update color for catalyst nodes
+                if (this.isCatalyst) {
+                    this.colorTimer++;
+                    if (this.colorTimer % 10 === 0) {
+                        const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+                        this.currentColor = colors[Math.floor(Math.random() * colors.length)];
+                    }
+                }
+                
+                if (this.state === 'green' || !this.canMove) return;
+                
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                if (this.x - this.radius < 0 || this.x + this.radius > canvas.width) {
+                    this.vx *= -1;
+                    this.x = Math.max(this.radius, Math.min(canvas.width - this.radius, this.x));
+                }
+                if (this.y - this.radius < 0 || this.y + this.radius > canvas.height) {
+                    this.vy *= -1;
+                    this.y = Math.max(this.radius, Math.min(canvas.height - this.radius, this.y));
+                }
+            }
+            
+            draw() {
+                const drawRadius = this.spawnComplete ? this.radius : this.currentRadius;
+                
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, drawRadius, 0, Math.PI * 2);
+                
+                if (this.isCatalyst) {
+                    ctx.fillStyle = this.currentColor;
+                } else {
+                    ctx.fillStyle = this.state === 'yellow' ? '#ffeb3b' : '#4caf50';
+                }
+                
+                ctx.fill();
+                
+                if (this.isCatalyst) {
+                    ctx.strokeStyle = '#ffffff';
+                } else {
+                    ctx.strokeStyle = this.state === 'yellow' ? '#fdd835' : '#66bb6a';
+                }
+                
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                
+                // Display code if any
+                if (this.spawnComplete && this.displayCode !== null) {
+                    ctx.fillStyle = '#fff';
+                    ctx.font = 'bold 10px Courier New';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText(this.displayCode, this.x, this.y);
+                }
+            }
+            
+            distanceTo(other) {
+                const dx = this.x - other.x;
+                const dy = this.y - other.y;
+                return Math.sqrt(dx * dx + dy * dy);
+            }
+        }
+        
+        function startGame() {
+            gameActive = true;
+            nodes = [];
+            bondsCreated = 0;
+            startTime = Date.now();
+            usedCodes.clear();
+            normalNodesSpawned = 0;
+            catalystNodes = 0;
+            
+            // Initialize available codes (1-10000)
+            availableCodes = Array.from({length: 10000}, (_, i) => i + 1);
+            
+            // Shuffle available codes
+            for (let i = availableCodes.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [availableCodes[i], availableCodes[j]] = [availableCodes[j], availableCodes[i]];
+            }
+            
+            // Select target key from available codes
+            targetKey = availableCodes[0];
+            availableCodes.shift(); // Remove target key from available codes
+            usedCodes.add(targetKey);
+            
+            eventLog = []; // Clear event log for new game
+            
+            document.getElementById('startBtn').disabled = true;
+            document.getElementById('resetBtn').disabled = false;
+            document.getElementById('targetKey').textContent = targetKey;
+            document.getElementById('victory').style.display = 'none';
+            document.getElementById('codesRemaining').textContent = availableCodes.length;
+            document.getElementById('catalystNodes').textContent = catalystNodes;
+            
+            clearLog();
+            addLog(`Game started! Target key: ${targetKey}`, 'spawn');
+            
+            spawnInterval = setInterval(spawnNodes, SPAWN_INTERVAL);
+            spawnNodes(); // Spawn first nodes immediately
+            
+            lastTime = Date.now();
+            animate();
+        }
+        
+        function resetGame() {
+            gameActive = false;
+            nodes = [];
+            bondsCreated = 0;
+            usedCodes.clear();
+            availableCodes = [];
+            normalNodesSpawned = 0;
+            catalystNodes = 0;
+            
+            if (spawnInterval) clearInterval(spawnInterval);
+            if (animationFrame) cancelAnimationFrame(animationFrame);
+            
+            document.getElementById('startBtn').disabled = false;
+            document.getElementById('resetBtn').disabled = true;
+            document.getElementById('activeNodes').textContent = '0';
+            document.getElementById('bondsCreated').textContent = '0';
+            document.getElementById('elapsedTime').textContent = '0s';
+            document.getElementById('targetKey').textContent = '-';
+            document.getElementById('codesRemaining').textContent = '10000';
+            document.getElementById('catalystNodes').textContent = '0';
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+        
+        function spawnNodes() {
+            if (!gameActive) return;
+            
+            for (let i = 0; i < NODES_PER_SPAWN; i++) {
+                const x = Math.random() * (canvas.width - 60) + 30;
+                const y = Math.random() * (canvas.height - 60) + 30;
+                const node = new Node(x, y);
+                nodes.push(node);
+                normalNodesSpawned++;
+                
+                addLog(`Yellow node spawned at (${Math.floor(x)}, ${Math.floor(y)})`, 'spawn');
+            }
+            
+            // Check if we should spawn a catalyst node
+            if (normalNodesSpawned >= 10 && Math.random() < CATALYST_CHANCE) {
+                const x = Math.random() * (canvas.width - 60) + 30;
+                const y = Math.random() * (canvas.height - 60) + 30;
+                const catalyst = new Node(x, y, true);
+                nodes.push(catalyst);
+                normalNodesSpawned = 0; // Reset counter
+                
+                addLog(`Catalyst node spawned at (${Math.floor(x)}, ${Math.floor(y)})`, 'catalyst');
+                document.getElementById('catalystNodes').textContent = catalystNodes;
+            }
+        }
+        
+        function checkCollisions() {
+            for (let i = 0; i < nodes.length; i++) {
+                for (let j = i + 1; j < nodes.length; j++) {
+                    const distance = nodes[i].distanceTo(nodes[j]);
+                    if (distance < nodes[i].radius + nodes[j].radius) {
+                        // Check if both are catalysts
+                        if (nodes[i].isCatalyst && nodes[j].isCatalyst) {
+                            catalystInteraction(nodes[i], nodes[j]);
+                        } 
+                        // Check if one is catalyst and one is normal (normal yellow state)
+                        else if ((nodes[i].isCatalyst && nodes[j].state === 'yellow') || 
+                                 (nodes[j].isCatalyst && nodes[i].state === 'yellow')) {
+                            catalystNormalInteraction(
+                                nodes[i].isCatalyst ? nodes[i] : nodes[j],
+                                nodes[i].isCatalyst ? nodes[j] : nodes[i]
+                            );
+                        }
+                        // Both are normal yellow nodes
+                        else if (nodes[i].state === 'yellow' && nodes[j].state === 'yellow') {
+                            createBond(nodes[i], nodes[j]);
+                        }
+                    }
+                }
+            }
+        }
+        
+        function catalystInteraction(catalyst1, catalyst2) {
+            // Remove both catalyst nodes
+            const index1 = nodes.indexOf(catalyst1);
+            if (index1 > -1) {
+                nodes.splice(index1, 1);
+                catalystNodes--;
+            }
+            
+            const index2 = nodes.indexOf(catalyst2);
+            if (index2 > -1) {
+                nodes.splice(index2, 1);
+                catalystNodes--;
+            }
+            
+            // Attempt 50 guesses at once
+            let foundMatch = false;
+            const guessedCodes = [];
+            
+            for (let i = 0; i < CATALYST_GUESSES; i++) {
+                if (availableCodes.length === 0) break;
+                
+                const code = availableCodes[0];
+                availableCodes.shift();
+                usedCodes.add(code);
+                guessedCodes.push(code);
+                
+                if (code === targetKey) {
+                    foundMatch = true;
+                    break;
+                }
+            }
+            
+            addLog(`Catalyst nodes interacted! Attempted ${CATALYST_GUESSES} guesses: ${guessedCodes.join(', ')}`, 'catalyst');
+            document.getElementById('codesRemaining').textContent = availableCodes.length;
+            document.getElementById('catalystNodes').textContent = catalystNodes;
+            
+            if (foundMatch) {
+                addLog(`MATCH FOUND! Code ${targetKey} matches target key!`, 'match');
+                endGame(true);
+            }
+        }
+        
+        function catalystNormalInteraction(catalyst, normal) {
+            // Mark the normal node for double guesses next time
+            normal.doubleNextGuess = true;
+            
+            addLog(`Normal node interacted with catalyst! Next bond will generate 2 codes`, 'catalyst');
+        }
+        
+        function createBond(node1, node2) {
+            // Get unique codes from available codes
+            if (availableCodes.length === 0) {
+                addLog(`No more unique codes available!`, 'bond');
+                return;
+            }
+            
+            // Check if either node has double guess capability
+            const doubleGuess = node1.doubleNextGuess || node2.doubleNextGuess;
+            
+            // Reset double guess flags
+            node1.doubleNextGuess = false;
+            node2.doubleNextGuess = false;
+            
+            // Generate codes
+            const codes = [];
+            const count = doubleGuess ? 2 : 1;
+            
+            for (let i = 0; i < count; i++) {
+                if (availableCodes.length === 0) break;
+                
+                const code = availableCodes[0];
+                availableCodes.shift();
+                usedCodes.add(code);
+                codes.push(code);
+                
+                if (code === targetKey) {
+                    addLog(`MATCH FOUND! Code ${code} matches target key ${targetKey}!`, 'match');
+                    endGame(true);
+                    return;
+                }
+            }
+            
+            // Handle display codes based on whether it's a double guess or not
+            if (doubleGuess && codes.length === 2) {
+                // For double guess: display one code on each node
+                node1.displayCode = codes[0];
+                node2.displayCode = codes[1];
+                node1.code = codes[0]; // Store the actual code for logging
+                node2.code = codes[1]; // Store the actual code for logging
+            } else {
+                // For single guess: display the same code on both nodes
+                const displayCode = codes[0];
+                node1.displayCode = displayCode;
+                node2.displayCode = displayCode;
+                node1.code = displayCode;
+                node2.code = displayCode;
+            }
+            
+            node1.state = 'green';
+            node2.state = 'green';
+            node1.bondPartner = node2;
+            node2.bondPartner = node1;
+            node1.dissipateTime = Date.now() + DISSIPATE_TIME;
+            node2.dissipateTime = Date.now() + DISSIPATE_TIME;
+            
+            bondsCreated++;
+            
+            if (doubleGuess) {
+                addLog(`Nodes bonded with double guess! Generated codes: ${codes[0]} and ${codes[1]}`, 'bond');
+            } else {
+                addLog(`Nodes bonded! Generated unique code: ${codes[0]}`, 'bond');
+            }
+            
+            // Update codes remaining display
+            document.getElementById('codesRemaining').textContent = availableCodes.length;
+        }
+        
+        function checkDissipation() {
+            const now = Date.now();
+            const nodesToRemove = [];
+            
+            for (let i = nodes.length - 1; i >= 0; i--) {
+                const node = nodes[i];
+                if (node.dissipateTime && now >= node.dissipateTime) {
+                    nodesToRemove.push(node);
+                }
+            }
+            
+            for (const node of nodesToRemove) {
+                const index = nodes.indexOf(node);
+                if (index > -1) {
+                    nodes.splice(index, 1);
+                    addLog(`Green node dissipated (code: ${node.code})`, 'dissipate');
+                }
+            }
+        }
+        
+        function animate() {
+            if (!gameActive) return;
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            for (const node of nodes) {
+                node.update();
+                node.draw();
+            }
+            
+            checkCollisions();
+            checkDissipation();
+            
+            document.getElementById('activeNodes').textContent = nodes.length;
+            document.getElementById('bondsCreated').textContent = bondsCreated;
+            document.getElementById('catalystNodes').textContent = catalystNodes;
+            
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            document.getElementById('elapsedTime').textContent = elapsed + 's';
+            
+            animationFrame = requestAnimationFrame(animate);
+        }
+        
+        function endGame(victory) {
+            gameActive = false;
+            if (spawnInterval) clearInterval(spawnInterval);
+            
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            
+            if (victory) {
+                const victoryEl = document.getElementById('victory');
+                victoryEl.textContent = `Victory! Key found in ${elapsed} seconds with ${bondsCreated} bonds created!`;
+                victoryEl.style.display = 'block';
+                
+                // Generate and download log file
+                generateLogFile(elapsed);
+            }
+            
+            document.getElementById('startBtn').disabled = false;
+        }
+        
+        function generateLogFile(elapsed) {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const milliseconds = String(now.getMilliseconds()).padStart(3, '0');
+            
+            const timestamp = `${year}${month}${day}_${hours}${minutes}${seconds}_${milliseconds}`;
+            const filename = `node_interaction_log_${timestamp}.txt`;
+            
+            let content = '';
+            content += '═══════════════════════════════════════════════════════════════\n';
+            content += '               NODE INTERACTION GAME - RUN LOG\n';
+            content += '═══════════════════════════════════════════════════════════════\n\n';
+            
+            content += 'HIGH INTENSITY GAME RULES:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += '1. Multiple yellow nodes spawn every 2 seconds at random positions\n';
+            content += '2. Each node appears with a zoom animation (0 to full size)\n';
+            content += '3. Nodes remain still for 0.5 seconds after spawning\n';
+            content += '4. After the pause, nodes begin moving with HIGH random velocity\n';
+            content += '5. Nodes bounce off canvas boundaries\n';
+            content += '6. When two yellow nodes collide, they bond together\n';
+            content += '7. Bonded nodes turn green and generate a unique code (1-10000)\n';
+            content += '8. Each code is only generated once per game (no repeats)\n';
+            content += '9. Green bonded pairs remain stationary\n';
+            content += '10. Bonded pairs dissipate together after 5 seconds\n';
+            content += '11. A target key (1-10000) is randomly generated at game start\n';
+            content += '12. The game ends when a bonded pair generates the target key\n';
+            content += '13. Catalyst nodes spawn with 50% chance every 10 normal nodes\n';
+            content += '14. Catalyst nodes flicker between multiple colors\n';
+            content += '15. When two catalyst nodes collide, they attempt 50 guesses at once\n';
+            content += '16. Normal nodes that interact with catalysts get double guesses next time\n';
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += 'RUN STATISTICS:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += `Run Date: ${new Date().toLocaleString()}\n`;
+            content += `Target Key: ${targetKey}\n`;
+            content += `Total Time: ${elapsed} seconds\n`;
+            content += `Total Bonds Created: ${bondsCreated}\n`;
+            content += `Total Nodes Spawned: ${eventLog.filter(e => e.type === 'spawn').length}\n`;
+            content += `Catalyst Nodes Spawned: ${eventLog.filter(e => e.type === 'catalyst').length}\n`;
+            content += `Unique Codes Used: ${usedCodes.size}\n`;
+            content += `Codes Remaining: ${availableCodes.length}\n`;
+            content += `Success Rate: 1/${bondsCreated} (${bondsCreated > 0 ? (100/bondsCreated).toFixed(2) : 0}%)\n`;
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += 'DETAILED EVENT LOG:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            eventLog.forEach(event => {
+                content += `[${event.timestamp}] ${event.message}\n`;
+            });
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += 'CONCLUSION:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += `The target key ${targetKey} was successfully discovered after\n`;
+            content += `${elapsed} seconds of simulation with ${bondsCreated} bond(s) created.\n`;
+            content += `This game used a non-repeating code system with ${usedCodes.size} unique codes\n`;
+            content += `generated out of a possible 10000, with ${availableCodes.length} codes remaining.\n`;
+            content += 'Each run is unique due to the random nature of:\n';
+            content += '  - Node spawn positions\n';
+            content += '  - Node movement vectors\n';
+            content += '  - Unique bond code generation\n';
+            content += '  - Target key selection\n';
+            content += '  - Catalyst node appearance and interactions\n';
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += '═══════════════════════════════════════════════════════════════\n';
+            content += '                    END OF LOG FILE\n';
+            content += '═══════════════════════════════════════════════════════════════\n';
+            
+            // Create and download the file
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            addLog(`Log file generated: ${filename}`, 'spawn');
+        }
+        
+        function addLog(message, type) {
+            const logDiv = document.getElementById('log');
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            
+            const time = new Date().toLocaleTimeString();
+            entry.textContent = `[${time}] ${message}`;
+            
+            // Store in event log for file export
+            eventLog.push({
+                timestamp: time,
+                message: message,
+                type: type
+            });
+            
+            logDiv.insertBefore(entry, logDiv.firstChild);
+            
+            if (logDiv.children.length > 100) {
+                logDiv.removeChild(logDiv.lastChild);
+            }
+        }
+        
+        function clearLog() {
+            document.getElementById('log').innerHTML = '';
+        }
+    </script>
+</body>
+</html>
