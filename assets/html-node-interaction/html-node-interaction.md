@@ -37,5 +37,39 @@ By encouraging variations in speed, spawn rates, and durations, the project embr
 
 The [visualizer](https://github.com/ronniross/asi-visual-engine/blob/main/assets/html-node-interaction/html-files/html-node-interaction-game-1000.html) originated the [log](https://github.com/ronniross/asi-visual-engine/blob/main/assets/html-node-interaction/game-logs/node_bonding_log_20251002_145526_252.txt). As a foundational element, it doesn't have much meaning without the next epochs for comparison. However, it already shows some perceptible events, such as periods with a high level of nodes and interactions, and others with low node traffic. Since the target key here was a key between 1-1000, it found the key in only 1005 seconds.
 
+But... let me check one thing.
+
+Looking at the `createBond()` function:
+
+```javascript
+function createBond(node1, node2) {
+    const code = Math.floor(Math.random() * 1000) + 1; // Changed from 10000 to 1000
+    // ... rest of the bonding logic
+}
+```
+
+Yes, guesses CAN repeat in the current setup!
+
+1. **Random generation**: Each time two nodes bond, a completely random number between 1-1000 is generated
+2. **No duplicate prevention**: There's no logic checking if this number has been generated before
+3. **Independent events**: Each bond creation is independent and doesn't know about previous bonds
+
+**So one could potentially see:**
+- Bond 1 generates: 427
+- Bond 2 generates: 156  
+- Bond 3 generates: 427 (duplicate!)
+- Bond 4 generates: 823
+- etc.
+
+**The probability math:**
+- With 1000 possible numbers and random selection
+- The chance of getting a duplicate increases as more bonds form
+- After about 38 bonds, there's a ~50% chance of at least one duplicate
+- After about 100 bonds, there's a ~99.3% chance of at least one duplicate
+
+**If I want to prevent duplicates**, I'd need to modify the code to track previously generated numbers and ensure new bonds get unique numbers until all 1000 possibilities are exhausted.
+
+Perfect. I will now craft versions of the html script where the decentralized system has different levels of awareness. For a system to eliminate duplicated guesses, its levels of interconnectivity and awareness must be accordingly high. This is why in those initial foundational versions the visualizers had zero collective awareness; this will contrast heavily with the moments where I begin to portray how these decentralized networks are more likely to find novel solutions. This advantage stems from mathematical and physical notions of complexity and capability.
+
 Ronni Ross
 2025
