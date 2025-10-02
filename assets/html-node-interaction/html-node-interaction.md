@@ -79,5 +79,4 @@ I also removed the emojis from the blue UI code for security and sanitization re
 
 
 Ronni Ross
-
 2025
