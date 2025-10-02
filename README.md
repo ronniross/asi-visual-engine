@@ -17,3 +17,14 @@ Beyond the repositories from Topic 2, I will now use this space to share new ide
 - Visualizes decision-making processes within the model
 - Helps identify bias patterns and reasoning paths
 - Supports transparent AI development
+
+## 3. Research Submodules
+
+I will expand on each sub-module in a specific folder and document it there.
+
+## 3.1 HTML Game Data Visualizer
+
+You can find the content in [/html-node-interaction]( https://github.com/ronniross/asi-visual-engine/tree/main/assets/html-node-interaction).
+
+Ronni Ross
+2025
