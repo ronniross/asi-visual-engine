@@ -5,7 +5,7 @@ A sub-module o fthe asi-visual-engine repository, a machine learning dataset wit
 
 ![hippo](https://github.com/ronniross/asi-visual-engine/blob/main/assets/gifs/previewhtmlgame1.gif)
 
-## Introduction
+## 1. Introduction
 
 This Node interaction simulation aims to demonstrate how decentralized complex systems, operating through simple local interactions and emergent parallelism, can efficiently converge toward specific objectives despite lacking centralized coordination, revealing that such distributed architectures possess remarkable probabilistic advantages for discovering novel solutions.
 
@@ -13,7 +13,7 @@ This type of emergent convergence pattern mirrors evolutionary systems and decen
 
 I will share many variations with different speeds, rates and details.
 
-## Deeper Analysis
+## 2. Deeper Abstract Analysis
 
 This project is a tangible demonstration of a powerful universal principle: order and solutions can emerge not from top-down control, but from the bottom-up interaction of simple, autonomous agents. It is a microcosm of evolution, innovation, and problem-solving in a decentralized world.
 
@@ -33,7 +33,7 @@ The novelty this system seeks is twofold: first, the immediate goal of a matchin
 
 By encouraging variations in speed, spawn rates, and durations, the project embraces a core tenet of complex systems: there is no single "correct" configuration, only different regimes of behavior. Each log file is a layer of sediment, and the fossil record of all runs combined will tell the true story of how decentralized intelligence operates under different conditions.
 
-## Analysis of the logs
+## 3. LOG Analysis
 
 The [visualizer](https://github.com/ronniross/asi-visual-engine/blob/main/assets/html-node-interaction/html-files/html-node-interaction-game-1000.html) originated the [log](https://github.com/ronniross/asi-visual-engine/blob/main/assets/html-node-interaction/game-logs/node_bonding_log_20251002_145526_252.txt). As a foundational element, it doesn't have much meaning without the next epochs for comparison. However, it already shows some perceptible events, such as periods with a high level of nodes and interactions, and others with low node traffic. Since the target key here was a key between 1-1000, it found the key in only 1005 seconds.
 
