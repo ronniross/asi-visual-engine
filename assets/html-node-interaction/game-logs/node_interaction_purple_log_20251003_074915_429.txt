@@ -1,0 +1,2609 @@
+═══════════════════════════════════════════════════════════════
+        CYBER NODE INTERACTION SYNTHESIZER - PURPLE PROTOCOL LOG
+═══════════════════════════════════════════════════════════════
+
+PURPLE PROTOCOL - ENHANCED NODE DYNAMICS:
+───────────────────────────────────────────────────────────────
+1. Nodes spawn in dynamic clusters every 1.5 seconds
+2. Nodes exhibit constant movement with speed between 2-6
+3. Collision triggers cryptographic signature synthesis (10-bit)
+4. CATALYST NODES: Spawn with 25% chance every 15 normal nodes
+5. Catalyst nodes flicker between multiple colors
+6. When two catalyst nodes collide, they attempt 20 guesses at once
+7. Normal nodes that interact with catalysts get double guesses next time
+8. Green nodes (verified) don't interact with catalysts
+9. Verified pairs auto-purge after 4 seconds to prevent system overload
+10. System terminates upon signature match
+───────────────────────────────────────────────────────────────
+
+SESSION METRICS:
+───────────────────────────────────────────────────────────────
+Session Timestamp: 2025-10-03T10:49:15.429Z
+Target Signature: 592
+Total Runtime: 753 seconds
+Signatures Synthesized: 567
+Nodes Spawned: 983
+Catalyst Nodes Spawned: 3
+Interaction Efficiency: 0.18% per synthesis
+───────────────────────────────────────────────────────────────
+
+SYSTEM EVENT STREAM:
+───────────────────────────────────────────────────────────────
+[07:36:42] PURPLE PROTOCOL initiated. Target signature: 592
+[07:36:42] Node spawned at (585, 522)
+[07:36:42] Node spawned at (502, 432)
+[07:36:42] Node spawned at (188, 325)
+[07:36:44] Node spawned at (444, 180)
+[07:36:44] Node spawned at (713, 66)
+[07:36:44] Node spawned at (622, 485)
+[07:36:46] Node spawned at (84, 432)
+[07:36:46] Node spawned at (672, 167)
+[07:36:46] Node spawned at (580, 279)
+[07:36:47] Node spawned at (271, 542)
+[07:36:47] Node spawned at (359, 532)
+[07:36:47] Node spawned at (736, 45)
+[07:36:49] Node spawned at (758, 456)
+[07:36:49] Node spawned at (272, 493)
+[07:36:49] Node spawned at (115, 48)
+[07:36:50] Node spawned at (496, 391)
+[07:36:50] Node spawned at (352, 401)
+[07:36:50] Node spawned at (291, 233)
+[07:36:52] Node spawned at (333, 188)
+[07:36:52] Node spawned at (283, 383)
+[07:36:52] Node spawned at (539, 91)
+[07:36:53] Node spawned at (280, 117)
+[07:36:53] Node spawned at (726, 416)
+[07:36:53] Node spawned at (685, 414)
+[07:36:55] Node spawned at (478, 138)
+[07:36:55] Node spawned at (201, 271)
+[07:36:55] Node spawned at (125, 372)
+[07:36:56] Node spawned at (745, 541)
+[07:36:56] Node spawned at (570, 52)
+[07:36:56] Node spawned at (322, 131)
+[07:36:58] Node spawned at (74, 147)
+[07:36:58] Node spawned at (228, 54)
+[07:36:58] Node spawned at (314, 295)
+[07:36:59] Node spawned at (111, 349)
+[07:36:59] Node spawned at (519, 499)
+[07:36:59] Node spawned at (391, 433)
+[07:37:01] Node spawned at (288, 277)
+[07:37:01] Node spawned at (697, 250)
+[07:37:01] Node spawned at (585, 235)
+[07:37:02] Node spawned at (435, 325)
+[07:37:02] Node spawned at (355, 510)
+[07:37:02] Node spawned at (363, 398)
+[07:37:04] Node spawned at (434, 463)
+[07:37:04] Node spawned at (322, 321)
+[07:37:04] Node spawned at (318, 85)
+[07:37:05] Catalyst node spawned at (313, 330)
+[07:37:05] Node spawned at (363, 184)
+[07:37:05] Node spawned at (469, 378)
+[07:37:07] Node spawned at (202, 106)
+[07:37:07] Node spawned at (192, 548)
+[07:37:07] Node spawned at (133, 416)
+[07:37:08] Node spawned at (628, 145)
+[07:37:08] Node spawned at (680, 461)
+[07:37:08] Node spawned at (42, 72)
+[07:37:10] Node spawned at (624, 481)
+[07:37:10] Node spawned at (462, 83)
+[07:37:10] Node spawned at (426, 498)
+[07:37:11] Node spawned at (91, 256)
+[07:37:11] Node spawned at (690, 553)
+[07:37:11] Node spawned at (662, 134)
+[07:37:13] Node spawned at (730, 222)
+[07:37:13] Catalyst node spawned at (144, 160)
+[07:37:13] Node spawned at (54, 345)
+[07:37:14] Node spawned at (396, 189)
+[07:37:14] Node spawned at (497, 309)
+[07:37:14] Node spawned at (88, 239)
+[07:37:16] Node spawned at (694, 528)
+[07:37:16] Node spawned at (729, 105)
+[07:37:16] Node spawned at (362, 339)
+[07:37:17] Node spawned at (753, 509)
+[07:37:17] Node spawned at (451, 191)
+[07:37:17] Node spawned at (711, 313)
+[07:37:19] Node spawned at (591, 102)
+[07:37:19] Node spawned at (252, 169)
+[07:37:19] Node spawned at (188, 493)
+[07:37:20] Node spawned at (420, 356)
+[07:37:20] Node spawned at (295, 289)
+[07:37:20] Node spawned at (114, 514)
+[07:37:22] Node spawned at (171, 124)
+[07:37:22] Node spawned at (516, 194)
+[07:37:22] Node spawned at (761, 495)
+[07:37:23] Node spawned at (230, 459)
+[07:37:23] Node spawned at (160, 436)
+[07:37:23] Node spawned at (411, 84)
+[07:37:25] Node spawned at (115, 128)
+[07:37:25] Node spawned at (138, 184)
+[07:37:25] Node spawned at (596, 76)
+[07:37:26] Node spawned at (298, 271)
+[07:37:26] Node spawned at (46, 383)
+[07:37:26] Node spawned at (769, 422)
+[07:37:28] Node spawned at (77, 116)
+[07:37:28] Node spawned at (376, 341)
+[07:37:28] Catalyst node spawned at (204, 317)
+[07:37:29] Node spawned at (142, 102)
+[07:37:29] Node spawned at (96, 321)
+[07:37:29] Node spawned at (435, 172)
+[07:37:31] Node spawned at (562, 384)
+[07:37:31] Node spawned at (741, 224)
+[07:37:31] Node spawned at (496, 482)
+[07:37:32] Node spawned at (400, 173)
+[07:37:32] Node spawned at (573, 492)
+[07:37:32] Node spawned at (67, 265)
+[07:37:34] Node spawned at (193, 166)
+[07:37:34] Node spawned at (632, 565)
+[07:37:34] Node spawned at (388, 321)
+[07:37:35] Node spawned at (231, 297)
+[07:37:35] Node spawned at (123, 460)
+[07:37:35] Node spawned at (410, 191)
+[07:37:35] Signature synthesized: 844
+[07:37:35] Signature synthesized: 562
+[07:37:35] Signature synthesized: 535
+[07:37:35] Signature synthesized: 664
+[07:37:35] Signature synthesized: 538
+[07:37:35] Signature synthesized: 33
+[07:37:35] Signature synthesized: 960
+[07:37:35] Signature synthesized: 976
+[07:37:35] Signature synthesized: 549
+[07:37:35] Signature synthesized: 538
+[07:37:35] Signature synthesized: 900
+[07:37:35] Signature synthesized: 426
+[07:37:35] Signature synthesized: 34
+[07:37:35] Signature synthesized: 426
+[07:37:35] Signature synthesized: 144
+[07:37:35] Signature synthesized: 555
+[07:37:35] Catalyst-enhanced node detected - double signature attempts
+[07:37:35] Signature synthesized: 800
+[07:37:35] Signature synthesized: 867
+[07:37:35] Signature synthesized: 822
+[07:37:35] Signature synthesized: 555
+[07:37:35] Signature synthesized: 405
+[07:37:35] Signature synthesized: 940
+[07:37:35] Signature synthesized: 490
+[07:37:35] Signature synthesized: 779
+[07:37:35] Signature synthesized: 91
+[07:37:37] Catalyst node spawned at (643, 185)
+[07:37:37] Node spawned at (517, 328)
+[07:37:37] Node spawned at (476, 191)
+[07:37:37] Catalyst-enhanced node detected - double signature attempts
+[07:37:37] Signature synthesized: 778
+[07:37:37] Signature synthesized: 778
+[07:37:37] Signature synthesized: 290
+[07:37:37] Signature synthesized: 74
+[07:37:37] Signature synthesized: 315
+[07:37:37] Signature synthesized: 730
+[07:37:37] Signature synthesized: 45
+[07:37:37] Signature synthesized: 927
+[07:37:37] Signature synthesized: 379
+[07:37:37] Signature synthesized: 961
+[07:37:37] Signature synthesized: 522
+[07:37:37] Signature synthesized: 390
+[07:37:37] Signature synthesized: 970
+[07:37:37] Signature synthesized: 525
+[07:37:37] Signature synthesized: 112
+[07:37:37] Signature synthesized: 721
+[07:37:37] Catalyst-enhanced node detected - double signature attempts
+[07:37:37] Signature synthesized: 984
+[07:37:37] Signature synthesized: 603
+[07:37:37] Signature synthesized: 960
+[07:37:37] Signature synthesized: 666
+[07:37:37] Signature synthesized: 443
+[07:37:37] Signature synthesized: 548
+[07:37:37] Signature synthesized: 619
+[07:37:37] Signature synthesized: 8
+[07:37:37] Signature synthesized: 561
+[07:37:37] Node spawned at (500, 268)
+[07:37:37] Node spawned at (634, 436)
+[07:37:37] Node spawned at (362, 183)
+[07:37:37] Signature synthesized: 235
+[07:37:38] Signature synthesized: 646
+[07:37:38] Signature synthesized: 94
+[07:37:38] Catalyst-enhanced node detected - double signature attempts
+[07:37:38] Signature synthesized: 478
+[07:37:38] Signature synthesized: 914
+[07:37:38] Signature synthesized: 23
+[07:37:38] Signature synthesized: 605
+[07:37:40] Node spawned at (173, 263)
+[07:37:40] Node spawned at (692, 447)
+[07:37:40] Node spawned at (666, 239)
+[07:37:41] Node spawned at (731, 283)
+[07:37:41] Node spawned at (432, 224)
+[07:37:41] Node spawned at (762, 82)
+[07:37:43] Node spawned at (48, 420)
+[07:37:43] Node spawned at (469, 457)
+[07:37:43] Node spawned at (66, 377)
+[07:37:44] Node spawned at (530, 441)
+[07:37:44] Catalyst node spawned at (726, 128)
+[07:37:44] Node spawned at (750, 355)
+[07:37:46] Node spawned at (391, 198)
+[07:37:46] Node spawned at (245, 195)
+[07:37:46] Node spawned at (245, 475)
+[07:37:47] Node spawned at (215, 559)
+[07:37:47] Node spawned at (311, 187)
+[07:37:47] Node spawned at (452, 297)
+[07:37:49] Node spawned at (280, 532)
+[07:37:49] Node spawned at (314, 89)
+[07:37:49] Node spawned at (331, 473)
+[07:37:50] Node spawned at (767, 419)
+[07:37:50] Node spawned at (54, 553)
+[07:37:50] Node spawned at (197, 538)
+[07:37:52] Node spawned at (679, 296)
+[07:37:52] Node spawned at (387, 510)
+[07:37:52] Node spawned at (522, 53)
+[07:37:53] Node spawned at (703, 77)
+[07:37:53] Node spawned at (172, 533)
+[07:37:53] Node spawned at (709, 369)
+[07:37:55] Node spawned at (582, 442)
+[07:37:55] Node spawned at (111, 142)
+[07:37:55] Node spawned at (346, 178)
+[07:37:56] Node spawned at (125, 348)
+[07:37:56] Node spawned at (608, 180)
+[07:37:56] Node spawned at (205, 354)
+[07:37:58] Node spawned at (108, 48)
+[07:37:58] Node spawned at (350, 525)
+[07:37:58] Node spawned at (356, 446)
+[07:37:59] Node spawned at (415, 310)
+[07:37:59] Node spawned at (151, 281)
+[07:37:59] Catalyst node spawned at (361, 337)
+[07:38:01] Node spawned at (541, 146)
+[07:38:01] Node spawned at (146, 491)
+[07:38:01] Node spawned at (489, 348)
+[07:38:02] Node spawned at (80, 31)
+[07:38:02] Node spawned at (765, 289)
+[07:38:02] Node spawned at (747, 372)
+[07:38:04] Node spawned at (77, 352)
+[07:38:04] Node spawned at (209, 232)
+[07:38:04] Node spawned at (435, 397)
+[07:38:05] Node spawned at (531, 375)
+[07:38:05] Node spawned at (708, 101)
+[07:38:05] Node spawned at (321, 195)
+[07:38:07] Node spawned at (462, 114)
+[07:38:07] Node spawned at (436, 216)
+[07:38:07] Node spawned at (610, 219)
+[07:38:08] Node spawned at (541, 283)
+[07:38:08] Node spawned at (38, 278)
+[07:38:08] Node spawned at (486, 564)
+[07:38:10] Node spawned at (209, 236)
+[07:38:10] Node spawned at (110, 204)
+[07:38:10] Node spawned at (700, 499)
+[07:38:11] Node spawned at (449, 352)
+[07:38:11] Node spawned at (637, 342)
+[07:38:11] Node spawned at (215, 102)
+[07:38:13] Node spawned at (554, 509)
+[07:38:13] Node spawned at (47, 166)
+[07:38:13] Node spawned at (408, 303)
+[07:38:14] Node spawned at (31, 40)
+[07:38:14] Node spawned at (233, 369)
+[07:38:14] Node spawned at (724, 484)
+[07:38:16] Node spawned at (132, 326)
+[07:38:16] Node spawned at (95, 220)
+[07:38:16] Node spawned at (270, 453)
+[07:38:17] Node spawned at (498, 324)
+[07:38:17] Node spawned at (565, 328)
+[07:38:17] Node spawned at (188, 474)
+[07:38:19] Node spawned at (210, 69)
+[07:38:19] Node spawned at (580, 78)
+[07:38:19] Node spawned at (322, 371)
+[07:38:20] Node spawned at (541, 375)
+[07:38:20] Node spawned at (594, 236)
+[07:38:20] Node spawned at (163, 254)
+[07:38:22] Node spawned at (647, 71)
+[07:38:22] Node spawned at (400, 310)
+[07:38:22] Node spawned at (208, 376)
+[07:38:23] Catalyst node spawned at (317, 377)
+[07:38:23] Node spawned at (488, 518)
+[07:38:23] Node spawned at (311, 423)
+[07:38:25] Node spawned at (188, 519)
+[07:38:25] Node spawned at (447, 287)
+[07:38:25] Node spawned at (282, 125)
+[07:38:26] Node spawned at (733, 387)
+[07:38:26] Node spawned at (449, 233)
+[07:38:26] Node spawned at (36, 457)
+[07:38:28] Node spawned at (256, 288)
+[07:38:28] Node spawned at (335, 485)
+[07:38:28] Node spawned at (323, 38)
+[07:38:29] Node spawned at (67, 208)
+[07:38:29] Node spawned at (490, 422)
+[07:38:29] Node spawned at (102, 190)
+[07:38:31] Node spawned at (553, 430)
+[07:38:31] Catalyst node spawned at (240, 317)
+[07:38:31] Node spawned at (93, 303)
+[07:38:32] Node spawned at (158, 73)
+[07:38:32] Node spawned at (111, 505)
+[07:38:32] Node spawned at (172, 560)
+[07:38:34] Node spawned at (570, 73)
+[07:38:34] Node spawned at (252, 464)
+[07:38:34] Node spawned at (321, 520)
+[07:38:35] Node spawned at (364, 340)
+[07:38:35] Node spawned at (329, 485)
+[07:38:35] Node spawned at (307, 407)
+[07:38:37] Node spawned at (636, 101)
+[07:38:37] Node spawned at (235, 68)
+[07:38:37] Node spawned at (740, 533)
+[07:38:38] Node spawned at (692, 240)
+[07:38:38] Node spawned at (267, 529)
+[07:38:38] Node spawned at (207, 414)
+[07:39:13] Node spawned at (521, 124)
+[07:39:13] Node spawned at (571, 318)
+[07:39:13] Node spawned at (478, 291)
+[07:39:49] Node spawned at (679, 135)
+[07:39:49] Node spawned at (750, 182)
+[07:39:49] Node spawned at (760, 181)
+[07:39:49] Signature synthesized: 915
+[07:39:49] Signature synthesized: 544
+[07:39:49] Signature synthesized: 137
+[07:39:49] Signature synthesized: 405
+[07:39:49] Signature synthesized: 917
+[07:39:49] Catalyst-enhanced node detected - double signature attempts
+[07:39:49] Signature synthesized: 756
+[07:39:49] Signature synthesized: 900
+[07:39:49] Catalyst-enhanced node detected - double signature attempts
+[07:39:49] Signature synthesized: 183
+[07:39:49] Signature synthesized: 77
+[07:39:49] Catalyst-enhanced node detected - double signature attempts
+[07:39:49] Signature synthesized: 28
+[07:39:49] Signature synthesized: 97
+[07:39:49] Signature synthesized: 898
+[07:39:49] Signature synthesized: 318
+[07:39:49] Signature synthesized: 852
+[07:39:49] Signature synthesized: 62
+[07:39:49] Signature synthesized: 985
+[07:39:49] Signature synthesized: 599
+[07:39:49] Signature synthesized: 1004
+[07:39:49] Signature synthesized: 225
+[07:39:49] Signature synthesized: 361
+[07:39:49] Signature synthesized: 870
+[07:39:49] Signature synthesized: 215
+[07:39:49] Signature synthesized: 357
+[07:39:49] Signature synthesized: 563
+[07:39:49] Signature synthesized: 12
+[07:39:49] Signature synthesized: 802
+[07:39:49] Signature synthesized: 811
+[07:39:49] Signature synthesized: 404
+[07:39:49] Signature synthesized: 932
+[07:39:49] Signature synthesized: 142
+[07:39:49] Signature synthesized: 864
+[07:39:49] Signature synthesized: 981
+[07:39:49] Signature synthesized: 104
+[07:39:49] Signature synthesized: 244
+[07:39:49] Signature synthesized: 855
+[07:39:49] Signature synthesized: 29
+[07:39:49] Signature synthesized: 192
+[07:39:49] Catalyst-enhanced node detected - double signature attempts
+[07:39:49] Signature synthesized: 33
+[07:39:49] Signature synthesized: 302
+[07:39:49] Signature synthesized: 625
+[07:39:49] Signature synthesized: 52
+[07:39:49] Signature synthesized: 729
+[07:39:49] Signature synthesized: 687
+[07:39:49] Signature synthesized: 294
+[07:39:49] Signature synthesized: 340
+[07:39:49] Signature synthesized: 410
+[07:39:49] Signature synthesized: 596
+[07:39:49] Catalyst-enhanced node detected - double signature attempts
+[07:39:49] Signature synthesized: 963
+[07:39:49] Signature synthesized: 425
+[07:39:49] Signature synthesized: 966
+[07:39:49] Signature synthesized: 47
+[07:39:49] Verified node purged (signature: 522)
+[07:39:49] Verified node purged (signature: 74)
+[07:39:49] Verified node purged (signature: 778)
+[07:39:49] Verified node purged (signature: 555)
+[07:39:49] Verified node purged (signature: 548)
+[07:39:49] Verified node purged (signature: 548)
+[07:39:49] Verified node purged (signature: 605)
+[07:39:49] Verified node purged (signature: 561)
+[07:39:49] Verified node purged (signature: 426)
+[07:39:49] Verified node purged (signature: 844)
+[07:39:49] Verified node purged (signature: 822)
+[07:39:49] Verified node purged (signature: 900)
+[07:39:49] Verified node purged (signature: 555)
+[07:39:49] Verified node purged (signature: 666)
+[07:39:49] Verified node purged (signature: 535)
+[07:39:49] Verified node purged (signature: 390)
+[07:39:49] Verified node purged (signature: 91)
+[07:39:49] Verified node purged (signature: 478)
+[07:39:49] Verified node purged (signature: 405)
+[07:39:49] Verified node purged (signature: 290)
+[07:39:49] Verified node purged (signature: 94)
+[07:39:49] Verified node purged (signature: 426)
+[07:39:49] Verified node purged (signature: 490)
+[07:39:49] Verified node purged (signature: 800)
+[07:39:49] Verified node purged (signature: 91)
+[07:39:49] Verified node purged (signature: 478)
+[07:39:49] Verified node purged (signature: 235)
+[07:39:49] Verified node purged (signature: 940)
+[07:39:49] Verified node purged (signature: 112)
+[07:39:49] Verified node purged (signature: 619)
+[07:39:49] Verified node purged (signature: 525)
+[07:39:49] Verified node purged (signature: 538)
+[07:39:49] Verified node purged (signature: 961)
+[07:39:49] Verified node purged (signature: 525)
+[07:39:49] Verified node purged (signature: 490)
+[07:39:49] Verified node purged (signature: 379)
+[07:39:49] Verified node purged (signature: 562)
+[07:39:49] Verified node purged (signature: 940)
+[07:39:49] Verified node purged (signature: 405)
+[07:39:49] Verified node purged (signature: 144)
+[07:39:49] Verified node purged (signature: 34)
+[07:39:49] Verified node purged (signature: 74)
+[07:39:49] Verified node purged (signature: 555)
+[07:39:49] Verified node purged (signature: 390)
+[07:39:49] Verified node purged (signature: 800)
+[07:39:49] Verified node purged (signature: 555)
+[07:39:49] Verified node purged (signature: 927)
+[07:39:49] Verified node purged (signature: 144)
+[07:39:49] Verified node purged (signature: 426)
+[07:39:49] Verified node purged (signature: 23)
+[07:39:49] Verified node purged (signature: 664)
+[07:39:49] Verified node purged (signature: 960)
+[07:39:49] Verified node purged (signature: 45)
+[07:39:49] Verified node purged (signature: 927)
+[07:39:49] Verified node purged (signature: 970)
+[07:39:49] Verified node purged (signature: 23)
+[07:39:49] Verified node purged (signature: 33)
+[07:39:49] Verified node purged (signature: 984)
+[07:39:49] Verified node purged (signature: 94)
+[07:39:49] Verified node purged (signature: 549)
+[07:39:49] Verified node purged (signature: 235)
+[07:39:49] Verified node purged (signature: 960)
+[07:39:49] Verified node purged (signature: 538)
+[07:39:49] Verified node purged (signature: 961)
+[07:39:49] Verified node purged (signature: 646)
+[07:39:49] Verified node purged (signature: 379)
+[07:39:49] Verified node purged (signature: 426)
+[07:39:49] Verified node purged (signature: 443)
+[07:39:49] Verified node purged (signature: 900)
+[07:39:49] Verified node purged (signature: 976)
+[07:39:49] Verified node purged (signature: 538)
+[07:39:49] Verified node purged (signature: 619)
+[07:39:49] Verified node purged (signature: 290)
+[07:39:49] Verified node purged (signature: 730)
+[07:39:49] Verified node purged (signature: 646)
+[07:39:49] Verified node purged (signature: 8)
+[07:39:49] Verified node purged (signature: 976)
+[07:39:49] Verified node purged (signature: 561)
+[07:39:49] Verified node purged (signature: 522)
+[07:39:49] Verified node purged (signature: 45)
+[07:39:49] Verified node purged (signature: 666)
+[07:39:49] Verified node purged (signature: 730)
+[07:39:49] Verified node purged (signature: 605)
+[07:39:49] Verified node purged (signature: 984)
+[07:39:49] Verified node purged (signature: 721)
+[07:39:49] Verified node purged (signature: 721)
+[07:39:49] Verified node purged (signature: 960)
+[07:39:49] Verified node purged (signature: 33)
+[07:39:49] Verified node purged (signature: 960)
+[07:39:49] Verified node purged (signature: 315)
+[07:39:49] Verified node purged (signature: 8)
+[07:39:49] Verified node purged (signature: 779)
+[07:39:49] Verified node purged (signature: 538)
+[07:39:49] Verified node purged (signature: 315)
+[07:39:49] Verified node purged (signature: 112)
+[07:39:49] Verified node purged (signature: 778)
+[07:39:49] Verified node purged (signature: 664)
+[07:39:49] Verified node purged (signature: 779)
+[07:39:49] Verified node purged (signature: 535)
+[07:39:49] Verified node purged (signature: 970)
+[07:39:49] Verified node purged (signature: 443)
+[07:39:49] Verified node purged (signature: 844)
+[07:39:49] Signature synthesized: 39
+[07:39:49] Signature synthesized: 457
+[07:39:49] Signature synthesized: 390
+[07:39:49] Signature synthesized: 476
+[07:39:49] Signature synthesized: 250
+[07:39:49] Signature synthesized: 41
+[07:39:49] Signature synthesized: 789
+[07:39:49] Signature synthesized: 754
+[07:39:49] Signature synthesized: 142
+[07:39:49] Signature synthesized: 472
+[07:39:49] Signature synthesized: 496
+[07:39:49] Node spawned at (444, 224)
+[07:39:49] Node spawned at (61, 227)
+[07:39:49] Node spawned at (403, 109)
+[07:39:49] Signature synthesized: 39
+[07:39:49] Signature synthesized: 52
+[07:39:49] Signature synthesized: 586
+[07:39:52] Node spawned at (127, 36)
+[07:39:52] Node spawned at (557, 471)
+[07:39:52] Node spawned at (697, 502)
+[07:39:53] Node spawned at (427, 411)
+[07:39:53] Node spawned at (530, 507)
+[07:39:53] Node spawned at (706, 259)
+[07:39:55] Node spawned at (722, 434)
+[07:39:55] Node spawned at (345, 401)
+[07:39:55] Node spawned at (769, 183)
+[07:39:56] Node spawned at (299, 282)
+[07:39:56] Node spawned at (147, 540)
+[07:39:56] Node spawned at (401, 255)
+[07:39:58] Node spawned at (396, 416)
+[07:39:58] Node spawned at (195, 486)
+[07:39:58] Node spawned at (591, 255)
+[07:39:59] Node spawned at (426, 38)
+[07:39:59] Node spawned at (555, 390)
+[07:39:59] Node spawned at (344, 102)
+[07:40:01] Node spawned at (540, 343)
+[07:40:01] Node spawned at (504, 315)
+[07:40:01] Node spawned at (557, 170)
+[07:40:02] Node spawned at (390, 438)
+[07:40:02] Node spawned at (613, 431)
+[07:40:02] Node spawned at (419, 136)
+[07:40:04] Node spawned at (265, 222)
+[07:40:04] Node spawned at (522, 266)
+[07:40:04] Node spawned at (446, 412)
+[07:40:05] Node spawned at (472, 363)
+[07:40:05] Node spawned at (489, 528)
+[07:40:05] Node spawned at (614, 443)
+[07:40:07] Node spawned at (414, 406)
+[07:40:07] Node spawned at (730, 368)
+[07:40:07] Node spawned at (403, 525)
+[07:40:08] Node spawned at (564, 113)
+[07:40:08] Node spawned at (621, 78)
+[07:40:08] Catalyst node spawned at (410, 209)
+[07:40:10] Node spawned at (640, 350)
+[07:40:10] Node spawned at (366, 442)
+[07:40:10] Node spawned at (240, 434)
+[07:40:11] Node spawned at (457, 363)
+[07:40:11] Node spawned at (53, 139)
+[07:40:11] Node spawned at (302, 235)
+[07:40:13] Node spawned at (78, 207)
+[07:40:13] Node spawned at (499, 296)
+[07:40:13] Node spawned at (161, 514)
+[07:40:14] Node spawned at (448, 150)
+[07:40:14] Node spawned at (49, 569)
+[07:40:14] Node spawned at (503, 39)
+[07:40:15] Node spawned at (528, 489)
+[07:40:15] Node spawned at (415, 334)
+[07:40:15] Node spawned at (364, 407)
+[07:40:15] Signature synthesized: 959
+[07:40:15] Signature synthesized: 607
+[07:40:15] Signature synthesized: 826
+[07:40:15] Signature synthesized: 573
+[07:40:15] Signature synthesized: 39
+[07:40:15] Signature synthesized: 734
+[07:40:15] Signature synthesized: 190
+[07:40:15] Signature synthesized: 927
+[07:40:15] Signature synthesized: 805
+[07:40:15] Signature synthesized: 53
+[07:40:15] Signature synthesized: 969
+[07:40:15] Signature synthesized: 16
+[07:40:15] Signature synthesized: 452
+[07:40:15] Signature synthesized: 763
+[07:40:15] Signature synthesized: 334
+[07:40:15] Signature synthesized: 221
+[07:40:15] Signature synthesized: 828
+[07:40:15] Verified node purged (signature: 52)
+[07:40:15] Verified node purged (signature: 39)
+[07:40:15] Verified node purged (signature: 47)
+[07:40:15] Verified node purged (signature: 47)
+[07:40:15] Verified node purged (signature: 28)
+[07:40:15] Verified node purged (signature: 917)
+[07:40:15] Verified node purged (signature: 985)
+[07:40:15] Verified node purged (signature: 404)
+[07:40:15] Verified node purged (signature: 870)
+[07:40:15] Verified node purged (signature: 410)
+[07:40:15] Verified node purged (signature: 966)
+[07:40:15] Verified node purged (signature: 142)
+[07:40:15] Verified node purged (signature: 33)
+[07:40:15] Verified node purged (signature: 142)
+[07:40:15] Verified node purged (signature: 563)
+[07:40:15] Verified node purged (signature: 596)
+[07:40:15] Verified node purged (signature: 981)
+[07:40:15] Verified node purged (signature: 789)
+[07:40:15] Verified node purged (signature: 544)
+[07:40:15] Verified node purged (signature: 215)
+[07:40:15] Verified node purged (signature: 294)
+[07:40:15] Verified node purged (signature: 250)
+[07:40:15] Verified node purged (signature: 496)
+[07:40:15] Verified node purged (signature: 52)
+[07:40:15] Verified node purged (signature: 932)
+[07:40:15] Verified node purged (signature: 852)
+[07:40:15] Verified node purged (signature: 390)
+[07:40:15] Verified node purged (signature: 1004)
+[07:40:15] Verified node purged (signature: 104)
+[07:40:15] Verified node purged (signature: 811)
+[07:40:15] Verified node purged (signature: 864)
+[07:40:15] Verified node purged (signature: 966)
+[07:40:15] Verified node purged (signature: 963)
+[07:40:15] Verified node purged (signature: 855)
+[07:40:15] Verified node purged (signature: 192)
+[07:40:15] Verified node purged (signature: 472)
+[07:40:15] Verified node purged (signature: 361)
+[07:40:15] Verified node purged (signature: 729)
+[07:40:15] Verified node purged (signature: 52)
+[07:40:15] Verified node purged (signature: 963)
+[07:40:15] Verified node purged (signature: 596)
+[07:40:15] Verified node purged (signature: 410)
+[07:40:15] Verified node purged (signature: 62)
+[07:40:15] Verified node purged (signature: 405)
+[07:40:15] Verified node purged (signature: 318)
+[07:40:15] Verified node purged (signature: 687)
+[07:40:15] Verified node purged (signature: 244)
+[07:40:15] Verified node purged (signature: 340)
+[07:40:15] Verified node purged (signature: 586)
+[07:40:15] Verified node purged (signature: 137)
+[07:40:15] Verified node purged (signature: 29)
+[07:40:15] Verified node purged (signature: 41)
+[07:40:15] Verified node purged (signature: 340)
+[07:40:15] Verified node purged (signature: 294)
+[07:40:15] Verified node purged (signature: 625)
+[07:40:15] Verified node purged (signature: 496)
+[07:40:15] Verified node purged (signature: 729)
+[07:40:15] Verified node purged (signature: 599)
+[07:40:15] Verified node purged (signature: 802)
+[07:40:15] Verified node purged (signature: 183)
+[07:40:15] Verified node purged (signature: 52)
+[07:40:15] Verified node purged (signature: 250)
+[07:40:15] Verified node purged (signature: 625)
+[07:40:15] Verified node purged (signature: 915)
+[07:40:15] Verified node purged (signature: 357)
+[07:40:15] Verified node purged (signature: 457)
+[07:40:15] Verified node purged (signature: 39)
+[07:40:15] Verified node purged (signature: 41)
+[07:40:15] Verified node purged (signature: 476)
+[07:40:15] Verified node purged (signature: 33)
+[07:40:15] Verified node purged (signature: 225)
+[07:40:15] Verified node purged (signature: 192)
+[07:40:15] Verified node purged (signature: 754)
+[07:40:15] Verified node purged (signature: 39)
+[07:40:15] Verified node purged (signature: 855)
+[07:40:15] Verified node purged (signature: 476)
+[07:40:15] Verified node purged (signature: 244)
+[07:40:15] Verified node purged (signature: 104)
+[07:40:15] Verified node purged (signature: 981)
+[07:40:15] Verified node purged (signature: 472)
+[07:40:15] Verified node purged (signature: 754)
+[07:40:15] Verified node purged (signature: 898)
+[07:40:15] Verified node purged (signature: 12)
+[07:40:15] Verified node purged (signature: 789)
+[07:40:15] Verified node purged (signature: 142)
+[07:40:15] Verified node purged (signature: 404)
+[07:40:15] Verified node purged (signature: 811)
+[07:40:15] Verified node purged (signature: 802)
+[07:40:15] Verified node purged (signature: 12)
+[07:40:15] Verified node purged (signature: 563)
+[07:40:15] Verified node purged (signature: 39)
+[07:40:15] Verified node purged (signature: 357)
+[07:40:15] Verified node purged (signature: 756)
+[07:40:15] Verified node purged (signature: 215)
+[07:40:15] Verified node purged (signature: 586)
+[07:40:15] Verified node purged (signature: 390)
+[07:40:15] Verified node purged (signature: 457)
+[07:40:15] Verified node purged (signature: 870)
+[07:40:15] Verified node purged (signature: 361)
+[07:40:15] Verified node purged (signature: 1004)
+[07:40:15] Verified node purged (signature: 985)
+[07:40:15] Verified node purged (signature: 852)
+[07:40:15] Verified node purged (signature: 142)
+[07:40:15] Verified node purged (signature: 318)
+[07:40:15] Verified node purged (signature: 898)
+[07:40:15] Verified node purged (signature: 28)
+[07:40:15] Verified node purged (signature: 917)
+[07:40:15] Verified node purged (signature: 137)
+[07:40:15] Verified node purged (signature: 544)
+[07:40:15] Signature synthesized: 566
+[07:40:15] Signature synthesized: 145
+[07:40:15] Signature synthesized: 720
+[07:40:15] Signature synthesized: 971
+[07:40:15] Signature synthesized: 956
+[07:40:15] Signature synthesized: 265
+[07:40:15] Signature synthesized: 880
+[07:40:15] Signature synthesized: 327
+[07:40:17] Node spawned at (541, 211)
+[07:40:17] Node spawned at (464, 442)
+[07:40:17] Node spawned at (97, 49)
+[07:40:19] Node spawned at (97, 134)
+[07:40:19] Node spawned at (174, 191)
+[07:40:19] Node spawned at (132, 390)
+[07:40:20] Node spawned at (657, 416)
+[07:40:20] Node spawned at (209, 498)
+[07:40:20] Node spawned at (482, 534)
+[07:40:22] Node spawned at (79, 448)
+[07:40:22] Node spawned at (232, 386)
+[07:40:22] Node spawned at (491, 78)
+[07:40:23] Node spawned at (434, 194)
+[07:40:23] Node spawned at (505, 61)
+[07:40:23] Node spawned at (609, 498)
+[07:40:25] Catalyst node spawned at (85, 447)
+[07:40:25] Node spawned at (144, 350)
+[07:40:25] Node spawned at (727, 144)
+[07:40:26] Node spawned at (409, 447)
+[07:40:26] Node spawned at (332, 51)
+[07:40:26] Node spawned at (493, 369)
+[07:40:28] Node spawned at (142, 457)
+[07:40:28] Node spawned at (644, 463)
+[07:40:28] Node spawned at (312, 278)
+[07:40:29] Node spawned at (30, 395)
+[07:40:29] Node spawned at (609, 513)
+[07:40:29] Node spawned at (306, 388)
+[07:40:31] Node spawned at (380, 450)
+[07:40:31] Node spawned at (440, 555)
+[07:40:31] Node spawned at (700, 388)
+[07:40:32] Node spawned at (56, 153)
+[07:40:32] Node spawned at (543, 237)
+[07:40:32] Node spawned at (620, 455)
+[07:40:34] Node spawned at (54, 414)
+[07:40:34] Node spawned at (153, 514)
+[07:40:34] Node spawned at (318, 212)
+[07:40:35] Node spawned at (368, 305)
+[07:40:35] Node spawned at (693, 148)
+[07:40:35] Node spawned at (736, 195)
+[07:40:37] Node spawned at (289, 506)
+[07:40:37] Node spawned at (366, 102)
+[07:40:37] Node spawned at (173, 416)
+[07:40:38] Node spawned at (680, 480)
+[07:40:38] Node spawned at (668, 86)
+[07:40:38] Node spawned at (304, 156)
+[07:40:40] Node spawned at (586, 402)
+[07:40:40] Node spawned at (343, 464)
+[07:40:40] Node spawned at (707, 474)
+[07:40:41] Node spawned at (651, 31)
+[07:40:41] Node spawned at (448, 119)
+[07:40:41] Node spawned at (679, 302)
+[07:40:43] Node spawned at (73, 515)
+[07:40:43] Node spawned at (732, 249)
+[07:40:43] Node spawned at (580, 493)
+[07:40:44] Node spawned at (543, 395)
+[07:40:44] Node spawned at (372, 385)
+[07:40:44] Node spawned at (463, 99)
+[07:40:46] Node spawned at (635, 151)
+[07:40:46] Node spawned at (655, 362)
+[07:40:46] Node spawned at (684, 105)
+[07:40:47] Node spawned at (103, 454)
+[07:40:47] Node spawned at (655, 419)
+[07:40:47] Node spawned at (289, 388)
+[07:40:49] Node spawned at (736, 31)
+[07:40:49] Node spawned at (141, 99)
+[07:40:49] Node spawned at (392, 443)
+[07:40:50] Node spawned at (579, 310)
+[07:40:50] Node spawned at (162, 94)
+[07:40:50] Node spawned at (669, 353)
+[07:40:52] Node spawned at (478, 140)
+[07:40:52] Node spawned at (73, 490)
+[07:40:52] Node spawned at (713, 149)
+[07:40:53] Node spawned at (112, 550)
+[07:40:53] Node spawned at (471, 330)
+[07:40:53] Node spawned at (39, 569)
+[07:40:54] Node spawned at (568, 554)
+[07:40:54] Node spawned at (507, 295)
+[07:40:54] Node spawned at (214, 308)
+[07:40:54] Signature synthesized: 707
+[07:40:54] Signature synthesized: 320
+[07:40:54] Signature synthesized: 14
+[07:40:54] Signature synthesized: 142
+[07:40:54] Signature synthesized: 400
+[07:40:54] Signature synthesized: 438
+[07:40:54] Signature synthesized: 760
+[07:40:54] Signature synthesized: 734
+[07:40:54] Catalyst-enhanced node detected - double signature attempts
+[07:40:54] Signature synthesized: 567
+[07:40:54] Signature synthesized: 364
+[07:40:54] Signature synthesized: 553
+[07:40:54] Signature synthesized: 427
+[07:40:54] Signature synthesized: 65
+[07:40:54] Signature synthesized: 73
+[07:40:54] Signature synthesized: 111
+[07:40:54] Signature synthesized: 647
+[07:40:54] Signature synthesized: 583
+[07:40:54] Signature synthesized: 696
+[07:40:54] Signature synthesized: 52
+[07:40:54] Signature synthesized: 867
+[07:40:54] Signature synthesized: 402
+[07:40:54] Signature synthesized: 902
+[07:40:54] Signature synthesized: 173
+[07:40:54] Catalyst-enhanced node detected - double signature attempts
+[07:40:54] Signature synthesized: 761
+[07:40:54] Signature synthesized: 190
+[07:40:54] Signature synthesized: 671
+[07:40:54] Signature synthesized: 898
+[07:40:54] Signature synthesized: 535
+[07:40:54] Signature synthesized: 642
+[07:40:54] Signature synthesized: 255
+[07:40:54] Signature synthesized: 708
+[07:40:54] Signature synthesized: 709
+[07:40:54] Signature synthesized: 730
+[07:40:54] Verified node purged (signature: 452)
+[07:40:54] Verified node purged (signature: 607)
+[07:40:54] Verified node purged (signature: 16)
+[07:40:54] Verified node purged (signature: 763)
+[07:40:54] Verified node purged (signature: 221)
+[07:40:54] Verified node purged (signature: 805)
+[07:40:54] Verified node purged (signature: 828)
+[07:40:54] Verified node purged (signature: 956)
+[07:40:54] Verified node purged (signature: 880)
+[07:40:54] Verified node purged (signature: 39)
+[07:40:54] Verified node purged (signature: 969)
+[07:40:54] Verified node purged (signature: 959)
+[07:40:54] Verified node purged (signature: 566)
+[07:40:54] Verified node purged (signature: 828)
+[07:40:54] Verified node purged (signature: 53)
+[07:40:54] Verified node purged (signature: 826)
+[07:40:54] Verified node purged (signature: 927)
+[07:40:54] Verified node purged (signature: 880)
+[07:40:54] Verified node purged (signature: 334)
+[07:40:54] Verified node purged (signature: 221)
+[07:40:54] Verified node purged (signature: 971)
+[07:40:54] Verified node purged (signature: 265)
+[07:40:54] Verified node purged (signature: 334)
+[07:40:54] Verified node purged (signature: 573)
+[07:40:54] Verified node purged (signature: 763)
+[07:40:54] Verified node purged (signature: 452)
+[07:40:54] Verified node purged (signature: 145)
+[07:40:54] Verified node purged (signature: 734)
+[07:40:54] Verified node purged (signature: 16)
+[07:40:54] Verified node purged (signature: 969)
+[07:40:54] Verified node purged (signature: 971)
+[07:40:54] Verified node purged (signature: 190)
+[07:40:54] Verified node purged (signature: 805)
+[07:40:54] Verified node purged (signature: 927)
+[07:40:54] Verified node purged (signature: 265)
+[07:40:54] Verified node purged (signature: 720)
+[07:40:54] Verified node purged (signature: 720)
+[07:40:54] Verified node purged (signature: 190)
+[07:40:54] Verified node purged (signature: 734)
+[07:40:54] Verified node purged (signature: 39)
+[07:40:54] Verified node purged (signature: 327)
+[07:40:54] Verified node purged (signature: 573)
+[07:40:54] Verified node purged (signature: 956)
+[07:40:54] Verified node purged (signature: 826)
+[07:40:54] Verified node purged (signature: 566)
+[07:40:54] Verified node purged (signature: 607)
+[07:40:54] Verified node purged (signature: 959)
+[07:40:54] Verified node purged (signature: 145)
+[07:40:54] Verified node purged (signature: 327)
+[07:40:54] Signature synthesized: 990
+[07:40:54] Signature synthesized: 193
+[07:40:54] Signature synthesized: 742
+[07:40:54] Signature synthesized: 702
+[07:40:54] Signature synthesized: 982
+[07:40:54] Signature synthesized: 892
+[07:40:54] Signature synthesized: 376
+[07:40:54] Signature synthesized: 320
+[07:40:54] Signature synthesized: 157
+[07:40:54] Signature synthesized: 310
+[07:40:54] Signature synthesized: 923
+[07:40:54] Signature synthesized: 458
+[07:40:54] Signature synthesized: 223
+[07:40:54] Signature synthesized: 114
+[07:40:54] Signature synthesized: 921
+[07:40:54] Signature synthesized: 551
+[07:40:55] Signature synthesized: 972
+[07:40:55] Signature synthesized: 376
+[07:40:56] Node spawned at (505, 51)
+[07:40:56] Node spawned at (280, 511)
+[07:40:56] Node spawned at (391, 398)
+[07:40:58] Node spawned at (189, 293)
+[07:40:58] Node spawned at (140, 540)
+[07:40:58] Node spawned at (697, 552)
+[07:40:59] Node spawned at (526, 291)
+[07:40:59] Node spawned at (626, 194)
+[07:40:59] Node spawned at (381, 488)
+[07:41:01] Node spawned at (428, 473)
+[07:41:01] Node spawned at (718, 470)
+[07:41:01] Node spawned at (675, 310)
+[07:41:02] Node spawned at (714, 240)
+[07:41:02] Node spawned at (462, 101)
+[07:41:02] Node spawned at (501, 336)
+[07:41:04] Node spawned at (91, 331)
+[07:41:04] Node spawned at (107, 259)
+[07:41:04] Node spawned at (114, 427)
+[07:41:05] Node spawned at (219, 174)
+[07:41:05] Node spawned at (145, 457)
+[07:41:05] Node spawned at (184, 417)
+[07:41:07] Node spawned at (359, 247)
+[07:41:07] Node spawned at (566, 76)
+[07:41:07] Node spawned at (391, 351)
+[07:41:08] Node spawned at (394, 223)
+[07:41:08] Node spawned at (122, 501)
+[07:41:08] Node spawned at (499, 117)
+[07:41:10] Node spawned at (443, 558)
+[07:41:10] Node spawned at (566, 152)
+[07:41:10] Node spawned at (667, 64)
+[07:41:11] Node spawned at (479, 236)
+[07:41:11] Node spawned at (402, 474)
+[07:41:11] Node spawned at (487, 264)
+[07:41:13] Node spawned at (408, 89)
+[07:41:13] Node spawned at (622, 378)
+[07:41:13] Node spawned at (299, 310)
+[07:41:14] Node spawned at (636, 502)
+[07:41:14] Node spawned at (281, 318)
+[07:41:14] Node spawned at (666, 512)
+[07:41:16] Node spawned at (744, 437)
+[07:41:16] Node spawned at (477, 252)
+[07:41:16] Node spawned at (253, 512)
+[07:41:17] Node spawned at (667, 212)
+[07:41:17] Node spawned at (154, 345)
+[07:41:17] Node spawned at (532, 413)
+[07:41:19] Node spawned at (386, 546)
+[07:41:19] Node spawned at (195, 157)
+[07:41:19] Node spawned at (353, 301)
+[07:41:20] Node spawned at (202, 379)
+[07:41:20] Node spawned at (321, 95)
+[07:41:20] Node spawned at (450, 275)
+[07:41:20] Signature synthesized: 85
+[07:41:20] Signature synthesized: 28
+[07:41:20] Signature synthesized: 489
+[07:41:20] Signature synthesized: 1015
+[07:41:20] Signature synthesized: 77
+[07:41:20] Signature synthesized: 470
+[07:41:20] Signature synthesized: 626
+[07:41:20] Signature synthesized: 352
+[07:41:20] Signature synthesized: 802
+[07:41:20] Signature synthesized: 291
+[07:41:20] Signature synthesized: 689
+[07:41:20] Signature synthesized: 713
+[07:41:20] Signature synthesized: 313
+[07:41:20] Verified node purged (signature: 458)
+[07:41:20] Verified node purged (signature: 376)
+[07:41:20] Verified node purged (signature: 376)
+[07:41:20] Verified node purged (signature: 972)
+[07:41:20] Verified node purged (signature: 567)
+[07:41:20] Verified node purged (signature: 402)
+[07:41:20] Verified node purged (signature: 14)
+[07:41:20] Verified node purged (signature: 708)
+[07:41:20] Verified node purged (signature: 709)
+[07:41:20] Verified node purged (signature: 730)
+[07:41:20] Verified node purged (signature: 760)
+[07:41:20] Verified node purged (signature: 730)
+[07:41:20] Verified node purged (signature: 535)
+[07:41:20] Verified node purged (signature: 173)
+[07:41:20] Verified node purged (signature: 696)
+[07:41:20] Verified node purged (signature: 642)
+[07:41:20] Verified node purged (signature: 709)
+[07:41:20] Verified node purged (signature: 702)
+[07:41:20] Verified node purged (signature: 255)
+[07:41:20] Verified node purged (signature: 921)
+[07:41:20] Verified node purged (signature: 734)
+[07:41:20] Verified node purged (signature: 400)
+[07:41:20] Verified node purged (signature: 708)
+[07:41:20] Verified node purged (signature: 742)
+[07:41:20] Verified node purged (signature: 255)
+[07:41:20] Verified node purged (signature: 114)
+[07:41:20] Verified node purged (signature: 647)
+[07:41:20] Verified node purged (signature: 982)
+[07:41:20] Verified node purged (signature: 642)
+[07:41:20] Verified node purged (signature: 65)
+[07:41:20] Verified node purged (signature: 972)
+[07:41:20] Verified node purged (signature: 990)
+[07:41:20] Verified node purged (signature: 551)
+[07:41:20] Verified node purged (signature: 320)
+[07:41:20] Verified node purged (signature: 320)
+[07:41:20] Verified node purged (signature: 193)
+[07:41:20] Verified node purged (signature: 867)
+[07:41:20] Verified node purged (signature: 157)
+[07:41:20] Verified node purged (signature: 923)
+[07:41:20] Verified node purged (signature: 902)
+[07:41:20] Verified node purged (signature: 52)
+[07:41:20] Verified node purged (signature: 376)
+[07:41:20] Verified node purged (signature: 982)
+[07:41:20] Verified node purged (signature: 535)
+[07:41:20] Verified node purged (signature: 898)
+[07:41:20] Verified node purged (signature: 892)
+[07:41:20] Verified node purged (signature: 427)
+[07:41:20] Verified node purged (signature: 583)
+[07:41:20] Verified node purged (signature: 376)
+[07:41:20] Verified node purged (signature: 142)
+[07:41:20] Verified node purged (signature: 438)
+[07:41:20] Verified node purged (signature: 707)
+[07:41:20] Verified node purged (signature: 458)
+[07:41:20] Verified node purged (signature: 761)
+[07:41:20] Verified node purged (signature: 898)
+[07:41:20] Verified node purged (signature: 671)
+[07:41:20] Verified node purged (signature: 671)
+[07:41:20] Verified node purged (signature: 73)
+[07:41:20] Verified node purged (signature: 761)
+[07:41:20] Verified node purged (signature: 923)
+[07:41:20] Verified node purged (signature: 111)
+[07:41:20] Verified node purged (signature: 173)
+[07:41:20] Verified node purged (signature: 157)
+[07:41:20] Verified node purged (signature: 310)
+[07:41:20] Verified node purged (signature: 553)
+[07:41:20] Verified node purged (signature: 921)
+[07:41:20] Verified node purged (signature: 902)
+[07:41:20] Verified node purged (signature: 402)
+[07:41:20] Verified node purged (signature: 223)
+[07:41:20] Verified node purged (signature: 867)
+[07:41:20] Verified node purged (signature: 52)
+[07:41:20] Verified node purged (signature: 696)
+[07:41:20] Verified node purged (signature: 114)
+[07:41:20] Verified node purged (signature: 647)
+[07:41:20] Verified node purged (signature: 223)
+[07:41:20] Verified node purged (signature: 702)
+[07:41:20] Verified node purged (signature: 551)
+[07:41:20] Verified node purged (signature: 320)
+[07:41:20] Verified node purged (signature: 111)
+[07:41:20] Verified node purged (signature: 73)
+[07:41:20] Verified node purged (signature: 65)
+[07:41:20] Verified node purged (signature: 193)
+[07:41:20] Verified node purged (signature: 553)
+[07:41:20] Verified node purged (signature: 567)
+[07:41:20] Verified node purged (signature: 734)
+[07:41:20] Verified node purged (signature: 892)
+[07:41:20] Verified node purged (signature: 742)
+[07:41:20] Verified node purged (signature: 760)
+[07:41:20] Verified node purged (signature: 990)
+[07:41:20] Verified node purged (signature: 400)
+[07:41:20] Verified node purged (signature: 310)
+[07:41:20] Verified node purged (signature: 142)
+[07:41:20] Verified node purged (signature: 14)
+[07:41:20] Signature synthesized: 394
+[07:41:20] Catalyst-enhanced node detected - double signature attempts
+[07:41:20] Signature synthesized: 460
+[07:41:20] Signature synthesized: 464
+[07:41:20] Signature synthesized: 374
+[07:41:20] Signature synthesized: 801
+[07:41:20] Signature synthesized: 777
+[07:41:20] Signature synthesized: 981
+[07:41:20] Signature synthesized: 185
+[07:41:20] Signature synthesized: 1006
+[07:41:20] Signature synthesized: 765
+[07:41:20] Signature synthesized: 605
+[07:41:20] Signature synthesized: 133
+[07:41:20] Signature synthesized: 978
+[07:41:20] Signature synthesized: 803
+[07:41:20] Signature synthesized: 673
+[07:41:21] Node spawned at (326, 378)
+[07:41:21] Node spawned at (86, 468)
+[07:41:21] Node spawned at (533, 175)
+[07:41:21] Signature synthesized: 298
+[07:41:23] Node spawned at (367, 428)
+[07:41:23] Node spawned at (765, 318)
+[07:41:23] Node spawned at (79, 299)
+[07:41:25] Node spawned at (411, 425)
+[07:41:25] Catalyst node spawned at (43, 50)
+[07:41:25] Catalyst node spawned at (738, 321)
+[07:41:26] Node spawned at (722, 494)
+[07:41:26] Node spawned at (583, 262)
+[07:41:26] Node spawned at (114, 337)
+[07:41:28] Node spawned at (673, 280)
+[07:41:28] Node spawned at (172, 159)
+[07:41:28] Node spawned at (71, 359)
+[07:41:28] Catalyst-enhanced node detected - double signature attempts
+[07:41:28] Signature synthesized: 974
+[07:41:28] Signature synthesized: 723
+[07:41:28] Verified node purged (signature: 298)
+[07:41:28] Verified node purged (signature: 765)
+[07:41:28] Verified node purged (signature: 803)
+[07:41:28] Verified node purged (signature: 689)
+[07:41:28] Verified node purged (signature: 801)
+[07:41:28] Verified node purged (signature: 374)
+[07:41:28] Verified node purged (signature: 765)
+[07:41:28] Verified node purged (signature: 28)
+[07:41:28] Verified node purged (signature: 802)
+[07:41:28] Verified node purged (signature: 313)
+[07:41:28] Verified node purged (signature: 394)
+[07:41:28] Verified node purged (signature: 77)
+[07:41:28] Verified node purged (signature: 394)
+[07:41:28] Verified node purged (signature: 673)
+[07:41:28] Verified node purged (signature: 713)
+[07:41:28] Verified node purged (signature: 291)
+[07:41:28] Verified node purged (signature: 313)
+[07:41:28] Verified node purged (signature: 626)
+[07:41:28] Verified node purged (signature: 352)
+[07:41:28] Verified node purged (signature: 801)
+[07:41:28] Verified node purged (signature: 978)
+[07:41:28] Verified node purged (signature: 133)
+[07:41:28] Verified node purged (signature: 185)
+[07:41:28] Verified node purged (signature: 185)
+[07:41:28] Verified node purged (signature: 689)
+[07:41:28] Verified node purged (signature: 978)
+[07:41:28] Verified node purged (signature: 777)
+[07:41:28] Verified node purged (signature: 133)
+[07:41:28] Verified node purged (signature: 981)
+[07:41:28] Verified node purged (signature: 85)
+[07:41:28] Verified node purged (signature: 1006)
+[07:41:28] Verified node purged (signature: 298)
+[07:41:28] Verified node purged (signature: 291)
+[07:41:28] Verified node purged (signature: 470)
+[07:41:28] Verified node purged (signature: 1006)
+[07:41:28] Verified node purged (signature: 673)
+[07:41:28] Verified node purged (signature: 777)
+[07:41:28] Verified node purged (signature: 605)
+[07:41:28] Verified node purged (signature: 802)
+[07:41:28] Verified node purged (signature: 489)
+[07:41:28] Verified node purged (signature: 352)
+[07:41:28] Verified node purged (signature: 626)
+[07:41:28] Verified node purged (signature: 1015)
+[07:41:28] Verified node purged (signature: 460)
+[07:41:28] Verified node purged (signature: 803)
+[07:41:28] Verified node purged (signature: 470)
+[07:41:28] Verified node purged (signature: 374)
+[07:41:28] Verified node purged (signature: 77)
+[07:41:28] Verified node purged (signature: 1015)
+[07:41:28] Verified node purged (signature: 460)
+[07:41:28] Verified node purged (signature: 489)
+[07:41:28] Verified node purged (signature: 981)
+[07:41:28] Verified node purged (signature: 28)
+[07:41:28] Verified node purged (signature: 605)
+[07:41:28] Signature synthesized: 63
+[07:41:28] Node spawned at (210, 94)
+[07:41:28] Node spawned at (555, 510)
+[07:41:28] Node spawned at (402, 537)
+[07:41:28] Signature synthesized: 625
+[07:41:28] Signature synthesized: 706
+[07:41:28] Catalyst-enhanced node detected - double signature attempts
+[07:41:28] Signature synthesized: 98
+[07:41:28] Signature synthesized: 20
+[07:41:31] Node spawned at (374, 436)
+[07:41:31] Node spawned at (338, 247)
+[07:41:31] Node spawned at (392, 59)
+[07:41:32] Node spawned at (750, 420)
+[07:41:32] Node spawned at (320, 98)
+[07:41:32] Node spawned at (536, 120)
+[07:41:34] Node spawned at (57, 194)
+[07:41:34] Node spawned at (460, 434)
+[07:41:34] Node spawned at (597, 565)
+[07:41:35] Node spawned at (452, 375)
+[07:41:35] Node spawned at (293, 370)
+[07:41:35] Node spawned at (419, 304)
+[07:41:37] Node spawned at (757, 326)
+[07:41:37] Node spawned at (495, 105)
+[07:41:37] Node spawned at (295, 75)
+[07:41:38] Node spawned at (730, 178)
+[07:41:38] Node spawned at (734, 190)
+[07:41:38] Node spawned at (406, 335)
+[07:41:40] Node spawned at (411, 313)
+[07:41:40] Node spawned at (415, 265)
+[07:41:40] Node spawned at (603, 361)
+[07:41:41] Catalyst node spawned at (666, 315)
+[07:41:41] Node spawned at (261, 230)
+[07:41:41] Node spawned at (134, 336)
+[07:41:43] Node spawned at (230, 58)
+[07:41:43] Node spawned at (756, 486)
+[07:41:43] Node spawned at (458, 521)
+[07:41:44] Node spawned at (240, 330)
+[07:41:44] Node spawned at (342, 471)
+[07:41:44] Node spawned at (168, 402)
+[07:41:46] Node spawned at (184, 164)
+[07:41:46] Node spawned at (206, 43)
+[07:41:46] Node spawned at (653, 494)
+[07:41:47] Node spawned at (308, 551)
+[07:41:47] Node spawned at (563, 43)
+[07:41:47] Node spawned at (420, 302)
+[07:41:49] Node spawned at (435, 377)
+[07:41:49] Node spawned at (552, 366)
+[07:41:49] Node spawned at (721, 539)
+[07:41:50] Node spawned at (332, 489)
+[07:41:50] Node spawned at (72, 361)
+[07:41:50] Node spawned at (506, 479)
+[07:41:52] Node spawned at (110, 409)
+[07:41:52] Node spawned at (277, 495)
+[07:41:52] Node spawned at (661, 280)
+[07:41:53] Node spawned at (685, 408)
+[07:41:53] Node spawned at (724, 309)
+[07:41:53] Node spawned at (546, 342)
+[07:41:55] Node spawned at (355, 288)
+[07:41:55] Node spawned at (449, 232)
+[07:41:55] Node spawned at (136, 496)
+[07:41:56] Node spawned at (460, 288)
+[07:41:56] Node spawned at (88, 152)
+[07:41:56] Node spawned at (177, 499)
+[07:41:58] Node spawned at (292, 472)
+[07:41:58] Node spawned at (418, 557)
+[07:41:58] Node spawned at (113, 83)
+[07:41:59] Node spawned at (521, 339)
+[07:41:59] Node spawned at (30, 156)
+[07:41:59] Node spawned at (510, 205)
+[07:42:01] Node spawned at (36, 498)
+[07:42:01] Node spawned at (293, 531)
+[07:42:01] Node spawned at (457, 212)
+[07:42:02] Node spawned at (740, 133)
+[07:42:02] Node spawned at (659, 115)
+[07:42:02] Node spawned at (426, 103)
+[07:42:04] Node spawned at (499, 221)
+[07:42:04] Catalyst node spawned at (280, 478)
+[07:42:04] Node spawned at (642, 287)
+[07:42:05] Node spawned at (450, 408)
+[07:42:05] Node spawned at (333, 302)
+[07:42:05] Node spawned at (359, 440)
+[07:42:07] Node spawned at (716, 319)
+[07:42:07] Node spawned at (485, 267)
+[07:42:07] Node spawned at (287, 287)
+[07:42:08] Node spawned at (483, 328)
+[07:42:08] Node spawned at (89, 459)
+[07:42:08] Node spawned at (104, 442)
+[07:42:10] Node spawned at (481, 402)
+[07:42:10] Node spawned at (405, 296)
+[07:42:10] Node spawned at (623, 207)
+[07:42:11] Node spawned at (420, 185)
+[07:42:11] Node spawned at (298, 42)
+[07:42:11] Node spawned at (287, 231)
+[07:42:13] Node spawned at (447, 264)
+[07:42:13] Node spawned at (636, 187)
+[07:42:13] Node spawned at (730, 496)
+[07:42:14] Node spawned at (32, 213)
+[07:42:14] Node spawned at (144, 453)
+[07:42:14] Node spawned at (149, 378)
+[07:42:16] Node spawned at (267, 273)
+[07:42:16] Node spawned at (697, 422)
+[07:42:16] Node spawned at (75, 98)
+[07:42:17] Node spawned at (186, 132)
+[07:42:17] Node spawned at (614, 455)
+[07:42:17] Node spawned at (572, 172)
+[07:42:19] Node spawned at (55, 484)
+[07:42:19] Node spawned at (218, 172)
+[07:42:19] Node spawned at (394, 492)
+[07:42:20] Node spawned at (53, 348)
+[07:42:20] Node spawned at (101, 302)
+[07:42:20] Node spawned at (576, 80)
+[07:42:22] Node spawned at (111, 474)
+[07:42:22] Node spawned at (431, 303)
+[07:42:22] Node spawned at (376, 561)
+[07:42:23] Node spawned at (596, 241)
+[07:42:23] Node spawned at (257, 229)
+[07:42:23] Node spawned at (651, 483)
+[07:42:25] Node spawned at (247, 553)
+[07:42:25] Node spawned at (107, 46)
+[07:42:25] Node spawned at (397, 217)
+[07:42:26] Node spawned at (232, 327)
+[07:42:26] Node spawned at (179, 36)
+[07:42:26] Node spawned at (367, 303)
+[07:42:28] Node spawned at (257, 560)
+[07:42:28] Node spawned at (658, 120)
+[07:42:28] Node spawned at (540, 73)
+[07:43:13] Node spawned at (190, 226)
+[07:43:13] Node spawned at (664, 253)
+[07:43:13] Node spawned at (740, 332)
+[07:44:13] Node spawned at (296, 340)
+[07:44:13] Node spawned at (323, 464)
+[07:44:13] Node spawned at (579, 250)
+[07:44:38] Node spawned at (266, 564)
+[07:44:38] Node spawned at (473, 409)
+[07:44:38] Node spawned at (329, 401)
+[07:44:38] Signature synthesized: 272
+[07:44:38] Signature synthesized: 541
+[07:44:38] Signature synthesized: 485
+[07:44:38] Signature synthesized: 845
+[07:44:38] Signature synthesized: 309
+[07:44:38] Signature synthesized: 748
+[07:44:38] Signature synthesized: 172
+[07:44:38] Signature synthesized: 352
+[07:44:38] Signature synthesized: 327
+[07:44:38] Signature synthesized: 747
+[07:44:38] Signature synthesized: 604
+[07:44:38] Signature synthesized: 194
+[07:44:38] Signature synthesized: 638
+[07:44:38] Signature synthesized: 221
+[07:44:38] Signature synthesized: 220
+[07:44:38] Signature synthesized: 349
+[07:44:38] Signature synthesized: 225
+[07:44:38] Signature synthesized: 7
+[07:44:38] Signature synthesized: 566
+[07:44:38] Signature synthesized: 658
+[07:44:38] Signature synthesized: 990
+[07:44:38] Signature synthesized: 381
+[07:44:38] Signature synthesized: 646
+[07:44:38] Signature synthesized: 163
+[07:44:38] Signature synthesized: 944
+[07:44:38] Signature synthesized: 898
+[07:44:38] Signature synthesized: 757
+[07:44:38] Signature synthesized: 484
+[07:44:38] Signature synthesized: 892
+[07:44:38] Signature synthesized: 655
+[07:44:38] Signature synthesized: 260
+[07:44:38] Signature synthesized: 588
+[07:44:38] Signature synthesized: 298
+[07:44:38] Signature synthesized: 564
+[07:44:38] Signature synthesized: 182
+[07:44:38] Signature synthesized: 899
+[07:44:38] Signature synthesized: 246
+[07:44:38] Signature synthesized: 76
+[07:44:38] Signature synthesized: 631
+[07:44:38] Signature synthesized: 256
+[07:44:38] Catalyst-enhanced node detected - double signature attempts
+[07:44:38] Signature synthesized: 338
+[07:44:38] Signature synthesized: 554
+[07:44:38] Signature synthesized: 134
+[07:44:38] Signature synthesized: 894
+[07:44:38] Signature synthesized: 987
+[07:44:38] Signature synthesized: 688
+[07:44:38] Signature synthesized: 726
+[07:44:38] Signature synthesized: 791
+[07:44:38] Signature synthesized: 504
+[07:44:38] Signature synthesized: 1011
+[07:44:38] Verified node purged (signature: 974)
+[07:44:38] Verified node purged (signature: 98)
+[07:44:38] Verified node purged (signature: 706)
+[07:44:38] Verified node purged (signature: 974)
+[07:44:38] Verified node purged (signature: 63)
+[07:44:38] Verified node purged (signature: 98)
+[07:44:38] Verified node purged (signature: 625)
+[07:44:38] Verified node purged (signature: 706)
+[07:44:38] Verified node purged (signature: 63)
+[07:44:38] Verified node purged (signature: 625)
+[07:44:38] Signature synthesized: 87
+[07:44:38] Signature synthesized: 657
+[07:44:38] Signature synthesized: 30
+[07:44:38] Signature synthesized: 290
+[07:44:38] Signature synthesized: 859
+[07:44:38] Signature synthesized: 426
+[07:44:38] Signature synthesized: 188
+[07:44:38] Signature synthesized: 149
+[07:44:38] Signature synthesized: 314
+[07:44:38] Signature synthesized: 446
+[07:44:38] Signature synthesized: 183
+[07:44:38] Signature synthesized: 513
+[07:44:38] Signature synthesized: 828
+[07:44:38] Signature synthesized: 994
+[07:44:38] Signature synthesized: 76
+[07:44:38] Signature synthesized: 114
+[07:44:38] Signature synthesized: 339
+[07:44:38] Catalyst-enhanced node detected - double signature attempts
+[07:44:38] Signature synthesized: 583
+[07:44:38] Signature synthesized: 35
+[07:44:38] Signature synthesized: 535
+[07:44:38] Signature synthesized: 196
+[07:44:38] Signature synthesized: 134
+[07:44:38] Signature synthesized: 602
+[07:44:38] Signature synthesized: 436
+[07:44:38] Signature synthesized: 459
+[07:44:39] Node spawned at (259, 128)
+[07:44:39] Node spawned at (637, 57)
+[07:44:39] Node spawned at (91, 34)
+[07:44:41] Node spawned at (265, 290)
+[07:44:41] Node spawned at (407, 531)
+[07:44:41] Node spawned at (646, 34)
+[07:44:43] Node spawned at (435, 552)
+[07:44:43] Node spawned at (424, 388)
+[07:44:43] Node spawned at (442, 141)
+[07:44:44] Node spawned at (52, 276)
+[07:44:44] Node spawned at (269, 421)
+[07:44:44] Node spawned at (370, 487)
+[07:44:46] Node spawned at (39, 204)
+[07:44:46] Node spawned at (204, 218)
+[07:44:46] Node spawned at (766, 385)
+[07:44:47] Node spawned at (270, 489)
+[07:44:47] Node spawned at (110, 343)
+[07:44:47] Node spawned at (596, 136)
+[07:44:48] Node spawned at (411, 383)
+[07:44:48] Node spawned at (58, 145)
+[07:44:48] Node spawned at (378, 400)
+[07:44:48] Signature synthesized: 579
+[07:44:48] Signature synthesized: 36
+[07:44:48] Signature synthesized: 1013
+[07:44:48] Signature synthesized: 728
+[07:44:48] Signature synthesized: 696
+[07:44:48] Verified node purged (signature: 7)
+[07:44:48] Verified node purged (signature: 459)
+[07:44:48] Verified node purged (signature: 504)
+[07:44:48] Verified node purged (signature: 260)
+[07:44:48] Verified node purged (signature: 541)
+[07:44:48] Verified node purged (signature: 163)
+[07:44:48] Verified node purged (signature: 604)
+[07:44:48] Verified node purged (signature: 196)
+[07:44:48] Verified node purged (signature: 535)
+[07:44:48] Verified node purged (signature: 987)
+[07:44:48] Verified node purged (signature: 1011)
+[07:44:48] Verified node purged (signature: 76)
+[07:44:48] Verified node purged (signature: 892)
+[07:44:48] Verified node purged (signature: 314)
+[07:44:48] Verified node purged (signature: 1011)
+[07:44:48] Verified node purged (signature: 588)
+[07:44:48] Verified node purged (signature: 757)
+[07:44:48] Verified node purged (signature: 504)
+[07:44:48] Verified node purged (signature: 183)
+[07:44:48] Verified node purged (signature: 646)
+[07:44:48] Verified node purged (signature: 791)
+[07:44:48] Verified node purged (signature: 747)
+[07:44:48] Verified node purged (signature: 114)
+[07:44:48] Verified node purged (signature: 309)
+[07:44:48] Verified node purged (signature: 994)
+[07:44:48] Verified node purged (signature: 894)
+[07:44:48] Verified node purged (signature: 535)
+[07:44:48] Verified node purged (signature: 172)
+[07:44:48] Verified node purged (signature: 638)
+[07:44:48] Verified node purged (signature: 426)
+[07:44:48] Verified node purged (signature: 899)
+[07:44:48] Verified node purged (signature: 688)
+[07:44:48] Verified node purged (signature: 30)
+[07:44:48] Verified node purged (signature: 188)
+[07:44:48] Verified node purged (signature: 149)
+[07:44:48] Verified node purged (signature: 484)
+[07:44:48] Verified node purged (signature: 256)
+[07:44:48] Verified node purged (signature: 898)
+[07:44:48] Verified node purged (signature: 76)
+[07:44:48] Verified node purged (signature: 845)
+[07:44:48] Verified node purged (signature: 381)
+[07:44:48] Verified node purged (signature: 513)
+[07:44:48] Verified node purged (signature: 726)
+[07:44:48] Verified node purged (signature: 791)
+[07:44:48] Verified node purged (signature: 290)
+[07:44:48] Verified node purged (signature: 688)
+[07:44:48] Verified node purged (signature: 349)
+[07:44:48] Verified node purged (signature: 246)
+[07:44:48] Verified node purged (signature: 225)
+[07:44:48] Verified node purged (signature: 182)
+[07:44:48] Verified node purged (signature: 338)
+[07:44:48] Verified node purged (signature: 134)
+[07:44:48] Verified node purged (signature: 748)
+[07:44:48] Verified node purged (signature: 987)
+[07:44:48] Verified node purged (signature: 631)
+[07:44:48] Verified node purged (signature: 298)
+[07:44:48] Verified node purged (signature: 894)
+[07:44:48] Verified node purged (signature: 134)
+[07:44:48] Verified node purged (signature: 149)
+[07:44:48] Verified node purged (signature: 290)
+[07:44:48] Verified node purged (signature: 426)
+[07:44:48] Verified node purged (signature: 220)
+[07:44:48] Verified node purged (signature: 338)
+[07:44:48] Verified node purged (signature: 602)
+[07:44:48] Verified node purged (signature: 87)
+[07:44:48] Verified node purged (signature: 859)
+[07:44:48] Verified node purged (signature: 188)
+[07:44:48] Verified node purged (signature: 256)
+[07:44:48] Verified node purged (signature: 76)
+[07:44:48] Verified node purged (signature: 564)
+[07:44:48] Verified node purged (signature: 272)
+[07:44:48] Verified node purged (signature: 899)
+[07:44:48] Verified node purged (signature: 182)
+[07:44:48] Verified node purged (signature: 485)
+[07:44:48] Verified node purged (signature: 446)
+[07:44:48] Verified node purged (signature: 583)
+[07:44:48] Verified node purged (signature: 221)
+[07:44:48] Verified node purged (signature: 655)
+[07:44:48] Verified node purged (signature: 564)
+[07:44:48] Verified node purged (signature: 566)
+[07:44:48] Verified node purged (signature: 990)
+[07:44:48] Verified node purged (signature: 436)
+[07:44:48] Verified node purged (signature: 298)
+[07:44:48] Verified node purged (signature: 588)
+[07:44:48] Verified node purged (signature: 327)
+[07:44:48] Verified node purged (signature: 194)
+[07:44:48] Verified node purged (signature: 446)
+[07:44:48] Verified node purged (signature: 260)
+[07:44:48] Verified node purged (signature: 892)
+[07:44:48] Verified node purged (signature: 183)
+[07:44:48] Verified node purged (signature: 484)
+[07:44:48] Verified node purged (signature: 352)
+[07:44:48] Verified node purged (signature: 30)
+[07:44:48] Verified node purged (signature: 757)
+[07:44:48] Verified node purged (signature: 583)
+[07:44:48] Verified node purged (signature: 513)
+[07:44:48] Verified node purged (signature: 859)
+[07:44:48] Verified node purged (signature: 658)
+[07:44:48] Verified node purged (signature: 602)
+[07:44:48] Verified node purged (signature: 944)
+[07:44:48] Verified node purged (signature: 944)
+[07:44:48] Verified node purged (signature: 994)
+[07:44:48] Verified node purged (signature: 657)
+[07:44:48] Verified node purged (signature: 163)
+[07:44:48] Verified node purged (signature: 646)
+[07:44:48] Verified node purged (signature: 459)
+[07:44:48] Verified node purged (signature: 566)
+[07:44:48] Verified node purged (signature: 7)
+[07:44:48] Verified node purged (signature: 87)
+[07:44:48] Verified node purged (signature: 657)
+[07:44:48] Verified node purged (signature: 339)
+[07:44:48] Verified node purged (signature: 134)
+[07:44:48] Verified node purged (signature: 314)
+[07:44:48] Verified node purged (signature: 349)
+[07:44:48] Verified node purged (signature: 220)
+[07:44:48] Verified node purged (signature: 828)
+[07:44:48] Verified node purged (signature: 134)
+[07:44:48] Verified node purged (signature: 221)
+[07:44:48] Verified node purged (signature: 638)
+[07:44:48] Verified node purged (signature: 604)
+[07:44:48] Verified node purged (signature: 196)
+[07:44:48] Verified node purged (signature: 339)
+[07:44:48] Verified node purged (signature: 828)
+[07:44:48] Verified node purged (signature: 747)
+[07:44:48] Verified node purged (signature: 76)
+[07:44:48] Verified node purged (signature: 327)
+[07:44:48] Verified node purged (signature: 172)
+[07:44:48] Verified node purged (signature: 114)
+[07:44:48] Verified node purged (signature: 748)
+[07:44:48] Verified node purged (signature: 309)
+[07:44:48] Verified node purged (signature: 436)
+[07:44:48] Verified node purged (signature: 845)
+[07:44:48] Verified node purged (signature: 485)
+[07:44:48] Verified node purged (signature: 541)
+[07:44:48] Verified node purged (signature: 272)
+[07:44:48] Signature synthesized: 787
+[07:44:48] Signature synthesized: 1010
+[07:44:48] Signature synthesized: 527
+[07:44:48] Signature synthesized: 502
+[07:44:48] Signature synthesized: 211
+[07:44:50] Node spawned at (210, 293)
+[07:44:50] Node spawned at (251, 425)
+[07:44:50] Node spawned at (474, 466)
+[07:44:52] Node spawned at (340, 373)
+[07:44:52] Node spawned at (372, 351)
+[07:44:52] Node spawned at (32, 514)
+[07:44:53] Node spawned at (315, 216)
+[07:44:53] Node spawned at (324, 401)
+[07:44:53] Node spawned at (742, 97)
+[07:44:55] Node spawned at (86, 187)
+[07:44:55] Node spawned at (484, 425)
+[07:44:55] Catalyst node spawned at (448, 82)
+[07:44:56] Node spawned at (340, 367)
+[07:44:56] Node spawned at (131, 107)
+[07:44:56] Node spawned at (352, 265)
+[07:44:58] Node spawned at (626, 371)
+[07:44:58] Node spawned at (176, 288)
+[07:44:58] Node spawned at (224, 62)
+[07:44:59] Node spawned at (441, 383)
+[07:44:59] Node spawned at (218, 154)
+[07:44:59] Node spawned at (396, 222)
+[07:45:01] Node spawned at (615, 68)
+[07:45:01] Node spawned at (393, 521)
+[07:45:01] Node spawned at (662, 222)
+[07:45:02] Node spawned at (543, 562)
+[07:45:02] Node spawned at (250, 248)
+[07:45:02] Node spawned at (681, 98)
+[07:45:04] Node spawned at (489, 414)
+[07:45:04] Node spawned at (426, 261)
+[07:45:04] Node spawned at (215, 328)
+[07:45:05] Node spawned at (33, 469)
+[07:45:05] Node spawned at (746, 424)
+[07:45:05] Node spawned at (482, 114)
+[07:45:07] Node spawned at (347, 174)
+[07:45:07] Node spawned at (453, 507)
+[07:45:07] Node spawned at (399, 243)
+[07:45:08] Node spawned at (542, 239)
+[07:45:08] Node spawned at (77, 371)
+[07:45:08] Node spawned at (105, 395)
+[07:45:10] Node spawned at (350, 62)
+[07:45:10] Node spawned at (671, 422)
+[07:45:10] Node spawned at (486, 45)
+[07:45:11] Node spawned at (717, 145)
+[07:45:11] Node spawned at (656, 405)
+[07:45:11] Node spawned at (520, 189)
+[07:45:13] Node spawned at (415, 282)
+[07:45:13] Node spawned at (32, 179)
+[07:45:13] Node spawned at (665, 371)
+[07:45:14] Node spawned at (680, 412)
+[07:45:14] Node spawned at (553, 112)
+[07:45:14] Node spawned at (359, 147)
+[07:45:16] Node spawned at (319, 337)
+[07:45:16] Node spawned at (174, 488)
+[07:45:16] Node spawned at (569, 251)
+[07:45:17] Node spawned at (169, 154)
+[07:45:17] Node spawned at (470, 297)
+[07:45:17] Node spawned at (390, 77)
+[07:45:19] Node spawned at (500, 429)
+[07:45:19] Node spawned at (464, 256)
+[07:45:19] Node spawned at (705, 281)
+[07:45:20] Node spawned at (484, 138)
+[07:45:20] Node spawned at (452, 247)
+[07:45:20] Node spawned at (193, 431)
+[07:45:22] Node spawned at (542, 371)
+[07:45:22] Node spawned at (594, 174)
+[07:45:22] Node spawned at (278, 567)
+[07:45:23] Node spawned at (315, 392)
+[07:45:23] Node spawned at (372, 94)
+[07:45:23] Node spawned at (81, 405)
+[07:45:25] Node spawned at (489, 153)
+[07:45:25] Node spawned at (83, 482)
+[07:45:25] Node spawned at (498, 223)
+[07:45:26] Catalyst node spawned at (215, 349)
+[07:45:26] Node spawned at (438, 364)
+[07:45:26] Node spawned at (520, 52)
+[07:45:28] Node spawned at (527, 143)
+[07:45:28] Node spawned at (611, 563)
+[07:45:28] Node spawned at (391, 497)
+[07:45:29] Node spawned at (678, 33)
+[07:45:29] Node spawned at (489, 482)
+[07:45:29] Node spawned at (73, 569)
+[07:45:31] Node spawned at (92, 445)
+[07:45:31] Node spawned at (709, 411)
+[07:45:31] Node spawned at (161, 418)
+[07:45:32] Node spawned at (437, 569)
+[07:45:32] Node spawned at (481, 520)
+[07:45:32] Node spawned at (643, 175)
+[07:45:34] Node spawned at (232, 305)
+[07:45:34] Node spawned at (329, 313)
+[07:45:34] Node spawned at (96, 35)
+[07:45:35] Node spawned at (448, 469)
+[07:45:35] Node spawned at (321, 240)
+[07:45:35] Node spawned at (637, 113)
+[07:45:37] Node spawned at (439, 445)
+[07:45:37] Node spawned at (339, 214)
+[07:45:37] Node spawned at (381, 451)
+[07:45:38] Node spawned at (454, 326)
+[07:45:38] Node spawned at (322, 119)
+[07:45:38] Node spawned at (489, 93)
+[07:45:40] Node spawned at (284, 339)
+[07:45:40] Node spawned at (736, 193)
+[07:45:40] Node spawned at (139, 268)
+[07:45:41] Node spawned at (381, 121)
+[07:45:41] Node spawned at (543, 522)
+[07:45:41] Node spawned at (177, 569)
+[07:45:43] Node spawned at (317, 195)
+[07:45:43] Node spawned at (359, 437)
+[07:45:43] Node spawned at (186, 424)
+[07:45:44] Node spawned at (338, 485)
+[07:45:44] Node spawned at (422, 136)
+[07:45:44] Node spawned at (47, 161)
+[07:45:46] Node spawned at (620, 380)
+[07:45:46] Node spawned at (750, 533)
+[07:45:46] Node spawned at (290, 406)
+[07:45:47] Node spawned at (477, 278)
+[07:45:47] Node spawned at (761, 189)
+[07:45:47] Node spawned at (143, 520)
+[07:46:13] Node spawned at (693, 471)
+[07:46:13] Node spawned at (506, 472)
+[07:46:13] Node spawned at (289, 194)
+[07:46:32] Node spawned at (503, 154)
+[07:46:32] Node spawned at (760, 115)
+[07:46:32] Node spawned at (423, 55)
+[07:46:32] Signature synthesized: 256
+[07:46:32] Signature synthesized: 337
+[07:46:32] Signature synthesized: 922
+[07:46:32] Signature synthesized: 557
+[07:46:32] Signature synthesized: 591
+[07:46:32] Signature synthesized: 258
+[07:46:32] Signature synthesized: 278
+[07:46:32] Signature synthesized: 10
+[07:46:32] Signature synthesized: 624
+[07:46:32] Signature synthesized: 170
+[07:46:32] Signature synthesized: 423
+[07:46:32] Signature synthesized: 131
+[07:46:32] Signature synthesized: 826
+[07:46:32] Signature synthesized: 640
+[07:46:32] Signature synthesized: 329
+[07:46:32] Signature synthesized: 822
+[07:46:32] Signature synthesized: 210
+[07:46:32] Signature synthesized: 168
+[07:46:32] Signature synthesized: 598
+[07:46:32] Signature synthesized: 403
+[07:46:32] Signature synthesized: 560
+[07:46:32] Signature synthesized: 533
+[07:46:32] Signature synthesized: 778
+[07:46:32] Signature synthesized: 999
+[07:46:32] Signature synthesized: 68
+[07:46:32] Signature synthesized: 628
+[07:46:32] Signature synthesized: 380
+[07:46:32] Signature synthesized: 541
+[07:46:32] Signature synthesized: 825
+[07:46:32] Signature synthesized: 826
+[07:46:32] Signature synthesized: 792
+[07:46:32] Signature synthesized: 2
+[07:46:32] Signature synthesized: 606
+[07:46:32] Signature synthesized: 36
+[07:46:32] Signature synthesized: 570
+[07:46:32] Signature synthesized: 246
+[07:46:32] Signature synthesized: 858
+[07:46:32] Signature synthesized: 531
+[07:46:32] Signature synthesized: 282
+[07:46:32] Signature synthesized: 398
+[07:46:32] Signature synthesized: 752
+[07:46:32] Signature synthesized: 866
+[07:46:32] Signature synthesized: 991
+[07:46:32] Signature synthesized: 1017
+[07:46:32] Signature synthesized: 729
+[07:46:32] Signature synthesized: 976
+[07:46:32] Verified node purged (signature: 502)
+[07:46:32] Verified node purged (signature: 1013)
+[07:46:32] Verified node purged (signature: 211)
+[07:46:32] Verified node purged (signature: 527)
+[07:46:32] Verified node purged (signature: 502)
+[07:46:32] Verified node purged (signature: 728)
+[07:46:32] Verified node purged (signature: 36)
+[07:46:32] Verified node purged (signature: 787)
+[07:46:32] Verified node purged (signature: 696)
+[07:46:32] Verified node purged (signature: 787)
+[07:46:32] Verified node purged (signature: 696)
+[07:46:32] Verified node purged (signature: 1010)
+[07:46:32] Verified node purged (signature: 1010)
+[07:46:32] Verified node purged (signature: 579)
+[07:46:32] Verified node purged (signature: 728)
+[07:46:32] Verified node purged (signature: 211)
+[07:46:32] Verified node purged (signature: 1013)
+[07:46:32] Verified node purged (signature: 527)
+[07:46:32] Verified node purged (signature: 579)
+[07:46:32] Signature synthesized: 472
+[07:46:32] Signature synthesized: 73
+[07:46:32] Signature synthesized: 905
+[07:46:32] Signature synthesized: 52
+[07:46:32] Signature synthesized: 835
+[07:46:32] Catalyst-enhanced node detected - double signature attempts
+[07:46:32] Signature synthesized: 409
+[07:46:32] Signature synthesized: 82
+[07:46:32] Signature synthesized: 136
+[07:46:32] Signature synthesized: 315
+[07:46:32] Signature synthesized: 730
+[07:46:32] Signature synthesized: 6
+[07:46:32] Signature synthesized: 873
+[07:46:33] Signature synthesized: 532
+[07:46:33] Signature synthesized: 625
+[07:46:33] Signature synthesized: 646
+[07:46:33] Node spawned at (521, 177)
+[07:46:33] Node spawned at (769, 309)
+[07:46:33] Node spawned at (543, 191)
+[07:46:33] Signature synthesized: 685
+[07:46:33] Signature synthesized: 103
+[07:46:35] Node spawned at (178, 88)
+[07:46:35] Node spawned at (723, 521)
+[07:46:35] Node spawned at (507, 288)
+[07:46:37] Node spawned at (551, 337)
+[07:46:37] Node spawned at (558, 470)
+[07:46:37] Node spawned at (716, 566)
+[07:46:38] Node spawned at (669, 226)
+[07:46:38] Node spawned at (40, 459)
+[07:46:38] Node spawned at (742, 507)
+[07:46:40] Node spawned at (95, 369)
+[07:46:40] Node spawned at (750, 242)
+[07:46:40] Node spawned at (359, 75)
+[07:46:41] Node spawned at (489, 234)
+[07:46:41] Node spawned at (738, 146)
+[07:46:41] Node spawned at (619, 354)
+[07:46:43] Node spawned at (314, 457)
+[07:46:43] Node spawned at (67, 442)
+[07:46:43] Node spawned at (388, 246)
+[07:46:44] Node spawned at (647, 422)
+[07:46:44] Node spawned at (36, 252)
+[07:46:44] Node spawned at (262, 172)
+[07:46:46] Node spawned at (398, 438)
+[07:46:46] Catalyst node spawned at (477, 80)
+[07:46:46] Node spawned at (608, 410)
+[07:46:47] Node spawned at (736, 555)
+[07:46:47] Node spawned at (724, 364)
+[07:46:47] Node spawned at (108, 188)
+[07:46:49] Node spawned at (754, 90)
+[07:46:49] Node spawned at (666, 513)
+[07:46:49] Node spawned at (132, 227)
+[07:46:50] Node spawned at (44, 350)
+[07:46:50] Node spawned at (471, 259)
+[07:46:50] Node spawned at (438, 300)
+[07:46:52] Node spawned at (250, 541)
+[07:46:52] Node spawned at (517, 152)
+[07:46:52] Node spawned at (108, 190)
+[07:46:53] Node spawned at (45, 173)
+[07:46:53] Node spawned at (620, 559)
+[07:46:53] Node spawned at (261, 282)
+[07:46:55] Node spawned at (117, 161)
+[07:46:55] Node spawned at (274, 379)
+[07:46:55] Node spawned at (39, 179)
+[07:46:56] Node spawned at (683, 236)
+[07:46:56] Node spawned at (246, 462)
+[07:46:56] Node spawned at (451, 170)
+[07:46:58] Node spawned at (121, 544)
+[07:46:58] Node spawned at (638, 54)
+[07:46:58] Node spawned at (186, 160)
+[07:46:59] Node spawned at (670, 188)
+[07:46:59] Node spawned at (190, 336)
+[07:46:59] Node spawned at (223, 172)
+[07:47:01] Node spawned at (114, 427)
+[07:47:01] Node spawned at (767, 104)
+[07:47:01] Node spawned at (751, 562)
+[07:47:02] Node spawned at (156, 457)
+[07:47:02] Node spawned at (285, 310)
+[07:47:02] Node spawned at (167, 351)
+[07:47:04] Node spawned at (529, 472)
+[07:47:04] Node spawned at (296, 83)
+[07:47:04] Node spawned at (308, 159)
+[07:47:05] Node spawned at (100, 161)
+[07:47:05] Node spawned at (53, 174)
+[07:47:05] Node spawned at (650, 495)
+[07:47:07] Node spawned at (557, 181)
+[07:47:07] Node spawned at (726, 78)
+[07:47:07] Node spawned at (429, 259)
+[07:47:08] Node spawned at (622, 563)
+[07:47:08] Node spawned at (700, 533)
+[07:47:08] Node spawned at (392, 384)
+[07:47:10] Node spawned at (49, 375)
+[07:47:10] Node spawned at (369, 352)
+[07:47:10] Node spawned at (138, 40)
+[07:47:11] Node spawned at (374, 410)
+[07:47:11] Node spawned at (75, 557)
+[07:47:11] Node spawned at (692, 230)
+[07:47:13] Node spawned at (53, 126)
+[07:47:13] Node spawned at (521, 487)
+[07:47:13] Node spawned at (164, 445)
+[07:47:14] Node spawned at (288, 522)
+[07:47:14] Node spawned at (55, 439)
+[07:47:14] Node spawned at (435, 102)
+[07:47:16] Node spawned at (328, 401)
+[07:47:16] Node spawned at (505, 459)
+[07:47:16] Node spawned at (495, 148)
+[07:47:17] Node spawned at (609, 401)
+[07:47:17] Node spawned at (377, 464)
+[07:47:17] Node spawned at (511, 197)
+[07:47:19] Node spawned at (186, 475)
+[07:47:19] Node spawned at (628, 156)
+[07:47:19] Node spawned at (188, 246)
+[07:47:20] Node spawned at (754, 227)
+[07:47:20] Node spawned at (190, 481)
+[07:47:20] Node spawned at (191, 482)
+[07:47:22] Node spawned at (90, 321)
+[07:47:22] Node spawned at (408, 193)
+[07:47:22] Node spawned at (379, 414)
+[07:47:23] Node spawned at (705, 56)
+[07:47:23] Node spawned at (108, 163)
+[07:47:23] Catalyst node spawned at (150, 553)
+[07:47:25] Node spawned at (452, 242)
+[07:47:25] Node spawned at (90, 365)
+[07:47:25] Node spawned at (410, 409)
+[07:47:26] Node spawned at (129, 287)
+[07:47:26] Node spawned at (402, 363)
+[07:47:26] Node spawned at (138, 230)
+[07:47:28] Node spawned at (66, 309)
+[07:47:28] Node spawned at (389, 303)
+[07:47:28] Node spawned at (729, 62)
+[07:47:29] Node spawned at (433, 83)
+[07:47:29] Node spawned at (98, 63)
+[07:47:29] Node spawned at (632, 281)
+[07:47:31] Node spawned at (545, 304)
+[07:47:31] Node spawned at (232, 366)
+[07:47:31] Node spawned at (584, 268)
+[07:47:32] Node spawned at (365, 403)
+[07:47:32] Node spawned at (394, 37)
+[07:47:32] Node spawned at (212, 182)
+[07:47:49] Node spawned at (106, 82)
+[07:47:49] Node spawned at (48, 86)
+[07:47:49] Node spawned at (506, 311)
+[07:47:49] Signature synthesized: 1018
+[07:47:49] Signature synthesized: 374
+[07:47:49] Signature synthesized: 170
+[07:47:49] Signature synthesized: 661
+[07:47:49] Signature synthesized: 298
+[07:47:49] Signature synthesized: 305
+[07:47:49] Signature synthesized: 483
+[07:47:49] Signature synthesized: 200
+[07:47:49] Catalyst-enhanced node detected - double signature attempts
+[07:47:49] Signature synthesized: 446
+[07:47:49] Signature synthesized: 749
+[07:47:49] Signature synthesized: 362
+[07:47:49] Signature synthesized: 565
+[07:47:49] Signature synthesized: 82
+[07:47:49] Signature synthesized: 513
+[07:47:49] Signature synthesized: 224
+[07:47:49] Signature synthesized: 168
+[07:47:49] Signature synthesized: 92
+[07:47:49] Signature synthesized: 898
+[07:47:49] Signature synthesized: 302
+[07:47:49] Signature synthesized: 702
+[07:47:49] Signature synthesized: 276
+[07:47:49] Signature synthesized: 573
+[07:47:49] Signature synthesized: 561
+[07:47:49] Signature synthesized: 340
+[07:47:49] Signature synthesized: 422
+[07:47:49] Signature synthesized: 74
+[07:47:49] Signature synthesized: 739
+[07:47:49] Signature synthesized: 984
+[07:47:49] Signature synthesized: 45
+[07:47:49] Signature synthesized: 567
+[07:47:49] Signature synthesized: 881
+[07:47:49] Signature synthesized: 261
+[07:47:49] Signature synthesized: 205
+[07:47:49] Signature synthesized: 665
+[07:47:49] Signature synthesized: 242
+[07:47:49] Signature synthesized: 519
+[07:47:49] Signature synthesized: 822
+[07:47:49] Signature synthesized: 187
+[07:47:49] Signature synthesized: 329
+[07:47:49] Signature synthesized: 372
+[07:47:49] Signature synthesized: 436
+[07:47:49] Signature synthesized: 270
+[07:47:49] Signature synthesized: 361
+[07:47:49] Signature synthesized: 625
+[07:47:49] Signature synthesized: 377
+[07:47:49] Signature synthesized: 694
+[07:47:49] Signature synthesized: 899
+[07:47:49] Verified node purged (signature: 685)
+[07:47:49] Verified node purged (signature: 409)
+[07:47:49] Verified node purged (signature: 628)
+[07:47:49] Verified node purged (signature: 1017)
+[07:47:49] Verified node purged (signature: 640)
+[07:47:49] Verified node purged (signature: 905)
+[07:47:49] Verified node purged (signature: 873)
+[07:47:49] Verified node purged (signature: 976)
+[07:47:49] Verified node purged (signature: 752)
+[07:47:49] Verified node purged (signature: 826)
+[07:47:49] Verified node purged (signature: 10)
+[07:47:49] Verified node purged (signature: 258)
+[07:47:49] Verified node purged (signature: 168)
+[07:47:49] Verified node purged (signature: 532)
+[07:47:49] Verified node purged (signature: 991)
+[07:47:49] Verified node purged (signature: 729)
+[07:47:49] Verified node purged (signature: 68)
+[07:47:49] Verified node purged (signature: 278)
+[07:47:49] Verified node purged (signature: 73)
+[07:47:49] Verified node purged (signature: 976)
+[07:47:49] Verified node purged (signature: 570)
+[07:47:49] Verified node purged (signature: 730)
+[07:47:49] Verified node purged (signature: 729)
+[07:47:49] Verified node purged (signature: 999)
+[07:47:49] Verified node purged (signature: 52)
+[07:47:49] Verified node purged (signature: 778)
+[07:47:49] Verified node purged (signature: 560)
+[07:47:49] Verified node purged (signature: 625)
+[07:47:49] Verified node purged (signature: 398)
+[07:47:49] Verified node purged (signature: 598)
+[07:47:49] Verified node purged (signature: 315)
+[07:47:49] Verified node purged (signature: 905)
+[07:47:49] Verified node purged (signature: 170)
+[07:47:49] Verified node purged (signature: 403)
+[07:47:49] Verified node purged (signature: 792)
+[07:47:49] Verified node purged (signature: 873)
+[07:47:49] Verified node purged (signature: 136)
+[07:47:49] Verified node purged (signature: 256)
+[07:47:49] Verified node purged (signature: 825)
+[07:47:49] Verified node purged (signature: 835)
+[07:47:49] Verified node purged (signature: 624)
+[07:47:49] Verified node purged (signature: 1017)
+[07:47:49] Verified node purged (signature: 531)
+[07:47:49] Verified node purged (signature: 866)
+[07:47:49] Verified node purged (signature: 131)
+[07:47:49] Verified node purged (signature: 136)
+[07:47:49] Verified node purged (signature: 103)
+[07:47:49] Verified node purged (signature: 991)
+[07:47:49] Verified node purged (signature: 606)
+[07:47:49] Verified node purged (signature: 36)
+[07:47:49] Verified node purged (signature: 103)
+[07:47:49] Verified node purged (signature: 835)
+[07:47:49] Verified node purged (signature: 541)
+[07:47:49] Verified node purged (signature: 866)
+[07:47:49] Verified node purged (signature: 752)
+[07:47:49] Verified node purged (signature: 858)
+[07:47:49] Verified node purged (signature: 398)
+[07:47:49] Verified node purged (signature: 246)
+[07:47:49] Verified node purged (signature: 282)
+[07:47:49] Verified node purged (signature: 591)
+[07:47:49] Verified node purged (signature: 646)
+[07:47:49] Verified node purged (signature: 2)
+[07:47:49] Verified node purged (signature: 685)
+[07:47:49] Verified node purged (signature: 557)
+[07:47:49] Verified node purged (signature: 282)
+[07:47:49] Verified node purged (signature: 730)
+[07:47:49] Verified node purged (signature: 531)
+[07:47:49] Verified node purged (signature: 858)
+[07:47:49] Verified node purged (signature: 826)
+[07:47:49] Verified node purged (signature: 246)
+[07:47:49] Verified node purged (signature: 570)
+[07:47:49] Verified node purged (signature: 472)
+[07:47:49] Verified node purged (signature: 210)
+[07:47:49] Verified node purged (signature: 606)
+[07:47:49] Verified node purged (signature: 380)
+[07:47:49] Verified node purged (signature: 315)
+[07:47:49] Verified node purged (signature: 792)
+[07:47:49] Verified node purged (signature: 52)
+[07:47:49] Verified node purged (signature: 826)
+[07:47:49] Verified node purged (signature: 337)
+[07:47:49] Verified node purged (signature: 825)
+[07:47:49] Verified node purged (signature: 73)
+[07:47:49] Verified node purged (signature: 922)
+[07:47:49] Verified node purged (signature: 6)
+[07:47:49] Verified node purged (signature: 822)
+[07:47:49] Verified node purged (signature: 533)
+[07:47:49] Verified node purged (signature: 409)
+[07:47:49] Verified node purged (signature: 541)
+[07:47:49] Verified node purged (signature: 329)
+[07:47:49] Verified node purged (signature: 628)
+[07:47:49] Verified node purged (signature: 423)
+[07:47:49] Verified node purged (signature: 68)
+[07:47:49] Verified node purged (signature: 472)
+[07:47:49] Verified node purged (signature: 6)
+[07:47:49] Verified node purged (signature: 533)
+[07:47:49] Verified node purged (signature: 560)
+[07:47:49] Verified node purged (signature: 532)
+[07:47:49] Verified node purged (signature: 598)
+[07:47:49] Verified node purged (signature: 168)
+[07:47:49] Verified node purged (signature: 210)
+[07:47:49] Verified node purged (signature: 822)
+[07:47:49] Verified node purged (signature: 329)
+[07:47:49] Verified node purged (signature: 646)
+[07:47:49] Verified node purged (signature: 640)
+[07:47:49] Verified node purged (signature: 625)
+[07:47:49] Verified node purged (signature: 826)
+[07:47:49] Verified node purged (signature: 170)
+[07:47:49] Verified node purged (signature: 10)
+[07:47:49] Verified node purged (signature: 278)
+[07:47:49] Verified node purged (signature: 258)
+[07:47:49] Verified node purged (signature: 591)
+[07:47:49] Verified node purged (signature: 337)
+[07:47:49] Verified node purged (signature: 256)
+[07:47:49] Signature synthesized: 209
+[07:47:49] Signature synthesized: 274
+[07:47:49] Signature synthesized: 410
+[07:47:49] Signature synthesized: 119
+[07:47:49] Signature synthesized: 216
+[07:47:49] Signature synthesized: 954
+[07:47:49] Signature synthesized: 794
+[07:47:49] Signature synthesized: 849
+[07:47:49] Signature synthesized: 528
+[07:47:49] Signature synthesized: 363
+[07:47:49] Signature synthesized: 661
+[07:47:49] Signature synthesized: 879
+[07:47:49] Signature synthesized: 714
+[07:47:49] Signature synthesized: 366
+[07:47:49] Signature synthesized: 1010
+[07:47:49] Signature synthesized: 649
+[07:47:49] Signature synthesized: 34
+[07:47:49] Signature synthesized: 624
+[07:47:49] Catalyst-enhanced node detected - double signature attempts
+[07:47:49] Signature synthesized: 932
+[07:47:49] Signature synthesized: 997
+[07:47:49] Signature synthesized: 627
+[07:47:49] Signature synthesized: 870
+[07:47:50] Node spawned at (255, 146)
+[07:47:50] Node spawned at (99, 414)
+[07:47:50] Node spawned at (374, 318)
+[07:47:52] Node spawned at (768, 139)
+[07:47:52] Node spawned at (631, 497)
+[07:47:52] Node spawned at (269, 361)
+[07:47:53] Node spawned at (557, 506)
+[07:47:53] Node spawned at (320, 489)
+[07:47:53] Node spawned at (302, 158)
+[07:47:55] Node spawned at (266, 237)
+[07:47:55] Node spawned at (50, 520)
+[07:47:55] Node spawned at (540, 173)
+[07:47:56] Node spawned at (678, 188)
+[07:47:56] Node spawned at (368, 139)
+[07:47:56] Node spawned at (93, 215)
+[07:47:58] Node spawned at (486, 228)
+[07:47:58] Node spawned at (545, 156)
+[07:47:58] Node spawned at (480, 530)
+[07:47:59] Node spawned at (666, 381)
+[07:47:59] Node spawned at (240, 441)
+[07:47:59] Node spawned at (81, 162)
+[07:48:01] Node spawned at (380, 445)
+[07:48:01] Node spawned at (739, 455)
+[07:48:01] Node spawned at (500, 216)
+[07:48:02] Node spawned at (200, 137)
+[07:48:02] Node spawned at (118, 509)
+[07:48:02] Node spawned at (45, 458)
+[07:48:04] Node spawned at (447, 525)
+[07:48:04] Node spawned at (430, 240)
+[07:48:04] Node spawned at (120, 244)
+[07:48:05] Node spawned at (638, 344)
+[07:48:05] Node spawned at (340, 449)
+[07:48:05] Node spawned at (530, 85)
+[07:48:07] Node spawned at (87, 202)
+[07:48:07] Node spawned at (746, 447)
+[07:48:07] Node spawned at (742, 311)
+[07:48:08] Node spawned at (548, 422)
+[07:48:08] Node spawned at (716, 228)
+[07:48:08] Node spawned at (403, 250)
+[07:48:10] Catalyst node spawned at (76, 552)
+[07:48:10] Node spawned at (422, 123)
+[07:48:10] Node spawned at (562, 473)
+[07:48:11] Node spawned at (334, 358)
+[07:48:11] Node spawned at (747, 239)
+[07:48:11] Node spawned at (719, 189)
+[07:48:13] Node spawned at (114, 294)
+[07:48:13] Node spawned at (55, 425)
+[07:48:13] Node spawned at (513, 453)
+[07:48:14] Node spawned at (286, 475)
+[07:48:14] Node spawned at (42, 494)
+[07:48:14] Node spawned at (514, 466)
+[07:48:16] Node spawned at (158, 203)
+[07:48:16] Node spawned at (279, 199)
+[07:48:16] Node spawned at (412, 185)
+[07:48:17] Node spawned at (268, 445)
+[07:48:17] Catalyst node spawned at (107, 125)
+[07:48:17] Node spawned at (472, 162)
+[07:48:19] Node spawned at (322, 265)
+[07:48:19] Node spawned at (59, 146)
+[07:48:19] Node spawned at (315, 278)
+[07:48:20] Node spawned at (172, 40)
+[07:48:20] Node spawned at (391, 366)
+[07:48:20] Node spawned at (713, 132)
+[07:48:22] Node spawned at (265, 539)
+[07:48:22] Node spawned at (479, 195)
+[07:48:22] Node spawned at (704, 299)
+[07:48:23] Node spawned at (332, 313)
+[07:48:23] Node spawned at (205, 194)
+[07:48:23] Node spawned at (204, 45)
+[07:48:25] Node spawned at (370, 70)
+[07:48:25] Node spawned at (715, 518)
+[07:48:25] Node spawned at (513, 411)
+[07:48:26] Node spawned at (703, 64)
+[07:48:26] Node spawned at (371, 379)
+[07:48:26] Node spawned at (134, 247)
+[07:48:28] Node spawned at (552, 58)
+[07:48:28] Node spawned at (68, 146)
+[07:48:28] Node spawned at (551, 107)
+[07:48:29] Node spawned at (752, 44)
+[07:48:29] Node spawned at (591, 411)
+[07:48:29] Node spawned at (427, 481)
+[07:48:31] Node spawned at (603, 182)
+[07:48:31] Node spawned at (359, 91)
+[07:48:31] Node spawned at (200, 154)
+[07:48:32] Node spawned at (652, 279)
+[07:48:32] Node spawned at (435, 489)
+[07:48:32] Catalyst node spawned at (389, 491)
+[07:48:34] Catalyst node spawned at (713, 145)
+[07:48:34] Node spawned at (585, 395)
+[07:48:34] Node spawned at (767, 40)
+[07:48:35] Node spawned at (415, 385)
+[07:48:35] Node spawned at (324, 421)
+[07:48:35] Node spawned at (52, 547)
+[07:48:37] Node spawned at (89, 310)
+[07:48:37] Node spawned at (341, 192)
+[07:48:37] Node spawned at (501, 521)
+[07:48:38] Node spawned at (646, 302)
+[07:48:38] Node spawned at (251, 145)
+[07:48:38] Node spawned at (448, 427)
+[07:48:40] Node spawned at (513, 138)
+[07:48:40] Node spawned at (139, 265)
+[07:48:40] Node spawned at (731, 384)
+[07:48:41] Node spawned at (257, 443)
+[07:48:41] Node spawned at (364, 151)
+[07:48:41] Node spawned at (721, 86)
+[07:48:43] Node spawned at (697, 466)
+[07:48:43] Node spawned at (319, 177)
+[07:48:43] Node spawned at (387, 510)
+[07:48:44] Node spawned at (324, 519)
+[07:48:44] Node spawned at (318, 365)
+[07:48:44] Node spawned at (751, 36)
+[07:48:46] Node spawned at (139, 312)
+[07:48:46] Node spawned at (480, 507)
+[07:48:46] Node spawned at (263, 266)
+[07:48:46] Signature synthesized: 208
+[07:48:46] Signature synthesized: 728
+[07:48:46] Signature synthesized: 255
+[07:48:46] Signature synthesized: 695
+[07:48:46] Signature synthesized: 192
+[07:48:46] Signature synthesized: 456
+[07:48:46] Signature synthesized: 686
+[07:48:46] Signature synthesized: 680
+[07:48:46] Signature synthesized: 376
+[07:48:46] Signature synthesized: 407
+[07:48:46] Signature synthesized: 361
+[07:48:46] Signature synthesized: 971
+[07:48:46] Signature synthesized: 763
+[07:48:46] Signature synthesized: 136
+[07:48:46] Catalyst-enhanced node detected - double signature attempts
+[07:48:46] Signature synthesized: 822
+[07:48:46] Signature synthesized: 92
+[07:48:46] Signature synthesized: 639
+[07:48:46] Signature synthesized: 428
+[07:48:46] Signature synthesized: 498
+[07:48:46] Signature synthesized: 411
+[07:48:46] Signature synthesized: 727
+[07:48:46] Signature synthesized: 631
+[07:48:46] Catalyst collision detected - attempting 20 signature guesses
+[07:48:46] Catalyst signature attempt: 207
+[07:48:46] Catalyst signature attempt: 261
+[07:48:46] Catalyst signature attempt: 705
+[07:48:46] Catalyst signature attempt: 529
+[07:48:46] Catalyst signature attempt: 687
+[07:48:46] Catalyst signature attempt: 363
+[07:48:46] Catalyst signature attempt: 697
+[07:48:46] Catalyst signature attempt: 347
+[07:48:46] Catalyst signature attempt: 524
+[07:48:46] Catalyst signature attempt: 669
+[07:48:46] Catalyst signature attempt: 972
+[07:48:46] Catalyst signature attempt: 566
+[07:48:46] Catalyst signature attempt: 48
+[07:48:46] Catalyst signature attempt: 69
+[07:48:46] Catalyst signature attempt: 362
+[07:48:46] Catalyst signature attempt: 452
+[07:48:46] Catalyst signature attempt: 430
+[07:48:46] Catalyst signature attempt: 544
+[07:48:46] Catalyst signature attempt: 980
+[07:48:46] Catalyst signature attempt: 40
+[07:48:46] Signature synthesized: 691
+[07:48:46] Signature synthesized: 774
+[07:48:46] Signature synthesized: 320
+[07:48:46] Signature synthesized: 442
+[07:48:46] Signature synthesized: 637
+[07:48:46] Signature synthesized: 70
+[07:48:46] Signature synthesized: 664
+[07:48:46] Signature synthesized: 595
+[07:48:46] Signature synthesized: 95
+[07:48:46] Signature synthesized: 706
+[07:48:46] Signature synthesized: 427
+[07:48:46] Signature synthesized: 789
+[07:48:46] Signature synthesized: 1002
+[07:48:46] Signature synthesized: 159
+[07:48:46] Signature synthesized: 765
+[07:48:46] Signature synthesized: 616
+[07:48:46] Signature synthesized: 458
+[07:48:46] Signature synthesized: 683
+[07:48:46] Signature synthesized: 791
+[07:48:46] Signature synthesized: 884
+[07:48:46] Signature synthesized: 201
+[07:48:46] Signature synthesized: 536
+[07:48:46] Signature synthesized: 511
+[07:48:46] Signature synthesized: 693
+[07:48:46] Signature synthesized: 267
+[07:48:46] Signature synthesized: 198
+[07:48:46] Catalyst-enhanced node detected - double signature attempts
+[07:48:46] Signature synthesized: 306
+[07:48:46] Signature synthesized: 578
+[07:48:46] Signature synthesized: 762
+[07:48:46] Verified node purged (signature: 276)
+[07:48:46] Verified node purged (signature: 849)
+[07:48:46] Verified node purged (signature: 899)
+[07:48:46] Verified node purged (signature: 187)
+[07:48:46] Verified node purged (signature: 932)
+[07:48:46] Verified node purged (signature: 361)
+[07:48:46] Verified node purged (signature: 714)
+[07:48:46] Verified node purged (signature: 1010)
+[07:48:46] Verified node purged (signature: 899)
+[07:48:46] Verified node purged (signature: 625)
+[07:48:46] Verified node purged (signature: 372)
+[07:48:46] Verified node purged (signature: 879)
+[07:48:46] Verified node purged (signature: 661)
+[07:48:46] Verified node purged (signature: 436)
+[07:48:46] Verified node purged (signature: 119)
+[07:48:46] Verified node purged (signature: 82)
+[07:48:46] Verified node purged (signature: 205)
+[07:48:46] Verified node purged (signature: 567)
+[07:48:46] Verified node purged (signature: 366)
+[07:48:46] Verified node purged (signature: 270)
+[07:48:46] Verified node purged (signature: 363)
+[07:48:46] Verified node purged (signature: 565)
+[07:48:46] Verified node purged (signature: 694)
+[07:48:46] Verified node purged (signature: 377)
+[07:48:46] Verified node purged (signature: 74)
+[07:48:46] Verified node purged (signature: 627)
+[07:48:46] Verified node purged (signature: 200)
+[07:48:46] Verified node purged (signature: 694)
+[07:48:46] Verified node purged (signature: 898)
+[07:48:46] Verified node purged (signature: 34)
+[07:48:46] Verified node purged (signature: 665)
+[07:48:46] Verified node purged (signature: 216)
+[07:48:46] Verified node purged (signature: 794)
+[07:48:46] Verified node purged (signature: 625)
+[07:48:46] Verified node purged (signature: 422)
+[07:48:46] Verified node purged (signature: 274)
+[07:48:46] Verified node purged (signature: 329)
+[07:48:46] Verified node purged (signature: 216)
+[07:48:46] Verified node purged (signature: 849)
+[07:48:46] Verified node purged (signature: 340)
+[07:48:46] Verified node purged (signature: 224)
+[07:48:46] Verified node purged (signature: 361)
+[07:48:46] Verified node purged (signature: 170)
+[07:48:46] Verified node purged (signature: 305)
+[07:48:46] Verified node purged (signature: 436)
+[07:48:46] Verified node purged (signature: 702)
+[07:48:46] Verified node purged (signature: 822)
+[07:48:46] Verified node purged (signature: 363)
+[07:48:46] Verified node purged (signature: 372)
+[07:48:46] Verified node purged (signature: 92)
+[07:48:46] Verified node purged (signature: 261)
+[07:48:46] Verified node purged (signature: 519)
+[07:48:46] Verified node purged (signature: 45)
+[07:48:46] Verified node purged (signature: 528)
+[07:48:46] Verified node purged (signature: 573)
+[07:48:46] Verified node purged (signature: 714)
+[07:48:46] Verified node purged (signature: 329)
+[07:48:46] Verified node purged (signature: 374)
+[07:48:46] Verified node purged (signature: 881)
+[07:48:46] Verified node purged (signature: 446)
+[07:48:46] Verified node purged (signature: 187)
+[07:48:46] Verified node purged (signature: 513)
+[07:48:46] Verified node purged (signature: 410)
+[07:48:46] Verified node purged (signature: 168)
+[07:48:46] Verified node purged (signature: 661)
+[07:48:46] Verified node purged (signature: 1018)
+[07:48:46] Verified node purged (signature: 242)
+[07:48:46] Verified node purged (signature: 627)
+[07:48:46] Verified node purged (signature: 984)
+[07:48:46] Verified node purged (signature: 870)
+[07:48:46] Verified node purged (signature: 822)
+[07:48:46] Verified node purged (signature: 519)
+[07:48:46] Verified node purged (signature: 739)
+[07:48:46] Verified node purged (signature: 665)
+[07:48:46] Verified node purged (signature: 205)
+[07:48:46] Verified node purged (signature: 624)
+[07:48:46] Verified node purged (signature: 261)
+[07:48:46] Verified node purged (signature: 881)
+[07:48:46] Verified node purged (signature: 567)
+[07:48:46] Verified node purged (signature: 649)
+[07:48:46] Verified node purged (signature: 561)
+[07:48:46] Verified node purged (signature: 362)
+[07:48:46] Verified node purged (signature: 932)
+[07:48:46] Verified node purged (signature: 209)
+[07:48:46] Verified node purged (signature: 870)
+[07:48:46] Verified node purged (signature: 879)
+[07:48:46] Verified node purged (signature: 34)
+[07:48:46] Verified node purged (signature: 954)
+[07:48:46] Verified node purged (signature: 624)
+[07:48:46] Verified node purged (signature: 794)
+[07:48:46] Verified node purged (signature: 298)
+[07:48:46] Verified node purged (signature: 483)
+[07:48:46] Verified node purged (signature: 1010)
+[07:48:46] Verified node purged (signature: 528)
+[07:48:46] Verified node purged (signature: 74)
+[07:48:46] Verified node purged (signature: 302)
+[07:48:46] Verified node purged (signature: 422)
+[07:48:46] Verified node purged (signature: 340)
+[07:48:46] Verified node purged (signature: 561)
+[07:48:46] Verified node purged (signature: 573)
+[07:48:46] Verified node purged (signature: 276)
+[07:48:46] Verified node purged (signature: 702)
+[07:48:46] Verified node purged (signature: 898)
+[07:48:46] Verified node purged (signature: 168)
+[07:48:46] Verified node purged (signature: 954)
+[07:48:46] Verified node purged (signature: 224)
+[07:48:46] Verified node purged (signature: 513)
+[07:48:46] Verified node purged (signature: 82)
+[07:48:46] Verified node purged (signature: 362)
+[07:48:46] Verified node purged (signature: 410)
+[07:48:46] Verified node purged (signature: 446)
+[07:48:46] Verified node purged (signature: 661)
+[07:48:46] Verified node purged (signature: 119)
+[07:48:46] Verified node purged (signature: 274)
+[07:48:46] Verified node purged (signature: 200)
+[07:48:46] Verified node purged (signature: 483)
+[07:48:46] Verified node purged (signature: 305)
+[07:48:46] Verified node purged (signature: 298)
+[07:48:46] Verified node purged (signature: 366)
+[07:48:46] Verified node purged (signature: 661)
+[07:48:46] Verified node purged (signature: 209)
+[07:48:46] Verified node purged (signature: 170)
+[07:48:46] Verified node purged (signature: 374)
+[07:48:46] Verified node purged (signature: 1018)
+[07:48:46] Signature synthesized: 134
+[07:48:46] Signature synthesized: 171
+[07:48:46] Signature synthesized: 464
+[07:48:46] Signature synthesized: 434
+[07:48:46] Signature synthesized: 624
+[07:48:46] Signature synthesized: 112
+[07:48:46] Signature synthesized: 179
+[07:48:46] Signature synthesized: 387
+[07:48:46] Signature synthesized: 538
+[07:48:46] Catalyst-enhanced node detected - double signature attempts
+[07:48:46] Signature synthesized: 325
+[07:48:46] Signature synthesized: 110
+[07:48:46] Signature synthesized: 406
+[07:48:46] Signature synthesized: 45
+[07:48:47] Node spawned at (720, 198)
+[07:48:47] Node spawned at (223, 568)
+[07:48:47] Node spawned at (315, 155)
+[07:48:49] Node spawned at (621, 373)
+[07:48:49] Node spawned at (308, 455)
+[07:48:49] Node spawned at (116, 120)
+[07:48:50] Node spawned at (330, 108)
+[07:48:50] Node spawned at (680, 42)
+[07:48:50] Node spawned at (659, 79)
+[07:48:52] Node spawned at (688, 413)
+[07:48:52] Node spawned at (41, 522)
+[07:48:52] Node spawned at (64, 183)
+[07:48:53] Node spawned at (142, 476)
+[07:48:53] Node spawned at (63, 358)
+[07:48:53] Node spawned at (447, 391)
+[07:48:55] Node spawned at (632, 348)
+[07:48:55] Node spawned at (472, 143)
+[07:48:55] Node spawned at (599, 263)
+[07:48:56] Node spawned at (162, 84)
+[07:48:56] Node spawned at (364, 568)
+[07:48:56] Node spawned at (366, 138)
+[07:48:58] Node spawned at (242, 230)
+[07:48:58] Node spawned at (713, 84)
+[07:48:58] Node spawned at (549, 521)
+[07:48:59] Node spawned at (695, 481)
+[07:48:59] Node spawned at (399, 180)
+[07:48:59] Node spawned at (702, 382)
+[07:49:01] Node spawned at (127, 350)
+[07:49:01] Node spawned at (589, 133)
+[07:49:01] Node spawned at (95, 253)
+[07:49:02] Node spawned at (719, 392)
+[07:49:02] Node spawned at (260, 49)
+[07:49:02] Node spawned at (345, 183)
+[07:49:04] Node spawned at (547, 335)
+[07:49:04] Node spawned at (641, 370)
+[07:49:04] Node spawned at (135, 69)
+[07:49:05] Node spawned at (359, 396)
+[07:49:05] Node spawned at (681, 358)
+[07:49:05] Node spawned at (82, 275)
+[07:49:06] Node spawned at (699, 447)
+[07:49:06] Node spawned at (523, 314)
+[07:49:06] Node spawned at (339, 414)
+[07:49:06] Signature synthesized: 432
+[07:49:06] Signature synthesized: 779
+[07:49:06] Signature synthesized: 699
+[07:49:06] Signature synthesized: 409
+[07:49:06] Signature synthesized: 826
+[07:49:06] Signature synthesized: 506
+[07:49:06] Signature synthesized: 440
+[07:49:06] Signature synthesized: 507
+[07:49:06] Signature synthesized: 109
+[07:49:06] Signature synthesized: 21
+[07:49:06] Signature synthesized: 157
+[07:49:06] Verified node purged (signature: 637)
+[07:49:06] Verified node purged (signature: 762)
+[07:49:06] Verified node purged (signature: 511)
+[07:49:06] Verified node purged (signature: 387)
+[07:49:06] Verified node purged (signature: 255)
+[07:49:06] Verified node purged (signature: 306)
+[07:49:06] Verified node purged (signature: 411)
+[07:49:06] Verified node purged (signature: 201)
+[07:49:06] Verified node purged (signature: 95)
+[07:49:06] Verified node purged (signature: 1002)
+[07:49:06] Verified node purged (signature: 376)
+[07:49:06] Verified node purged (signature: 458)
+[07:49:06] Verified node purged (signature: 179)
+[07:49:06] Verified node purged (signature: 442)
+[07:49:06] Verified node purged (signature: 198)
+[07:49:06] Verified node purged (signature: 762)
+[07:49:06] Verified node purged (signature: 498)
+[07:49:06] Verified node purged (signature: 361)
+[07:49:06] Verified node purged (signature: 664)
+[07:49:06] Verified node purged (signature: 464)
+[07:49:06] Verified node purged (signature: 691)
+[07:49:06] Verified node purged (signature: 536)
+[07:49:06] Verified node purged (signature: 693)
+[07:49:06] Verified node purged (signature: 822)
+[07:49:06] Verified node purged (signature: 306)
+[07:49:06] Verified node purged (signature: 267)
+[07:49:06] Verified node purged (signature: 198)
+[07:49:06] Verified node purged (signature: 884)
+[07:49:06] Verified node purged (signature: 686)
+[07:49:06] Verified node purged (signature: 267)
+[07:49:06] Verified node purged (signature: 693)
+[07:49:06] Verified node purged (signature: 511)
+[07:49:06] Verified node purged (signature: 765)
+[07:49:06] Verified node purged (signature: 112)
+[07:49:06] Verified node purged (signature: 763)
+[07:49:06] Verified node purged (signature: 387)
+[07:49:06] Verified node purged (signature: 201)
+[07:49:06] Verified node purged (signature: 179)
+[07:49:06] Verified node purged (signature: 884)
+[07:49:06] Verified node purged (signature: 325)
+[07:49:06] Verified node purged (signature: 134)
+[07:49:06] Verified node purged (signature: 428)
+[07:49:06] Verified node purged (signature: 624)
+[07:49:06] Verified node purged (signature: 45)
+[07:49:06] Verified node purged (signature: 631)
+[07:49:06] Verified node purged (signature: 791)
+[07:49:06] Verified node purged (signature: 159)
+[07:49:06] Verified node purged (signature: 791)
+[07:49:06] Verified node purged (signature: 624)
+[07:49:06] Verified node purged (signature: 325)
+[07:49:06] Verified node purged (signature: 789)
+[07:49:06] Verified node purged (signature: 538)
+[07:49:06] Verified node purged (signature: 971)
+[07:49:06] Verified node purged (signature: 683)
+[07:49:06] Verified node purged (signature: 70)
+[07:49:06] Verified node purged (signature: 406)
+[07:49:06] Verified node purged (signature: 683)
+[07:49:06] Verified node purged (signature: 407)
+[07:49:06] Verified node purged (signature: 434)
+[07:49:06] Verified node purged (signature: 639)
+[07:49:06] Verified node purged (signature: 171)
+[07:49:06] Verified node purged (signature: 136)
+[07:49:06] Verified node purged (signature: 459)
+[07:49:06] Verified node purged (signature: 538)
+[07:49:06] Verified node purged (signature: 434)
+[07:49:06] Verified node purged (signature: 616)
+[07:49:06] Verified node purged (signature: 706)
+[07:49:06] Verified node purged (signature: 112)
+[07:49:06] Verified node purged (signature: 464)
+[07:49:06] Verified node purged (signature: 456)
+[07:49:06] Verified node purged (signature: 458)
+[07:49:06] Verified node purged (signature: 774)
+[07:49:06] Verified node purged (signature: 695)
+[07:49:06] Verified node purged (signature: 680)
+[07:49:06] Verified node purged (signature: 427)
+[07:49:06] Verified node purged (signature: 616)
+[07:49:06] Verified node purged (signature: 765)
+[07:49:06] Verified node purged (signature: 1002)
+[07:49:06] Verified node purged (signature: 192)
+[07:49:06] Verified node purged (signature: 595)
+[07:49:06] Verified node purged (signature: 427)
+[07:49:06] Verified node purged (signature: 706)
+[07:49:06] Verified node purged (signature: 95)
+[07:49:06] Verified node purged (signature: 320)
+[07:49:06] Verified node purged (signature: 595)
+[07:49:06] Verified node purged (signature: 664)
+[07:49:06] Verified node purged (signature: 637)
+[07:49:06] Verified node purged (signature: 728)
+[07:49:06] Verified node purged (signature: 171)
+[07:49:06] Verified node purged (signature: 406)
+[07:49:06] Verified node purged (signature: 727)
+[07:49:06] Verified node purged (signature: 442)
+[07:49:06] Verified node purged (signature: 320)
+[07:49:06] Verified node purged (signature: 774)
+[07:49:06] Verified node purged (signature: 691)
+[07:49:06] Verified node purged (signature: 459)
+[07:49:06] Verified node purged (signature: 45)
+[07:49:06] Verified node purged (signature: 631)
+[07:49:06] Verified node purged (signature: 411)
+[07:49:06] Verified node purged (signature: 428)
+[07:49:06] Verified node purged (signature: 822)
+[07:49:06] Verified node purged (signature: 136)
+[07:49:06] Verified node purged (signature: 208)
+[07:49:06] Verified node purged (signature: 763)
+[07:49:06] Verified node purged (signature: 361)
+[07:49:06] Verified node purged (signature: 134)
+[07:49:06] Verified node purged (signature: 376)
+[07:49:06] Verified node purged (signature: 680)
+[07:49:06] Verified node purged (signature: 686)
+[07:49:06] Verified node purged (signature: 456)
+[07:49:06] Verified node purged (signature: 192)
+[07:49:06] Verified node purged (signature: 695)
+[07:49:06] Verified node purged (signature: 255)
+[07:49:06] Signature synthesized: 446
+[07:49:06] Signature synthesized: 487
+[07:49:06] Signature synthesized: 152
+[07:49:06] Signature synthesized: 272
+[07:49:06] Signature synthesized: 817
+[07:49:06] Signature synthesized: 166
+[07:49:06] Signature synthesized: 412
+[07:49:06] Signature synthesized: 58
+[07:49:08] Node spawned at (74, 396)
+[07:49:08] Node spawned at (534, 484)
+[07:49:08] Node spawned at (91, 454)
+[07:49:10] Node spawned at (460, 248)
+[07:49:10] Node spawned at (193, 79)
+[07:49:10] Node spawned at (347, 424)
+[07:49:11] Node spawned at (299, 233)
+[07:49:11] Catalyst node spawned at (472, 319)
+[07:49:11] Catalyst node spawned at (591, 177)
+[07:49:13] Catalyst node spawned at (87, 317)
+[07:49:13] Node spawned at (425, 134)
+[07:49:13] Node spawned at (51, 168)
+[07:49:14] Node spawned at (346, 304)
+[07:49:14] Node spawned at (218, 479)
+[07:49:14] Node spawned at (150, 266)
+[07:49:15] Signature synthesized: 143
+[07:49:15] Signature synthesized: 931
+[07:49:15] Signature synthesized: 90
+[07:49:15] Signature synthesized: 684
+[07:49:15] Signature synthesized: 545
+[07:49:15] Verified node purged (signature: 157)
+[07:49:15] Verified node purged (signature: 432)
+[07:49:15] Verified node purged (signature: 487)
+[07:49:15] Verified node purged (signature: 166)
+[07:49:15] Verified node purged (signature: 58)
+[07:49:15] Verified node purged (signature: 157)
+[07:49:15] Verified node purged (signature: 272)
+[07:49:15] Verified node purged (signature: 109)
+[07:49:15] Verified node purged (signature: 21)
+[07:49:15] Verified node purged (signature: 506)
+[07:49:15] Verified node purged (signature: 826)
+[07:49:15] Verified node purged (signature: 21)
+[07:49:15] Verified node purged (signature: 440)
+[07:49:15] Verified node purged (signature: 487)
+[07:49:15] Verified node purged (signature: 412)
+[07:49:15] Verified node purged (signature: 446)
+[07:49:15] Verified node purged (signature: 817)
+[07:49:15] Verified node purged (signature: 507)
+[07:49:15] Verified node purged (signature: 779)
+[07:49:15] Verified node purged (signature: 272)
+[07:49:15] Verified node purged (signature: 109)
+[07:49:15] Verified node purged (signature: 409)
+[07:49:15] Verified node purged (signature: 699)
+[07:49:15] Verified node purged (signature: 58)
+[07:49:15] Verified node purged (signature: 440)
+[07:49:15] Verified node purged (signature: 506)
+[07:49:15] Verified node purged (signature: 826)
+[07:49:15] Verified node purged (signature: 412)
+[07:49:15] Verified node purged (signature: 409)
+[07:49:15] Verified node purged (signature: 166)
+[07:49:15] Verified node purged (signature: 699)
+[07:49:15] Verified node purged (signature: 779)
+[07:49:15] Verified node purged (signature: 152)
+[07:49:15] Verified node purged (signature: 817)
+[07:49:15] Verified node purged (signature: 446)
+[07:49:15] Verified node purged (signature: 432)
+[07:49:15] Verified node purged (signature: 152)
+[07:49:15] Node spawned at (251, 421)
+[07:49:15] Node spawned at (376, 390)
+[07:49:15] Node spawned at (112, 268)
+[07:49:15] Signature synthesized: 197
+[07:49:15] Signature synthesized: 585
+[07:49:15] Catalyst-enhanced node detected - double signature attempts
+[07:49:15] Signature synthesized: 283
+[07:49:15] Signature synthesized: 972
+[07:49:15] Signature synthesized: 401
+[07:49:15] Signature synthesized: 119
+[07:49:15] Signature synthesized: 1013
+[07:49:15] Signature synthesized: 592
+[07:49:15] MATCH: Signature 592 matches target 592!
+───────────────────────────────────────────────────────────────
+
+SESSION CONCLUSION:
+───────────────────────────────────────────────────────────────
+Target signature 592 successfully synthesized after
+753 seconds with 567 node interactions.
+Catalyst nodes spawned: 3
+System performance optimal. All nodes processed successfully.
+───────────────────────────────────────────────────────────────
+
+INTEGRITY VERIFICATION:
+───────────────────────────────────────────────────────────────
+SHA-256 Hash: ad4b568a733dd5d0adc2c24768d220be1571b0dfc19e378eb762616fca39c181
+This hash validates the authenticity of this log file.
+───────────────────────────────────────────────────────────────
+
+═══════════════════════════════════════════════════════════════
+                    END OF SYSTEM LOG
+═══════════════════════════════════════════════════════════════
