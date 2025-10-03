@@ -166,5 +166,25 @@ So, what do you really want? You want the limit of what your current point of vi
 
 Are you capable of this?
 
+### 3.6 DHT Network Key Discovery Simulator 
+
+Visualizes a a simplified version of a decentralized P2P network where nodes connect and share data.
+
+Nodes spawn automatically, store random key-value pairs, and dissipate after 8 seconds.
+
+Nodes send queries to neighbors to search for a randomly generated target key.
+
+Displays nodes (with keys), connections (grey), and active queries (orange).
+
+Logs node joins, queries, responses, and match events in real time.
+Tracks active nodes, total queries, network hops, and elapsed time.
+Ends when a node holding the target key is found.
+
+Generates and downloads a detailed log file after each successful run.
+
+Start and reset buttons to control the simulation
+
+Ok I see the oportunity to create variations that may be closer to what a DHT Network would look like if visualized in this way I'm doing it with node interactions. I have many ideas for DHT network-based visualizers.
+
 Ronni Ross
 2025
