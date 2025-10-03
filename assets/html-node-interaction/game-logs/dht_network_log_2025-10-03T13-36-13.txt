@@ -1,0 +1,2161 @@
+═══════════════════════════════════════════════════════════════
+       DHT NETWORK KEY DISCOVERY SIMULATOR - RUN LOG
+═══════════════════════════════════════════════════════════════
+
+DECENTRALIZED NETWORK PROTOCOL:
+───────────────────────────────────────────────────────────────
+1. Network nodes spawn continuously in distributed fashion
+2. Each node stores a hash-key pair (signature key 1-1000)
+3. Nodes automatically connect to nearby peers (DHT topology)
+4. Queries propagate through network via peer connections
+5. Each query hop checks if node has target signature
+6. Nodes dissipate after 8 seconds (simulating churn)
+7. Network succeeds when any node matches target signature
+───────────────────────────────────────────────────────────────
+
+RUN STATISTICS:
+───────────────────────────────────────────────────────────────
+Run Date: 03/10/2025, 10:36:13
+Target Signature: 345
+Total Time: 4352 seconds
+Total Queries: 745
+Network Hops: 745
+Peak Nodes: 66
+Avg Query Rate: 0.17 queries/sec
+───────────────────────────────────────────────────────────────
+
+DETAILED EVENT LOG:
+───────────────────────────────────────────────────────────────
+[09:23:40] Network initialized. Target signature: 345
+[09:23:40] Node joined network | Hash: 601 | Key: 879
+[09:23:40] Node joined network | Hash: 409 | Key: 681
+[09:23:40] Node joined network | Hash: 607 | Key: 856
+[09:23:40] Node joined network | Hash: 755 | Key: 2
+[09:23:40] Node joined network | Hash: 499 | Key: 86
+[09:23:42] Node joined network | Hash: 795 | Key: 68
+[09:23:43] Query forwarded: Node 795 → Node 499
+[09:23:44] Response: Node 499 (Key: 86) - No match
+[09:23:44] Node joined network | Hash: 796 | Key: 244
+[09:23:45] Query forwarded: Node 796 → Node 409
+[09:23:45] Node joined network | Hash: 30 | Key: 220
+[09:23:46] Response: Node 409 (Key: 681) - No match
+[09:23:46] Query forwarded: Node 601 → Node 499
+[09:23:47] Response: Node 499 (Key: 86) - No match
+[09:23:47] Node joined network | Hash: 257 | Key: 702
+[09:23:47] Query forwarded: Node 257 → Node 796
+[09:23:48] Response: Node 796 (Key: 244) - No match
+[09:23:48] Query forwarded: Node 409 → Node 796
+[09:23:48] Node joined network | Hash: 715 | Key: 23
+[09:23:49] Response: Node 796 (Key: 244) - No match
+[09:23:49] Query forwarded: Node 715 → Node 30
+[09:23:50] Response: Node 30 (Key: 220) - No match
+[09:23:50] Node joined network | Hash: 819 | Key: 851
+[09:23:50] Query forwarded: Node 795 → Node 499
+[09:23:51] Response: Node 499 (Key: 86) - No match
+[09:23:51] Query forwarded: Node 409 → Node 796
+[09:23:51] Node joined network | Hash: 18 | Key: 817
+[09:23:52] Response: Node 796 (Key: 244) - No match
+[09:23:52] Query forwarded: Node 755 → Node 819
+[09:23:53] Response: Node 819 (Key: 851) - No match
+[09:23:53] Node joined network | Hash: 462 | Key: 703
+[09:23:53] Query forwarded: Node 715 → Node 30
+[09:23:54] Response: Node 30 (Key: 220) - No match
+[09:23:54] Node joined network | Hash: 304 | Key: 527
+[09:23:54] Query forwarded: Node 30 → Node 18
+[09:23:55] Response: Node 18 (Key: 817) - No match
+[09:23:55] Query forwarded: Node 607 → Node 18
+[09:23:56] Response: Node 18 (Key: 817) - No match
+[09:23:56] Node joined network | Hash: 534 | Key: 75
+[09:23:56] Query forwarded: Node 30 → Node 715
+[09:23:57] Response: Node 715 (Key: 23) - No match
+[09:23:57] Query forwarded: Node 755 → Node 819
+[09:23:57] Node joined network | Hash: 134 | Key: 19
+[09:23:58] Response: Node 819 (Key: 851) - No match
+[09:23:58] Query forwarded: Node 462 → Node 755
+[09:23:59] Response: Node 755 (Key: 2) - No match
+[09:23:59] Node joined network | Hash: 856 | Key: 768
+[09:23:59] Query forwarded: Node 819 → Node 499
+[09:24:00] Response: Node 499 (Key: 86) - No match
+[09:24:00] Query forwarded: Node 462 → Node 755
+[09:24:00] Node joined network | Hash: 171 | Key: 996
+[09:24:01] Response: Node 755 (Key: 2) - No match
+[09:24:01] Query forwarded: Node 715 → Node 30
+[09:24:02] Response: Node 30 (Key: 220) - No match
+[09:24:02] Node joined network | Hash: 757 | Key: 312
+[09:24:02] Query forwarded: Node 819 → Node 499
+[09:24:03] Response: Node 499 (Key: 86) - No match
+[09:24:03] Query forwarded: Node 755 → Node 757
+[09:24:03] Node joined network | Hash: 882 | Key: 49
+[09:24:04] Response: Node 757 (Key: 312) - No match
+[09:24:04] Query forwarded: Node 856 → Node 795
+[09:24:05] Response: Node 795 (Key: 68) - No match
+[09:24:05] Node joined network | Hash: 301 | Key: 941
+[09:24:05] Query forwarded: Node 462 → Node 755
+[09:24:06] Response: Node 755 (Key: 2) - No match
+[09:24:06] Node joined network | Hash: 5 | Key: 523
+[09:24:06] Query forwarded: Node 856 → Node 795
+[09:24:07] Response: Node 795 (Key: 68) - No match
+[09:24:07] Query forwarded: Node 796 → Node 409
+[09:24:08] Response: Node 409 (Key: 681) - No match
+[09:24:08] Node joined network | Hash: 4 | Key: 604
+[09:24:08] Query forwarded: Node 757 → Node 755
+[09:24:09] Response: Node 755 (Key: 2) - No match
+[09:24:09] Query forwarded: Node 499 → Node 171
+[09:24:09] Node joined network | Hash: 981 | Key: 134
+[09:24:10] Response: Node 171 (Key: 996) - No match
+[09:24:10] Query forwarded: Node 5 → Node 755
+[09:24:11] Response: Node 755 (Key: 2) - No match
+[09:24:11] Node joined network | Hash: 361 | Key: 616
+[09:24:11] Query forwarded: Node 981 → Node 361
+[09:24:12] Response: Node 361 (Key: 616) - No match
+[09:24:12] Query forwarded: Node 601 → Node 499
+[09:24:12] Node joined network | Hash: 575 | Key: 10
+[09:24:13] Response: Node 499 (Key: 86) - No match
+[09:24:13] Query forwarded: Node 601 → Node 499
+[09:24:14] Response: Node 499 (Key: 86) - No match
+[09:24:14] Node joined network | Hash: 184 | Key: 480
+[09:24:14] Query forwarded: Node 882 → Node 795
+[09:24:15] Response: Node 795 (Key: 68) - No match
+[09:24:15] Query forwarded: Node 5 → Node 757
+[09:24:15] Node joined network | Hash: 41 | Key: 657
+[09:24:16] Response: Node 757 (Key: 312) - No match
+[09:24:16] Query forwarded: Node 856 → Node 795
+[09:24:17] Response: Node 795 (Key: 68) - No match
+[09:24:17] Node joined network | Hash: 927 | Key: 212
+[09:24:17] Query forwarded: Node 304 → Node 41
+[09:24:18] Response: Node 41 (Key: 657) - No match
+[09:24:18] Node joined network | Hash: 4 | Key: 386
+[09:24:18] Query forwarded: Node 30 → Node 715
+[09:24:19] Response: Node 715 (Key: 23) - No match
+[09:24:19] Query forwarded: Node 18 → Node 607
+[09:24:20] Response: Node 607 (Key: 856) - No match
+[09:24:20] Node joined network | Hash: 777 | Key: 24
+[09:24:20] Query forwarded: Node 796 → Node 777
+[09:24:21] Response: Node 777 (Key: 24) - No match
+[09:24:21] Query forwarded: Node 5 → Node 575
+[09:24:21] Node joined network | Hash: 973 | Key: 81
+[09:24:22] Response: Node 575 (Key: 10) - No match
+[09:24:22] Query forwarded: Node 361 → Node 973
+[09:24:23] Response: Node 973 (Key: 81) - No match
+[09:24:23] Node joined network | Hash: 488 | Key: 196
+[09:24:23] Query forwarded: Node 184 → Node 601
+[09:24:24] Response: Node 601 (Key: 879) - No match
+[09:24:24] Query forwarded: Node 304 → Node 41
+[09:24:24] Node joined network | Hash: 148 | Key: 937
+[09:24:25] Response: Node 41 (Key: 657) - No match
+[09:24:25] Query forwarded: Node 4 → Node 534
+[09:24:26] Response: Node 534 (Key: 75) - No match
+[09:24:26] Node joined network | Hash: 464 | Key: 859
+[09:24:26] Query forwarded: Node 18 → Node 301
+[09:24:27] Response: Node 301 (Key: 941) - No match
+[09:24:27] Query forwarded: Node 134 → Node 882
+[09:24:27] Node joined network | Hash: 229 | Key: 729
+[09:24:28] Response: Node 882 (Key: 49) - No match
+[09:24:28] Query forwarded: Node 882 → Node 148
+[09:24:29] Response: Node 148 (Key: 937) - No match
+[09:24:29] Node joined network | Hash: 742 | Key: 528
+[09:24:29] Query forwarded: Node 715 → Node 30
+[09:24:30] Response: Node 30 (Key: 220) - No match
+[09:24:30] Node joined network | Hash: 130 | Key: 923
+[09:24:30] Query forwarded: Node 981 → Node 5
+[09:24:31] Response: Node 5 (Key: 523) - No match
+[09:24:31] Query forwarded: Node 856 → Node 488
+[09:24:32] Response: Node 488 (Key: 196) - No match
+[09:24:32] Node joined network | Hash: 40 | Key: 419
+[09:24:32] Query forwarded: Node 184 → Node 607
+[09:24:33] Response: Node 607 (Key: 856) - No match
+[09:24:33] Query forwarded: Node 4 → Node 130
+[09:24:33] Node joined network | Hash: 327 | Key: 86
+[09:24:34] Response: Node 130 (Key: 923) - No match
+[09:24:34] Query forwarded: Node 882 → Node 795
+[09:24:35] Response: Node 795 (Key: 68) - No match
+[09:24:35] Node joined network | Hash: 253 | Key: 645
+[09:24:35] Query forwarded: Node 30 → Node 253
+[09:24:36] Response: Node 253 (Key: 645) - No match
+[09:24:36] Query forwarded: Node 148 → Node 134
+[09:24:36] Node joined network | Hash: 624 | Key: 184
+[09:24:37] Response: Node 134 (Key: 19) - No match
+[09:24:37] Query forwarded: Node 488 → Node 18
+[09:24:38] Response: Node 18 (Key: 817) - No match
+[09:24:38] Node joined network | Hash: 865 | Key: 365
+[09:24:38] Query forwarded: Node 464 → Node 4
+[09:24:39] Response: Node 4 (Key: 604) - No match
+[09:24:39] Query forwarded: Node 130 → Node 865
+[09:24:39] Node joined network | Hash: 680 | Key: 406
+[09:24:40] Response: Node 865 (Key: 365) - No match
+[09:24:40] Query forwarded: Node 40 → Node 534
+[09:24:44] Response: Node 534 (Key: 75) - No match
+[09:24:44] Node joined network | Hash: 209 | Key: 486
+[09:24:44] Node joined network | Hash: 295 | Key: 455
+[09:24:45] Query forwarded: Node 295 → Node 865
+[09:24:46] Response: Node 865 (Key: 365) - No match
+[09:24:47] Node joined network | Hash: 534 | Key: 912
+[09:24:48] Query forwarded: Node 680 → Node 534
+[09:24:48] Node joined network | Hash: 544 | Key: 856
+[09:24:49] Response: Node 534 (Key: 912) - No match
+[09:24:49] Query forwarded: Node 865 → Node 295
+[09:24:50] Response: Node 295 (Key: 455) - No match
+[09:24:50] Node joined network | Hash: 222 | Key: 113
+[09:24:51] Query forwarded: Node 534 → Node 680
+[09:24:51] Node joined network | Hash: 72 | Key: 845
+[09:24:52] Response: Node 680 (Key: 406) - No match
+[09:24:52] Query forwarded: Node 544 → Node 534
+[09:24:53] Response: Node 534 (Key: 912) - No match
+[09:24:53] Node joined network | Hash: 149 | Key: 245
+[09:24:53] Query forwarded: Node 544 → Node 534
+[09:24:54] Response: Node 534 (Key: 912) - No match
+[09:24:54] Node joined network | Hash: 879 | Key: 762
+[09:24:54] Query forwarded: Node 295 → Node 72
+[09:24:55] Response: Node 72 (Key: 845) - No match
+[09:24:56] Node joined network | Hash: 43 | Key: 911
+[09:24:56] Query forwarded: Node 43 → Node 534
+[09:24:57] Response: Node 534 (Key: 912) - No match
+[09:24:57] Query forwarded: Node 865 → Node 295
+[09:24:57] Node joined network | Hash: 651 | Key: 227
+[09:24:58] Response: Node 295 (Key: 455) - No match
+[09:24:58] Query forwarded: Node 865 → Node 295
+[09:24:59] Response: Node 295 (Key: 455) - No match
+[09:24:59] Node joined network | Hash: 84 | Key: 701
+[09:24:59] Query forwarded: Node 295 → Node 865
+[09:25:00] Response: Node 865 (Key: 365) - No match
+[09:25:00] Node joined network | Hash: 220 | Key: 908
+[09:25:02] Node joined network | Hash: 90 | Key: 729
+[09:25:02] Query forwarded: Node 72 → Node 295
+[09:25:03] Response: Node 295 (Key: 455) - No match
+[09:25:03] Query forwarded: Node 90 → Node 209
+[09:25:03] Node joined network | Hash: 504 | Key: 62
+[09:25:04] Response: Node 209 (Key: 486) - No match
+[09:25:04] Query forwarded: Node 879 → Node 504
+[09:25:05] Response: Node 504 (Key: 62) - No match
+[09:25:05] Node joined network | Hash: 51 | Key: 467
+[09:25:05] Query forwarded: Node 209 → Node 504
+[09:25:06] Response: Node 504 (Key: 62) - No match
+[09:25:06] Node joined network | Hash: 874 | Key: 924
+[09:25:06] Query forwarded: Node 222 → Node 72
+[09:25:07] Response: Node 72 (Key: 845) - No match
+[09:25:08] Node joined network | Hash: 127 | Key: 372
+[09:25:08] Query forwarded: Node 504 → Node 90
+[09:25:09] Response: Node 90 (Key: 729) - No match
+[09:25:09] Query forwarded: Node 84 → Node 43
+[09:25:09] Node joined network | Hash: 653 | Key: 806
+[09:25:10] Response: Node 43 (Key: 911) - No match
+[09:25:10] Query forwarded: Node 84 → Node 43
+[09:25:11] Response: Node 43 (Key: 911) - No match
+[09:25:11] Node joined network | Hash: 682 | Key: 838
+[09:25:11] Query forwarded: Node 651 → Node 682
+[09:25:12] Response: Node 682 (Key: 838) - No match
+[09:25:12] Query forwarded: Node 84 → Node 534
+[09:25:12] Node joined network | Hash: 993 | Key: 366
+[09:25:13] Response: Node 534 (Key: 912) - No match
+[09:25:13] Query forwarded: Node 879 → Node 504
+[09:25:14] Response: Node 504 (Key: 62) - No match
+[09:25:14] Node joined network | Hash: 482 | Key: 778
+[09:25:14] Query forwarded: Node 90 → Node 504
+[09:25:15] Response: Node 504 (Key: 62) - No match
+[09:25:15] Query forwarded: Node 865 → Node 295
+[09:25:15] Node joined network | Hash: 911 | Key: 744
+[09:25:16] Response: Node 295 (Key: 455) - No match
+[09:25:16] Query forwarded: Node 879 → Node 874
+[09:25:17] Response: Node 874 (Key: 924) - No match
+[09:25:17] Node joined network | Hash: 985 | Key: 230
+[09:25:17] Query forwarded: Node 149 → Node 911
+[09:25:18] Response: Node 911 (Key: 744) - No match
+[09:25:18] Node joined network | Hash: 295 | Key: 921
+[09:25:18] Query forwarded: Node 295 → Node 504
+[09:25:19] Response: Node 504 (Key: 62) - No match
+[09:25:19] Query forwarded: Node 651 → Node 295
+[09:25:20] Response: Node 295 (Key: 921) - No match
+[09:25:20] Node joined network | Hash: 689 | Key: 662
+[09:25:20] Query forwarded: Node 985 → Node 72
+[09:25:21] Response: Node 72 (Key: 845) - No match
+[09:25:21] Query forwarded: Node 295 → Node 682
+[09:25:21] Node joined network | Hash: 868 | Key: 834
+[09:25:22] Response: Node 682 (Key: 838) - No match
+[09:25:22] Query forwarded: Node 222 → Node 51
+[09:25:23] Response: Node 51 (Key: 467) - No match
+[09:25:23] Node joined network | Hash: 630 | Key: 737
+[09:25:23] Query forwarded: Node 680 → Node 43
+[09:25:24] Response: Node 43 (Key: 911) - No match
+[09:25:24] Query forwarded: Node 51 → Node 222
+[09:25:24] Node joined network | Hash: 975 | Key: 555
+[09:25:25] Response: Node 222 (Key: 113) - No match
+[09:25:25] Query forwarded: Node 689 → Node 127
+[09:25:26] Response: Node 127 (Key: 372) - No match
+[09:25:26] Node joined network | Hash: 689 | Key: 400
+[09:25:26] Query forwarded: Node 630 → Node 975
+[09:25:27] Response: Node 975 (Key: 555) - No match
+[09:25:27] Query forwarded: Node 51 → Node 295
+[09:25:27] Node joined network | Hash: 507 | Key: 821
+[09:25:28] Response: Node 295 (Key: 455) - No match
+[09:25:28] Query forwarded: Node 975 → Node 504
+[09:25:29] Response: Node 504 (Key: 62) - No match
+[09:25:29] Node joined network | Hash: 468 | Key: 208
+[09:25:29] Query forwarded: Node 149 → Node 911
+[09:25:30] Response: Node 911 (Key: 744) - No match
+[09:25:30] Node joined network | Hash: 378 | Key: 717
+[09:25:30] Query forwarded: Node 630 → Node 504
+[09:25:31] Response: Node 504 (Key: 62) - No match
+[09:25:31] Query forwarded: Node 689 → Node 127
+[09:25:32] Response: Node 127 (Key: 372) - No match
+[09:25:32] Node joined network | Hash: 231 | Key: 638
+[09:25:32] Query forwarded: Node 51 → Node 222
+[09:25:33] Response: Node 222 (Key: 113) - No match
+[09:25:33] Query forwarded: Node 985 → Node 295
+[09:25:33] Node joined network | Hash: 970 | Key: 546
+[09:25:34] Response: Node 295 (Key: 921) - No match
+[09:25:34] Query forwarded: Node 534 → Node 468
+[09:25:35] Response: Node 468 (Key: 208) - No match
+[09:25:35] Node joined network | Hash: 677 | Key: 122
+[09:25:35] Query forwarded: Node 220 → Node 51
+[09:25:36] Response: Node 51 (Key: 467) - No match
+[09:25:36] Query forwarded: Node 220 → Node 51
+[09:25:36] Node joined network | Hash: 707 | Key: 498
+[09:25:37] Response: Node 51 (Key: 467) - No match
+[09:25:37] Query forwarded: Node 682 → Node 295
+[09:25:38] Response: Node 295 (Key: 921) - No match
+[09:25:38] Node joined network | Hash: 711 | Key: 542
+[09:25:38] Query forwarded: Node 868 → Node 295
+[09:25:39] Response: Node 295 (Key: 455) - No match
+[09:25:39] Query forwarded: Node 468 → Node 127
+[09:25:39] Node joined network | Hash: 643 | Key: 38
+[09:25:40] Response: Node 127 (Key: 372) - No match
+[09:25:40] Query forwarded: Node 482 → Node 90
+[09:25:41] Response: Node 90 (Key: 729) - No match
+[09:25:41] Node joined network | Hash: 602 | Key: 786
+[09:25:41] Query forwarded: Node 711 → Node 970
+[09:25:42] Response: Node 970 (Key: 546) - No match
+[09:25:42] Node joined network | Hash: 308 | Key: 996
+[09:25:42] Query forwarded: Node 602 → Node 43
+[09:25:43] Response: Node 43 (Key: 911) - No match
+[09:25:43] Query forwarded: Node 911 → Node 149
+[09:25:44] Response: Node 149 (Key: 245) - No match
+[09:25:44] Node joined network | Hash: 823 | Key: 329
+[09:25:44] Query forwarded: Node 43 → Node 602
+[09:26:13] Response: Node 602 (Key: 786) - No match
+[09:26:13] Query forwarded: Node 84 → Node 43
+[09:26:13] Node joined network | Hash: 787 | Key: 347
+[09:27:13] Response: Node 43 (Key: 911) - No match
+[09:27:13] Node joined network | Hash: 148 | Key: 999
+[09:27:13] Query forwarded: Node 544 → Node 787
+[09:28:13] Response: Node 787 (Key: 347) - No match
+[09:28:13] Node joined network | Hash: 763 | Key: 364
+[09:28:13] Query forwarded: Node 707 → Node 127
+[09:29:13] Response: Node 127 (Key: 372) - No match
+[09:29:13] Node joined network | Hash: 481 | Key: 849
+[09:29:13] Query forwarded: Node 43 → Node 534
+[09:30:13] Response: Node 534 (Key: 912) - No match
+[09:30:13] Node joined network | Hash: 739 | Key: 220
+[09:30:13] Query forwarded: Node 43 → Node 689
+[09:31:13] Response: Node 689 (Key: 400) - No match
+[09:31:13] Node joined network | Hash: 997 | Key: 431
+[09:31:13] Query forwarded: Node 653 → Node 308
+[09:31:32] Response: Node 308 (Key: 996) - No match
+[09:31:32] Node joined network | Hash: 4 | Key: 955
+[09:31:32] Node joined network | Hash: 508 | Key: 341
+[09:31:35] Node joined network | Hash: 148 | Key: 926
+[09:31:36] Node joined network | Hash: 575 | Key: 872
+[09:31:38] Node joined network | Hash: 262 | Key: 509
+[09:31:39] Node joined network | Hash: 474 | Key: 995
+[09:31:40] Query forwarded: Node 474 → Node 4
+[09:31:41] Response: Node 4 (Key: 955) - No match
+[09:31:41] Node joined network | Hash: 865 | Key: 647
+[09:31:42] Node joined network | Hash: 625 | Key: 772
+[09:31:44] Node joined network | Hash: 815 | Key: 193
+[09:31:44] Query forwarded: Node 474 → Node 625
+[09:31:45] Response: Node 625 (Key: 772) - No match
+[09:31:45] Node joined network | Hash: 836 | Key: 527
+[09:31:47] Node joined network | Hash: 163 | Key: 194
+[09:31:48] Query forwarded: Node 163 → Node 262
+[09:31:48] Node joined network | Hash: 784 | Key: 539
+[09:31:49] Response: Node 262 (Key: 509) - No match
+[09:31:49] Query forwarded: Node 784 → Node 508
+[09:31:50] Response: Node 508 (Key: 341) - No match
+[09:31:50] Node joined network | Hash: 690 | Key: 876
+[09:31:50] Query forwarded: Node 262 → Node 163
+[09:31:51] Response: Node 163 (Key: 194) - No match
+[09:31:51] Query forwarded: Node 262 → Node 163
+[09:31:51] Node joined network | Hash: 44 | Key: 651
+[09:31:52] Response: Node 163 (Key: 194) - No match
+[09:31:52] Query forwarded: Node 163 → Node 865
+[09:31:53] Response: Node 865 (Key: 647) - No match
+[09:31:53] Node joined network | Hash: 500 | Key: 87
+[09:31:53] Query forwarded: Node 575 → Node 500
+[09:31:54] Response: Node 500 (Key: 87) - No match
+[09:31:54] Node joined network | Hash: 725 | Key: 126
+[09:31:54] Query forwarded: Node 262 → Node 44
+[09:31:55] Response: Node 44 (Key: 651) - No match
+[09:31:55] Query forwarded: Node 508 → Node 784
+[09:31:56] Response: Node 784 (Key: 539) - No match
+[09:31:56] Node joined network | Hash: 184 | Key: 535
+[09:31:56] Query forwarded: Node 474 → Node 836
+[09:31:57] Response: Node 836 (Key: 527) - No match
+[09:31:57] Query forwarded: Node 784 → Node 508
+[09:31:57] Node joined network | Hash: 430 | Key: 553
+[09:31:58] Response: Node 508 (Key: 341) - No match
+[09:31:58] Query forwarded: Node 690 → Node 625
+[09:31:59] Node joined network | Hash: 312 | Key: 216
+[09:31:59] Response: Node 625 (Key: 772) - No match
+[09:31:59] Query forwarded: Node 508 → Node 430
+[09:32:00] Response: Node 430 (Key: 553) - No match
+[09:32:00] Node joined network | Hash: 745 | Key: 859
+[09:32:01] Query forwarded: Node 430 → Node 508
+[09:32:02] Response: Node 508 (Key: 341) - No match
+[09:32:02] Node joined network | Hash: 109 | Key: 738
+[09:32:02] Query forwarded: Node 163 → Node 865
+[09:32:03] Response: Node 865 (Key: 647) - No match
+[09:32:03] Query forwarded: Node 148 → Node 500
+[09:32:03] Node joined network | Hash: 684 | Key: 233
+[09:32:04] Response: Node 500 (Key: 87) - No match
+[09:32:04] Query forwarded: Node 745 → Node 690
+[09:32:05] Response: Node 690 (Key: 876) - No match
+[09:32:05] Node joined network | Hash: 980 | Key: 726
+[09:32:05] Query forwarded: Node 836 → Node 625
+[09:32:06] Response: Node 625 (Key: 772) - No match
+[09:32:06] Node joined network | Hash: 339 | Key: 54
+[09:32:06] Query forwarded: Node 625 → Node 4
+[09:32:07] Response: Node 4 (Key: 955) - No match
+[09:32:07] Query forwarded: Node 980 → Node 725
+[09:32:08] Response: Node 725 (Key: 126) - No match
+[09:32:08] Node joined network | Hash: 425 | Key: 866
+[09:32:08] Query forwarded: Node 148 → Node 980
+[09:32:09] Response: Node 980 (Key: 726) - No match
+[09:32:09] Query forwarded: Node 4 → Node 625
+[09:32:09] Node joined network | Hash: 195 | Key: 946
+[09:32:10] Response: Node 625 (Key: 772) - No match
+[09:32:10] Query forwarded: Node 163 → Node 195
+[09:32:11] Response: Node 195 (Key: 946) - No match
+[09:32:11] Node joined network | Hash: 814 | Key: 893
+[09:32:11] Query forwarded: Node 815 → Node 684
+[09:32:12] Response: Node 684 (Key: 233) - No match
+[09:32:12] Query forwarded: Node 4 → Node 339
+[09:32:12] Node joined network | Hash: 906 | Key: 950
+[09:32:13] Response: Node 339 (Key: 54) - No match
+[09:32:13] Query forwarded: Node 690 → Node 745
+[09:32:14] Response: Node 745 (Key: 859) - No match
+[09:32:14] Node joined network | Hash: 559 | Key: 847
+[09:32:14] Query forwarded: Node 725 → Node 312
+[09:32:15] Response: Node 312 (Key: 216) - No match
+[09:32:15] Query forwarded: Node 339 → Node 4
+[09:32:15] Node joined network | Hash: 93 | Key: 318
+[09:32:16] Response: Node 4 (Key: 955) - No match
+[09:32:16] Query forwarded: Node 93 → Node 559
+[09:32:17] Response: Node 559 (Key: 847) - No match
+[09:32:17] Node joined network | Hash: 188 | Key: 316
+[09:32:17] Query forwarded: Node 339 → Node 109
+[09:32:18] Response: Node 109 (Key: 738) - No match
+[09:32:18] Node joined network | Hash: 552 | Key: 657
+[09:32:18] Query forwarded: Node 508 → Node 906
+[09:32:18] Response: Node 906 (Key: 950) - No match
+[09:32:19] Query forwarded: Node 93 → Node 559
+[09:32:20] Response: Node 559 (Key: 847) - No match
+[09:32:20] Node joined network | Hash: 779 | Key: 471
+[09:32:20] Query forwarded: Node 552 → Node 779
+[09:32:21] Response: Node 779 (Key: 471) - No match
+[09:32:21] Query forwarded: Node 559 → Node 93
+[09:32:21] Node joined network | Hash: 359 | Key: 599
+[09:32:22] Response: Node 93 (Key: 318) - No match
+[09:32:22] Query forwarded: Node 552 → Node 779
+[09:32:23] Response: Node 779 (Key: 471) - No match
+[09:32:23] Node joined network | Hash: 433 | Key: 511
+[09:32:24] Query forwarded: Node 188 → Node 779
+[09:32:24] Node joined network | Hash: 524 | Key: 6
+[09:32:25] Response: Node 779 (Key: 471) - No match
+[09:32:25] Query forwarded: Node 814 → Node 779
+[09:32:26] Response: Node 779 (Key: 471) - No match
+[09:32:26] Node joined network | Hash: 179 | Key: 963
+[09:32:27] Query forwarded: Node 552 → Node 179
+[09:32:27] Node joined network | Hash: 760 | Key: 933
+[09:32:28] Response: Node 179 (Key: 963) - No match
+[09:32:28] Query forwarded: Node 179 → Node 552
+[09:32:29] Response: Node 552 (Key: 657) - No match
+[09:32:29] Node joined network | Hash: 657 | Key: 766
+[09:32:29] Query forwarded: Node 552 → Node 188
+[09:32:30] Response: Node 188 (Key: 316) - No match
+[09:32:30] Node joined network | Hash: 181 | Key: 182
+[09:32:30] Query forwarded: Node 657 → Node 559
+[09:32:31] Response: Node 559 (Key: 847) - No match
+[09:32:31] Query forwarded: Node 93 → Node 657
+[09:32:32] Response: Node 657 (Key: 766) - No match
+[09:32:32] Node joined network | Hash: 393 | Key: 706
+[09:32:32] Query forwarded: Node 188 → Node 552
+[09:32:33] Response: Node 552 (Key: 657) - No match
+[09:32:33] Query forwarded: Node 393 → Node 433
+[09:32:33] Node joined network | Hash: 960 | Key: 615
+[09:32:34] Response: Node 433 (Key: 511) - No match
+[09:32:34] Query forwarded: Node 188 → Node 552
+[09:32:35] Response: Node 552 (Key: 657) - No match
+[09:32:35] Node joined network | Hash: 639 | Key: 784
+[09:32:35] Query forwarded: Node 93 → Node 524
+[09:32:36] Response: Node 524 (Key: 6) - No match
+[09:32:36] Query forwarded: Node 179 → Node 552
+[09:32:36] Node joined network | Hash: 607 | Key: 595
+[09:32:37] Response: Node 552 (Key: 657) - No match
+[09:32:37] Query forwarded: Node 607 → Node 760
+[09:32:38] Response: Node 760 (Key: 933) - No match
+[09:32:38] Node joined network | Hash: 28 | Key: 232
+[09:32:38] Query forwarded: Node 93 → Node 657
+[09:32:39] Response: Node 657 (Key: 766) - No match
+[09:32:39] Query forwarded: Node 814 → Node 779
+[09:32:39] Node joined network | Hash: 411 | Key: 168
+[09:32:40] Response: Node 779 (Key: 471) - No match
+[09:32:40] Query forwarded: Node 433 → Node 393
+[09:32:41] Response: Node 393 (Key: 706) - No match
+[09:32:41] Node joined network | Hash: 622 | Key: 359
+[09:32:41] Query forwarded: Node 181 → Node 814
+[09:32:42] Response: Node 814 (Key: 893) - No match
+[09:32:42] Node joined network | Hash: 335 | Key: 767
+[09:32:42] Query forwarded: Node 960 → Node 760
+[09:32:43] Response: Node 760 (Key: 933) - No match
+[09:32:43] Query forwarded: Node 359 → Node 639
+[09:32:44] Response: Node 639 (Key: 784) - No match
+[09:32:44] Node joined network | Hash: 53 | Key: 469
+[09:32:44] Query forwarded: Node 28 → Node 433
+[09:32:45] Response: Node 433 (Key: 511) - No match
+[09:32:45] Query forwarded: Node 657 → Node 524
+[09:32:45] Node joined network | Hash: 687 | Key: 19
+[09:32:46] Response: Node 524 (Key: 6) - No match
+[09:32:46] Query forwarded: Node 960 → Node 607
+[09:32:47] Response: Node 607 (Key: 595) - No match
+[09:32:47] Node joined network | Hash: 996 | Key: 134
+[09:32:47] Query forwarded: Node 53 → Node 657
+[09:32:48] Response: Node 657 (Key: 766) - No match
+[09:32:48] Query forwarded: Node 996 → Node 181
+[09:32:48] Node joined network | Hash: 870 | Key: 597
+[09:32:49] Response: Node 181 (Key: 182) - No match
+[09:32:49] Query forwarded: Node 559 → Node 524
+[09:32:50] Response: Node 524 (Key: 6) - No match
+[09:32:50] Node joined network | Hash: 454 | Key: 233
+[09:32:50] Query forwarded: Node 607 → Node 960
+[09:32:51] Response: Node 960 (Key: 615) - No match
+[09:32:51] Query forwarded: Node 814 → Node 996
+[09:32:51] Node joined network | Hash: 761 | Key: 194
+[09:32:52] Response: Node 996 (Key: 134) - No match
+[09:32:52] Query forwarded: Node 53 → Node 657
+[09:32:53] Response: Node 657 (Key: 766) - No match
+[09:32:53] Node joined network | Hash: 122 | Key: 526
+[09:32:53] Query forwarded: Node 760 → Node 761
+[09:32:54] Response: Node 761 (Key: 194) - No match
+[09:32:54] Node joined network | Hash: 300 | Key: 915
+[09:32:54] Query forwarded: Node 906 → Node 622
+[09:32:55] Response: Node 622 (Key: 359) - No match
+[09:32:55] Query forwarded: Node 552 → Node 179
+[09:32:56] Response: Node 179 (Key: 963) - No match
+[09:32:56] Node joined network | Hash: 193 | Key: 889
+[09:32:56] Query forwarded: Node 607 → Node 996
+[09:32:57] Response: Node 996 (Key: 134) - No match
+[09:32:57] Query forwarded: Node 93 → Node 53
+[09:32:57] Node joined network | Hash: 300 | Key: 816
+[09:32:58] Response: Node 53 (Key: 469) - No match
+[09:32:58] Query forwarded: Node 761 → Node 28
+[09:32:59] Response: Node 28 (Key: 232) - No match
+[09:32:59] Node joined network | Hash: 368 | Key: 499
+[09:32:59] Query forwarded: Node 761 → Node 687
+[09:33:00] Response: Node 687 (Key: 19) - No match
+[09:33:00] Node joined network | Hash: 546 | Key: 73
+[09:33:01] Query forwarded: Node 996 → Node 779
+[09:33:02] Response: Node 779 (Key: 471) - No match
+[09:33:02] Node joined network | Hash: 726 | Key: 439
+[09:33:02] Query forwarded: Node 559 → Node 93
+[09:33:03] Response: Node 93 (Key: 318) - No match
+[09:33:03] Query forwarded: Node 368 → Node 28
+[09:33:03] Node joined network | Hash: 894 | Key: 827
+[09:33:04] Response: Node 28 (Key: 232) - No match
+[09:33:04] Query forwarded: Node 368 → Node 761
+[09:33:05] Response: Node 761 (Key: 194) - No match
+[09:33:05] Node joined network | Hash: 474 | Key: 839
+[09:33:05] Query forwarded: Node 474 → Node 726
+[09:33:06] Response: Node 726 (Key: 439) - No match
+[09:33:06] Node joined network | Hash: 369 | Key: 737
+[09:33:06] Query forwarded: Node 411 → Node 359
+[09:33:07] Response: Node 359 (Key: 599) - No match
+[09:33:07] Query forwarded: Node 193 → Node 607
+[09:33:08] Response: Node 607 (Key: 595) - No match
+[09:33:08] Node joined network | Hash: 19 | Key: 56
+[09:33:08] Query forwarded: Node 761 → Node 960
+[09:33:09] Response: Node 960 (Key: 615) - No match
+[09:33:09] Query forwarded: Node 335 → Node 639
+[09:33:09] Node joined network | Hash: 690 | Key: 292
+[09:33:10] Response: Node 639 (Key: 784) - No match
+[09:33:10] Query forwarded: Node 960 → Node 726
+[09:33:11] Response: Node 726 (Key: 439) - No match
+[09:33:11] Node joined network | Hash: 611 | Key: 64
+[09:33:11] Query forwarded: Node 996 → Node 814
+[09:33:12] Response: Node 814 (Key: 893) - No match
+[09:33:12] Query forwarded: Node 639 → Node 359
+[09:33:12] Node joined network | Hash: 108 | Key: 861
+[09:33:13] Response: Node 359 (Key: 599) - No match
+[09:33:13] Query forwarded: Node 639 → Node 359
+[09:33:14] Response: Node 359 (Key: 599) - No match
+[09:33:14] Node joined network | Hash: 494 | Key: 219
+[09:33:14] Query forwarded: Node 300 → Node 552
+[09:33:15] Response: Node 552 (Key: 657) - No match
+[09:33:15] Query forwarded: Node 188 → Node 300
+[09:33:15] Node joined network | Hash: 610 | Key: 823
+[09:33:16] Response: Node 300 (Key: 816) - No match
+[09:33:16] Query forwarded: Node 300 → Node 559
+[09:33:17] Response: Node 559 (Key: 847) - No match
+[09:33:17] Node joined network | Hash: 559 | Key: 883
+[09:33:17] Query forwarded: Node 494 → Node 870
+[09:33:18] Response: Node 870 (Key: 597) - No match
+[09:33:18] Node joined network | Hash: 42 | Key: 769
+[09:33:18] Query forwarded: Node 93 → Node 610
+[09:34:13] Response: Node 610 (Key: 823) - No match
+[09:34:13] Query forwarded: Node 559 → Node 53
+[09:34:13] Node joined network | Hash: 95 | Key: 430
+[09:35:13] Response: Node 53 (Key: 469) - No match
+[09:35:13] Node joined network | Hash: 328 | Key: 815
+[09:35:13] Query forwarded: Node 906 → Node 494
+[09:36:13] Response: Node 494 (Key: 219) - No match
+[09:36:13] Node joined network | Hash: 845 | Key: 990
+[09:36:13] Query forwarded: Node 611 → Node 779
+[09:37:13] Response: Node 779 (Key: 471) - No match
+[09:37:13] Node joined network | Hash: 341 | Key: 290
+[09:37:13] Query forwarded: Node 552 → Node 779
+[09:38:13] Response: Node 779 (Key: 471) - No match
+[09:38:13] Node joined network | Hash: 663 | Key: 555
+[09:38:13] Query forwarded: Node 524 → Node 559
+[09:39:13] Response: Node 559 (Key: 847) - No match
+[09:39:13] Node joined network | Hash: 115 | Key: 898
+[09:39:13] Query forwarded: Node 657 → Node 93
+[09:40:13] Response: Node 93 (Key: 318) - No match
+[09:40:13] Node joined network | Hash: 501 | Key: 711
+[09:40:13] Query forwarded: Node 328 → Node 494
+[09:40:47] Response: Node 494 (Key: 219) - No match
+[09:40:47] Node joined network | Hash: 929 | Key: 562
+[09:40:48] Node joined network | Hash: 976 | Key: 107
+[09:40:50] Node joined network | Hash: 378 | Key: 46
+[09:40:51] Node joined network | Hash: 969 | Key: 656
+[09:40:52] Query forwarded: Node 929 → Node 378
+[09:40:53] Response: Node 378 (Key: 46) - No match
+[09:40:53] Node joined network | Hash: 62 | Key: 285
+[09:40:53] Query forwarded: Node 929 → Node 378
+[09:40:54] Response: Node 378 (Key: 46) - No match
+[09:40:54] Node joined network | Hash: 336 | Key: 955
+[09:40:54] Query forwarded: Node 929 → Node 378
+[09:40:55] Response: Node 378 (Key: 46) - No match
+[09:40:55] Query forwarded: Node 336 → Node 969
+[09:40:55] Response: Node 969 (Key: 656) - No match
+[09:40:55] Node joined network | Hash: 157 | Key: 981
+[09:40:55] Query forwarded: Node 969 → Node 336
+[09:40:55] Response: Node 336 (Key: 955) - No match
+[09:40:56] Node joined network | Hash: 551 | Key: 972
+[09:40:57] Query forwarded: Node 551 → Node 969
+[09:40:57] Response: Node 969 (Key: 656) - No match
+[09:40:58] Node joined network | Hash: 315 | Key: 745
+[09:40:58] Query forwarded: Node 969 → Node 551
+[09:40:58] Response: Node 551 (Key: 972) - No match
+[09:40:59] Node joined network | Hash: 927 | Key: 1000
+[09:41:02] Node joined network | Hash: 510 | Key: 769
+[09:41:03] Node joined network | Hash: 430 | Key: 48
+[09:41:04] Query forwarded: Node 510 → Node 551
+[09:41:05] Response: Node 551 (Key: 972) - No match
+[09:41:05] Node joined network | Hash: 952 | Key: 626
+[09:41:05] Query forwarded: Node 336 → Node 551
+[09:41:06] Response: Node 551 (Key: 972) - No match
+[09:41:06] Node joined network | Hash: 794 | Key: 614
+[09:41:06] Query forwarded: Node 62 → Node 794
+[09:41:07] Response: Node 794 (Key: 614) - No match
+[09:41:08] Node joined network | Hash: 985 | Key: 614
+[09:41:08] Query forwarded: Node 336 → Node 551
+[09:41:09] Response: Node 551 (Key: 972) - No match
+[09:41:09] Query forwarded: Node 62 → Node 794
+[09:41:09] Node joined network | Hash: 413 | Key: 285
+[09:41:10] Response: Node 794 (Key: 614) - No match
+[09:41:10] Query forwarded: Node 430 → Node 551
+[09:41:11] Response: Node 551 (Key: 972) - No match
+[09:41:11] Node joined network | Hash: 590 | Key: 487
+[09:41:12] Node joined network | Hash: 741 | Key: 12
+[09:41:13] Query forwarded: Node 794 → Node 590
+[09:41:14] Response: Node 590 (Key: 487) - No match
+[09:41:14] Node joined network | Hash: 175 | Key: 323
+[09:41:15] Query forwarded: Node 985 → Node 551
+[09:41:15] Node joined network | Hash: 102 | Key: 439
+[09:41:16] Response: Node 551 (Key: 972) - No match
+[09:41:16] Query forwarded: Node 102 → Node 157
+[09:41:17] Response: Node 157 (Key: 981) - No match
+[09:41:17] Node joined network | Hash: 387 | Key: 267
+[09:41:17] Query forwarded: Node 157 → Node 102
+[09:41:18] Response: Node 102 (Key: 439) - No match
+[09:41:18] Node joined network | Hash: 519 | Key: 82
+[09:41:19] Node joined network | Hash: 347 | Key: 473
+[09:41:19] Query forwarded: Node 741 → Node 387
+[09:41:19] Response: Node 387 (Key: 267) - No match
+[09:41:21] Query forwarded: Node 741 → Node 387
+[09:41:21] Node joined network | Hash: 776 | Key: 998
+[09:41:22] Response: Node 387 (Key: 267) - No match
+[09:41:22] Query forwarded: Node 347 → Node 741
+[09:41:23] Response: Node 741 (Key: 12) - No match
+[09:41:23] Node joined network | Hash: 8 | Key: 971
+[09:41:24] Node joined network | Hash: 605 | Key: 896
+[09:41:26] Node joined network | Hash: 521 | Key: 146
+[09:41:26] Query forwarded: Node 387 → Node 741
+[09:41:27] Response: Node 741 (Key: 12) - No match
+[09:41:27] Query forwarded: Node 521 → Node 175
+[09:41:27] Node joined network | Hash: 32 | Key: 307
+[09:41:28] Response: Node 175 (Key: 323) - No match
+[09:41:28] Query forwarded: Node 605 → Node 32
+[09:41:29] Response: Node 32 (Key: 307) - No match
+[09:41:29] Node joined network | Hash: 27 | Key: 938
+[09:41:29] Query forwarded: Node 605 → Node 741
+[09:41:30] Response: Node 741 (Key: 12) - No match
+[09:41:30] Node joined network | Hash: 625 | Key: 572
+[09:41:30] Query forwarded: Node 521 → Node 519
+[09:41:31] Response: Node 519 (Key: 82) - No match
+[09:41:31] Query forwarded: Node 625 → Node 519
+[09:41:32] Response: Node 519 (Key: 82) - No match
+[09:41:32] Node joined network | Hash: 750 | Key: 87
+[09:41:32] Query forwarded: Node 750 → Node 27
+[09:41:33] Response: Node 27 (Key: 938) - No match
+[09:41:33] Node joined network | Hash: 230 | Key: 180
+[09:41:34] Query forwarded: Node 519 → Node 625
+[09:41:35] Response: Node 625 (Key: 572) - No match
+[09:41:35] Node joined network | Hash: 676 | Key: 289
+[09:41:35] Query forwarded: Node 8 → Node 676
+[09:41:36] Response: Node 676 (Key: 289) - No match
+[09:41:36] Query forwarded: Node 750 → Node 27
+[09:41:36] Node joined network | Hash: 292 | Key: 503
+[09:41:37] Response: Node 27 (Key: 938) - No match
+[09:41:37] Query forwarded: Node 676 → Node 8
+[09:41:38] Response: Node 8 (Key: 971) - No match
+[09:41:38] Node joined network | Hash: 231 | Key: 540
+[09:41:38] Query forwarded: Node 521 → Node 175
+[09:41:39] Response: Node 175 (Key: 323) - No match
+[09:41:39] Query forwarded: Node 32 → Node 605
+[09:41:39] Node joined network | Hash: 218 | Key: 751
+[09:41:40] Response: Node 605 (Key: 896) - No match
+[09:41:40] Query forwarded: Node 519 → Node 521
+[09:41:41] Response: Node 521 (Key: 146) - No match
+[09:41:41] Node joined network | Hash: 213 | Key: 344
+[09:41:41] Query forwarded: Node 750 → Node 27
+[09:41:42] Response: Node 27 (Key: 938) - No match
+[09:41:42] Node joined network | Hash: 523 | Key: 83
+[09:41:42] Query forwarded: Node 750 → Node 27
+[09:41:43] Response: Node 27 (Key: 938) - No match
+[09:41:43] Query forwarded: Node 625 → Node 213
+[09:41:44] Response: Node 213 (Key: 344) - No match
+[09:41:44] Node joined network | Hash: 67 | Key: 291
+[09:41:44] Query forwarded: Node 218 → Node 523
+[09:41:45] Response: Node 523 (Key: 83) - No match
+[09:41:45] Query forwarded: Node 676 → Node 8
+[09:41:45] Node joined network | Hash: 292 | Key: 295
+[09:41:46] Response: Node 8 (Key: 971) - No match
+[09:41:46] Query forwarded: Node 521 → Node 625
+[09:41:47] Response: Node 625 (Key: 572) - No match
+[09:41:47] Node joined network | Hash: 134 | Key: 550
+[09:41:47] Query forwarded: Node 625 → Node 67
+[09:41:48] Response: Node 67 (Key: 291) - No match
+[09:41:48] Query forwarded: Node 519 → Node 625
+[09:41:48] Node joined network | Hash: 401 | Key: 519
+[09:41:49] Response: Node 625 (Key: 572) - No match
+[09:41:49] Query forwarded: Node 776 → Node 292
+[09:41:50] Response: Node 292 (Key: 503) - No match
+[09:41:50] Node joined network | Hash: 553 | Key: 987
+[09:41:50] Query forwarded: Node 605 → Node 401
+[09:41:51] Response: Node 401 (Key: 519) - No match
+[09:41:51] Query forwarded: Node 741 → Node 32
+[09:41:51] Node joined network | Hash: 593 | Key: 151
+[09:41:52] Response: Node 32 (Key: 307) - No match
+[09:41:52] Query forwarded: Node 676 → Node 67
+[09:41:53] Response: Node 67 (Key: 291) - No match
+[09:41:53] Node joined network | Hash: 846 | Key: 49
+[09:41:53] Query forwarded: Node 134 → Node 292
+[09:41:54] Response: Node 292 (Key: 295) - No match
+[09:41:54] Node joined network | Hash: 346 | Key: 396
+[09:41:54] Query forwarded: Node 553 → Node 676
+[09:41:55] Response: Node 676 (Key: 289) - No match
+[09:41:55] Query forwarded: Node 102 → Node 213
+[09:41:56] Response: Node 213 (Key: 344) - No match
+[09:41:56] Node joined network | Hash: 573 | Key: 434
+[09:41:56] Query forwarded: Node 292 → Node 776
+[09:41:57] Response: Node 776 (Key: 998) - No match
+[09:41:57] Query forwarded: Node 519 → Node 401
+[09:41:57] Node joined network | Hash: 805 | Key: 482
+[09:41:58] Response: Node 401 (Key: 519) - No match
+[09:41:58] Query forwarded: Node 218 → Node 593
+[09:41:59] Response: Node 593 (Key: 151) - No match
+[09:41:59] Node joined network | Hash: 909 | Key: 461
+[09:41:59] Query forwarded: Node 67 → Node 676
+[09:42:00] Response: Node 676 (Key: 289) - No match
+[09:42:00] Query forwarded: Node 213 → Node 573
+[09:42:00] Node joined network | Hash: 825 | Key: 362
+[09:42:01] Response: Node 573 (Key: 434) - No match
+[09:42:01] Query forwarded: Node 519 → Node 521
+[09:42:02] Response: Node 521 (Key: 146) - No match
+[09:42:02] Node joined network | Hash: 245 | Key: 858
+[09:42:02] Query forwarded: Node 8 → Node 676
+[09:42:03] Response: Node 676 (Key: 289) - No match
+[09:42:03] Query forwarded: Node 230 → Node 825
+[09:42:03] Node joined network | Hash: 644 | Key: 901
+[09:42:04] Response: Node 825 (Key: 362) - No match
+[09:42:04] Query forwarded: Node 825 → Node 230
+[09:42:05] Response: Node 230 (Key: 180) - No match
+[09:42:05] Node joined network | Hash: 911 | Key: 505
+[09:42:05] Query forwarded: Node 347 → Node 741
+[09:42:06] Response: Node 741 (Key: 12) - No match
+[09:42:06] Node joined network | Hash: 163 | Key: 201
+[09:42:06] Query forwarded: Node 523 → Node 218
+[09:42:07] Response: Node 218 (Key: 751) - No match
+[09:42:07] Query forwarded: Node 605 → Node 175
+[09:42:08] Response: Node 175 (Key: 323) - No match
+[09:42:08] Node joined network | Hash: 999 | Key: 940
+[09:42:08] Query forwarded: Node 163 → Node 776
+[09:42:09] Response: Node 776 (Key: 998) - No match
+[09:42:09] Query forwarded: Node 523 → Node 644
+[09:42:09] Node joined network | Hash: 821 | Key: 882
+[09:42:10] Response: Node 644 (Key: 901) - No match
+[09:42:10] Query forwarded: Node 999 → Node 821
+[09:42:11] Response: Node 821 (Key: 882) - No match
+[09:42:11] Node joined network | Hash: 749 | Key: 2
+[09:42:11] Query forwarded: Node 909 → Node 67
+[09:42:12] Response: Node 67 (Key: 291) - No match
+[09:42:12] Query forwarded: Node 231 → Node 999
+[09:42:12] Node joined network | Hash: 829 | Key: 160
+[09:42:13] Response: Node 999 (Key: 940) - No match
+[09:42:13] Query forwarded: Node 829 → Node 292
+[09:42:14] Response: Node 292 (Key: 503) - No match
+[09:42:14] Node joined network | Hash: 424 | Key: 613
+[09:42:14] Query forwarded: Node 102 → Node 218
+[09:42:15] Response: Node 218 (Key: 751) - No match
+[09:42:15] Query forwarded: Node 292 → Node 821
+[09:42:15] Node joined network | Hash: 921 | Key: 54
+[09:42:16] Response: Node 821 (Key: 882) - No match
+[09:42:16] Query forwarded: Node 741 → Node 32
+[09:42:17] Response: Node 32 (Key: 307) - No match
+[09:42:17] Node joined network | Hash: 188 | Key: 134
+[09:42:17] Query forwarded: Node 213 → Node 102
+[09:42:18] Response: Node 102 (Key: 439) - No match
+[09:42:18] Node joined network | Hash: 386 | Key: 67
+[09:42:18] Query forwarded: Node 387 → Node 347
+[09:42:19] Response: Node 347 (Key: 473) - No match
+[09:42:19] Query forwarded: Node 386 → Node 921
+[09:43:13] Response: Node 921 (Key: 54) - No match
+[09:43:13] Node joined network | Hash: 957 | Key: 235
+[09:43:13] Query forwarded: Node 163 → Node 821
+[09:44:13] Response: Node 821 (Key: 882) - No match
+[09:44:13] Node joined network | Hash: 441 | Key: 801
+[09:44:13] Query forwarded: Node 27 → Node 292
+[09:45:13] Response: Node 292 (Key: 295) - No match
+[09:45:13] Node joined network | Hash: 497 | Key: 429
+[09:45:13] Query forwarded: Node 593 → Node 218
+[09:46:13] Response: Node 218 (Key: 751) - No match
+[09:46:13] Node joined network | Hash: 426 | Key: 812
+[09:46:13] Query forwarded: Node 957 → Node 102
+[09:47:13] Response: Node 102 (Key: 439) - No match
+[09:47:13] Node joined network | Hash: 59 | Key: 577
+[09:47:13] Query forwarded: Node 921 → Node 805
+[09:48:13] Response: Node 805 (Key: 482) - No match
+[09:48:13] Node joined network | Hash: 637 | Key: 705
+[09:48:13] Query forwarded: Node 387 → Node 741
+[09:49:13] Response: Node 741 (Key: 12) - No match
+[09:49:13] Node joined network | Hash: 162 | Key: 992
+[09:49:13] Query forwarded: Node 292 → Node 776
+[09:50:13] Response: Node 776 (Key: 998) - No match
+[09:50:13] Node joined network | Hash: 482 | Key: 14
+[09:50:13] Query forwarded: Node 497 → Node 27
+[09:51:13] Response: Node 27 (Key: 938) - No match
+[09:51:13] Node joined network | Hash: 509 | Key: 124
+[09:51:13] Query forwarded: Node 750 → Node 292
+[09:52:13] Response: Node 292 (Key: 295) - No match
+[09:52:13] Node joined network | Hash: 351 | Key: 426
+[09:52:13] Query forwarded: Node 957 → Node 644
+[09:53:13] Response: Node 644 (Key: 901) - No match
+[09:53:13] Node joined network | Hash: 327 | Key: 574
+[09:53:13] Query forwarded: Node 292 → Node 509
+[09:54:13] Response: Node 509 (Key: 124) - No match
+[09:54:13] Node joined network | Hash: 834 | Key: 324
+[09:54:13] Query forwarded: Node 175 → Node 846
+[09:55:13] Response: Node 846 (Key: 49) - No match
+[09:55:13] Node joined network | Hash: 366 | Key: 298
+[09:55:13] Query forwarded: Node 8 → Node 553
+[09:56:13] Response: Node 553 (Key: 987) - No match
+[09:56:13] Node joined network | Hash: 536 | Key: 970
+[09:56:13] Query forwarded: Node 386 → Node 509
+[09:57:13] Response: Node 509 (Key: 124) - No match
+[09:57:13] Node joined network | Hash: 825 | Key: 974
+[09:57:13] Query forwarded: Node 523 → Node 644
+[09:58:13] Response: Node 644 (Key: 901) - No match
+[09:58:13] Node joined network | Hash: 701 | Key: 868
+[09:58:13] Query forwarded: Node 401 → Node 605
+[09:59:13] Response: Node 605 (Key: 896) - No match
+[09:59:13] Node joined network | Hash: 584 | Key: 592
+[09:59:13] Query forwarded: Node 776 → Node 327
+[10:00:13] Response: Node 327 (Key: 574) - No match
+[10:00:13] Node joined network | Hash: 322 | Key: 247
+[10:00:13] Query forwarded: Node 523 → Node 999
+[10:01:13] Response: Node 999 (Key: 940) - No match
+[10:01:13] Node joined network | Hash: 153 | Key: 366
+[10:01:13] Query forwarded: Node 846 → Node 175
+[10:02:13] Response: Node 175 (Key: 323) - No match
+[10:02:13] Node joined network | Hash: 181 | Key: 202
+[10:02:13] Query forwarded: Node 387 → Node 347
+[10:02:31] Response: Node 347 (Key: 473) - No match
+[10:02:31] Node joined network | Hash: 211 | Key: 695
+[10:02:33] Node joined network | Hash: 719 | Key: 564
+[10:02:35] Node joined network | Hash: 434 | Key: 120
+[10:02:36] Node joined network | Hash: 448 | Key: 734
+[10:02:37] Query forwarded: Node 448 → Node 434
+[10:02:38] Response: Node 434 (Key: 120) - No match
+[10:02:38] Node joined network | Hash: 633 | Key: 568
+[10:02:39] Query forwarded: Node 448 → Node 434
+[10:02:39] Node joined network | Hash: 493 | Key: 852
+[10:02:40] Response: Node 434 (Key: 120) - No match
+[10:02:40] Query forwarded: Node 434 → Node 448
+[10:02:41] Response: Node 448 (Key: 734) - No match
+[10:02:41] Node joined network | Hash: 862 | Key: 201
+[10:02:42] Node joined network | Hash: 883 | Key: 951
+[10:02:42] Query forwarded: Node 633 → Node 862
+[10:02:43] Response: Node 862 (Key: 201) - No match
+[10:02:44] Node joined network | Hash: 870 | Key: 200
+[10:02:45] Node joined network | Hash: 26 | Key: 989
+[10:02:46] Query forwarded: Node 883 → Node 862
+[10:02:47] Response: Node 862 (Key: 201) - No match
+[10:02:47] Node joined network | Hash: 263 | Key: 798
+[10:02:47] Query forwarded: Node 493 → Node 263
+[10:02:48] Response: Node 263 (Key: 798) - No match
+[10:02:48] Node joined network | Hash: 225 | Key: 404
+[10:02:50] Node joined network | Hash: 732 | Key: 154
+[10:02:50] Query forwarded: Node 26 → Node 225
+[10:02:51] Response: Node 225 (Key: 404) - No match
+[10:02:51] Query forwarded: Node 225 → Node 862
+[10:02:51] Node joined network | Hash: 864 | Key: 325
+[10:02:52] Response: Node 862 (Key: 201) - No match
+[10:02:52] Query forwarded: Node 448 → Node 434
+[10:02:53] Response: Node 434 (Key: 120) - No match
+[10:02:53] Node joined network | Hash: 987 | Key: 346
+[10:02:54] Node joined network | Hash: 535 | Key: 817
+[10:02:54] Query forwarded: Node 987 → Node 870
+[10:02:55] Response: Node 870 (Key: 200) - No match
+[10:02:55] Query forwarded: Node 987 → Node 870
+[10:02:56] Response: Node 870 (Key: 200) - No match
+[10:02:56] Node joined network | Hash: 444 | Key: 154
+[10:02:56] Query forwarded: Node 862 → Node 225
+[10:02:57] Response: Node 225 (Key: 404) - No match
+[10:02:57] Query forwarded: Node 732 → Node 987
+[10:02:57] Node joined network | Hash: 127 | Key: 553
+[10:02:58] Response: Node 987 (Key: 346) - No match
+[10:02:58] Query forwarded: Node 225 → Node 883
+[10:02:59] Response: Node 883 (Key: 951) - No match
+[10:02:59] Node joined network | Hash: 213 | Key: 100
+[10:03:00] Query forwarded: Node 225 → Node 26
+[10:03:00] Node joined network | Hash: 573 | Key: 42
+[10:03:01] Response: Node 26 (Key: 989) - No match
+[10:03:01] Query forwarded: Node 987 → Node 870
+[10:03:02] Response: Node 870 (Key: 200) - No match
+[10:03:02] Node joined network | Hash: 417 | Key: 86
+[10:03:02] Query forwarded: Node 573 → Node 211
+[10:03:03] Response: Node 211 (Key: 695) - No match
+[10:03:03] Query forwarded: Node 862 → Node 225
+[10:03:03] Node joined network | Hash: 736 | Key: 989
+[10:03:04] Response: Node 225 (Key: 404) - No match
+[10:03:04] Query forwarded: Node 213 → Node 211
+[10:03:05] Response: Node 211 (Key: 695) - No match
+[10:03:05] Node joined network | Hash: 594 | Key: 898
+[10:03:05] Query forwarded: Node 434 → Node 26
+[10:03:06] Response: Node 26 (Key: 989) - No match
+[10:03:06] Node joined network | Hash: 12 | Key: 166
+[10:03:06] Query forwarded: Node 127 → Node 493
+[10:03:07] Response: Node 493 (Key: 852) - No match
+[10:03:07] Query forwarded: Node 736 → Node 864
+[10:03:08] Response: Node 864 (Key: 325) - No match
+[10:03:08] Node joined network | Hash: 643 | Key: 824
+[10:03:09] Query forwarded: Node 732 → Node 987
+[10:03:09] Node joined network | Hash: 291 | Key: 897
+[10:03:10] Response: Node 987 (Key: 346) - No match
+[10:03:10] Query forwarded: Node 225 → Node 535
+[10:03:11] Response: Node 535 (Key: 817) - No match
+[10:03:11] Node joined network | Hash: 998 | Key: 548
+[10:03:11] Query forwarded: Node 417 → Node 535
+[10:03:12] Response: Node 535 (Key: 817) - No match
+[10:03:12] Query forwarded: Node 987 → Node 732
+[10:03:12] Node joined network | Hash: 694 | Key: 617
+[10:03:13] Response: Node 732 (Key: 154) - No match
+[10:03:13] Query forwarded: Node 417 → Node 535
+[10:03:14] Response: Node 535 (Key: 817) - No match
+[10:03:14] Node joined network | Hash: 29 | Key: 306
+[10:03:14] Query forwarded: Node 417 → Node 225
+[10:03:15] Response: Node 225 (Key: 404) - No match
+[10:03:15] Query forwarded: Node 417 → Node 694
+[10:03:15] Node joined network | Hash: 95 | Key: 659
+[10:03:16] Response: Node 694 (Key: 617) - No match
+[10:03:16] Query forwarded: Node 29 → Node 883
+[10:03:17] Response: Node 883 (Key: 951) - No match
+[10:03:17] Node joined network | Hash: 192 | Key: 646
+[10:03:17] Query forwarded: Node 225 → Node 694
+[10:03:18] Response: Node 694 (Key: 617) - No match
+[10:03:18] Node joined network | Hash: 452 | Key: 856
+[10:03:18] Query forwarded: Node 987 → Node 732
+[10:03:19] Response: Node 732 (Key: 154) - No match
+[10:03:20] Node joined network | Hash: 539 | Key: 585
+[10:03:20] Query forwarded: Node 26 → Node 452
+[10:03:21] Response: Node 452 (Key: 856) - No match
+[10:03:21] Query forwarded: Node 434 → Node 643
+[10:03:21] Node joined network | Hash: 584 | Key: 335
+[10:03:22] Response: Node 643 (Key: 824) - No match
+[10:03:22] Query forwarded: Node 225 → Node 883
+[10:03:23] Response: Node 883 (Key: 951) - No match
+[10:03:23] Node joined network | Hash: 701 | Key: 819
+[10:03:23] Query forwarded: Node 584 → Node 987
+[10:03:24] Response: Node 987 (Key: 346) - No match
+[10:03:24] Query forwarded: Node 26 → Node 29
+[10:03:24] Node joined network | Hash: 504 | Key: 147
+[10:03:25] Response: Node 29 (Key: 306) - No match
+[10:03:25] Query forwarded: Node 26 → Node 535
+[10:03:26] Response: Node 535 (Key: 817) - No match
+[10:03:26] Node joined network | Hash: 219 | Key: 479
+[10:03:26] Query forwarded: Node 29 → Node 504
+[10:03:27] Response: Node 504 (Key: 147) - No match
+[10:03:27] Query forwarded: Node 539 → Node 732
+[10:03:27] Node joined network | Hash: 919 | Key: 321
+[10:03:28] Response: Node 732 (Key: 154) - No match
+[10:03:28] Query forwarded: Node 127 → Node 263
+[10:03:29] Response: Node 263 (Key: 798) - No match
+[10:03:29] Node joined network | Hash: 343 | Key: 54
+[10:03:29] Query forwarded: Node 434 → Node 95
+[10:03:30] Response: Node 95 (Key: 659) - No match
+[10:03:30] Node joined network | Hash: 998 | Key: 721
+[10:03:30] Query forwarded: Node 535 → Node 633
+[10:03:31] Response: Node 633 (Key: 568) - No match
+[10:03:31] Query forwarded: Node 694 → Node 225
+[10:04:13] Response: Node 225 (Key: 404) - No match
+[10:04:13] Node joined network | Hash: 782 | Key: 134
+[10:04:13] Query forwarded: Node 452 → Node 643
+[10:04:23] Response: Node 643 (Key: 824) - No match
+[10:04:23] Node joined network | Hash: 479 | Key: 373
+[10:04:23] Node joined network | Hash: 923 | Key: 798
+[10:04:26] Node joined network | Hash: 523 | Key: 381
+[10:04:27] Node joined network | Hash: 239 | Key: 375
+[10:04:29] Node joined network | Hash: 693 | Key: 868
+[10:04:30] Node joined network | Hash: 87 | Key: 463
+[10:04:32] Node joined network | Hash: 607 | Key: 415
+[10:04:33] Node joined network | Hash: 184 | Key: 477
+[10:04:35] Node joined network | Hash: 912 | Key: 706
+[10:04:35] Query forwarded: Node 923 → Node 87
+[10:04:36] Response: Node 87 (Key: 463) - No match
+[10:04:36] Node joined network | Hash: 923 | Key: 96
+[10:04:37] Query forwarded: Node 607 → Node 184
+[10:04:38] Response: Node 184 (Key: 477) - No match
+[10:04:38] Node joined network | Hash: 531 | Key: 939
+[10:04:38] Query forwarded: Node 923 → Node 87
+[10:04:39] Response: Node 87 (Key: 463) - No match
+[10:04:39] Query forwarded: Node 184 → Node 923
+[10:04:39] Node joined network | Hash: 304 | Key: 875
+[10:04:40] Response: Node 923 (Key: 96) - No match
+[10:04:41] Node joined network | Hash: 373 | Key: 412
+[10:04:41] Query forwarded: Node 923 → Node 87
+[10:04:42] Response: Node 87 (Key: 463) - No match
+[10:04:42] Node joined network | Hash: 742 | Key: 929
+[10:04:42] Query forwarded: Node 607 → Node 523
+[10:04:43] Response: Node 523 (Key: 381) - No match
+[10:04:43] Query forwarded: Node 239 → Node 373
+[10:04:44] Response: Node 373 (Key: 412) - No match
+[10:04:44] Node joined network | Hash: 271 | Key: 630
+[10:04:44] Query forwarded: Node 523 → Node 607
+[10:04:45] Response: Node 607 (Key: 415) - No match
+[10:04:45] Query forwarded: Node 239 → Node 373
+[10:04:45] Node joined network | Hash: 663 | Key: 816
+[10:04:46] Response: Node 373 (Key: 412) - No match
+[10:04:46] Query forwarded: Node 693 → Node 531
+[10:04:47] Response: Node 531 (Key: 939) - No match
+[10:04:47] Node joined network | Hash: 192 | Key: 376
+[10:04:47] Query forwarded: Node 523 → Node 607
+[10:04:48] Response: Node 607 (Key: 415) - No match
+[10:04:48] Query forwarded: Node 693 → Node 271
+[10:04:48] Node joined network | Hash: 123 | Key: 578
+[10:04:49] Response: Node 271 (Key: 630) - No match
+[10:04:49] Query forwarded: Node 184 → Node 607
+[10:04:50] Response: Node 607 (Key: 415) - No match
+[10:04:50] Node joined network | Hash: 134 | Key: 604
+[10:04:50] Query forwarded: Node 663 → Node 239
+[10:04:51] Response: Node 239 (Key: 375) - No match
+[10:04:51] Query forwarded: Node 523 → Node 607
+[10:04:51] Node joined network | Hash: 269 | Key: 314
+[10:04:52] Response: Node 607 (Key: 415) - No match
+[10:04:52] Query forwarded: Node 742 → Node 87
+[10:04:53] Response: Node 87 (Key: 463) - No match
+[10:04:53] Node joined network | Hash: 822 | Key: 769
+[10:04:53] Query forwarded: Node 373 → Node 239
+[10:04:54] Response: Node 239 (Key: 375) - No match
+[10:04:54] Node joined network | Hash: 54 | Key: 851
+[10:04:54] Query forwarded: Node 87 → Node 742
+[10:04:55] Response: Node 742 (Key: 929) - No match
+[10:04:55] Query forwarded: Node 304 → Node 87
+[10:04:56] Response: Node 87 (Key: 463) - No match
+[10:04:56] Node joined network | Hash: 210 | Key: 657
+[10:04:56] Query forwarded: Node 134 → Node 239
+[10:04:57] Response: Node 239 (Key: 375) - No match
+[10:04:57] Query forwarded: Node 184 → Node 607
+[10:04:57] Node joined network | Hash: 254 | Key: 380
+[10:04:58] Response: Node 607 (Key: 415) - No match
+[10:04:58] Query forwarded: Node 479 → Node 271
+[10:04:58] Response: Node 271 (Key: 630) - No match
+[10:04:58] Node joined network | Hash: 879 | Key: 128
+[10:04:58] Query forwarded: Node 192 → Node 607
+[10:04:58] Response: Node 607 (Key: 415) - No match
+[10:05:00] Node joined network | Hash: 526 | Key: 297
+[10:05:01] Query forwarded: Node 210 → Node 526
+[10:05:02] Response: Node 526 (Key: 297) - No match
+[10:05:02] Node joined network | Hash: 237 | Key: 126
+[10:05:03] Query forwarded: Node 54 → Node 822
+[10:05:03] Node joined network | Hash: 941 | Key: 687
+[10:05:04] Response: Node 822 (Key: 769) - No match
+[10:05:04] Query forwarded: Node 822 → Node 941
+[10:05:05] Response: Node 941 (Key: 687) - No match
+[10:05:05] Node joined network | Hash: 826 | Key: 784
+[10:05:05] Query forwarded: Node 237 → Node 822
+[10:05:06] Response: Node 822 (Key: 769) - No match
+[10:05:06] Node joined network | Hash: 745 | Key: 710
+[10:05:07] Query forwarded: Node 879 → Node 237
+[10:05:08] Response: Node 237 (Key: 126) - No match
+[10:05:08] Node joined network | Hash: 923 | Key: 184
+[10:05:08] Query forwarded: Node 54 → Node 822
+[10:05:09] Response: Node 822 (Key: 769) - No match
+[10:05:09] Query forwarded: Node 822 → Node 941
+[10:05:09] Node joined network | Hash: 525 | Key: 674
+[10:05:10] Response: Node 941 (Key: 687) - No match
+[10:05:10] Query forwarded: Node 54 → Node 941
+[10:05:11] Response: Node 941 (Key: 687) - No match
+[10:05:11] Node joined network | Hash: 535 | Key: 423
+[10:05:11] Query forwarded: Node 54 → Node 826
+[10:05:12] Response: Node 826 (Key: 784) - No match
+[10:05:12] Query forwarded: Node 826 → Node 822
+[10:05:12] Node joined network | Hash: 456 | Key: 954
+[10:05:13] Response: Node 822 (Key: 769) - No match
+[10:05:13] Query forwarded: Node 941 → Node 879
+[10:05:14] Response: Node 879 (Key: 128) - No match
+[10:05:14] Node joined network | Hash: 172 | Key: 38
+[10:05:15] Node joined network | Hash: 150 | Key: 707
+[10:05:16] Query forwarded: Node 822 → Node 54
+[10:05:17] Response: Node 54 (Key: 851) - No match
+[10:05:17] Node joined network | Hash: 323 | Key: 748
+[10:05:17] Query forwarded: Node 941 → Node 54
+[10:05:18] Response: Node 54 (Key: 851) - No match
+[10:05:18] Node joined network | Hash: 970 | Key: 34
+[10:05:18] Query forwarded: Node 826 → Node 54
+[10:05:19] Response: Node 54 (Key: 851) - No match
+[10:05:19] Query forwarded: Node 254 → Node 456
+[10:05:20] Response: Node 456 (Key: 954) - No match
+[10:05:20] Node joined network | Hash: 439 | Key: 733
+[10:05:20] Query forwarded: Node 210 → Node 439
+[10:05:21] Response: Node 439 (Key: 733) - No match
+[10:05:21] Query forwarded: Node 254 → Node 439
+[10:05:21] Node joined network | Hash: 585 | Key: 992
+[10:05:22] Response: Node 439 (Key: 733) - No match
+[10:05:22] Query forwarded: Node 826 → Node 54
+[10:05:23] Response: Node 54 (Key: 851) - No match
+[10:05:23] Node joined network | Hash: 564 | Key: 821
+[10:05:23] Query forwarded: Node 456 → Node 150
+[10:05:24] Response: Node 150 (Key: 707) - No match
+[10:05:24] Node joined network | Hash: 574 | Key: 363
+[10:05:25] Query forwarded: Node 822 → Node 941
+[10:05:26] Response: Node 941 (Key: 687) - No match
+[10:05:26] Node joined network | Hash: 675 | Key: 720
+[10:05:26] Query forwarded: Node 879 → Node 172
+[10:05:27] Response: Node 172 (Key: 38) - No match
+[10:05:27] Query forwarded: Node 254 → Node 675
+[10:05:27] Node joined network | Hash: 601 | Key: 248
+[10:05:28] Response: Node 675 (Key: 720) - No match
+[10:05:28] Query forwarded: Node 456 → Node 923
+[10:05:29] Response: Node 923 (Key: 184) - No match
+[10:05:29] Node joined network | Hash: 846 | Key: 68
+[10:05:29] Query forwarded: Node 439 → Node 254
+[10:05:30] Response: Node 254 (Key: 380) - No match
+[10:05:30] Node joined network | Hash: 406 | Key: 888
+[10:05:30] Query forwarded: Node 564 → Node 323
+[10:05:31] Response: Node 323 (Key: 748) - No match
+[10:05:31] Query forwarded: Node 941 → Node 846
+[10:05:32] Response: Node 846 (Key: 68) - No match
+[10:05:32] Node joined network | Hash: 229 | Key: 489
+[10:05:32] Query forwarded: Node 456 → Node 150
+[10:05:33] Response: Node 150 (Key: 707) - No match
+[10:05:33] Query forwarded: Node 535 → Node 564
+[10:05:33] Node joined network | Hash: 7 | Key: 157
+[10:05:34] Response: Node 564 (Key: 821) - No match
+[10:05:34] Query forwarded: Node 601 → Node 525
+[10:05:35] Response: Node 525 (Key: 674) - No match
+[10:05:35] Node joined network | Hash: 526 | Key: 840
+[10:05:35] Query forwarded: Node 456 → Node 406
+[10:05:36] Response: Node 406 (Key: 888) - No match
+[10:05:36] Query forwarded: Node 525 → Node 601
+[10:05:36] Node joined network | Hash: 216 | Key: 138
+[10:05:37] Response: Node 601 (Key: 248) - No match
+[10:05:37] Query forwarded: Node 406 → Node 439
+[10:05:38] Response: Node 439 (Key: 733) - No match
+[10:05:38] Node joined network | Hash: 382 | Key: 405
+[10:05:38] Query forwarded: Node 535 → Node 564
+[10:05:39] Response: Node 564 (Key: 821) - No match
+[10:05:39] Query forwarded: Node 216 → Node 229
+[10:05:39] Node joined network | Hash: 417 | Key: 124
+[10:05:40] Response: Node 229 (Key: 489) - No match
+[10:05:40] Query forwarded: Node 456 → Node 675
+[10:05:41] Response: Node 675 (Key: 720) - No match
+[10:05:41] Node joined network | Hash: 878 | Key: 652
+[10:05:41] Query forwarded: Node 323 → Node 564
+[10:05:42] Response: Node 564 (Key: 821) - No match
+[10:05:42] Node joined network | Hash: 628 | Key: 150
+[10:05:42] Query forwarded: Node 456 → Node 254
+[10:05:43] Response: Node 254 (Key: 380) - No match
+[10:05:43] Query forwarded: Node 417 → Node 628
+[10:05:44] Response: Node 628 (Key: 150) - No match
+[10:05:44] Node joined network | Hash: 845 | Key: 333
+[10:05:44] Query forwarded: Node 150 → Node 822
+[10:05:45] Response: Node 822 (Key: 769) - No match
+[10:05:45] Query forwarded: Node 417 → Node 210
+[10:05:45] Node joined network | Hash: 392 | Key: 742
+[10:05:46] Response: Node 210 (Key: 657) - No match
+[10:05:46] Query forwarded: Node 878 → Node 526
+[10:05:47] Response: Node 526 (Key: 840) - No match
+[10:05:47] Node joined network | Hash: 786 | Key: 329
+[10:05:47] Query forwarded: Node 526 → Node 745
+[10:05:48] Response: Node 745 (Key: 710) - No match
+[10:05:48] Query forwarded: Node 237 → Node 879
+[10:05:48] Node joined network | Hash: 296 | Key: 853
+[10:05:49] Response: Node 879 (Key: 128) - No match
+[10:05:49] Query forwarded: Node 745 → Node 878
+[10:05:50] Response: Node 878 (Key: 652) - No match
+[10:05:50] Node joined network | Hash: 504 | Key: 916
+[10:05:50] Query forwarded: Node 526 → Node 439
+[10:05:51] Response: Node 439 (Key: 733) - No match
+[10:05:51] Query forwarded: Node 675 → Node 406
+[10:05:51] Node joined network | Hash: 844 | Key: 300
+[10:05:52] Response: Node 406 (Key: 888) - No match
+[10:05:52] Query forwarded: Node 7 → Node 229
+[10:05:53] Response: Node 229 (Key: 489) - No match
+[10:05:53] Node joined network | Hash: 295 | Key: 547
+[10:05:53] Query forwarded: Node 295 → Node 628
+[10:05:54] Response: Node 628 (Key: 150) - No match
+[10:05:54] Node joined network | Hash: 219 | Key: 958
+[10:05:54] Query forwarded: Node 941 → Node 54
+[10:05:55] Response: Node 54 (Key: 851) - No match
+[10:05:55] Query forwarded: Node 295 → Node 439
+[10:05:56] Response: Node 439 (Key: 733) - No match
+[10:05:56] Node joined network | Hash: 851 | Key: 578
+[10:05:56] Query forwarded: Node 970 → Node 150
+[10:05:57] Response: Node 150 (Key: 707) - No match
+[10:05:57] Query forwarded: Node 150 → Node 456
+[10:05:57] Node joined network | Hash: 41 | Key: 977
+[10:05:58] Response: Node 456 (Key: 954) - No match
+[10:05:58] Query forwarded: Node 237 → Node 822
+[10:05:59] Response: Node 822 (Key: 769) - No match
+[10:05:59] Node joined network | Hash: 981 | Key: 407
+[10:05:59] Query forwarded: Node 150 → Node 970
+[10:06:13] Response: Node 970 (Key: 34) - No match
+[10:06:13] Query forwarded: Node 439 → Node 295
+[10:06:13] Node joined network | Hash: 822 | Key: 423
+[10:06:15] Response: Node 295 (Key: 547) - No match
+[10:06:15] Node joined network | Hash: 106 | Key: 626
+[10:06:15] Query forwarded: Node 7 → Node 210
+[10:06:15] Response: Node 210 (Key: 657) - No match
+[10:06:17] Node joined network | Hash: 563 | Key: 925
+[10:06:17] Query forwarded: Node 563 → Node 822
+[10:06:18] Response: Node 822 (Key: 423) - No match
+[10:06:18] Node joined network | Hash: 879 | Key: 189
+[10:06:18] Query forwarded: Node 822 → Node 563
+[10:06:19] Response: Node 563 (Key: 925) - No match
+[10:06:20] Node joined network | Hash: 41 | Key: 530
+[10:06:21] Query forwarded: Node 563 → Node 822
+[10:06:21] Node joined network | Hash: 901 | Key: 66
+[10:06:22] Response: Node 822 (Key: 423) - No match
+[10:06:23] Node joined network | Hash: 755 | Key: 665
+[10:06:23] Query forwarded: Node 755 → Node 879
+[10:06:24] Response: Node 879 (Key: 189) - No match
+[10:06:24] Node joined network | Hash: 642 | Key: 988
+[10:06:26] Node joined network | Hash: 436 | Key: 314
+[10:06:26] Query forwarded: Node 563 → Node 822
+[10:06:27] Response: Node 822 (Key: 423) - No match
+[10:06:27] Node joined network | Hash: 787 | Key: 677
+[10:06:29] Node joined network | Hash: 102 | Key: 22
+[10:06:29] Query forwarded: Node 563 → Node 822
+[10:06:30] Response: Node 822 (Key: 423) - No match
+[10:06:30] Node joined network | Hash: 162 | Key: 669
+[10:06:30] Query forwarded: Node 41 → Node 162
+[10:06:31] Response: Node 162 (Key: 669) - No match
+[10:06:32] Node joined network | Hash: 379 | Key: 965
+[10:06:32] Query forwarded: Node 162 → Node 41
+[10:06:33] Response: Node 41 (Key: 530) - No match
+[10:06:33] Query forwarded: Node 879 → Node 102
+[10:06:33] Node joined network | Hash: 907 | Key: 951
+[10:06:34] Response: Node 102 (Key: 22) - No match
+[10:06:34] Query forwarded: Node 755 → Node 379
+[10:06:35] Response: Node 379 (Key: 965) - No match
+[10:06:35] Node joined network | Hash: 386 | Key: 558
+[10:06:35] Query forwarded: Node 563 → Node 822
+[10:06:36] Response: Node 822 (Key: 423) - No match
+[10:06:36] Query forwarded: Node 901 → Node 642
+[10:06:36] Node joined network | Hash: 448 | Key: 693
+[10:06:37] Response: Node 642 (Key: 988) - No match
+[10:06:37] Query forwarded: Node 901 → Node 642
+[10:06:38] Response: Node 642 (Key: 988) - No match
+[10:06:38] Node joined network | Hash: 114 | Key: 911
+[10:06:38] Query forwarded: Node 386 → Node 106
+[10:06:39] Response: Node 106 (Key: 626) - No match
+[10:06:39] Query forwarded: Node 41 → Node 162
+[10:06:39] Node joined network | Hash: 589 | Key: 149
+[10:06:40] Response: Node 162 (Key: 669) - No match
+[10:06:40] Query forwarded: Node 106 → Node 386
+[10:06:41] Response: Node 386 (Key: 558) - No match
+[10:06:41] Node joined network | Hash: 184 | Key: 336
+[10:06:41] Query forwarded: Node 102 → Node 879
+[10:06:42] Response: Node 879 (Key: 189) - No match
+[10:06:42] Node joined network | Hash: 345 | Key: 659
+[10:06:42] Query forwarded: Node 162 → Node 755
+[10:06:43] Response: Node 755 (Key: 665) - No match
+[10:06:43] Query forwarded: Node 102 → Node 379
+[10:06:44] Response: Node 379 (Key: 965) - No match
+[10:06:44] Node joined network | Hash: 843 | Key: 686
+[10:06:44] Query forwarded: Node 162 → Node 41
+[10:06:45] Response: Node 41 (Key: 530) - No match
+[10:06:45] Query forwarded: Node 642 → Node 787
+[10:06:45] Node joined network | Hash: 448 | Key: 331
+[10:06:46] Response: Node 787 (Key: 677) - No match
+[10:06:46] Query forwarded: Node 448 → Node 787
+[10:06:47] Response: Node 787 (Key: 677) - No match
+[10:06:47] Node joined network | Hash: 347 | Key: 555
+[10:06:47] Query forwarded: Node 379 → Node 879
+[10:06:48] Response: Node 879 (Key: 189) - No match
+[10:06:48] Query forwarded: Node 162 → Node 41
+[10:06:48] Node joined network | Hash: 978 | Key: 457
+[10:06:49] Response: Node 41 (Key: 530) - No match
+[10:06:49] Query forwarded: Node 345 → Node 448
+[10:06:50] Response: Node 448 (Key: 693) - No match
+[10:06:50] Node joined network | Hash: 667 | Key: 458
+[10:06:51] Query forwarded: Node 448 → Node 184
+[10:06:51] Node joined network | Hash: 298 | Key: 638
+[10:06:51] Response: Node 184 (Key: 336) - No match
+[10:06:53] Node joined network | Hash: 634 | Key: 299
+[10:06:54] Node joined network | Hash: 485 | Key: 175
+[10:06:54] Query forwarded: Node 634 → Node 667
+[10:06:55] Response: Node 667 (Key: 458) - No match
+[10:06:56] Node joined network | Hash: 346 | Key: 170
+[10:06:57] Query forwarded: Node 843 → Node 347
+[10:06:57] Node joined network | Hash: 433 | Key: 248
+[10:06:58] Response: Node 347 (Key: 555) - No match
+[10:06:59] Node joined network | Hash: 474 | Key: 720
+[10:06:59] Query forwarded: Node 634 → Node 667
+[10:07:00] Response: Node 667 (Key: 458) - No match
+[10:07:00] Node joined network | Hash: 436 | Key: 392
+[10:07:01] Query forwarded: Node 843 → Node 347
+[10:07:02] Response: Node 347 (Key: 555) - No match
+[10:07:02] Node joined network | Hash: 974 | Key: 238
+[10:07:02] Query forwarded: Node 485 → Node 474
+[10:07:03] Response: Node 474 (Key: 720) - No match
+[10:07:03] Query forwarded: Node 634 → Node 667
+[10:07:03] Node joined network | Hash: 910 | Key: 783
+[10:07:04] Response: Node 667 (Key: 458) - No match
+[10:07:05] Node joined network | Hash: 285 | Key: 318
+[10:07:06] Node joined network | Hash: 542 | Key: 36
+[10:07:06] Query forwarded: Node 285 → Node 346
+[10:07:07] Response: Node 346 (Key: 170) - No match
+[10:07:07] Query forwarded: Node 474 → Node 485
+[10:07:08] Response: Node 485 (Key: 175) - No match
+[10:07:08] Node joined network | Hash: 541 | Key: 594
+[10:07:08] Query forwarded: Node 285 → Node 346
+[10:07:09] Response: Node 346 (Key: 170) - No match
+[10:07:09] Query forwarded: Node 978 → Node 541
+[10:07:09] Node joined network | Hash: 141 | Key: 770
+[10:07:10] Response: Node 541 (Key: 594) - No match
+[10:07:10] Query forwarded: Node 436 → Node 541
+[10:07:11] Response: Node 541 (Key: 594) - No match
+[10:07:11] Node joined network | Hash: 616 | Key: 497
+[10:07:11] Query forwarded: Node 616 → Node 974
+[10:07:12] Response: Node 974 (Key: 238) - No match
+[10:07:12] Query forwarded: Node 347 → Node 843
+[10:07:12] Node joined network | Hash: 549 | Key: 357
+[10:07:13] Response: Node 843 (Key: 686) - No match
+[10:07:13] Query forwarded: Node 978 → Node 541
+[10:07:14] Response: Node 541 (Key: 594) - No match
+[10:07:14] Node joined network | Hash: 872 | Key: 552
+[10:07:14] Query forwarded: Node 549 → Node 347
+[10:07:15] Response: Node 347 (Key: 555) - No match
+[10:07:15] Query forwarded: Node 667 → Node 634
+[10:07:15] Node joined network | Hash: 116 | Key: 690
+[10:07:16] Response: Node 634 (Key: 299) - No match
+[10:07:16] Query forwarded: Node 436 → Node 978
+[10:07:17] Response: Node 978 (Key: 457) - No match
+[10:07:17] Node joined network | Hash: 132 | Key: 981
+[10:07:17] Query forwarded: Node 667 → Node 634
+[10:07:18] Response: Node 634 (Key: 299) - No match
+[10:07:18] Node joined network | Hash: 135 | Key: 370
+[10:07:18] Query forwarded: Node 616 → Node 116
+[10:07:19] Response: Node 116 (Key: 690) - No match
+[10:07:19] Query forwarded: Node 285 → Node 346
+[10:07:20] Response: Node 346 (Key: 170) - No match
+[10:07:20] Node joined network | Hash: 114 | Key: 330
+[10:07:20] Query forwarded: Node 298 → Node 114
+[10:07:21] Response: Node 114 (Key: 330) - No match
+[10:07:21] Query forwarded: Node 485 → Node 141
+[10:07:21] Node joined network | Hash: 343 | Key: 181
+[10:07:22] Response: Node 141 (Key: 770) - No match
+[10:07:22] Query forwarded: Node 474 → Node 141
+[10:07:23] Response: Node 141 (Key: 770) - No match
+[10:07:23] Node joined network | Hash: 233 | Key: 979
+[10:07:23] Query forwarded: Node 141 → Node 541
+[10:07:24] Response: Node 541 (Key: 594) - No match
+[10:07:24] Query forwarded: Node 485 → Node 474
+[10:07:24] Node joined network | Hash: 721 | Key: 324
+[10:07:25] Response: Node 474 (Key: 720) - No match
+[10:07:25] Query forwarded: Node 346 → Node 285
+[10:07:26] Response: Node 285 (Key: 318) - No match
+[10:07:26] Node joined network | Hash: 40 | Key: 765
+[10:07:26] Query forwarded: Node 298 → Node 872
+[10:07:27] Response: Node 872 (Key: 552) - No match
+[10:07:27] Query forwarded: Node 285 → Node 132
+[10:07:27] Node joined network | Hash: 443 | Key: 128
+[10:07:28] Response: Node 132 (Key: 981) - No match
+[10:07:28] Query forwarded: Node 116 → Node 616
+[10:07:29] Response: Node 616 (Key: 497) - No match
+[10:07:29] Node joined network | Hash: 402 | Key: 940
+[10:07:29] Query forwarded: Node 616 → Node 116
+[10:07:30] Response: Node 116 (Key: 690) - No match
+[10:07:30] Node joined network | Hash: 823 | Key: 571
+[10:07:30] Query forwarded: Node 233 → Node 116
+[10:07:31] Response: Node 116 (Key: 690) - No match
+[10:07:31] Query forwarded: Node 402 → Node 542
+[10:07:32] Response: Node 542 (Key: 36) - No match
+[10:07:32] Node joined network | Hash: 692 | Key: 322
+[10:07:32] Query forwarded: Node 910 → Node 433
+[10:07:33] Response: Node 433 (Key: 248) - No match
+[10:07:33] Query forwarded: Node 616 → Node 974
+[10:07:33] Node joined network | Hash: 816 | Key: 522
+[10:07:34] Response: Node 974 (Key: 238) - No match
+[10:07:34] Query forwarded: Node 542 → Node 692
+[10:07:35] Response: Node 692 (Key: 322) - No match
+[10:07:35] Node joined network | Hash: 199 | Key: 42
+[10:07:35] Query forwarded: Node 141 → Node 40
+[10:07:36] Response: Node 40 (Key: 765) - No match
+[10:07:36] Query forwarded: Node 634 → Node 667
+[10:07:36] Node joined network | Hash: 31 | Key: 209
+[10:07:37] Response: Node 667 (Key: 458) - No match
+[10:07:37] Query forwarded: Node 823 → Node 40
+[10:07:38] Response: Node 40 (Key: 765) - No match
+[10:07:38] Node joined network | Hash: 973 | Key: 373
+[10:07:38] Query forwarded: Node 116 → Node 974
+[10:07:39] Response: Node 974 (Key: 238) - No match
+[10:07:39] Query forwarded: Node 974 → Node 116
+[10:07:39] Node joined network | Hash: 33 | Key: 925
+[10:07:40] Response: Node 116 (Key: 690) - No match
+[10:07:40] Query forwarded: Node 667 → Node 343
+[10:07:41] Response: Node 343 (Key: 181) - No match
+[10:07:41] Node joined network | Hash: 816 | Key: 653
+[10:07:41] Query forwarded: Node 816 → Node 843
+[10:07:42] Response: Node 843 (Key: 686) - No match
+[10:07:42] Node joined network | Hash: 150 | Key: 742
+[10:07:42] Query forwarded: Node 116 → Node 132
+[10:07:43] Response: Node 132 (Key: 981) - No match
+[10:07:43] Query forwarded: Node 667 → Node 343
+[10:07:44] Response: Node 343 (Key: 181) - No match
+[10:07:44] Node joined network | Hash: 141 | Key: 453
+[10:07:44] Query forwarded: Node 285 → Node 132
+[10:07:45] Response: Node 132 (Key: 981) - No match
+[10:07:45] Query forwarded: Node 667 → Node 135
+[10:07:45] Node joined network | Hash: 636 | Key: 330
+[10:07:46] Response: Node 135 (Key: 370) - No match
+[10:07:46] Query forwarded: Node 634 → Node 667
+[10:07:47] Response: Node 667 (Key: 458) - No match
+[10:07:47] Node joined network | Hash: 322 | Key: 259
+[10:07:47] Query forwarded: Node 843 → Node 816
+[10:07:48] Response: Node 816 (Key: 653) - No match
+[10:07:48] Query forwarded: Node 549 → Node 843
+[10:07:48] Node joined network | Hash: 432 | Key: 600
+[10:07:49] Response: Node 843 (Key: 686) - No match
+[10:07:49] Query forwarded: Node 141 → Node 541
+[10:07:50] Response: Node 541 (Key: 594) - No match
+[10:07:50] Node joined network | Hash: 506 | Key: 919
+[10:07:50] Query forwarded: Node 40 → Node 474
+[10:07:51] Response: Node 474 (Key: 720) - No match
+[10:07:51] Query forwarded: Node 141 → Node 474
+[10:07:51] Node joined network | Hash: 527 | Key: 443
+[10:08:13] Response: Node 474 (Key: 720) - No match
+[10:08:13] Query forwarded: Node 636 → Node 974
+[10:08:13] Node joined network | Hash: 759 | Key: 67
+[10:09:13] Response: Node 974 (Key: 238) - No match
+[10:09:13] Node joined network | Hash: 547 | Key: 626
+[10:09:13] Query forwarded: Node 974 → Node 116
+[10:10:13] Response: Node 116 (Key: 690) - No match
+[10:10:13] Node joined network | Hash: 681 | Key: 90
+[10:10:13] Query forwarded: Node 692 → Node 542
+[10:11:13] Response: Node 542 (Key: 36) - No match
+[10:11:13] Node joined network | Hash: 11 | Key: 262
+[10:11:13] Query forwarded: Node 547 → Node 233
+[10:12:13] Response: Node 233 (Key: 979) - No match
+[10:12:13] Node joined network | Hash: 253 | Key: 511
+[10:12:13] Query forwarded: Node 141 → Node 485
+[10:13:13] Response: Node 485 (Key: 175) - No match
+[10:13:13] Node joined network | Hash: 286 | Key: 848
+[10:13:13] Query forwarded: Node 843 → Node 199
+[10:14:13] Response: Node 199 (Key: 42) - No match
+[10:14:13] Node joined network | Hash: 706 | Key: 951
+[10:14:13] Query forwarded: Node 343 → Node 150
+[10:15:13] Response: Node 150 (Key: 742) - No match
+[10:15:13] Node joined network | Hash: 19 | Key: 852
+[10:15:13] Query forwarded: Node 116 → Node 132
+[10:15:53] Response: Node 132 (Key: 981) - No match
+[10:15:53] Node joined network | Hash: 808 | Key: 763
+[10:15:56] Node joined network | Hash: 256 | Key: 125
+[10:15:57] Node joined network | Hash: 26 | Key: 476
+[10:15:59] Node joined network | Hash: 861 | Key: 986
+[10:16:00] Node joined network | Hash: 439 | Key: 376
+[10:16:02] Node joined network | Hash: 328 | Key: 518
+[10:16:03] Query forwarded: Node 256 → Node 439
+[10:16:03] Node joined network | Hash: 907 | Key: 627
+[10:16:04] Response: Node 439 (Key: 376) - No match
+[10:16:05] Node joined network | Hash: 441 | Key: 671
+[10:16:05] Query forwarded: Node 861 → Node 441
+[10:16:06] Response: Node 441 (Key: 671) - No match
+[10:16:06] Node joined network | Hash: 689 | Key: 840
+[10:16:06] Query forwarded: Node 441 → Node 26
+[10:16:07] Response: Node 26 (Key: 476) - No match
+[10:16:07] Query forwarded: Node 328 → Node 907
+[10:16:08] Response: Node 907 (Key: 627) - No match
+[10:16:08] Node joined network | Hash: 422 | Key: 451
+[10:16:08] Query forwarded: Node 256 → Node 439
+[10:16:09] Response: Node 439 (Key: 376) - No match
+[10:16:09] Query forwarded: Node 328 → Node 439
+[10:16:09] Node joined network | Hash: 299 | Key: 375
+[10:16:10] Response: Node 439 (Key: 376) - No match
+[10:16:10] Query forwarded: Node 26 → Node 422
+[10:16:11] Response: Node 422 (Key: 451) - No match
+[10:16:11] Node joined network | Hash: 979 | Key: 359
+[10:16:11] Query forwarded: Node 328 → Node 439
+[10:16:11] Response: Node 439 (Key: 376) - No match
+[10:16:11] Query forwarded: Node 422 → Node 441
+[10:16:11] Response: Node 441 (Key: 671) - No match
+[10:16:11] Node joined network | Hash: 39 | Key: 2
+[10:16:14] Node joined network | Hash: 600 | Key: 337
+[10:16:15] Query forwarded: Node 441 → Node 422
+[10:16:15] Node joined network | Hash: 4 | Key: 785
+[10:16:16] Response: Node 422 (Key: 451) - No match
+[10:16:16] Query forwarded: Node 4 → Node 39
+[10:16:17] Response: Node 39 (Key: 2) - No match
+[10:16:17] Node joined network | Hash: 386 | Key: 240
+[10:16:18] Node joined network | Hash: 52 | Key: 419
+[10:16:18] Query forwarded: Node 386 → Node 39
+[10:16:19] Response: Node 39 (Key: 2) - No match
+[10:16:19] Query forwarded: Node 4 → Node 39
+[10:16:20] Response: Node 39 (Key: 2) - No match
+[10:16:20] Node joined network | Hash: 596 | Key: 925
+[10:16:20] Query forwarded: Node 422 → Node 689
+[10:16:21] Response: Node 689 (Key: 840) - No match
+[10:16:21] Query forwarded: Node 39 → Node 4
+[10:16:21] Node joined network | Hash: 264 | Key: 471
+[10:16:22] Response: Node 4 (Key: 785) - No match
+[10:16:22] Query forwarded: Node 264 → Node 299
+[10:16:23] Response: Node 299 (Key: 375) - No match
+[10:16:23] Node joined network | Hash: 529 | Key: 359
+[10:16:23] Query forwarded: Node 299 → Node 264
+[10:16:24] Response: Node 264 (Key: 471) - No match
+[10:16:24] Query forwarded: Node 386 → Node 39
+[10:16:24] Node joined network | Hash: 141 | Key: 426
+[10:16:25] Response: Node 39 (Key: 2) - No match
+[10:16:26] Node joined network | Hash: 226 | Key: 210
+[10:16:26] Query forwarded: Node 299 → Node 264
+[10:16:27] Response: Node 264 (Key: 471) - No match
+[10:16:27] Query forwarded: Node 596 → Node 422
+[10:16:27] Node joined network | Hash: 277 | Key: 526
+[10:16:28] Response: Node 422 (Key: 451) - No match
+[10:16:28] Query forwarded: Node 264 → Node 529
+[10:16:29] Response: Node 529 (Key: 359) - No match
+[10:16:29] Node joined network | Hash: 734 | Key: 555
+[10:16:29] Query forwarded: Node 529 → Node 264
+[10:16:30] Response: Node 264 (Key: 471) - No match
+[10:16:30] Node joined network | Hash: 422 | Key: 143
+[10:16:30] Query forwarded: Node 226 → Node 422
+[10:16:31] Response: Node 422 (Key: 451) - No match
+[10:16:31] Query forwarded: Node 386 → Node 422
+[10:16:32] Response: Node 422 (Key: 143) - No match
+[10:16:32] Node joined network | Hash: 268 | Key: 246
+[10:16:32] Query forwarded: Node 299 → Node 734
+[10:16:33] Response: Node 734 (Key: 555) - No match
+[10:16:33] Node joined network | Hash: 743 | Key: 736
+[10:16:34] Query forwarded: Node 277 → Node 226
+[10:16:35] Response: Node 226 (Key: 210) - No match
+[10:16:35] Node joined network | Hash: 786 | Key: 88
+[10:16:35] Query forwarded: Node 299 → Node 734
+[10:16:36] Response: Node 734 (Key: 555) - No match
+[10:16:36] Query forwarded: Node 422 → Node 441
+[10:16:36] Node joined network | Hash: 682 | Key: 969
+[10:16:37] Response: Node 441 (Key: 671) - No match
+[10:16:37] Query forwarded: Node 682 → Node 52
+[10:16:38] Response: Node 52 (Key: 419) - No match
+[10:16:38] Node joined network | Hash: 875 | Key: 636
+[10:16:38] Query forwarded: Node 4 → Node 39
+[10:16:39] Response: Node 39 (Key: 2) - No match
+[10:16:39] Query forwarded: Node 264 → Node 786
+[10:16:39] Node joined network | Hash: 237 | Key: 148
+[10:16:40] Response: Node 786 (Key: 88) - No match
+[10:16:40] Query forwarded: Node 596 → Node 875
+[10:16:41] Response: Node 875 (Key: 636) - No match
+[10:16:41] Node joined network | Hash: 201 | Key: 346
+[10:16:41] Query forwarded: Node 52 → Node 682
+[10:16:42] Response: Node 682 (Key: 969) - No match
+[10:16:42] Node joined network | Hash: 775 | Key: 841
+[10:16:42] Query forwarded: Node 734 → Node 786
+[10:16:43] Response: Node 786 (Key: 88) - No match
+[10:16:43] Query forwarded: Node 299 → Node 529
+[10:16:44] Response: Node 529 (Key: 359) - No match
+[10:16:44] Node joined network | Hash: 434 | Key: 122
+[10:16:44] Query forwarded: Node 52 → Node 682
+[10:16:45] Response: Node 682 (Key: 969) - No match
+[10:16:45] Query forwarded: Node 141 → Node 39
+[10:16:45] Node joined network | Hash: 890 | Key: 587
+[10:16:46] Response: Node 39 (Key: 2) - No match
+[10:16:46] Query forwarded: Node 434 → Node 268
+[10:16:47] Response: Node 268 (Key: 246) - No match
+[10:16:47] Node joined network | Hash: 791 | Key: 953
+[10:16:47] Query forwarded: Node 422 → Node 141
+[10:16:48] Response: Node 141 (Key: 426) - No match
+[10:16:48] Query forwarded: Node 268 → Node 434
+[10:16:48] Node joined network | Hash: 34 | Key: 907
+[10:16:49] Response: Node 434 (Key: 122) - No match
+[10:16:49] Query forwarded: Node 682 → Node 52
+[10:16:50] Response: Node 52 (Key: 419) - No match
+[10:16:50] Node joined network | Hash: 648 | Key: 389
+[10:16:50] Query forwarded: Node 141 → Node 39
+[10:16:51] Response: Node 39 (Key: 2) - No match
+[10:16:51] Query forwarded: Node 141 → Node 979
+[10:16:51] Node joined network | Hash: 114 | Key: 506
+[10:16:52] Response: Node 979 (Key: 359) - No match
+[10:16:52] Query forwarded: Node 268 → Node 434
+[10:16:53] Response: Node 434 (Key: 122) - No match
+[10:16:53] Node joined network | Hash: 302 | Key: 920
+[10:16:53] Query forwarded: Node 979 → Node 141
+[10:16:54] Response: Node 141 (Key: 426) - No match
+[10:16:54] Node joined network | Hash: 308 | Key: 348
+[10:16:54] Query forwarded: Node 302 → Node 775
+[10:16:55] Response: Node 775 (Key: 841) - No match
+[10:16:55] Query forwarded: Node 308 → Node 600
+[10:16:56] Response: Node 600 (Key: 337) - No match
+[10:16:56] Node joined network | Hash: 731 | Key: 540
+[10:16:56] Query forwarded: Node 434 → Node 268
+[10:16:57] Response: Node 268 (Key: 246) - No match
+[10:16:57] Query forwarded: Node 529 → Node 201
+[10:16:57] Node joined network | Hash: 355 | Key: 131
+[10:16:58] Response: Node 201 (Key: 346) - No match
+[10:16:58] Query forwarded: Node 600 → Node 308
+[10:16:59] Response: Node 308 (Key: 348) - No match
+[10:16:59] Node joined network | Hash: 42 | Key: 522
+[10:16:59] Query forwarded: Node 786 → Node 299
+[10:17:00] Response: Node 299 (Key: 375) - No match
+[10:17:00] Query forwarded: Node 441 → Node 875
+[10:17:00] Node joined network | Hash: 227 | Key: 916
+[10:17:01] Response: Node 875 (Key: 636) - No match
+[10:17:01] Query forwarded: Node 682 → Node 52
+[10:17:02] Response: Node 52 (Key: 419) - No match
+[10:17:02] Node joined network | Hash: 865 | Key: 374
+[10:17:02] Query forwarded: Node 731 → Node 890
+[10:17:03] Response: Node 890 (Key: 587) - No match
+[10:17:03] Query forwarded: Node 422 → Node 34
+[10:17:03] Node joined network | Hash: 552 | Key: 65
+[10:17:04] Response: Node 34 (Key: 907) - No match
+[10:17:04] Query forwarded: Node 743 → Node 786
+[10:17:05] Response: Node 786 (Key: 88) - No match
+[10:17:05] Node joined network | Hash: 891 | Key: 497
+[10:17:05] Query forwarded: Node 42 → Node 731
+[10:17:06] Response: Node 731 (Key: 540) - No match
+[10:17:06] Node joined network | Hash: 110 | Key: 742
+[10:17:06] Query forwarded: Node 734 → Node 775
+[10:17:07] Response: Node 775 (Key: 841) - No match
+[10:17:07] Query forwarded: Node 42 → Node 4
+[10:17:08] Response: Node 4 (Key: 785) - No match
+[10:17:08] Node joined network | Hash: 335 | Key: 813
+[10:17:08] Query forwarded: Node 277 → Node 39
+[10:17:09] Response: Node 39 (Key: 2) - No match
+[10:17:09] Query forwarded: Node 226 → Node 386
+[10:17:09] Node joined network | Hash: 196 | Key: 434
+[10:17:10] Response: Node 386 (Key: 240) - No match
+[10:17:10] Query forwarded: Node 299 → Node 731
+[10:17:11] Response: Node 731 (Key: 540) - No match
+[10:17:11] Node joined network | Hash: 260 | Key: 593
+[10:17:11] Query forwarded: Node 731 → Node 4
+[10:17:12] Response: Node 4 (Key: 785) - No match
+[10:17:12] Query forwarded: Node 196 → Node 422
+[10:17:12] Node joined network | Hash: 795 | Key: 177
+[10:17:13] Response: Node 422 (Key: 451) - No match
+[10:17:13] Query forwarded: Node 441 → Node 277
+[10:18:13] Response: Node 277 (Key: 526) - No match
+[10:18:13] Node joined network | Hash: 289 | Key: 963
+[10:18:13] Query forwarded: Node 39 → Node 4
+[10:19:13] Response: Node 4 (Key: 785) - No match
+[10:19:13] Node joined network | Hash: 180 | Key: 906
+[10:19:13] Query forwarded: Node 114 → Node 277
+[10:20:13] Response: Node 277 (Key: 526) - No match
+[10:20:13] Node joined network | Hash: 151 | Key: 507
+[10:20:13] Query forwarded: Node 422 → Node 386
+[10:21:13] Response: Node 386 (Key: 240) - No match
+[10:21:13] Node joined network | Hash: 386 | Key: 511
+[10:21:13] Query forwarded: Node 734 → Node 302
+[10:22:13] Response: Node 302 (Key: 920) - No match
+[10:22:13] Node joined network | Hash: 74 | Key: 231
+[10:22:13] Query forwarded: Node 979 → Node 302
+[10:23:13] Response: Node 302 (Key: 920) - No match
+[10:23:13] Node joined network | Hash: 356 | Key: 817
+[10:23:13] Query forwarded: Node 355 → Node 795
+[10:23:31] Response: Node 795 (Key: 177) - No match
+[10:23:31] Node joined network | Hash: 160 | Key: 183
+[10:23:33] Node joined network | Hash: 85 | Key: 565
+[10:23:35] Node joined network | Hash: 101 | Key: 682
+[10:23:36] Node joined network | Hash: 988 | Key: 497
+[10:23:38] Node joined network | Hash: 360 | Key: 271
+[10:23:38] Query forwarded: Node 101 → Node 988
+[10:23:39] Response: Node 988 (Key: 497) - No match
+[10:23:39] Node joined network | Hash: 802 | Key: 141
+[10:23:41] Node joined network | Hash: 233 | Key: 966
+[10:23:41] Query forwarded: Node 988 → Node 101
+[10:23:42] Response: Node 101 (Key: 682) - No match
+[10:23:42] Node joined network | Hash: 598 | Key: 601
+[10:23:42] Query forwarded: Node 802 → Node 360
+[10:23:43] Response: Node 360 (Key: 271) - No match
+[10:23:43] Query forwarded: Node 988 → Node 101
+[10:23:44] Response: Node 101 (Key: 682) - No match
+[10:23:44] Node joined network | Hash: 169 | Key: 665
+[10:23:45] Query forwarded: Node 101 → Node 988
+[10:23:45] Node joined network | Hash: 610 | Key: 302
+[10:23:46] Response: Node 988 (Key: 497) - No match
+[10:23:46] Query forwarded: Node 85 → Node 169
+[10:23:47] Response: Node 169 (Key: 665) - No match
+[10:23:47] Node joined network | Hash: 648 | Key: 922
+[10:23:47] Query forwarded: Node 233 → Node 648
+[10:23:48] Response: Node 648 (Key: 922) - No match
+[10:23:48] Query forwarded: Node 648 → Node 233
+[10:23:48] Node joined network | Hash: 764 | Key: 507
+[10:23:49] Response: Node 233 (Key: 966) - No match
+[10:23:49] Query forwarded: Node 648 → Node 233
+[10:23:50] Response: Node 233 (Key: 966) - No match
+[10:23:50] Node joined network | Hash: 768 | Key: 381
+[10:23:51] Query forwarded: Node 598 → Node 802
+[10:23:51] Node joined network | Hash: 192 | Key: 838
+[10:23:52] Response: Node 802 (Key: 141) - No match
+[10:23:52] Query forwarded: Node 101 → Node 233
+[10:23:53] Response: Node 233 (Key: 966) - No match
+[10:23:53] Node joined network | Hash: 468 | Key: 320
+[10:23:53] Query forwarded: Node 360 → Node 598
+[10:23:54] Response: Node 598 (Key: 601) - No match
+[10:23:54] Node joined network | Hash: 795 | Key: 380
+[10:23:54] Query forwarded: Node 192 → Node 648
+[10:23:55] Response: Node 648 (Key: 922) - No match
+[10:23:56] Node joined network | Hash: 539 | Key: 136
+[10:23:57] Query forwarded: Node 101 → Node 795
+[10:23:57] Node joined network | Hash: 540 | Key: 367
+[10:23:58] Response: Node 795 (Key: 380) - No match
+[10:23:58] Query forwarded: Node 610 → Node 988
+[10:23:59] Response: Node 988 (Key: 497) - No match
+[10:23:59] Node joined network | Hash: 145 | Key: 633
+[10:24:00] Query forwarded: Node 988 → Node 610
+[10:24:00] Node joined network | Hash: 699 | Key: 767
+[10:24:01] Response: Node 610 (Key: 302) - No match
+[10:24:01] Query forwarded: Node 101 → Node 610
+[10:24:02] Response: Node 610 (Key: 302) - No match
+[10:24:02] Node joined network | Hash: 606 | Key: 644
+[10:24:02] Query forwarded: Node 606 → Node 145
+[10:24:03] Response: Node 145 (Key: 633) - No match
+[10:24:03] Query forwarded: Node 540 → Node 610
+[10:24:03] Node joined network | Hash: 226 | Key: 342
+[10:24:04] Response: Node 610 (Key: 302) - No match
+[10:24:04] Query forwarded: Node 169 → Node 699
+[10:24:05] Response: Node 699 (Key: 767) - No match
+[10:24:05] Node joined network | Hash: 385 | Key: 574
+[10:24:05] Query forwarded: Node 360 → Node 802
+[10:24:06] Response: Node 802 (Key: 141) - No match
+[10:24:06] Node joined network | Hash: 236 | Key: 459
+[10:24:06] Query forwarded: Node 606 → Node 145
+[10:24:07] Response: Node 145 (Key: 633) - No match
+[10:24:07] Query forwarded: Node 802 → Node 360
+[10:24:08] Response: Node 360 (Key: 271) - No match
+[10:24:08] Node joined network | Hash: 675 | Key: 45
+[10:24:08] Query forwarded: Node 101 → Node 233
+[10:24:09] Response: Node 233 (Key: 966) - No match
+[10:24:09] Node joined network | Hash: 359 | Key: 349
+[10:24:10] Query forwarded: Node 768 → Node 802
+[10:24:11] Response: Node 802 (Key: 141) - No match
+[10:24:11] Node joined network | Hash: 725 | Key: 755
+[10:24:11] Query forwarded: Node 648 → Node 192
+[10:24:12] Response: Node 192 (Key: 838) - No match
+[10:24:12] Query forwarded: Node 988 → Node 795
+[10:24:12] Node joined network | Hash: 984 | Key: 162
+[10:24:13] Response: Node 795 (Key: 380) - No match
+[10:24:13] Query forwarded: Node 598 → Node 802
+[10:24:14] Response: Node 802 (Key: 141) - No match
+[10:24:14] Node joined network | Hash: 955 | Key: 178
+[10:24:14] Query forwarded: Node 988 → Node 610
+[10:24:15] Response: Node 610 (Key: 302) - No match
+[10:24:15] Query forwarded: Node 236 → Node 795
+[10:24:15] Node joined network | Hash: 554 | Key: 266
+[10:24:16] Response: Node 795 (Key: 380) - No match
+[10:24:16] Query forwarded: Node 764 → Node 606
+[10:24:17] Response: Node 606 (Key: 644) - No match
+[10:24:17] Node joined network | Hash: 430 | Key: 684
+[10:24:17] Query forwarded: Node 169 → Node 725
+[10:24:18] Response: Node 725 (Key: 755) - No match
+[10:24:18] Node joined network | Hash: 790 | Key: 508
+[10:24:18] Query forwarded: Node 226 → Node 795
+[10:24:19] Response: Node 795 (Key: 380) - No match
+[10:24:19] Query forwarded: Node 675 → Node 554
+[10:24:20] Response: Node 554 (Key: 266) - No match
+[10:24:20] Node joined network | Hash: 959 | Key: 651
+[10:24:20] Query forwarded: Node 226 → Node 988
+[10:24:21] Response: Node 988 (Key: 497) - No match
+[10:24:21] Query forwarded: Node 554 → Node 101
+[10:24:21] Node joined network | Hash: 360 | Key: 805
+[10:24:22] Response: Node 101 (Key: 682) - No match
+[10:24:22] Query forwarded: Node 160 → Node 675
+[10:24:23] Response: Node 675 (Key: 45) - No match
+[10:24:23] Node joined network | Hash: 432 | Key: 571
+[10:24:23] Query forwarded: Node 795 → Node 554
+[10:24:24] Response: Node 554 (Key: 266) - No match
+[10:24:24] Query forwarded: Node 959 → Node 795
+[10:24:24] Node joined network | Hash: 295 | Key: 415
+[10:24:25] Response: Node 795 (Key: 380) - No match
+[10:24:25] Query forwarded: Node 764 → Node 385
+[10:24:26] Response: Node 385 (Key: 574) - No match
+[10:24:26] Node joined network | Hash: 36 | Key: 9
+[10:24:26] Query forwarded: Node 192 → Node 790
+[10:24:27] Response: Node 790 (Key: 508) - No match
+[10:24:27] Query forwarded: Node 359 → Node 145
+[10:24:27] Node joined network | Hash: 259 | Key: 272
+[10:24:28] Response: Node 145 (Key: 633) - No match
+[10:24:28] Query forwarded: Node 233 → Node 610
+[10:24:29] Response: Node 610 (Key: 302) - No match
+[10:24:29] Node joined network | Hash: 513 | Key: 783
+[10:24:29] Query forwarded: Node 85 → Node 606
+[10:24:30] Response: Node 606 (Key: 644) - No match
+[10:24:30] Node joined network | Hash: 645 | Key: 887
+[10:24:30] Query forwarded: Node 764 → Node 955
+[10:24:31] Response: Node 955 (Key: 178) - No match
+[10:24:31] Query forwarded: Node 645 → Node 795
+[10:25:13] Response: Node 795 (Key: 380) - No match
+[10:25:13] Node joined network | Hash: 806 | Key: 729
+[10:25:13] Query forwarded: Node 169 → Node 606
+[10:26:13] Response: Node 606 (Key: 644) - No match
+[10:26:13] Node joined network | Hash: 684 | Key: 216
+[10:26:13] Query forwarded: Node 648 → Node 513
+[10:27:13] Response: Node 513 (Key: 783) - No match
+[10:27:13] Node joined network | Hash: 175 | Key: 125
+[10:27:13] Query forwarded: Node 385 → Node 725
+[10:27:21] Response: Node 725 (Key: 755) - No match
+[10:27:21] Node joined network | Hash: 564 | Key: 502
+[10:27:22] Node joined network | Hash: 676 | Key: 844
+[10:27:24] Node joined network | Hash: 555 | Key: 415
+[10:27:26] Node joined network | Hash: 189 | Key: 465
+[10:27:26] Query forwarded: Node 189 → Node 676
+[10:27:27] Response: Node 676 (Key: 844) - No match
+[10:27:27] Query forwarded: Node 676 → Node 189
+[10:27:27] Node joined network | Hash: 665 | Key: 425
+[10:27:28] Response: Node 189 (Key: 465) - No match
+[10:27:28] Query forwarded: Node 189 → Node 676
+[10:27:29] Response: Node 676 (Key: 844) - No match
+[10:27:29] Node joined network | Hash: 508 | Key: 394
+[10:27:29] Query forwarded: Node 665 → Node 676
+[10:27:30] Response: Node 676 (Key: 844) - No match
+[10:27:30] Node joined network | Hash: 210 | Key: 866
+[10:27:30] Query forwarded: Node 676 → Node 189
+[10:27:31] Response: Node 189 (Key: 465) - No match
+[10:27:31] Query forwarded: Node 665 → Node 676
+[10:27:32] Response: Node 676 (Key: 844) - No match
+[10:27:32] Node joined network | Hash: 665 | Key: 691
+[10:27:32] Query forwarded: Node 665 → Node 508
+[10:27:33] Response: Node 508 (Key: 394) - No match
+[10:27:33] Query forwarded: Node 665 → Node 508
+[10:27:33] Node joined network | Hash: 862 | Key: 473
+[10:27:34] Response: Node 508 (Key: 394) - No match
+[10:27:34] Query forwarded: Node 676 → Node 189
+[10:27:35] Response: Node 189 (Key: 465) - No match
+[10:27:35] Node joined network | Hash: 369 | Key: 687
+[10:27:36] Query forwarded: Node 369 → Node 508
+[10:27:36] Node joined network | Hash: 454 | Key: 605
+[10:27:37] Response: Node 508 (Key: 394) - No match
+[10:27:37] Query forwarded: Node 454 → Node 369
+[10:27:38] Response: Node 369 (Key: 687) - No match
+[10:27:38] Node joined network | Hash: 874 | Key: 976
+[10:27:39] Query forwarded: Node 665 → Node 508
+[10:27:39] Node joined network | Hash: 691 | Key: 740
+[10:27:40] Response: Node 508 (Key: 394) - No match
+[10:27:40] Query forwarded: Node 691 → Node 210
+[10:27:41] Response: Node 210 (Key: 866) - No match
+[10:27:41] Node joined network | Hash: 377 | Key: 886
+[10:27:41] Query forwarded: Node 508 → Node 369
+[10:27:42] Response: Node 369 (Key: 687) - No match
+[10:27:42] Node joined network | Hash: 548 | Key: 332
+[10:27:42] Query forwarded: Node 210 → Node 691
+[10:27:43] Response: Node 691 (Key: 740) - No match
+[10:27:43] Query forwarded: Node 377 → Node 564
+[10:27:44] Response: Node 564 (Key: 502) - No match
+[10:27:44] Node joined network | Hash: 970 | Key: 746
+[10:27:44] Query forwarded: Node 454 → Node 369
+[10:27:45] Response: Node 369 (Key: 687) - No match
+[10:27:45] Query forwarded: Node 189 → Node 676
+[10:27:45] Node joined network | Hash: 656 | Key: 89
+[10:27:46] Response: Node 676 (Key: 844) - No match
+[10:27:46] Query forwarded: Node 189 → Node 676
+[10:27:47] Response: Node 676 (Key: 844) - No match
+[10:27:47] Node joined network | Hash: 824 | Key: 1000
+[10:27:47] Query forwarded: Node 665 → Node 508
+[10:27:48] Response: Node 508 (Key: 394) - No match
+[10:27:48] Query forwarded: Node 377 → Node 564
+[10:27:48] Node joined network | Hash: 55 | Key: 695
+[10:27:49] Response: Node 564 (Key: 502) - No match
+[10:27:49] Query forwarded: Node 665 → Node 676
+[10:27:50] Response: Node 676 (Key: 844) - No match
+[10:27:50] Node joined network | Hash: 758 | Key: 334
+[10:27:50] Query forwarded: Node 665 → Node 508
+[10:27:51] Response: Node 508 (Key: 394) - No match
+[10:27:51] Query forwarded: Node 564 → Node 862
+[10:27:51] Node joined network | Hash: 817 | Key: 63
+[10:27:52] Response: Node 862 (Key: 473) - No match
+[10:27:52] Query forwarded: Node 189 → Node 676
+[10:27:53] Response: Node 676 (Key: 844) - No match
+[10:27:53] Node joined network | Hash: 363 | Key: 824
+[10:27:53] Query forwarded: Node 55 → Node 874
+[10:27:54] Response: Node 874 (Key: 976) - No match
+[10:27:54] Node joined network | Hash: 179 | Key: 684
+[10:27:54] Query forwarded: Node 656 → Node 691
+[10:27:55] Response: Node 691 (Key: 740) - No match
+[10:27:56] Node joined network | Hash: 959 | Key: 351
+[10:27:56] Query forwarded: Node 508 → Node 665
+[10:27:57] Response: Node 665 (Key: 691) - No match
+[10:27:57] Node joined network | Hash: 696 | Key: 911
+[10:27:59] Node joined network | Hash: 556 | Key: 249
+[10:27:59] Query forwarded: Node 377 → Node 179
+[10:28:00] Response: Node 179 (Key: 684) - No match
+[10:28:00] Query forwarded: Node 454 → Node 369
+[10:28:00] Node joined network | Hash: 639 | Key: 580
+[10:28:01] Response: Node 369 (Key: 687) - No match
+[10:28:01] Query forwarded: Node 959 → Node 363
+[10:28:02] Response: Node 363 (Key: 824) - No match
+[10:28:02] Node joined network | Hash: 436 | Key: 679
+[10:28:02] Query forwarded: Node 959 → Node 758
+[10:28:03] Response: Node 758 (Key: 334) - No match
+[10:28:03] Query forwarded: Node 436 → Node 691
+[10:28:03] Node joined network | Hash: 791 | Key: 424
+[10:28:04] Response: Node 691 (Key: 740) - No match
+[10:28:04] Query forwarded: Node 874 → Node 55
+[10:28:05] Response: Node 55 (Key: 695) - No match
+[10:28:05] Node joined network | Hash: 716 | Key: 174
+[10:28:05] Query forwarded: Node 189 → Node 676
+[10:28:06] Response: Node 676 (Key: 844) - No match
+[10:28:06] Node joined network | Hash: 11 | Key: 949
+[10:28:06] Query forwarded: Node 716 → Node 210
+[10:28:07] Response: Node 210 (Key: 866) - No match
+[10:28:07] Query forwarded: Node 791 → Node 665
+[10:28:08] Response: Node 665 (Key: 691) - No match
+[10:28:08] Node joined network | Hash: 436 | Key: 308
+[10:28:08] Query forwarded: Node 665 → Node 676
+[10:28:09] Response: Node 676 (Key: 844) - No match
+[10:28:09] Query forwarded: Node 665 → Node 676
+[10:28:09] Node joined network | Hash: 751 | Key: 525
+[10:28:10] Response: Node 676 (Key: 844) - No match
+[10:28:10] Query forwarded: Node 862 → Node 377
+[10:28:11] Response: Node 377 (Key: 886) - No match
+[10:28:11] Node joined network | Hash: 520 | Key: 992
+[10:28:11] Query forwarded: Node 436 → Node 555
+[10:28:12] Response: Node 555 (Key: 415) - No match
+[10:28:12] Query forwarded: Node 369 → Node 665
+[10:28:12] Node joined network | Hash: 456 | Key: 339
+[10:28:13] Response: Node 665 (Key: 691) - No match
+[10:28:13] Query forwarded: Node 970 → Node 520
+[10:28:14] Response: Node 520 (Key: 992) - No match
+[10:28:14] Node joined network | Hash: 514 | Key: 336
+[10:28:14] Query forwarded: Node 520 → Node 691
+[10:28:15] Response: Node 691 (Key: 740) - No match
+[10:28:15] Query forwarded: Node 862 → Node 824
+[10:28:15] Node joined network | Hash: 842 | Key: 682
+[10:28:16] Response: Node 824 (Key: 1000) - No match
+[10:28:16] Query forwarded: Node 210 → Node 520
+[10:28:17] Response: Node 520 (Key: 992) - No match
+[10:28:17] Node joined network | Hash: 664 | Key: 270
+[10:28:17] Query forwarded: Node 817 → Node 514
+[10:28:18] Response: Node 514 (Key: 336) - No match
+[10:28:18] Node joined network | Hash: 204 | Key: 119
+[10:28:18] Query forwarded: Node 842 → Node 639
+[10:28:19] Response: Node 639 (Key: 580) - No match
+[10:28:19] Query forwarded: Node 791 → Node 508
+[10:28:20] Response: Node 508 (Key: 394) - No match
+[10:28:20] Node joined network | Hash: 410 | Key: 49
+[10:28:20] Query forwarded: Node 548 → Node 751
+[10:28:21] Response: Node 751 (Key: 525) - No match
+[10:28:21] Query forwarded: Node 639 → Node 436
+[10:28:21] Node joined network | Hash: 568 | Key: 430
+[10:28:22] Response: Node 436 (Key: 308) - No match
+[10:28:22] Query forwarded: Node 410 → Node 436
+[10:28:23] Response: Node 436 (Key: 308) - No match
+[10:28:23] Node joined network | Hash: 501 | Key: 794
+[10:28:23] Query forwarded: Node 436 → Node 189
+[10:29:13] Response: Node 189 (Key: 465) - No match
+[10:29:13] Query forwarded: Node 791 → Node 665
+[10:29:13] Node joined network | Hash: 715 | Key: 553
+[10:30:13] Response: Node 665 (Key: 691) - No match
+[10:30:13] Node joined network | Hash: 219 | Key: 866
+[10:30:13] Query forwarded: Node 564 → Node 179
+[10:31:13] Response: Node 179 (Key: 684) - No match
+[10:31:13] Node joined network | Hash: 100 | Key: 468
+[10:31:13] Query forwarded: Node 210 → Node 716
+[10:32:13] Response: Node 716 (Key: 174) - No match
+[10:32:13] Node joined network | Hash: 539 | Key: 48
+[10:32:13] Query forwarded: Node 377 → Node 456
+[10:33:13] Response: Node 456 (Key: 339) - No match
+[10:33:13] Node joined network | Hash: 963 | Key: 169
+[10:33:13] Query forwarded: Node 656 → Node 716
+[10:34:13] Response: Node 716 (Key: 174) - No match
+[10:34:13] Node joined network | Hash: 670 | Key: 643
+[10:34:13] Query forwarded: Node 436 → Node 189
+[10:34:14] Response: Node 189 (Key: 465) - No match
+[10:34:14] Node joined network | Hash: 516 | Key: 910
+[10:34:14] Node joined network | Hash: 958 | Key: 709
+[10:34:16] Node joined network | Hash: 71 | Key: 618
+[10:34:16] Query forwarded: Node 516 → Node 71
+[10:34:16] Response: Node 71 (Key: 618) - No match
+[10:34:17] Node joined network | Hash: 338 | Key: 939
+[10:34:20] Node joined network | Hash: 28 | Key: 349
+[10:34:20] Query forwarded: Node 28 → Node 958
+[10:34:21] Response: Node 958 (Key: 709) - No match
+[10:34:21] Query forwarded: Node 958 → Node 28
+[10:34:21] Node joined network | Hash: 430 | Key: 430
+[10:34:22] Response: Node 28 (Key: 349) - No match
+[10:34:23] Node joined network | Hash: 410 | Key: 307
+[10:34:23] Query forwarded: Node 28 → Node 958
+[10:34:24] Response: Node 958 (Key: 709) - No match
+[10:34:24] Query forwarded: Node 71 → Node 430
+[10:34:24] Node joined network | Hash: 42 | Key: 644
+[10:34:25] Response: Node 430 (Key: 430) - No match
+[10:34:26] Node joined network | Hash: 190 | Key: 345
+[10:34:26] Query forwarded: Node 516 → Node 71
+[10:34:27] Response: Node 71 (Key: 618) - No match
+[10:34:27] Query forwarded: Node 42 → Node 958
+[10:34:27] Node joined network | Hash: 6 | Key: 171
+[10:34:28] Response: Node 958 (Key: 709) - No match
+[10:34:28] Query forwarded: Node 516 → Node 71
+[10:34:29] Response: Node 71 (Key: 618) - No match
+[10:34:29] Node joined network | Hash: 950 | Key: 986
+[10:34:30] Node joined network | Hash: 388 | Key: 251
+[10:34:30] Query forwarded: Node 42 → Node 71
+[10:34:31] Response: Node 71 (Key: 618) - No match
+[10:34:31] Query forwarded: Node 516 → Node 71
+[10:34:32] Response: Node 71 (Key: 618) - No match
+[10:34:32] Node joined network | Hash: 355 | Key: 382
+[10:34:32] Query forwarded: Node 338 → Node 355
+[10:34:33] Response: Node 355 (Key: 382) - No match
+[10:34:33] Query forwarded: Node 355 → Node 338
+[10:34:33] Node joined network | Hash: 489 | Key: 744
+[10:34:34] Response: Node 338 (Key: 939) - No match
+[10:34:34] Query forwarded: Node 190 → Node 388
+[10:34:35] Response: Node 388 (Key: 251) - No match
+[10:34:35] Node joined network | Hash: 999 | Key: 133
+[10:34:36] Query forwarded: Node 388 → Node 958
+[10:34:36] Node joined network | Hash: 382 | Key: 725
+[10:34:37] Response: Node 958 (Key: 709) - No match
+[10:34:37] Query forwarded: Node 355 → Node 338
+[10:34:38] Response: Node 338 (Key: 939) - No match
+[10:34:38] Node joined network | Hash: 470 | Key: 479
+[10:34:38] Query forwarded: Node 190 → Node 388
+[10:34:39] Response: Node 388 (Key: 251) - No match
+[10:34:39] Query forwarded: Node 958 → Node 42
+[10:34:39] Node joined network | Hash: 336 | Key: 451
+[10:34:40] Response: Node 42 (Key: 644) - No match
+[10:34:40] Query forwarded: Node 71 → Node 430
+[10:34:41] Response: Node 430 (Key: 430) - No match
+[10:34:41] Node joined network | Hash: 390 | Key: 141
+[10:34:41] Query forwarded: Node 999 → Node 382
+[10:34:42] Response: Node 382 (Key: 725) - No match
+[10:34:42] Node joined network | Hash: 12 | Key: 814
+[10:34:43] Query forwarded: Node 71 → Node 42
+[10:34:44] Response: Node 42 (Key: 644) - No match
+[10:34:44] Node joined network | Hash: 186 | Key: 91
+[10:34:45] Node joined network | Hash: 747 | Key: 393
+[10:34:46] Query forwarded: Node 950 → Node 958
+[10:34:47] Response: Node 958 (Key: 709) - No match
+[10:34:47] Node joined network | Hash: 393 | Key: 90
+[10:34:48] Query forwarded: Node 999 → Node 42
+[10:34:48] Node joined network | Hash: 151 | Key: 809
+[10:34:49] Response: Node 42 (Key: 644) - No match
+[10:34:49] Query forwarded: Node 999 → Node 42
+[10:34:50] Response: Node 42 (Key: 644) - No match
+[10:34:50] Node joined network | Hash: 9 | Key: 568
+[10:34:50] Query forwarded: Node 338 → Node 355
+[10:34:51] Response: Node 355 (Key: 382) - No match
+[10:34:51] Query forwarded: Node 670 → Node 151
+[10:34:51] Node joined network | Hash: 216 | Key: 920
+[10:34:52] Response: Node 151 (Key: 809) - No match
+[10:34:52] Query forwarded: Node 42 → Node 430
+[10:34:53] Response: Node 430 (Key: 430) - No match
+[10:34:53] Node joined network | Hash: 694 | Key: 390
+[10:34:53] Query forwarded: Node 186 → Node 216
+[10:34:54] Response: Node 216 (Key: 920) - No match
+[10:34:54] Node joined network | Hash: 473 | Key: 933
+[10:34:54] Query forwarded: Node 42 → Node 516
+[10:34:55] Response: Node 516 (Key: 910) - No match
+[10:34:55] Query forwarded: Node 71 → Node 430
+[10:34:56] Response: Node 430 (Key: 430) - No match
+[10:34:56] Node joined network | Hash: 123 | Key: 850
+[10:34:56] Query forwarded: Node 42 → Node 999
+[10:34:57] Response: Node 999 (Key: 133) - No match
+[10:34:57] Query forwarded: Node 516 → Node 42
+[10:34:57] Node joined network | Hash: 571 | Key: 114
+[10:34:58] Response: Node 42 (Key: 644) - No match
+[10:34:58] Query forwarded: Node 12 → Node 388
+[10:34:59] Response: Node 388 (Key: 251) - No match
+[10:34:59] Node joined network | Hash: 773 | Key: 746
+[10:34:59] Query forwarded: Node 216 → Node 186
+[10:35:00] Response: Node 186 (Key: 91) - No match
+[10:35:00] Query forwarded: Node 355 → Node 336
+[10:35:00] Node joined network | Hash: 370 | Key: 848
+[10:35:01] Response: Node 336 (Key: 451) - No match
+[10:35:01] Query forwarded: Node 430 → Node 382
+[10:35:02] Response: Node 382 (Key: 725) - No match
+[10:35:02] Node joined network | Hash: 163 | Key: 632
+[10:35:02] Query forwarded: Node 6 → Node 773
+[10:35:03] Response: Node 773 (Key: 746) - No match
+[10:35:03] Query forwarded: Node 370 → Node 216
+[10:35:03] Node joined network | Hash: 735 | Key: 648
+[10:35:04] Response: Node 216 (Key: 920) - No match
+[10:35:04] Query forwarded: Node 670 → Node 123
+[10:35:05] Response: Node 123 (Key: 850) - No match
+[10:35:05] Node joined network | Hash: 462 | Key: 167
+[10:35:05] Query forwarded: Node 336 → Node 355
+[10:35:06] Response: Node 355 (Key: 382) - No match
+[10:35:06] Node joined network | Hash: 424 | Key: 333
+[10:35:06] Query forwarded: Node 424 → Node 355
+[10:35:07] Response: Node 355 (Key: 382) - No match
+[10:35:07] Query forwarded: Node 338 → Node 355
+[10:35:08] Response: Node 355 (Key: 382) - No match
+[10:35:08] Node joined network | Hash: 573 | Key: 369
+[10:35:08] Query forwarded: Node 9 → Node 71
+[10:35:09] Response: Node 71 (Key: 618) - No match
+[10:35:09] Query forwarded: Node 28 → Node 382
+[10:35:09] Node joined network | Hash: 551 | Key: 366
+[10:35:10] Response: Node 382 (Key: 725) - No match
+[10:35:10] Query forwarded: Node 999 → Node 571
+[10:35:11] Response: Node 571 (Key: 114) - No match
+[10:35:11] Node joined network | Hash: 401 | Key: 382
+[10:35:11] Query forwarded: Node 186 → Node 370
+[10:35:12] Response: Node 370 (Key: 848) - No match
+[10:35:12] Query forwarded: Node 28 → Node 12
+[10:35:12] Node joined network | Hash: 169 | Key: 134
+[10:35:13] Response: Node 12 (Key: 814) - No match
+[10:35:13] Query forwarded: Node 169 → Node 388
+[10:35:14] Response: Node 388 (Key: 251) - No match
+[10:35:14] Node joined network | Hash: 621 | Key: 630
+[10:35:15] Query forwarded: Node 999 → Node 9
+[10:35:15] Node joined network | Hash: 363 | Key: 601
+[10:35:16] Response: Node 9 (Key: 568) - No match
+[10:35:16] Query forwarded: Node 773 → Node 6
+[10:35:17] Response: Node 6 (Key: 171) - No match
+[10:35:17] Node joined network | Hash: 423 | Key: 216
+[10:35:17] Query forwarded: Node 694 → Node 551
+[10:35:18] Response: Node 551 (Key: 366) - No match
+[10:35:18] Node joined network | Hash: 432 | Key: 188
+[10:35:18] Query forwarded: Node 388 → Node 190
+[10:36:13] MATCH! Node 190 has signature 345!
+───────────────────────────────────────────────────────────────
+
+CONCLUSION:
+───────────────────────────────────────────────────────────────
+The distributed network successfully located signature 345
+through decentralized query propagation in 4352 seconds.
+Network characteristics:
+  - Peer-to-peer topology
+  - Distributed hash table structure
+  - No central authority
+  - Resilient to node churn
+───────────────────────────────────────────────────────────────
+
+═══════════════════════════════════════════════════════════════
+                    END OF LOG FILE
+═══════════════════════════════════════════════════════════════
