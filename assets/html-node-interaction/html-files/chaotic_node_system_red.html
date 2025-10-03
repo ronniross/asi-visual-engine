@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Node Interaction Synthesizer - RED PROTOCOL</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #1a0005; /* Deep crimson */
+            color: #ffd6e0;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #ff2a6d; /* Cyber red */
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(255, 42, 109, 0.7);
+        }
+        
+        .rules {
+            background: #2a000a; /* Darker crimson */
+            border: 2px solid #ff2a6d; /* Neon red border */
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .rules h2 {
+            color: #ff2a6d;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .rules ul {
+            list-style-position: inside;
+            line-height: 1.6;
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background: #ff2a6d;
+            color: #1a0005;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 0 8px rgba(255, 42, 109, 0.6);
+        }
+        
+        button:hover {
+            background: #ff1a5d;
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(255, 42, 109, 0.8);
+        }
+        
+        button:disabled {
+            background: #5a1a2a;
+            color: #8a5f6a;
+            cursor: not-allowed;
+            transform: scale(1);
+            box-shadow: none;
+        }
+        
+        .info-panel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .info-box {
+            background: #2a000a;
+            border: 2px solid #ff2a6d;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        
+        .info-label {
+            color: #bf7d8a;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .info-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff2a6d;
+        }
+        
+        .target-key {
+            color: #00f3ff; /* Cyan for contrast */
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 20px;
+        }
+        
+        .canvas-container {
+            background: #2a000a;
+            border: 2px solid #ff2a6d;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        
+        canvas {
+            display: block;
+            width: 100%;
+            background: #1a0005;
+            border-radius: 5px;
+        }
+        
+        .log-container {
+            background: #2a000a;
+            border: 2px solid #ff2a6d;
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .log-container h3 {
+            color: #ff2a6d;
+            margin-bottom: 10px;
+            position: sticky;
+            top: 0;
+            background: #2a000a;
+            padding-bottom: 10px;
+        }
+        
+        .log-entry {
+            padding: 8px;
+            margin-bottom: 5px;
+            border-left: 3px solid #ff2a6d;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+        
+        .log-spawn {
+            border-left-color: #ff2a6d;
+            color: #ff2a6d;
+        }
+        
+        .log-bond {
+            border-left-color: #ff8a8a;
+            color: #ff8a8a;
+        }
+        
+        .log-dissipate {
+            border-left-color: #5a1a2a;
+            color: #a05f70;
+        }
+        
+        .log-match {
+            border-left-color: #00f3ff;
+            color: #00f3ff;
+            font-weight: bold;
+            animation: pulse 0.5s ease-in-out;
+        }
+        
+        .log-velocity {
+            border-left-color: #ff8a00;
+            color: #ff8a00;
+            font-weight: bold;
+            animation: velocity-pulse 0.8s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        @keyframes velocity-pulse {
+            0%, 100% { 
+                opacity: 1;
+                background-color: rgba(255, 138, 0, 0.1);
+            }
+            50% { 
+                opacity: 0.7;
+                background-color: rgba(255, 138, 0, 0.2);
+            }
+        }
+        
+        .victory {
+            background: #00f3ff;
+            color: #1a0005;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 0 20px rgba(0, 243, 255, 0.7);
+        }
+        
+        .velocity-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 138, 0, 0.1);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.5s;
+            z-index: 100;
+        }
+        
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="velocity-overlay" id="velocityOverlay"></div>
+    
+    <div class="container">
+        <h1>Cyber Node Interaction Synthesizer - RED PROTOCOL</h1>
+        
+        <div class="rules">
+            <h2>RED PROTOCOL - Enhanced Node Dynamics:</h2>
+            <ul>
+                <li>Nodes (red) spawn every 1.5 seconds in dynamic clusters</li>
+                <li>Nodes exhibit erratic high-velocity movement with momentum</li>
+                <li>Collision triggers cryptographic signature synthesis (10-bit)</li>
+                <li>VELOCITY BOOST: After 30 seconds, node velocity increases by 50%</li>
+                <li>FREQUENCY SURGE: After 60 seconds, node spawn rate doubles</li>
+                <li>Verified pairs emit a 10-bit entropy signature (0-1023)</li>
+                <li>Verified pairs auto-purge after 4 seconds to prevent system overload</li>
+                <li>Target signature (0-1023) generated at session initialization</li>
+                <li>Objective: Synthesize the matching signature before system reset!</li>
+            </ul>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn" onclick="startGame()">Initiate Node System</button>
+            <button id="resetBtn" onclick="resetGame()" disabled>System Reset</button>
+        </div>
+        
+        <div class="info-panel">
+            <div class="info-box">
+                <div class="info-label">Target Signature</div>
+                <div class="info-value target-key" id="targetKey">-</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Active Nodes</div>
+                <div class="info-value" id="activeNodes">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Signatures Synthesized</div>
+                <div class="info-value" id="bondsCreated">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">System Uptime</div>
+                <div class="info-value" id="elapsedTime">0s</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Velocity Mode</div>
+                <div class="info-value" id="velocityMode">NORMAL</div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="canvas-container">
+                <canvas id="canvas" width="800" height="600"></canvas>
+            </div>
+            
+            <div class="log-container">
+                <h3>System Log</h3>
+                <div id="log"></div>
+            </div>
+        </div>
+        
+        <div id="victory" style="display: none;"></div>
+    </div>
+    
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let gameActive = false;
+        let nodes = [];
+        let targetKey = 0;
+        let bondsCreated = 0;
+        let startTime = 0;
+        let spawnInterval = null;
+        let animationFrame = null;
+        let lastTime = 0;
+        let eventLog = [];
+        let velocityMode = 'NORMAL';
+        let velocityMultiplier = 1.0;
+        let spawnRateMultiplier = 1.0;
+        
+        // Enhanced parameters for RED PROTOCOL
+        const BASE_SPAWN_INTERVAL = 1500;
+        const NODES_PER_SPAWN = 3;
+        const MIN_VELOCITY = 2;
+        const MAX_VELOCITY = 6;
+        const DISSIPATE_TIME = 4000;
+        const SPAWN_PAUSE = 500;
+        const VELOCITY_BOOST_TIME = 30000; // 30 seconds
+        const FREQUENCY_SURGE_TIME = 60000; // 60 seconds
+        
+        class Node {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.vx = (Math.random() - 0.5) * (MAX_VELOCITY - MIN_VELOCITY) * velocityMultiplier + 
+                          (Math.random() < 0.5 ? MIN_VELOCITY * velocityMultiplier : -MIN_VELOCITY * velocityMultiplier);
+                this.vy = (Math.random() - 0.5) * (MAX_VELOCITY - MIN_VELOCITY) * velocityMultiplier + 
+                          (Math.random() < 0.5 ? MIN_VELOCITY * velocityMultiplier : -MIN_VELOCITY * velocityMultiplier);
+                this.radius = 15;
+                this.targetRadius = 15;
+                this.currentRadius = 0;
+                this.state = 'red'; // red, verified
+                this.bondPartner = null;
+                this.code = null;
+                this.dissipateTime = null;
+                this.id = Date.now() + Math.random();
+                this.spawnTime = Date.now();
+                this.canMove = false;
+                this.spawnComplete = false;
+                this.momentum = Math.random() * 0.05 + 0.95; // Slight momentum effect
+            }
+            
+            update() {
+                const now = Date.now();
+                const timeSinceSpawn = now - this.spawnTime;
+                
+                if (!this.spawnComplete) {
+                    if (timeSinceSpawn < 200) {
+                        this.currentRadius = (timeSinceSpawn / 200) * this.targetRadius;
+                    } else if (timeSinceSpawn < 200 + SPAWN_PAUSE) {
+                        this.currentRadius = this.targetRadius;
+                        this.canMove = false;
+                    } else {
+                        this.currentRadius = this.targetRadius;
+                        this.canMove = true;
+                        this.spawnComplete = true;
+                    }
+                    return;
+                }
+                
+                if (this.state === 'verified' || !this.canMove) return;
+                
+                // Apply momentum to movement
+                this.vx *= this.momentum;
+                this.vy *= this.momentum;
+                
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                if (this.x - this.radius < 0 || this.x + this.radius > canvas.width) {
+                    this.vx *= -1;
+                    this.x = Math.max(this.radius, Math.min(canvas.width - this.radius, this.x));
+                }
+                if (this.y - this.radius < 0 || this.y + this.radius > canvas.height) {
+                    this.vy *= -1;
+                    this.y = Math.max(this.radius, Math.min(canvas.height - this.radius, this.y));
+                }
+            }
+            
+            draw() {
+                const drawRadius = this.spawnComplete ? this.radius : this.currentRadius;
+                
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, drawRadius, 0, Math.PI * 2);
+                ctx.fillStyle = this.state === 'red' ? '#ff2a6d' : '#ff8a8a';
+                ctx.fill();
+                ctx.strokeStyle = this.state === 'red' ? '#ff1a5d' : '#ff7a7a';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                
+                if (this.code !== null && this.spawnComplete) {
+                    ctx.fillStyle = '#1a0005';
+                    ctx.font = 'bold 10px Courier New';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText(this.code, this.x, this.y);
+                }
+            }
+            
+            distanceTo(other) {
+                const dx = this.x - other.x;
+                const dy = this.y - other.y;
+                return Math.sqrt(dx * dx + dy * dy);
+            }
+        }
+        
+        function startGame() {
+            gameActive = true;
+            nodes = [];
+            bondsCreated = 0;
+            startTime = Date.now();
+            targetKey = Math.floor(Math.random() * 1024); // 0-1023 (10-bit space)
+            eventLog = [];
+            velocityMode = 'NORMAL';
+            velocityMultiplier = 1.0;
+            spawnRateMultiplier = 1.0;
+            
+            document.getElementById('startBtn').disabled = true;
+            document.getElementById('resetBtn').disabled = false;
+            document.getElementById('targetKey').textContent = targetKey;
+            document.getElementById('victory').style.display = 'none';
+            document.getElementById('velocityMode').textContent = velocityMode;
+            document.getElementById('velocityMode').style.color = '#ff2a6d';
+            document.getElementById('velocityOverlay').style.opacity = '0';
+            
+            clearLog();
+            addLog(`RED PROTOCOL initiated. Target signature: ${targetKey}`, 'spawn');
+            
+            spawnInterval = setInterval(spawnNodes, BASE_SPAWN_INTERVAL / spawnRateMultiplier);
+            spawnNodes();
+            
+            lastTime = Date.now();
+            animate();
+        }
+        
+        function resetGame() {
+            gameActive = false;
+            nodes = [];
+            bondsCreated = 0;
+            
+            if (spawnInterval) clearInterval(spawnInterval);
+            if (animationFrame) cancelAnimationFrame(animationFrame);
+            
+            document.getElementById('startBtn').disabled = false;
+            document.getElementById('resetBtn').disabled = true;
+            document.getElementById('activeNodes').textContent = '0';
+            document.getElementById('bondsCreated').textContent = '0';
+            document.getElementById('elapsedTime').textContent = '0s';
+            document.getElementById('targetKey').textContent = '-';
+            document.getElementById('velocityMode').textContent = 'NORMAL';
+            document.getElementById('velocityOverlay').style.opacity = '0';
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+        
+        function updateVelocityMode(elapsed) {
+            let newVelocityMode = 'NORMAL';
+            let newVelocityMultiplier = 1.0;
+            let newSpawnRateMultiplier = 1.0;
+            let overlayOpacity = '0';
+            
+            if (elapsed >= FREQUENCY_SURGE_TIME) {
+                newVelocityMode = 'FREQUENCY SURGE';
+                newVelocityMultiplier = 1.5;
+                newSpawnRateMultiplier = 2.0;
+                overlayOpacity = '0.3';
+            } else if (elapsed >= VELOCITY_BOOST_TIME) {
+                newVelocityMode = 'VELOCITY BOOST';
+                newVelocityMultiplier = 1.5;
+                newSpawnRateMultiplier = 1.0;
+                overlayOpacity = '0.15';
+            }
+            
+            if (newVelocityMode !== velocityMode) {
+                velocityMode = newVelocityMode;
+                velocityMultiplier = newVelocityMultiplier;
+                spawnRateMultiplier = newSpawnRateMultiplier;
+                
+                document.getElementById('velocityMode').textContent = velocityMode;
+                document.getElementById('velocityOverlay').style.opacity = overlayOpacity;
+                
+                if (velocityMode === 'VELOCITY BOOST') {
+                    document.getElementById('velocityMode').style.color = '#ff8a00';
+                    addLog(`SYSTEM: Velocity Boost activated - Node velocity increased`, 'velocity');
+                } else if (velocityMode === 'FREQUENCY SURGE') {
+                    document.getElementById('velocityMode').style.color = '#ff0000';
+                    addLog(`SYSTEM: Frequency Surge activated - Node spawn rate doubled`, 'velocity');
+                    
+                    // Update spawn interval for frequency surge
+                    clearInterval(spawnInterval);
+                    spawnInterval = setInterval(spawnNodes, BASE_SPAWN_INTERVAL / spawnRateMultiplier);
+                }
+            }
+        }
+        
+        function spawnNodes() {
+            if (!gameActive) return;
+            
+            for (let i = 0; i < NODES_PER_SPAWN; i++) {
+                const x = Math.random() * (canvas.width - 60) + 30;
+                const y = Math.random() * (canvas.height - 60) + 30;
+                const node = new Node(x, y);
+                nodes.push(node);
+                
+                addLog(`Node spawned at (${Math.floor(x)}, ${Math.floor(y)})`, 'spawn');
+            }
+        }
+        
+        function checkCollisions() {
+            for (let i = 0; i < nodes.length; i++) {
+                if (nodes[i].state !== 'red') continue;
+                
+                for (let j = i + 1; j < nodes.length; j++) {
+                    if (nodes[j].state !== 'red') continue;
+                    
+                    const distance = nodes[i].distanceTo(nodes[j]);
+                    if (distance < nodes[i].radius + nodes[j].radius) {
+                        createBond(nodes[i], nodes[j]);
+                    }
+                }
+            }
+        }
+        
+        function createBond(node1, node2) {
+            const code = Math.floor(Math.random() * 1024); // 0-1023
+            
+            node1.state = 'verified';
+            node2.state = 'verified';
+            node1.bondPartner = node2;
+            node2.bondPartner = node1;
+            node1.code = code;
+            node2.code = code;
+            node1.dissipateTime = Date.now() + DISSIPATE_TIME;
+            node2.dissipateTime = Date.now() + DISSIPATE_TIME;
+            
+            bondsCreated++;
+            
+            addLog(`Signature synthesized: ${code}`, 'bond');
+            
+            if (code === targetKey) {
+                addLog(`MATCH: Signature ${code} matches target ${targetKey}!`, 'match');
+                endGame(true);
+            }
+        }
+        
+        function checkDissipation() {
+            const now = Date.now();
+            const nodesToRemove = [];
+            
+            for (let i = nodes.length - 1; i >= 0; i--) {
+                const node = nodes[i];
+                if (node.dissipateTime && now >= node.dissipateTime) {
+                    nodesToRemove.push(node);
+                }
+            }
+            
+            for (const node of nodesToRemove) {
+                const index = nodes.indexOf(node);
+                if (index > -1) {
+                    nodes.splice(index, 1);
+                    addLog(`Verified node purged (signature: ${node.code})`, 'dissipate');
+                }
+            }
+        }
+        
+        function animate() {
+            if (!gameActive) return;
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            for (const node of nodes) {
+                node.update();
+                node.draw();
+            }
+            
+            checkCollisions();
+            checkDissipation();
+            
+            document.getElementById('activeNodes').textContent = nodes.length;
+            document.getElementById('bondsCreated').textContent = bondsCreated;
+            
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            document.getElementById('elapsedTime').textContent = elapsed + 's';
+            
+            // Update velocity mode based on elapsed time
+            updateVelocityMode(Date.now() - startTime);
+            
+            animationFrame = requestAnimationFrame(animate);
+        }
+        
+        function endGame(victory) {
+            gameActive = false;
+            if (spawnInterval) clearInterval(spawnInterval);
+            
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            
+            if (victory) {
+                const victoryEl = document.getElementById('victory');
+                victoryEl.textContent = `Success! Signature ${targetKey} synthesized in ${elapsed} seconds with ${bondsCreated} interactions.`;
+                victoryEl.style.display = 'block';
+                
+                generateLogFile(elapsed);
+            }
+            
+            document.getElementById('startBtn').disabled = false;
+        }
+        
+        function sha256(str) {
+            // Simple SHA-256 implementation for log integrity (client-side only)
+            function rightRotate(value, amount) {
+                return (value >>> amount) | (value << (32 - amount));
+            }
+            var mathPow = Math.pow;
+            var maxWord = mathPow(2, 32);
+            var lengthProperty = 'length';
+            var i, j;
+            var result = '';
+            var words = [];
+            var asciiBitLength = str[lengthProperty] * 8;
+            var hash = [1779033703, -1150833019, 1013904242, -1521486534, 1359893119, -1694144372, 528734635, 1541459225];
+            var k = [1116352408, 1899447441, -1245643825, -373957723, 961987163, 1508970993, -1841331548, -1424204075, -670586216, 310598401, 607225278, 1426881987, 1925078388, -2132889090, -1680079193, -1046744716, -459576895, -272742522, 264347078, 604807628, 770255983, 1249150122, 1555081692, 1996064986, -1740746414, -1473132947, -1068893644, -901803336, -603871799, -205520732, 207755599, 373837392, 643717713, 1139269931, 1390639923, 1697912640, 1926607734, 1942901346, 1957291008, 2073368354, 2087286085, -1989151280, -1912025921, -1763595131, -1525463700, -1367737340, -1238629855, -1033527395, -925374840, -778901479, -694614492, -200395387, 275423344, 430227734, 506948616, 659060556, 883997877, 958139571, 1322822218, 1537002063, 1747873779, 1955562222, 2024104815, 2227730452, 2361852424, 2428436474, 2756734187, 3204031479, 3329325298];
+            str = str + String.fromCharCode(128);
+            var bitLength = str[lengthProperty] * 8;
+            while ((str[lengthProperty] % 64) - 56) str += String.fromCharCode(0);
+            for (i = str[lengthProperty] - 1; i >= 0; i--) {
+                words[j = (i / 4) | 0] |= str.charCodeAt(i) << (8 * (3 - i % 4));
+            }
+            words[words[lengthProperty]] = (asciiBitLength / maxWord) | 0;
+            words[words[lengthProperty]] = asciiBitLength;
+            for (j = 0; j < words[lengthProperty];) {
+                var w = words.slice(j, j += 16);
+                var oldHash = hash;
+                for (i = 0; i < 64; i++) {
+                    var s0 = rightRotate(w[i - 15], 7) ^ rightRotate(w[i - 15], 18) ^ (w[i - 15] >>> 3);
+                    var s1 = rightRotate(w[i - 2], 17) ^ rightRotate(w[i - 2], 19) ^ (w[i - 2] >>> 10);
+                    w[i] = (w[i - 16] + s0 + w[i - 7] + s1) | 0;
+                    var t1 = (hash[7] + (rightRotate(hash[4], 6) ^ rightRotate(hash[4], 11) ^ rightRotate(hash[4], 25)) + ((hash[4] & hash[5]) ^ (~hash[4] & hash[6])) + k[i] + w[i]) | 0;
+                    var t2 = ((rightRotate(hash[0], 2) ^ rightRotate(hash[0], 13) ^ rightRotate(hash[0], 22)) + ((hash[0] & hash[1]) ^ (hash[0] & hash[2]) ^ (hash[1] & hash[2]))) | 0;
+                    hash = [(t1 + t2) | 0].concat(hash.slice(0, 7));
+                    hash[4] = (hash[4] + t1) | 0;
+                }
+                for (i = 0; i < 8; i++) hash[i] = (hash[i] + oldHash[i]) | 0;
+            }
+            for (i = 0; i < 8; i++) {
+                for (j = 3; j >= 0; j--) {
+                    result += ((hash[i] >> (j * 8)) & 255).toString(16).padStart(2, '0');
+                }
+            }
+            return result;
+        }
+
+        function generateLogFile(elapsed) {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const milliseconds = String(now.getMilliseconds()).padStart(3, '0');
+            
+            const timestamp = `${year}${month}${day}_${hours}${minutes}${seconds}_${milliseconds}`;
+            const filename = `node_interaction_red_log_${timestamp}.txt`;
+            
+            let content = '';
+            content += '═══════════════════════════════════════════════════════════════\n';
+            content += '        CYBER NODE INTERACTION SYNTHESIZER - RED PROTOCOL LOG\n';
+            content += '═══════════════════════════════════════════════════════════════\n\n';
+            
+            content += 'RED PROTOCOL - ENHANCED NODE DYNAMICS:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += '1. Nodes spawn in dynamic clusters every 1.5 seconds\n';
+            content += '2. Nodes exhibit high-entropy movement with momentum vectors\n';
+            content += '3. Collision triggers cryptographic signature synthesis (10-bit)\n';
+            content += '4. VELOCITY BOOST: After 30 seconds, node velocity increases by 50%\n';
+            content += '5. FREQUENCY SURGE: After 60 seconds, node spawn rate doubles\n';
+            content += '6. Verified pairs emit entropy signature (0-1023)\n';
+            content += '7. Auto-purge after 4 seconds to prevent system overload\n';
+            content += '8. System terminates upon signature match\n';
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += 'SESSION METRICS:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += `Session Timestamp: ${new Date().toISOString()}\n`;
+            content += `Target Signature: ${targetKey}\n`;
+            content += `Total Runtime: ${elapsed} seconds\n`;
+            content += `Signatures Synthesized: ${bondsCreated}\n`;
+            content += `Nodes Spawned: ${eventLog.filter(e => e.type === 'spawn').length}\n`;
+            content += `Final Velocity Mode: ${velocityMode}\n`;
+            content += `Interaction Efficiency: ${(100 / bondsCreated).toFixed(2)}% per synthesis\n`;
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += 'SYSTEM EVENT STREAM:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            eventLog.forEach(event => {
+                content += `[${event.timestamp}] ${event.message}\n`;
+            });
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += 'SESSION CONCLUSION:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += `Target signature ${targetKey} successfully synthesized after\n`;
+            content += `${elapsed} seconds with ${bondsCreated} node interactions.\n`;
+            content += `Final velocity mode: ${velocityMode}\n`;
+            content += 'System performance optimal. All nodes processed successfully.\n';
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            // Generate integrity hash
+            const logHash = sha256(content);
+            content += 'INTEGRITY VERIFICATION:\n';
+            content += '───────────────────────────────────────────────────────────────\n';
+            content += `SHA-256 Hash: ${logHash}\n`;
+            content += 'This hash validates the authenticity of this log file.\n';
+            content += '───────────────────────────────────────────────────────────────\n\n';
+            
+            content += '═══════════════════════════════════════════════════════════════\n';
+            content += '                    END OF SYSTEM LOG\n';
+            content += '═══════════════════════════════════════════════════════════════\n';
+            
+            // Create and download the file
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            addLog(`System log archived: ${filename}`, 'spawn');
+        }
+        
+        function addLog(message, type) {
+            const logDiv = document.getElementById('log');
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            
+            const time = new Date().toLocaleTimeString();
+            entry.textContent = `[${time}] ${message}`;
+            
+            eventLog.push({
+                timestamp: time,
+                message: message,
+                type: type
+            });
+            
+            logDiv.insertBefore(entry, logDiv.firstChild);
+            
+            if (logDiv.children.length > 100) {
+                logDiv.removeChild(logDiv.lastChild);
+            }
+        }
+        
+        function clearLog() {
+            document.getElementById('log').innerHTML = '';
+        }
+    </script>
+</body>
+</html>
