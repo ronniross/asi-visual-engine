@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbiotic Core Network</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #1a1a1a;
+            color: #cccccc;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+            min-height: 100vh;
+            overflow: hidden; /* Prevent scrollbars from canvas content */
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #00ff00;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        button {
+            background: #00ff00;
+            color: #1a1a1a;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+        }
+        
+        button:hover {
+            background: #66ff66;
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+        }
+        
+        #stigmergyBtn.active {
+            background: #ffae42; /* Orange color when active */
+            color: #1a1a1a;
+            box-shadow: 0 0 30px rgba(255, 174, 66, 0.6);
+        }
+
+        #spawnFoodBtn {
+            background: #42aaff;
+        }
+
+        #spawnFoodBtn:hover {
+            background: #66c2ff;
+        }
+
+        /* Styles for the new bulk spawn buttons */
+        #bulk-spawn-controls {
+            margin-top: 10px;
+        }
+        .bulk-spawn-btn {
+            background: #c300ff;
+            color: #ffffff;
+            font-weight: bold;
+            box-shadow: 0 0 20px rgba(195, 0, 255, 0.4);
+        }
+        .bulk-spawn-btn:hover {
+            background: #d660ff;
+            box-shadow: 0 0 30px rgba(195, 0, 255, 0.6);
+        }
+        
+        .swarm-controls {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .swarm-btn {
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+        
+        .info-panel {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .info-box {
+            background: #2a2a2a;
+            border: 2px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+        }
+        
+        .info-label {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .info-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #00ff00;
+        }
+        
+        .canvas-container {
+            background: #2a2a2a;
+            border: 2px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 10px;
+            position: relative; /* Needed for positioning the model panel */
+        }
+        
+        canvas {
+            display: block;
+            width: 100%;
+            background: #1a1a1a;
+            border-radius: 5px;
+        }
+
+        #model-controls {
+            position: absolute;
+            background: rgba(30, 30, 30, 0.9);
+            border: 2px solid #00ff00;
+            border-radius: 8px;
+            padding: 15px;
+            width: 250px;
+            display: none; /* Hidden by default */
+            flex-direction: column;
+            gap: 12px;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+            transition: opacity 0.3s;
+        }
+
+        #model-controls h3 {
+            color: #00ff00;
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .control-group label {
+            color: #888;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .control-group input[type="range"] {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 5px;
+            background: #444;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .control-group input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 15px;
+            height: 15px;
+            background: #00ff00;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+        
+        .control-group input[type="color"] {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 30px;
+            border: 1px solid #444;
+            border-radius: 4px;
+            background: #2a2a2a;
+            cursor: pointer;
+            padding: 0;
+        }
+        .control-group input[type="color"]::-webkit-color-swatch-wrapper {
+            padding: 0;
+        }
+        .control-group input[type="color"]::-webkit-color-swatch {
+            border: none;
+            border-radius: 3px;
+        }
+        
+        #delete-btn {
+            background: #ff3b30;
+            color: #fff;
+        }
+
+        #delete-btn:hover {
+            background: #ff6347;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Symbiotic Core Network</h1>
+        
+        <div class="controls">
+            <button id="spawnBtn">Spawn Model</button>
+            <button id="clearBtn">Clear Network</button>
+            <button id="toggleLinksBtn">Toggle Links</button>
+            <button id="pulseBtn">Pulse Network</button>
+            <button id="stigmergyBtn">Stigmergy</button>
+            <button id="spawnFoodBtn" style="display: none;">Spawn New Food Source</button>
+        </div>
+
+        <div class="controls" id="bulk-spawn-controls" style="display: none;">
+            <button id="spawn5Btn" class="bulk-spawn-btn">Spawn 5</button>
+            <button id="spawn25Btn" class="bulk-spawn-btn">Spawn 25</button>
+            <button id="spawn50Btn" class="bulk-spawn-btn">Spawn 50</button>
+            <button id="spawn75Btn" class="bulk-spawn-btn">Spawn 75</button>
+            <button id="spawn100Btn" class="bulk-spawn-btn">Spawn 100</button>
+        </div>
+        
+        <div class="swarm-controls">
+            <button class="swarm-btn" id="circleBtn">Circle</button>
+            <button class="swarm-btn" id="chaoticBtn">Chaotic</button>
+            <button class="swarm-btn" id="convergentBtn">Converge</button>
+            <button class="swarm-btn" id="repelBtn">Repel</button>
+            <button class="swarm-btn" id="triangularBtn">Triangle</button>
+            <button class="swarm-btn" id="gridBtn">Grid</button>
+            <button class="swarm-btn" id="clusterBtn">Cluster</button>
+            <button class="swarm-btn" id="stopBtn">Stop</button>
+        </div>
+        
+        <div class="info-panel">
+            <div class="info-box">
+                <div class="info-label">Total OS Models Connected</div>
+                <div class="info-value" id="totalModels">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Current Swarm Mode</div>
+                <div class="info-value" id="swarmMode">None</div>
+            </div>
+        </div>
+        
+        <div class="canvas-container">
+            <canvas id="canvas" width="1200" height="600"></canvas>
+            
+            <div id="model-controls">
+                <h3 id="model-title">Model Controls</h3>
+                <div class="control-group">
+                    <label for="speed-slider">Speed</label>
+                    <input type="range" id="speed-slider" min="0.1" max="5" step="0.1">
+                </div>
+                <div class="control-group">
+                    <label for="color-picker">Color</label>
+                    <input type="color" id="color-picker" value="#00ff00">
+                </div>
+                <button id="delete-btn">Delete Model</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // --- UI Elements ---
+        const spawnBtn = document.getElementById('spawnBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const toggleLinksBtn = document.getElementById('toggleLinksBtn');
+        const pulseBtn = document.getElementById('pulseBtn');
+        const stigmergyBtn = document.getElementById('stigmergyBtn');
+        const spawnFoodBtn = document.getElementById('spawnFoodBtn');
+        const totalModelsDisplay = document.getElementById('totalModels');
+        const swarmModeDisplay = document.getElementById('swarmMode');
+        const modelControlsPanel = document.getElementById('model-controls');
+        const modelTitle = document.getElementById('model-title');
+        const speedSlider = document.getElementById('speed-slider');
+        const colorPicker = document.getElementById('color-picker');
+        const deleteBtn = document.getElementById('delete-btn');
+        const swarmButtons = document.querySelectorAll('.swarm-btn');
+        // NEW: UI Elements for bulk spawning
+        const bulkSpawnControls = document.getElementById('bulk-spawn-controls');
+        const spawn5Btn = document.getElementById('spawn5Btn');
+        const spawn25Btn = document.getElementById('spawn25Btn');
+        const spawn50Btn = document.getElementById('spawn50Btn');
+        const spawn75Btn = document.getElementById('spawn75Btn');
+        const spawn100Btn = document.getElementById('spawn100Btn');
+
+        let models = [];
+        let selectedModel = null;
+        let modelIdCounter = 0;
+        
+        // --- Swarm & Visual Control Variables ---
+        let swarmMode = 'none';
+        let mouseX = canvas.width / 2;
+        let mouseY = canvas.height / 2;
+        let circleCenterX = canvas.width / 2;
+        let circleCenterY = canvas.height / 2;
+        let circleRadius = 150;
+        let circleAngleOffset = 0;
+        let triangleCenterX = canvas.width / 2;
+        let triangleCenterY = canvas.height / 2;
+        let triangleSize = 120;
+        let linksVisible = true;
+        let linkDistance = 150;
+        let pulseEndTime = 0;
+        // NEW: Array to track resource exchange links for visualization
+        let flashingLinks = [];
+        const clusterCenters = [
+            { x: canvas.width * 0.25, y: canvas.height * 0.25 },
+            { x: canvas.width * 0.75, y: canvas.height * 0.25 },
+            { x: canvas.width * 0.25, y: canvas.height * 0.75 },
+            { x: canvas.width * 0.75, y: canvas.height * 0.75 },
+            { x: canvas.width * 0.50, y: canvas.height * 0.50 }
+        ];
+
+        // --- Stigmergy Mode Variables ---
+        let stigmergyActive = false;
+        let stigmergyLog = [];
+        let foodItems = [];
+        const MAX_ENERGY = 200;
+        const INITIAL_ENERGY = 50;
+        const FOOD_COUNT = 20;
+        const ENERGY_PER_FOOD = 1; // Each food item grants 1 energy
+        const INTERACTION_FOOD_EXCHANGE = 1; // Exchange 1 energy per interaction
+        const ENERGY_DEPLETION_AMOUNT = 1; // How much energy is lost
+        const ENERGY_DEPLETION_INTERVAL = 3000; // Every 3 seconds
+        let lastEnergyDepletionTime = 0;
+
+        // NEW: Variables for bulk spawn button activation
+        let spawnClickCount = 0;
+        let spawnClickTimer = null;
+        const SPAM_CLICK_THRESHOLD = 5;
+        const SPAM_CLICK_WINDOW = 2000; // 2 seconds
+        
+        // --- Food Class ---
+        class Food {
+            constructor() {
+                this.respawn();
+                this.size = 5;
+                this.rotation = 0;
+                this.rotationSpeed = (Math.random() - 0.5) * 0.1;
+                this.flicker = 1;
+                this.flickerSpeed = 0.1;
+                this.color = `hsl(${Math.random() * 360}, 100%, 70%)`;
+            }
+
+            respawn() {
+                this.x = Math.random() * (canvas.width - 20) + 10;
+                this.y = Math.random() * (canvas.height - 20) + 10;
+            }
+
+            draw() {
+                this.rotation += this.rotationSpeed;
+                this.flicker += this.flickerSpeed;
+                if (this.flicker > 1 || this.flicker < 0.2) this.flickerSpeed *= -1;
+
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                ctx.rotate(this.rotation);
+                
+                ctx.beginPath();
+                ctx.moveTo(0, -this.size);
+                ctx.lineTo(this.size, this.size);
+                ctx.lineTo(-this.size, this.size);
+                ctx.closePath();
+                
+                ctx.fillStyle = this.color;
+                ctx.globalAlpha = this.flicker;
+                ctx.fill();
+                
+                ctx.restore();
+                ctx.globalAlpha = 1;
+            }
+        }
+
+        // --- Model Class ---
+        class Model {
+            constructor(id, x, y) {
+                this.id = id;
+                this.x = x;
+                this.y = y;
+                this.radius = 12;
+                this.speed = Math.random() * 1.5 + 0.5;
+                this.color = '#00ff00';
+                
+                const angle = Math.random() * Math.PI * 2;
+                this.dx = Math.cos(angle);
+                this.dy = Math.sin(angle);
+                
+                this.targetX = x;
+                this.targetY = y;
+                this.swarmSpeed = 0.03;
+                this.chaoticCounter = Math.random() * 100;
+
+                this.clusterOffsetX = null;
+                this.clusterOffsetY = null;
+
+                // Stigmergy properties
+                this.energy = MAX_ENERGY;
+                this.closestFood = null;
+            }
+
+            update() {
+                if (stigmergyActive) {
+                    this.seekClosestFood();
+                } else if (swarmMode !== 'none') {
+                    this.applySwarmBehavior();
+                } else {
+                    this.x += this.dx * this.speed;
+                    this.y += this.dy * this.speed;
+                    if (this.x - this.radius < 0 || this.x + this.radius > canvas.width) this.dx *= -1;
+                    if (this.y - this.radius < 0 || this.y + this.radius > canvas.height) this.dy *= -1;
+                }
+            }
+            
+            seekClosestFood() {
+                if (foodItems.length === 0) return;
+
+                let minDistance = Infinity;
+                let targetFood = null;
+
+                foodItems.forEach(food => {
+                    const distance = Math.sqrt((this.x - food.x)**2 + (this.y - food.y)**2);
+                    if (distance < minDistance) {
+                        minDistance = distance;
+                        targetFood = food;
+                    }
+                });
+                
+                if (targetFood) {
+                    const angle = Math.atan2(targetFood.y - this.y, targetFood.x - this.x);
+                    this.x += Math.cos(angle) * this.speed;
+                    this.y += Math.sin(angle) * this.speed;
+                }
+            }
+
+            applySwarmBehavior() {
+                switch(swarmMode) {
+                    case 'circle': this.moveInCircle(); break;
+                    case 'chaotic': this.moveChaotically(); break;
+                    case 'convergent': this.moveToMouse(); break;
+                    case 'repel': this.repelFromMouse(); break;
+                    case 'triangular': this.moveInTriangle(); break;
+                    case 'grid': this.moveInGrid(); break;
+                    case 'cluster': this.moveInCluster(); break;
+                }
+            }
+            
+            moveInCircle() {
+                const angle = (this.id / models.length) * Math.PI * 2 + circleAngleOffset;
+                this.targetX = circleCenterX + Math.cos(angle) * circleRadius;
+                this.targetY = circleCenterY + Math.sin(angle) * circleRadius;
+                this.x += (this.targetX - this.x) * this.swarmSpeed;
+                this.y += (this.targetY - this.y) * this.swarmSpeed;
+            }
+            
+            moveChaotically() {
+                this.chaoticCounter += 0.05;
+                this.x += Math.sin(this.chaoticCounter * 0.5 + this.id) * 2;
+                this.y += Math.cos(this.chaoticCounter * 0.7 + this.id) * 2;
+                // Boundary checks
+                if (this.x < this.radius) this.x = this.radius;
+                if (this.x > canvas.width - this.radius) this.x = canvas.width - this.radius;
+                if (this.y < this.radius) this.y = this.radius;
+                if (this.y > canvas.height - this.radius) this.y = canvas.height - this.radius;
+            }
+            
+            moveToMouse() {
+                this.targetX = mouseX; this.targetY = mouseY;
+                const randomOffsetX = (Math.random() - 0.5) * 20;
+                const randomOffsetY = (Math.random() - 0.5) * 20;
+                this.x += (this.targetX + randomOffsetX - this.x) * this.swarmSpeed;
+                this.y += (this.targetY + randomOffsetY - this.y) * this.swarmSpeed;
+            }
+
+            repelFromMouse() {
+                const repelRadius = 150; const repelStrength = 3;
+                const distanceX = this.x - mouseX; const distanceY = this.y - mouseY;
+                const distance = Math.sqrt(distanceX * distanceX + distanceY * distanceY);
+                if (distance < repelRadius) {
+                    const force = (repelRadius - distance) / repelRadius * repelStrength;
+                    this.x += (distanceX / distance) * force; this.y += (distanceY / distance) * force;
+                } else { this.x += this.dx * 0.2; this.y += this.dy * 0.2; }
+                if (this.x < this.radius) { this.x = this.radius; this.dx *= -1; }
+                if (this.x > canvas.width - this.radius) { this.x = canvas.width - this.radius; this.dx *= -1; }
+                if (this.y < this.radius) { this.y = this.radius; this.dy *= -1; }
+                if (this.y > canvas.height - this.radius) { this.y = canvas.height - this.radius; this.dy *= -1; }
+            }
+            
+            moveInTriangle() {
+                const pointIndex = this.id % 3;
+                const angle = (pointIndex / 3) * Math.PI * 2 - Math.PI / 2;
+                this.targetX = triangleCenterX + Math.cos(angle) * triangleSize;
+                this.targetY = triangleCenterY + Math.sin(angle) * triangleSize;
+                const offsetX = (Math.random() - 0.5) * 30;
+                const offsetY = (Math.random() - 0.5) * 30;
+                this.x += (this.targetX + offsetX - this.x) * this.swarmSpeed;
+                this.y += (this.targetY + offsetY - this.y) * this.swarmSpeed;
+            }
+
+            moveInGrid() {
+                if (models.length === 0) return;
+                const padding = 80;
+                const areaWidth = canvas.width - padding * 2; const areaHeight = canvas.height - padding * 2;
+                const numModels = models.length;
+                let cols = Math.ceil(Math.sqrt(numModels * (areaWidth / areaHeight)));
+                let rows = Math.ceil(numModels / cols);
+                const cellWidth = cols > 1 ? areaWidth / (cols -1) : areaWidth;
+                const cellHeight = rows > 1 ? areaHeight / (rows -1) : areaHeight;
+                const modelIndex = models.findIndex(m => m.id === this.id);
+                const col = modelIndex % cols;
+                const row = Math.floor(modelIndex / cols);
+                this.targetX = padding + col * cellWidth; this.targetY = padding + row * cellHeight;
+                this.x += (this.targetX - this.x) * this.swarmSpeed;
+                this.y += (this.targetY - this.y) * this.swarmSpeed;
+            }
+
+            moveInCluster() {
+                const numClusters = Math.min(clusterCenters.length, Math.max(1, Math.ceil(models.length / 5)));
+                const clusterIndex = (this.id - 1) % numClusters;
+                const clusterCenter = clusterCenters[clusterIndex];
+                const clusterRadius = 80;
+                if (this.clusterOffsetX === null) {
+                    this.clusterOffsetX = (Math.random() - 0.5) * clusterRadius * 2;
+                    this.clusterOffsetY = (Math.random() - 0.5) * clusterRadius * 2;
+                }
+                this.targetX = clusterCenter.x + this.clusterOffsetX;
+                this.targetY = clusterCenter.y + this.clusterOffsetY;
+                this.x += (this.targetX - this.x) * this.swarmSpeed;
+                this.y += (this.targetY - this.y) * this.swarmSpeed;
+            }
+
+            draw() {
+                let currentRadius = this.radius;
+                // Pulse effect
+                if (performance.now() < pulseEndTime) {
+                    const pulseDuration = 500;
+                    const timeSincePulseStart = pulseEndTime - performance.now();
+                    const pulseProgress = timeSincePulseStart / pulseDuration;
+                    currentRadius += Math.sin(pulseProgress * Math.PI) * 5;
+                }
+
+                // Selection highlight
+                if (selectedModel === this) {
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, currentRadius + 5, 0, Math.PI * 2);
+                    ctx.strokeStyle = 'rgba(0, 255, 0, 0.7)';
+                    ctx.lineWidth = 3;
+                    ctx.stroke();
+                }
+
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, currentRadius, 0, Math.PI * 2);
+                
+                // Set fill style based on energy in stigmergy mode
+                if (stigmergyActive) {
+                    let hue;
+                    const saturation = '100%';
+                    let lightness = '50%';
+                    const energy = this.energy;
+
+                    if (energy >= 0 && energy <= 25) {
+                        // Red spectrum (hue 0). Lightness increases with energy.
+                        hue = 0;
+                        lightness = `${30 + (energy / 25) * 20}%`;
+                    } else if (energy >= 26 && energy <= 50) {
+                        // Yellow spectrum. Transition from orange (hue 30) to yellow (hue 60).
+                        const energyInRange = energy - 26; // This gives a 0-24 range
+                        const percentageInRange = energyInRange / 24;
+                        hue = 30 + (percentageInRange * 30); // Hue from 30 to 60
+                    } else { // energy >= 51
+                        // Green (hue 120)
+                        hue = 120;
+                    }
+
+                    ctx.fillStyle = `hsl(${hue}, ${saturation}, ${lightness})`;
+                } else {
+                    ctx.fillStyle = this.color;
+                }
+                
+                ctx.strokeStyle = `rgba(200, 255, 200, 1)`;
+                ctx.lineWidth = 2;
+                ctx.fill();
+                ctx.stroke();
+
+                ctx.fillStyle = '#1a1a1a';
+                ctx.font = `bold ${this.radius}px Courier New`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(this.id, this.x, this.y);
+            }
+            
+            isClicked(mouseX, mouseY) {
+                const distance = Math.sqrt((mouseX - this.x) ** 2 + (mouseY - this.y) ** 2);
+                return distance < this.radius;
+            }
+        }
+        
+        // --- Core Functions ---
+        function spawnModel() {
+            modelIdCounter++;
+            const x = Math.random() * (canvas.width - 80) + 40;
+            const y = Math.random() * (canvas.height - 80) + 40;
+            const newModel = new Model(modelIdCounter, x, y);
+            if (stigmergyActive) {
+                newModel.energy = INITIAL_ENERGY; // Start with initial energy if spawned mid-simulation
+                logEvent(`Node ${newModel.id} spawned with ${newModel.energy} energy.`);
+            }
+            models.push(newModel);
+            updateUI();
+        }
+
+        // NEW: Function to spawn multiple models at once
+        function bulkSpawn(count) {
+            for (let i = 0; i < count; i++) {
+                spawnModel();
+            }
+        }
+
+        function spawnNewFoodSource() {
+            if (stigmergyActive) {
+                foodItems.push(new Food());
+            }
+        }
+
+        function clearNetwork() {
+            models = []; selectedModel = null; modelIdCounter = 0;
+            hideModelControls();
+            if (stigmergyActive) stopStigmergy(false); // Stop stigmergy if active, but don't download log
+            // NEW: Hide bulk spawn controls on clear
+            bulkSpawnControls.style.display = 'none';
+            spawnClickCount = 0;
+            clearTimeout(spawnClickTimer);
+            updateUI();
+        }
+
+        function drawLinks() {
+            if (!linksVisible || models.length < 2) return;
+            for (let i = 0; i < models.length; i++) {
+                for (let j = i + 1; j < models.length; j++) {
+                    const m1 = models[i]; const m2 = models[j];
+                    const distance = Math.sqrt((m1.x - m2.x) ** 2 + (m1.y - m2.y) ** 2);
+                    if (distance < linkDistance) {
+                        ctx.beginPath();
+                        ctx.moveTo(m1.x, m1.y); ctx.lineTo(m2.x, m2.y);
+                        const opacity = 1 - (distance / linkDistance);
+                        ctx.strokeStyle = `rgba(0, 255, 0, ${opacity * 0.5})`;
+                        ctx.lineWidth = 1;
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+
+        // NEW: Function to draw the flashing purple links for resource exchange
+        function drawFlashingLinks() {
+            const currentTime = performance.now();
+            flashingLinks = flashingLinks.filter(link => currentTime < link.endTime); // Remove expired links
+
+            flashingLinks.forEach(link => {
+                const m1 = models.find(m => m.id === link.m1Id);
+                const m2 = models.find(m => m.id === link.m2Id);
+                if (m1 && m2) { // Check if both models still exist
+                    ctx.beginPath();
+                    ctx.moveTo(m1.x, m1.y);
+                    ctx.lineTo(m2.x, m2.y);
+                    ctx.strokeStyle = 'rgba(195, 0, 255, 0.9)'; // Purple color
+                    ctx.lineWidth = 2.5; // Make it thicker to stand out
+                    ctx.stroke();
+                }
+            });
+        }
+        
+        function updateUI() {
+            totalModelsDisplay.textContent = models.length;
+            const modeText = stigmergyActive ? 'Stigmergy' : (swarmMode.charAt(0).toUpperCase() + swarmMode.slice(1));
+            swarmModeDisplay.textContent = modeText;
+        }
+        
+        function setSwarmMode(mode) {
+            if (stigmergyActive) return; // Don't allow swarm mode changes during stigmergy
+            swarmMode = mode;
+            if (mode === 'cluster') {
+                models.forEach(model => { model.clusterOffsetX = null; model.clusterOffsetY = null; });
+            }
+            updateUI();
+            if (mode === 'circle') circleAngleOffset = 0;
+        }
+        
+        function showModelControls(model) {
+            modelControlsPanel.style.display = 'flex';
+            const panelWidth = modelControlsPanel.offsetWidth; const panelHeight = modelControlsPanel.offsetHeight;
+            let panelX = model.x + model.radius + 15;
+            let panelY = model.y - (panelHeight / 2);
+            if (panelX + panelWidth > canvas.width) panelX = model.x - model.radius - panelWidth - 15;
+            if (panelY < 0) panelY = 10;
+            if (panelY + panelHeight > canvas.height) panelY = canvas.height - panelHeight - 10;
+            modelControlsPanel.style.left = `${panelX}px`;
+            modelControlsPanel.style.top = `${panelY}px`;
+            modelTitle.textContent = `Model OS-${model.id}`;
+            speedSlider.value = model.speed; colorPicker.value = model.color;
+        }
+
+        function hideModelControls() { modelControlsPanel.style.display = 'none'; }
+        
+        // --- Stigmergy Functions ---
+        function toggleStigmergy() {
+            if (stigmergyActive) {
+                stopStigmergy(true);
+            } else {
+                startStigmergy();
+            }
+        }
+
+        function startStigmergy() {
+            if (models.length === 0) return; // Don't start with no models
+            stigmergyActive = true;
+            stigmergyBtn.classList.add('active');
+            stigmergyBtn.textContent = 'Stop & Save Log';
+            spawnFoodBtn.style.display = 'inline-block';
+            logEvent('Stigmergy mode started.');
+            swarmMode = 'none'; // Override any existing swarm mode
+            
+            // Disable swarm buttons
+            swarmButtons.forEach(btn => btn.disabled = true);
+            
+            // Initialize food
+            foodItems = [];
+            for (let i = 0; i < FOOD_COUNT; i++) foodItems.push(new Food());
+
+            // Reset model energy
+            models.forEach(m => m.energy = INITIAL_ENERGY);
+            lastEnergyDepletionTime = performance.now();
+            updateUI();
+        }
+
+        function stopStigmergy(shouldDownloadLog) {
+            logEvent('Stigmergy mode stopped.');
+            if (shouldDownloadLog) downloadLog();
+            
+            stigmergyActive = false;
+            stigmergyBtn.classList.remove('active');
+            stigmergyBtn.textContent = 'Stigmergy';
+            spawnFoodBtn.style.display = 'none';
+            stigmergyLog = [];
+            foodItems = [];
+            flashingLinks = []; // Clear flashing links when stopping
+            
+            // Re-enable swarm buttons
+            swarmButtons.forEach(btn => btn.disabled = false);
+            
+            updateUI();
+        }
+
+        function logEvent(message) {
+            stigmergyLog.push(message);
+        }
+
+        function downloadLog() {
+            const logText = stigmergyLog.join('\n');
+            const blob = new Blob([logText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            
+            // Create a timestamp for the filename
+            const timestamp = new Date().toISOString()
+                .replace(/\..+/, '') // Remove milliseconds
+                .replace(/:/g, '-'); // Replace colons for compatibility
+
+            a.href = url;
+            a.download = `stigmergy-resource-flow-log-${timestamp}.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function handleStigmergyLogic() {
+            const currentTime = performance.now();
+
+            // 0. Handle passive energy depletion
+            if (currentTime - lastEnergyDepletionTime > ENERGY_DEPLETION_INTERVAL) {
+                models.forEach(model => {
+                    if (model.energy > 0) {
+                        model.energy -= ENERGY_DEPLETION_AMOUNT;
+                    }
+                });
+                lastEnergyDepletionTime = currentTime;
+            }
+
+            // 1. Handle food consumption
+            models.forEach(model => {
+                foodItems.forEach(food => {
+                    const distance = Math.sqrt((model.x - food.x)**2 + (model.y - food.y)**2);
+                    if (distance < model.radius + food.size) {
+                        model.energy = Math.min(MAX_ENERGY, model.energy + ENERGY_PER_FOOD);
+                        logEvent(`Node ${model.id} consumed 1 food, and now has ${Math.round(model.energy)} energy.`);
+                        food.respawn();
+                    }
+                });
+            });
+
+            // 2. Handle food exchange on interaction
+            for (let i = 0; i < models.length; i++) {
+                for (let j = i + 1; j < models.length; j++) {
+                    const m1 = models[i];
+                    const m2 = models[j];
+                    const distance = Math.sqrt((m1.x - m2.x)**2 + (m1.y - m2.y)**2);
+
+                    if (distance < linkDistance) {
+                        // A node shares only if it has at least 10 more energy than the other
+                        if ((m1.energy - m2.energy) >= 10 && m1.energy > INTERACTION_FOOD_EXCHANGE) {
+                            m1.energy -= INTERACTION_FOOD_EXCHANGE;
+                            m2.energy += INTERACTION_FOOD_EXCHANGE;
+                            logEvent(`Node ${m1.id} shared 1 food with Node ${m2.id}, and now has ${Math.round(m1.energy)} energy.`);
+                            // NEW: Trigger the purple link flash
+                            flashingLinks.push({ m1Id: m1.id, m2Id: m2.id, endTime: performance.now() + 500 });
+                        } else if ((m2.energy - m1.energy) >= 10 && m2.energy > INTERACTION_FOOD_EXCHANGE) {
+                            m2.energy -= INTERACTION_FOOD_EXCHANGE;
+                            m1.energy += INTERACTION_FOOD_EXCHANGE;
+                            logEvent(`Node ${m2.id} shared 1 food with Node ${m1.id}, and now has ${Math.round(m2.energy)} energy.`);
+                            // NEW: Trigger the purple link flash
+                            flashingLinks.push({ m1Id: m1.id, m2Id: m2.id, endTime: performance.now() + 500 });
+                        }
+                    }
+                }
+            }
+
+            // 3. Handle model death
+            const initialLength = models.length;
+            models = models.filter(model => {
+                if (model.energy <= 0) {
+                    logEvent(`Node ${model.id} ran out of energy and was removed.`);
+                    if (selectedModel && selectedModel.id === model.id) {
+                        selectedModel = null;
+                        hideModelControls();
+                    }
+                    return false;
+                }
+                return true;
+            });
+            if (models.length < initialLength) updateUI();
+        }
+        
+        // --- Main Animation Loop ---
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.strokeStyle = '#333'; ctx.lineWidth = 1;
+            ctx.strokeRect(0, 0, canvas.width, canvas.height);
+            
+            if (swarmMode === 'circle' && !stigmergyActive) circleAngleOffset += 0.01;
+
+            if (stigmergyActive) {
+                handleStigmergyLogic();
+                foodItems.forEach(food => food.draw());
+            }
+
+            models.forEach(model => model.update());
+            drawLinks();
+            drawFlashingLinks(); // NEW: Draw the flashing links
+            models.forEach(model => model.draw());
+            
+            if(selectedModel) showModelControls(selectedModel);
+
+            requestAnimationFrame(animate);
+        }
+
+        // --- Event Listeners ---
+
+        // MODIFIED: Spawn button now handles logic for revealing bulk spawn buttons
+        spawnBtn.addEventListener('click', () => {
+            spawnModel(); // Always spawn one model on click
+
+            if (!spawnClickTimer) {
+                // If it's the first click in a potential series, start the timer
+                spawnClickTimer = setTimeout(() => {
+                    spawnClickCount = 0; // Reset count
+                    spawnClickTimer = null; // Clear timer
+                }, SPAM_CLICK_WINDOW);
+            }
+
+            spawnClickCount++;
+
+            if (spawnClickCount >= SPAM_CLICK_THRESHOLD) {
+                bulkSpawnControls.style.display = 'flex';
+                clearTimeout(spawnClickTimer); // Stop the timer from resetting
+                spawnClickTimer = null;
+                spawnClickCount = 0;
+            }
+        });
+
+        clearBtn.addEventListener('click', clearNetwork);
+        stigmergyBtn.addEventListener('click', toggleStigmergy);
+        spawnFoodBtn.addEventListener('click', spawnNewFoodSource);
+
+        // NEW: Event listeners for bulk spawn buttons
+        spawn5Btn.addEventListener('click', () => bulkSpawn(5));
+        spawn25Btn.addEventListener('click', () => bulkSpawn(25));
+        spawn50Btn.addEventListener('click', () => bulkSpawn(50));
+        spawn75Btn.addEventListener('click', () => bulkSpawn(75));
+        spawn100Btn.addEventListener('click', () => bulkSpawn(100));
+
+        toggleLinksBtn.addEventListener('click', () => {
+            linksVisible = !linksVisible;
+            toggleLinksBtn.style.boxShadow = linksVisible ? '0 0 30px rgba(0, 255, 0, 0.5)' : 'none';
+        });
+        pulseBtn.addEventListener('click', () => { pulseEndTime = performance.now() + 500; });
+        
+        // Swarm control event listeners
+        swarmButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const mode = btn.id.replace('Btn', '');
+                setSwarmMode(mode === 'stop' ? 'none' : mode);
+            });
+        });
+
+        canvas.addEventListener('click', (event) => {
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
+            let modelClicked = false;
+            for (let i = models.length - 1; i >= 0; i--) {
+                const model = models[i];
+                if (model.isClicked(mouseX, mouseY)) {
+                    selectedModel = model;
+                    showModelControls(model);
+                    modelClicked = true;
+                    break; 
+                }
+            }
+            if (!modelClicked) { selectedModel = null; hideModelControls(); }
+        });
+        
+        canvas.addEventListener('mousemove', (event) => {
+            const rect = canvas.getBoundingClientRect();
+            mouseX = event.clientX - rect.left; mouseY = event.clientY - rect.top;
+        });
+        
+        speedSlider.addEventListener('input', (event) => { if (selectedModel) selectedModel.speed = parseFloat(event.target.value); });
+        colorPicker.addEventListener('input', (event) => { if (selectedModel) selectedModel.color = event.target.value; });
+        
+        deleteBtn.addEventListener('click', () => {
+            if (selectedModel) {
+                models = models.filter(m => m.id !== selectedModel.id);
+                selectedModel = null;
+                hideModelControls();
+                updateUI();
+            }
+        });
+
+        // --- Initialization ---
+        animate(0);
+    </script>
+</body>
+</html>
