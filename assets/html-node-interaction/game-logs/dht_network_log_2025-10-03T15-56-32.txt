@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════════
+       DHT NETWORK KEY DISCOVERY SIMULATOR - RUN LOG
+═══════════════════════════════════════════════════════════════
+
+Date: 03/10/2025, 12:56:32
+Target Key: 601
+Density Mode: Extreme
+Total Time: 44 seconds
+Total Queries: 18
+Network Hops: 28
+Peak Nodes: 70
+
+NETWORK ACTIVITY LOG:
+═══════════════════════════════════════════════════════════════
+[12:55:47] Network initialized. Target signature: 601
+[12:55:47] EXTREME DENSITY MODE: Extreme spawning rate
+[12:55:47] GOAL: Discover the target signature key!
+[12:55:47] Redundancy factor: 3 copies per key
+[12:55:47] Node joined network | Key: 519 | Total: 5
+[12:55:47] Node joined network | Key: 956 | Total: 10
+[12:55:47] Node joined network | Key: 955 | Total: 15
+[12:55:47] Node joined network | Key: 140 | Total: 20
+[12:55:48] Node joined network | Key: 603 | Total: 25
+[12:55:48] Node joined network | Key: 947 | Total: 30
+[12:55:52] Node joined network | Key: 584 | Total: 35
+[12:55:57] Node joined network | Key: 826 | Total: 40
+[12:56:00] Query continues: 592 → 136
+[12:56:02] Node joined network | Key: 939 | Total: 45
+[12:56:07] Node joined network | Key: 608 | Total: 50
+[12:56:12] Node joined network | Key: 918 | Total: 55
+[12:56:15] Query: Node 592 → Node 136
+[12:56:17] Node joined network | Key: 718 | Total: 60
+[12:56:22] Node joined network | Key: 480 | Total: 65
+[12:56:27] Node joined network | Key: 529 | Total: 70
+[12:56:32] KEY FOUND! Node 601 has target 601

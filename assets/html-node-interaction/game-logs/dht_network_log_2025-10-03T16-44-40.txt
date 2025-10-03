@@ -1,0 +1,1338 @@
+═══════════════════════════════════════════════════════════════
+       DHT NETWORK KEY DISCOVERY SIMULATOR - RUN LOG
+═══════════════════════════════════════════════════════════════
+
+Date: 03/10/2025, 13:44:40
+Target Key: 625
+Density Mode: Extreme
+Total Time: 2968 seconds
+Total Queries: 1179
+Network Hops: 1883
+Peak Nodes: 150
+
+NETWORK ACTIVITY LOG:
+═══════════════════════════════════════════════════════════════
+[12:55:12] Network initialized. Target signature: 625
+[12:55:12] EXTREME DENSITY MODE: Extreme spawning rate
+[12:55:12] GOAL: Discover the target signature key!
+[12:55:12] Redundancy factor: 3 copies per key
+[12:55:12] Node joined network | Key: 337 | Total: 5
+[12:55:12] Node joined network | Key: 967 | Total: 10
+[12:55:12] Node joined network | Key: 588 | Total: 15
+[12:55:12] Node joined network | Key: 447 | Total: 20
+[12:55:12] Node joined network | Key: 663 | Total: 25
+[12:55:12] Node joined network | Key: 562 | Total: 30
+[12:55:13] Node joined network | Key: 853 | Total: 35
+[12:55:18] Node joined network | Key: 917 | Total: 40
+[12:55:22] Query continues: 661 → 861
+[12:55:22] Query: Node 661 → Node 733
+[12:55:23] Node joined network | Key: 903 | Total: 45
+[12:55:25] Node dissipated | Key: 448
+[12:55:25] Node dissipated | Key: 715
+[12:55:25] Node dissipated | Key: 661
+[12:55:25] Node dissipated | Key: 205
+[12:55:25] Node dissipated | Key: 734
+[12:55:25] Node dissipated | Key: 333
+[12:55:25] Node dissipated | Key: 733
+[12:55:25] Node dissipated | Key: 296
+[12:55:25] Node joined network | Key: 260 | Total: 10
+[12:55:25] Node joined network | Key: 468 | Total: 15
+[12:55:26] Node joined network | Key: 862 | Total: 20
+[12:55:26] Node joined network | Key: 594 | Total: 25
+[12:55:27] Node joined network | Key: 425 | Total: 30
+[12:55:29] Node dissipated | Key: 659
+[12:55:29] Node joined network | Key: 403 | Total: 30
+[12:55:30] Node joined network | Key: 851 | Total: 35
+[12:55:30] Query: Node 176 → Node 425
+[12:55:30] Node joined network | Key: 348 | Total: 40
+[12:55:31] Node joined network | Key: 154 | Total: 45
+[12:55:36] Query continues: 318 → 143
+[12:55:36] Node joined network | Key: 590 | Total: 50
+[12:55:41] Node joined network | Key: 218 | Total: 55
+[12:55:43] Query: Node 324 → Node 409
+[12:55:46] Node joined network | Key: 260 | Total: 60
+[12:55:51] Node joined network | Key: 640 | Total: 65
+[12:55:56] Node joined network | Key: 250 | Total: 70
+[12:56:01] Node joined network | Key: 711 | Total: 75
+[12:56:06] Node joined network | Key: 164 | Total: 80
+[12:56:08] Query: Node 315 → Node 225
+[12:56:11] Node joined network | Key: 466 | Total: 85
+[12:56:14] Query continues: 852 → 662
+[12:56:16] Node joined network | Key: 763 | Total: 90
+[12:56:21] Node joined network | Key: 997 | Total: 95
+[12:56:23] Query: Node 402 → Node 606
+[12:56:26] Node joined network | Key: 777 | Total: 100
+[12:56:50] Node joined network | Key: 135 | Total: 105
+[12:56:50] Node dissipated | Key: 777
+[12:56:50] Node dissipated | Key: 997
+[12:56:50] Node dissipated | Key: 763
+[12:56:50] Node dissipated | Key: 466
+[12:56:50] Node dissipated | Key: 164
+[12:56:50] Node dissipated | Key: 711
+[12:56:50] Node dissipated | Key: 250
+[12:56:50] Node dissipated | Key: 640
+[12:56:50] Node dissipated | Key: 260
+[12:56:50] Node dissipated | Key: 218
+[12:56:50] Node dissipated | Key: 590
+[12:56:50] Node dissipated | Key: 154
+[12:56:50] Node dissipated | Key: 348
+[12:56:50] Node dissipated | Key: 851
+[12:56:50] Node dissipated | Key: 403
+[12:56:50] Node dissipated | Key: 662
+[12:56:50] Node dissipated | Key: 143
+[12:56:50] Node dissipated | Key: 862
+[12:56:50] Node dissipated | Key: 468
+[12:56:50] Node dissipated | Key: 260
+[12:56:50] Node joined network | Key: 891 | Total: 5
+[12:56:50] Node joined network | Key: 755 | Total: 10
+[12:56:55] Node joined network | Key: 20 | Total: 15
+[12:56:58] Query: Node 749 → Node 418
+[12:57:00] Node joined network | Key: 451 | Total: 20
+[12:57:05] Node joined network | Key: 76 | Total: 25
+[12:57:10] Node joined network | Key: 386 | Total: 30
+[12:57:15] Node joined network | Key: 883 | Total: 35
+[12:57:20] Node joined network | Key: 295 | Total: 40
+[12:57:23] Query: Node 386 → Node 645
+[12:57:25] Node joined network | Key: 60 | Total: 45
+[12:57:30] Node joined network | Key: 877 | Total: 50
+[12:57:35] Node joined network | Key: 151 | Total: 55
+[12:57:38] Query: Node 377 → Node 891
+[12:57:39] Query continues: 891 → 432
+[12:57:40] Node joined network | Key: 439 | Total: 60
+[12:57:45] Node joined network | Key: 204 | Total: 65
+[12:57:50] Node joined network | Key: 554 | Total: 70
+[12:58:13] Query continues: 821 → 657
+[12:58:50] Node dissipated | Key: 856
+[12:58:50] Node dissipated | Key: 701
+[12:58:50] Node dissipated | Key: 943
+[12:58:50] Node dissipated | Key: 635
+[12:58:50] Node dissipated | Key: 257
+[12:58:50] Node dissipated | Key: 557
+[12:58:50] Node dissipated | Key: 441
+[12:58:50] Node dissipated | Key: 432
+[12:58:50] Node dissipated | Key: 203
+[12:58:50] Node dissipated | Key: 881
+[12:58:50] Node dissipated | Key: 897
+[12:58:50] Node dissipated | Key: 334
+[12:58:50] Node dissipated | Key: 165
+[12:58:50] Node dissipated | Key: 333
+[12:58:51] Node joined network | Key: 644 | Total: 5
+[12:58:51] Node joined network | Key: 287 | Total: 10
+[12:58:51] Query: Node 641 → Node 910
+[12:58:51] Node joined network | Key: 898 | Total: 15
+[12:58:51] Node joined network | Key: 161 | Total: 20
+[12:58:52] Node joined network | Key: 686 | Total: 25
+[12:58:52] Node joined network | Key: 327 | Total: 30
+[12:58:52] Node joined network | Key: 888 | Total: 35
+[12:58:52] Node joined network | Key: 928 | Total: 40
+[12:58:53] Node joined network | Key: 547 | Total: 45
+[12:58:53] Node joined network | Key: 456 | Total: 50
+[12:58:53] Query: Node 456 → Node 477
+[12:58:53] Node joined network | Key: 765 | Total: 55
+[12:58:54] Query continues: 519 → 107
+[12:58:56] Node joined network | Key: 361 | Total: 60
+[12:58:59] Node dissipated | Key: 766
+[12:58:59] Node dissipated | Key: 424
+[12:58:59] Node dissipated | Key: 420
+[12:58:59] Node dissipated | Key: 419
+[12:58:59] Node dissipated | Key: 837
+[12:58:59] Node dissipated | Key: 133
+[12:58:59] Node dissipated | Key: 606
+[12:58:59] Node dissipated | Key: 910
+[12:58:59] Node dissipated | Key: 800
+[12:58:59] Node dissipated | Key: 858
+[12:58:59] Node joined network | Key: 769 | Total: 15
+[12:58:59] Node joined network | Key: 318 | Total: 15
+[12:59:00] Node joined network | Key: 218 | Total: 20
+[12:59:00] Node joined network | Key: 925 | Total: 25
+[12:59:00] Node joined network | Key: 327 | Total: 30
+[12:59:00] Query: Node 212 → Node 925
+[12:59:01] Node joined network | Key: 744 | Total: 35
+[12:59:01] Node joined network | Key: 269 | Total: 40
+[12:59:01] Query continues: 903 → 684
+[12:59:01] Node joined network | Key: 185 | Total: 45
+[12:59:01] Node joined network | Key: 721 | Total: 50
+[12:59:02] Node joined network | Key: 942 | Total: 55
+[12:59:02] Node joined network | Key: 603 | Total: 60
+[12:59:02] Query: Node 860 → Node 572
+[12:59:02] Node joined network | Key: 727 | Total: 65
+[12:59:02] Node joined network | Key: 689 | Total: 65
+[12:59:02] Node joined network | Key: 353 | Total: 70
+[12:59:03] Node joined network | Key: 792 | Total: 75
+[12:59:04] Node joined network | Key: 544 | Total: 80
+[12:59:04] Node joined network | Key: 913 | Total: 80
+[12:59:04] Query: Node 411 → Node 327
+[12:59:04] Node joined network | Key: 694 | Total: 85
+[12:59:04] Query continues: 90 → 95
+[12:59:04] Node joined network | Key: 829 | Total: 90
+[12:59:04] Node joined network | Key: 76 | Total: 95
+[12:59:05] Node joined network | Key: 573 | Total: 100
+[12:59:05] Node joined network | Key: 182 | Total: 100
+[12:59:05] Node joined network | Key: 683 | Total: 100
+[12:59:05] Node joined network | Key: 644 | Total: 95
+[12:59:05] Node joined network | Key: 23 | Total: 95
+[12:59:05] Node joined network | Key: 451 | Total: 95
+[12:59:05] Node joined network | Key: 522 | Total: 95
+[12:59:05] Query: Node 954 → Node 829
+[12:59:06] Node joined network | Key: 771 | Total: 100
+[12:59:06] Query continues: 744 → 313
+[12:59:06] Node joined network | Key: 505 | Total: 105
+[12:59:07] Node joined network | Key: 142 | Total: 105
+[12:59:07] Node joined network | Key: 101 | Total: 105
+[12:59:07] Node joined network | Key: 840 | Total: 105
+[12:59:07] Node joined network | Key: 457 | Total: 105
+[12:59:07] Node joined network | Key: 330 | Total: 105
+[12:59:07] Node joined network | Key: 440 | Total: 105
+[12:59:07] Query continues: 441 → 942
+[12:59:07] Node joined network | Key: 416 | Total: 105
+[12:59:07] Node joined network | Key: 719 | Total: 105
+[12:59:08] Query: Node 594 → Node 886
+[12:59:08] Node joined network | Key: 477 | Total: 100
+[12:59:08] Node joined network | Key: 616 | Total: 100
+[12:59:08] Node joined network | Key: 493 | Total: 100
+[12:59:08] Node joined network | Key: 915 | Total: 100
+[12:59:08] Node joined network | Key: 924 | Total: 100
+[12:59:09] Node joined network | Key: 248 | Total: 105
+[12:59:09] Node joined network | Key: 245 | Total: 105
+[12:59:10] Node joined network | Key: 252 | Total: 105
+[12:59:10] Query: Node 330 → Node 884
+[12:59:10] Node joined network | Key: 145 | Total: 110
+[12:59:10] Node joined network | Key: 330 | Total: 110
+[12:59:10] Node joined network | Key: 87 | Total: 110
+[12:59:11] Node joined network | Key: 220 | Total: 110
+[12:59:11] Node joined network | Key: 10 | Total: 105
+[12:59:11] Node joined network | Key: 970 | Total: 110
+[12:59:12] Node joined network | Key: 170 | Total: 110
+[12:59:12] Node joined network | Key: 813 | Total: 110
+[12:59:12] Query: Node 10 → Node 442
+[12:59:13] Query continues: 10 → 282
+[12:59:13] Node joined network | Key: 635 | Total: 105
+[12:59:13] Node joined network | Key: 225 | Total: 105
+[12:59:13] Node joined network | Key: 908 | Total: 105
+[12:59:13] Node joined network | Key: 771 | Total: 105
+[12:59:13] Query: Node 791 → Node 19
+[12:59:13] Query continues: 19 → 53
+[12:59:14] Node joined network | Key: 299 | Total: 110
+[12:59:14] Node joined network | Key: 956 | Total: 110
+[12:59:14] Node joined network | Key: 28 | Total: 110
+[12:59:15] Node joined network | Key: 702 | Total: 105
+[12:59:15] Node joined network | Key: 273 | Total: 105
+[12:59:15] Node joined network | Key: 73 | Total: 105
+[12:59:15] Node joined network | Key: 267 | Total: 105
+[12:59:16] Node joined network | Key: 962 | Total: 100
+[12:59:16] Query: Node 163 → Node 955
+[12:59:16] Node joined network | Key: 554 | Total: 100
+[12:59:16] Node joined network | Key: 170 | Total: 100
+[12:59:17] Node joined network | Key: 253 | Total: 100
+[12:59:17] Node joined network | Key: 19 | Total: 100
+[12:59:18] Node joined network | Key: 924 | Total: 100
+[12:59:18] Node joined network | Key: 154 | Total: 100
+[12:59:18] Node joined network | Key: 350 | Total: 100
+[12:59:18] Node joined network | Key: 28 | Total: 100
+[12:59:18] Node joined network | Key: 160 | Total: 100
+[12:59:18] Node joined network | Key: 856 | Total: 100
+[12:59:19] Node joined network | Key: 567 | Total: 95
+[12:59:20] Node joined network | Key: 318 | Total: 95
+[12:59:20] Node joined network | Key: 719 | Total: 95
+[12:59:20] Node joined network | Key: 602 | Total: 95
+[12:59:20] Node joined network | Key: 279 | Total: 95
+[12:59:21] Node joined network | Key: 808 | Total: 100
+[12:59:24] Query: Node 791 → Node 878
+[12:59:26] Node joined network | Key: 196 | Total: 105
+[12:59:31] Node joined network | Key: 781 | Total: 110
+[12:59:36] Node joined network | Key: 610 | Total: 115
+[12:59:41] Node joined network | Key: 433 | Total: 120
+[12:59:46] Node joined network | Key: 644 | Total: 125
+[12:59:46] Query: Node 748 → Node 166
+[12:59:51] Node joined network | Key: 160 | Total: 130
+[12:59:56] Node joined network | Key: 990 | Total: 135
+[13:00:01] Node joined network | Key: 516 | Total: 140
+[13:00:06] Node joined network | Key: 959 | Total: 145
+[13:00:10] Node joined network | Key: 404 | Total: 150
+[13:00:10] Node dissipated | Key: 582
+[13:00:10] Node dissipated | Key: 161
+[13:00:10] Node dissipated | Key: 82
+[13:00:10] Node dissipated | Key: 726
+[13:00:10] Node dissipated | Key: 146
+[13:00:10] Node dissipated | Key: 763
+[13:00:10] Node dissipated | Key: 339
+[13:00:10] Node dissipated | Key: 912
+[13:00:10] Node dissipated | Key: 98
+[13:00:10] Node dissipated | Key: 471
+[13:00:10] Node dissipated | Key: 520
+[13:00:10] Node dissipated | Key: 698
+[13:00:10] Node dissipated | Key: 663
+[13:00:10] Node dissipated | Key: 623
+[13:00:10] Node dissipated | Key: 109
+[13:00:10] Node dissipated | Key: 751
+[13:00:10] Node dissipated | Key: 530
+[13:00:10] Node dissipated | Key: 361
+[13:00:10] Node dissipated | Key: 767
+[13:00:10] Node dissipated | Key: 336
+[13:00:10] Node dissipated | Key: 924
+[13:00:10] Node dissipated | Key: 653
+[13:00:10] Node dissipated | Key: 121
+[13:00:10] Node dissipated | Key: 748
+[13:00:10] Node dissipated | Key: 622
+[13:00:10] Node dissipated | Key: 270
+[13:00:10] Node dissipated | Key: 821
+[13:00:10] Node dissipated | Key: 780
+[13:00:10] Node joined network | Key: 507 | Total: 10
+[13:00:10] Node joined network | Key: 436 | Total: 10
+[13:00:10] Node joined network | Key: 46 | Total: 15
+[13:00:10] Node joined network | Key: 767 | Total: 15
+[13:00:11] Node joined network | Key: 292 | Total: 20
+[13:00:11] Query: Node 133 → Node 570
+[13:00:11] Node joined network | Key: 745 | Total: 25
+[13:00:11] Node joined network | Key: 260 | Total: 30
+[13:00:12] Node joined network | Key: 487 | Total: 35
+[13:00:12] Node joined network | Key: 523 | Total: 40
+[13:00:12] Node joined network | Key: 471 | Total: 45
+[13:00:12] Node joined network | Key: 820 | Total: 45
+[13:00:12] Node joined network | Key: 375 | Total: 50
+[13:00:12] Node joined network | Key: 925 | Total: 50
+[13:00:13] Node joined network | Key: 238 | Total: 55
+[13:00:13] Node joined network | Key: 1000 | Total: 60
+[13:00:13] Node joined network | Key: 686 | Total: 65
+[13:00:14] Node joined network | Key: 609 | Total: 70
+[13:00:14] Query: Node 739 → Node 493
+[13:00:14] Node joined network | Key: 874 | Total: 75
+[13:00:14] Node joined network | Key: 665 | Total: 80
+[13:00:14] Query continues: 820 → 677
+[13:00:15] Node joined network | Key: 546 | Total: 85
+[13:00:15] Node joined network | Key: 454 | Total: 90
+[13:00:15] Node joined network | Key: 160 | Total: 90
+[13:00:16] Node joined network | Key: 785 | Total: 95
+[13:00:16] Query: Node 60 → Node 206
+[13:00:16] Query continues: 206 → 586
+[13:00:16] Node joined network | Key: 95 | Total: 100
+[13:00:16] Node joined network | Key: 882 | Total: 100
+[13:00:16] Node joined network | Key: 273 | Total: 100
+[13:00:16] Node joined network | Key: 941 | Total: 105
+[13:00:16] Node joined network | Key: 734 | Total: 105
+[13:00:17] Node joined network | Key: 955 | Total: 105
+[13:00:17] Node joined network | Key: 19 | Total: 105
+[13:00:17] Node joined network | Key: 684 | Total: 105
+[13:00:17] Node joined network | Key: 703 | Total: 105
+[13:00:17] Node joined network | Key: 625 | Total: 105
+[13:00:18] Query continues: 386 → 692
+[13:00:18] Node joined network | Key: 145 | Total: 105
+[13:00:18] Node joined network | Key: 677 | Total: 105
+[13:00:18] Node joined network | Key: 577 | Total: 105
+[13:00:18] Query: Node 585 → Node 223
+[13:00:19] Node joined network | Key: 528 | Total: 105
+[13:00:19] Node joined network | Key: 816 | Total: 105
+[13:00:19] Node joined network | Key: 875 | Total: 105
+[13:00:19] Node dissipated | Key: 168
+[13:00:19] Node joined network | Key: 78 | Total: 95
+[13:00:19] Node joined network | Key: 796 | Total: 95
+[13:00:19] Node joined network | Key: 871 | Total: 95
+[13:00:19] Query continues: 724 → 656
+[13:00:20] Node joined network | Key: 476 | Total: 95
+[13:00:21] Node joined network | Key: 956 | Total: 95
+[13:00:21] Node joined network | Key: 819 | Total: 95
+[13:00:21] Node joined network | Key: 424 | Total: 95
+[13:00:21] Query: Node 479 → Node 955
+[13:00:21] Node joined network | Key: 908 | Total: 100
+[13:00:21] Node joined network | Key: 172 | Total: 100
+[13:00:21] Node joined network | Key: 332 | Total: 100
+[13:00:21] Node joined network | Key: 502 | Total: 100
+[13:00:22] Node joined network | Key: 823 | Total: 100
+[13:00:22] Node joined network | Key: 215 | Total: 100
+[13:00:22] Query continues: 598 → 467
+[13:00:22] Node joined network | Key: 670 | Total: 100
+[13:00:22] Node joined network | Key: 150 | Total: 100
+[13:00:22] Node joined network | Key: 104 | Total: 100
+[13:00:22] Query: Node 266 → Node 862
+[13:00:22] Node joined network | Key: 209 | Total: 100
+[13:00:22] Node joined network | Key: 483 | Total: 100
+[13:00:23] Query continues: 602 → 948
+[13:00:23] Node joined network | Key: 890 | Total: 100
+[13:00:23] Node joined network | Key: 153 | Total: 95
+[13:00:23] Node joined network | Key: 74 | Total: 95
+[13:00:23] Node joined network | Key: 178 | Total: 95
+[13:00:23] Node joined network | Key: 40 | Total: 95
+[13:00:24] Node joined network | Key: 210 | Total: 100
+[13:00:24] Node joined network | Key: 415 | Total: 100
+[13:00:24] Node joined network | Key: 683 | Total: 100
+[13:00:24] Node joined network | Key: 995 | Total: 100
+[13:00:24] Node joined network | Key: 746 | Total: 100
+[13:00:25] Query: Node 940 → Node 819
+[13:00:25] Node joined network | Key: 617 | Total: 105
+[13:00:25] Node joined network | Key: 695 | Total: 105
+[13:00:25] Node joined network | Key: 625 | Total: 105
+[13:00:26] Node joined network | Key: 635 | Total: 105
+[13:00:26] Node joined network | Key: 838 | Total: 105
+[13:00:26] Node joined network | Key: 186 | Total: 105
+[13:00:26] Node joined network | Key: 812 | Total: 105
+[13:00:26] Node joined network | Key: 432 | Total: 105
+[13:00:26] Node joined network | Key: 400 | Total: 105
+[13:00:26] Node joined network | Key: 678 | Total: 105
+[13:00:26] Node joined network | Key: 678 | Total: 105
+[13:00:26] Node joined network | Key: 329 | Total: 105
+[13:00:27] Node joined network | Key: 809 | Total: 105
+[13:00:27] Node joined network | Key: 754 | Total: 105
+[13:00:27] Node joined network | Key: 373 | Total: 105
+[13:00:27] Query: Node 75 → Node 301
+[13:00:27] Node joined network | Key: 64 | Total: 105
+[13:00:28] Node joined network | Key: 908 | Total: 110
+[13:00:28] Node joined network | Key: 462 | Total: 110
+[13:00:29] Node joined network | Key: 504 | Total: 105
+[13:00:34] Node joined network | Key: 955 | Total: 110
+[13:00:39] Node joined network | Key: 888 | Total: 115
+[13:00:39] Query: Node 838 → Node 809
+[13:00:44] Node joined network | Key: 753 | Total: 120
+[13:00:59] Node joined network | Key: 262 | Total: 125
+[13:01:03] Node joined network | Key: 850 | Total: 130
+[13:01:08] Node joined network | Key: 453 | Total: 135
+[13:01:08] Query: Node 617 → Node 533
+[13:01:12] Node dissipated | Key: 850
+[13:01:12] Node dissipated | Key: 262
+[13:01:12] Node dissipated | Key: 753
+[13:01:12] Node dissipated | Key: 888
+[13:01:12] Node dissipated | Key: 955
+[13:01:12] Node dissipated | Key: 504
+[13:01:12] Node dissipated | Key: 553
+[13:01:12] Node dissipated | Key: 380
+[13:01:12] Node dissipated | Key: 206
+[13:01:12] Node dissipated | Key: 264
+[13:01:12] Node dissipated | Key: 340
+[13:01:12] Node dissipated | Key: 164
+[13:01:12] Node dissipated | Key: 329
+[13:01:12] Node dissipated | Key: 944
+[13:01:12] Node dissipated | Key: 496
+[13:01:12] Node dissipated | Key: 186
+[13:01:12] Node dissipated | Key: 625
+[13:01:12] Node dissipated | Key: 135
+[13:01:12] Node dissipated | Key: 15
+[13:01:12] Node dissipated | Key: 242
+[13:01:12] Node dissipated | Key: 995
+[13:01:12] Node dissipated | Key: 159
+[13:01:12] Node dissipated | Key: 124
+[13:01:12] Node dissipated | Key: 219
+[13:01:12] Node dissipated | Key: 964
+[13:01:12] Node dissipated | Key: 90
+[13:01:12] Node joined network | Key: 280 | Total: 5
+[13:01:12] Query continues: 81 → 326
+[13:01:12] Node joined network | Key: 804 | Total: 10
+[13:01:13] Node joined network | Key: 31 | Total: 15
+[13:01:13] Node joined network | Key: 461 | Total: 20
+[13:01:13] Node joined network | Key: 239 | Total: 25
+[13:01:14] Node joined network | Key: 463 | Total: 30
+[13:01:19] Node joined network | Key: 301 | Total: 35
+[13:01:31] Node joined network | Key: 962 | Total: 40
+[13:01:35] Node joined network | Key: 256 | Total: 45
+[13:01:40] Node joined network | Key: 396 | Total: 50
+[13:01:43] Query: Node 76 → Node 962
+[13:01:45] Node joined network | Key: 65 | Total: 55
+[13:01:50] Node joined network | Key: 876 | Total: 60
+[13:01:57] Node joined network | Key: 411 | Total: 65
+[13:02:02] Node joined network | Key: 773 | Total: 70
+[13:02:07] Node joined network | Key: 595 | Total: 75
+[13:02:08] Query: Node 815 → Node 896
+[13:02:12] Node joined network | Key: 239 | Total: 80
+[13:06:13] Node joined network | Key: 85 | Total: 85
+[13:11:13] Node joined network | Key: 995 | Total: 90
+[13:16:13] Node joined network | Key: 353 | Total: 95
+[13:21:13] Node joined network | Key: 771 | Total: 100
+[13:21:13] Query: Node 82 → Node 290
+[13:21:37] Node dissipated | Key: 112
+[13:21:37] Node dissipated | Key: 367
+[13:21:37] Node dissipated | Key: 487
+[13:21:37] Node dissipated | Key: 181
+[13:21:37] Node dissipated | Key: 827
+[13:21:37] Node dissipated | Key: 82
+[13:21:37] Node dissipated | Key: 489
+[13:21:37] Node dissipated | Key: 632
+[13:21:37] Node dissipated | Key: 784
+[13:21:37] Node dissipated | Key: 815
+[13:21:37] Node dissipated | Key: 369
+[13:21:37] Node dissipated | Key: 562
+[13:21:37] Node dissipated | Key: 620
+[13:21:37] Node dissipated | Key: 378
+[13:21:37] Node dissipated | Key: 319
+[13:21:37] Node dissipated | Key: 204
+[13:21:37] Node dissipated | Key: 929
+[13:21:37] Node dissipated | Key: 688
+[13:21:37] Node dissipated | Key: 962
+[13:21:37] Node dissipated | Key: 378
+[13:21:37] Node joined network | Key: 770 | Total: 5
+[13:21:39] Node joined network | Key: 441 | Total: 10
+[13:21:44] Node joined network | Key: 310 | Total: 15
+[13:21:49] Node joined network | Key: 809 | Total: 20
+[13:21:54] Node joined network | Key: 204 | Total: 25
+[13:21:57] Query: Node 950 → Node 474
+[13:21:59] Node joined network | Key: 358 | Total: 30
+[13:22:04] Node joined network | Key: 825 | Total: 35
+[13:22:08] Node joined network | Key: 588 | Total: 40
+[13:22:11] Query: Node 375 → Node 892
+[13:22:13] Node joined network | Key: 544 | Total: 45
+[13:22:18] Node joined network | Key: 790 | Total: 50
+[13:22:23] Node joined network | Key: 871 | Total: 55
+[13:22:26] Query: Node 461 → Node 950
+[13:22:28] Node joined network | Key: 965 | Total: 60
+[13:22:33] Node joined network | Key: 827 | Total: 65
+[13:23:13] Node joined network | Key: 982 | Total: 70
+[13:24:38] Node dissipated | Key: 476
+[13:24:38] Node dissipated | Key: 270
+[13:24:38] Node dissipated | Key: 565
+[13:24:38] Node dissipated | Key: 404
+[13:24:38] Node dissipated | Key: 615
+[13:24:38] Node dissipated | Key: 815
+[13:24:38] Node dissipated | Key: 277
+[13:24:38] Node dissipated | Key: 989
+[13:24:38] Node dissipated | Key: 939
+[13:24:38] Node dissipated | Key: 502
+[13:24:38] Node dissipated | Key: 474
+[13:24:38] Node dissipated | Key: 190
+[13:24:38] Node dissipated | Key: 916
+[13:24:38] Node dissipated | Key: 115
+[13:24:39] Node joined network | Key: 579 | Total: 5
+[13:24:40] Node joined network | Key: 870 | Total: 10
+[13:24:40] Query: Node 749 → Node 870
+[13:24:40] Node joined network | Key: 759 | Total: 15
+[13:24:42] Node joined network | Key: 859 | Total: 20
+[13:24:43] Node dissipated | Key: 641
+[13:24:43] Query continues: 472 → 859
+[13:24:46] Node joined network | Key: 18 | Total: 20
+[13:24:47] Node dissipated | Key: 759
+[13:24:47] Node dissipated | Key: 391
+[13:24:47] Node joined network | Key: 6 | Total: 10
+[13:24:47] Query: Node 617 → Node 18
+[13:24:49] Query continues: 836 → 6
+[13:24:49] Node joined network | Key: 124 | Total: 10
+[13:24:49] Node joined network | Key: 206 | Total: 15
+[13:24:54] Query continues: 124 → 734
+[13:24:54] Node joined network | Key: 875 | Total: 20
+[13:24:54] Node dissipated | Key: 836
+[13:24:54] Node dissipated | Key: 893
+[13:24:54] Node joined network | Key: 828 | Total: 15
+[13:24:58] Node joined network | Key: 908 | Total: 20
+[13:25:02] Query: Node 183 → Node 34
+[13:25:03] Query continues: 34 → 630
+[13:25:03] Node joined network | Key: 618 | Total: 25
+[13:25:08] Node joined network | Key: 867 | Total: 30
+[13:25:13] Node joined network | Key: 854 | Total: 35
+[13:25:18] Query continues: 532 → 849
+[13:25:18] Node joined network | Key: 664 | Total: 40
+[13:25:23] Node joined network | Key: 841 | Total: 45
+[13:25:26] Query: Node 449 → Node 281
+[13:25:28] Node joined network | Key: 457 | Total: 50
+[13:25:30] Query continues: 908 → 220
+[13:25:33] Node joined network | Key: 603 | Total: 55
+[13:25:37] Query continues: 908 → 220
+[13:25:38] Node joined network | Key: 129 | Total: 60
+[13:25:43] Node joined network | Key: 292 | Total: 65
+[13:25:48] Node joined network | Key: 987 | Total: 70
+[13:25:53] Node joined network | Key: 555 | Total: 75
+[13:25:53] Node dissipated | Key: 797
+[13:25:53] Node dissipated | Key: 135
+[13:25:53] Node dissipated | Key: 483
+[13:25:53] Node dissipated | Key: 890
+[13:25:53] Node dissipated | Key: 281
+[13:25:53] Node dissipated | Key: 654
+[13:25:53] Node dissipated | Key: 220
+[13:25:53] Node dissipated | Key: 977
+[13:25:53] Node dissipated | Key: 225
+[13:25:53] Node dissipated | Key: 583
+[13:25:53] Node dissipated | Key: 570
+[13:25:53] Node dissipated | Key: 395
+[13:25:53] Node dissipated | Key: 183
+[13:25:53] Node dissipated | Key: 824
+[13:25:53] Node joined network | Key: 253 | Total: 10
+[13:25:54] Query: Node 603 → Node 72
+[13:25:54] Node joined network | Key: 316 | Total: 15
+[13:25:54] Node joined network | Key: 251 | Total: 20
+[13:25:54] Node joined network | Key: 555 | Total: 20
+[13:25:55] Node joined network | Key: 520 | Total: 25
+[13:25:57] Node dissipated | Key: 76
+[13:26:00] Node joined network | Key: 293 | Total: 25
+[13:26:01] Query: Node 251 → Node 126
+[13:26:05] Query continues: 281 → 253
+[13:26:05] Node joined network | Key: 897 | Total: 30
+[13:26:10] Node joined network | Key: 320 | Total: 35
+[13:26:15] Node joined network | Key: 169 | Total: 40
+[13:26:20] Node joined network | Key: 313 | Total: 45
+[13:26:24] Query: Node 710 → Node 922
+[13:26:25] Node joined network | Key: 150 | Total: 50
+[13:26:30] Node joined network | Key: 349 | Total: 55
+[13:26:35] Node joined network | Key: 780 | Total: 60
+[13:26:40] Node joined network | Key: 823 | Total: 65
+[13:26:41] Query: Node 219 → Node 360
+[13:26:45] Node joined network | Key: 965 | Total: 70
+[13:26:48] Query continues: 710 → 922
+[13:26:50] Node joined network | Key: 541 | Total: 75
+[13:26:55] Node joined network | Key: 548 | Total: 80
+[13:26:57] Query continues: 150 → 260
+[13:28:13] Query: Node 823 → Node 205
+[13:29:03] Node joined network | Key: 940 | Total: 85
+[13:29:03] Node dissipated | Key: 548
+[13:29:03] Node dissipated | Key: 541
+[13:29:03] Node dissipated | Key: 965
+[13:29:03] Node dissipated | Key: 823
+[13:29:03] Node dissipated | Key: 780
+[13:29:03] Node dissipated | Key: 349
+[13:29:03] Node dissipated | Key: 150
+[13:29:03] Node dissipated | Key: 313
+[13:29:03] Node dissipated | Key: 169
+[13:29:03] Node dissipated | Key: 320
+[13:29:03] Node dissipated | Key: 897
+[13:29:03] Node dissipated | Key: 293
+[13:29:03] Node dissipated | Key: 237
+[13:29:03] Node dissipated | Key: 303
+[13:29:03] Node dissipated | Key: 787
+[13:29:03] Node dissipated | Key: 119
+[13:29:03] Node joined network | Key: 960 | Total: 5
+[13:29:03] Node joined network | Key: 126 | Total: 10
+[13:29:03] Node joined network | Key: 640 | Total: 15
+[13:29:07] Node joined network | Key: 928 | Total: 20
+[13:29:12] Node joined network | Key: 275 | Total: 25
+[13:29:17] Node joined network | Key: 2 | Total: 30
+[13:29:22] Node joined network | Key: 132 | Total: 35
+[13:29:25] Query: Node 736 → Node 2
+[13:29:27] Node joined network | Key: 513 | Total: 40
+[13:29:32] Node joined network | Key: 893 | Total: 45
+[13:29:33] Query continues: 255 → 302
+[13:29:37] Node joined network | Key: 842 | Total: 50
+[13:29:40] Query: Node 643 → Node 213
+[13:29:42] Node joined network | Key: 327 | Total: 55
+[13:29:47] Node joined network | Key: 158 | Total: 60
+[13:29:52] Node joined network | Key: 525 | Total: 65
+[13:29:53] Node dissipated | Key: 262
+[13:29:53] Node dissipated | Key: 397
+[13:29:53] Node dissipated | Key: 849
+[13:29:53] Node dissipated | Key: 731
+[13:29:53] Node dissipated | Key: 695
+[13:29:53] Node dissipated | Key: 364
+[13:29:53] Node dissipated | Key: 984
+[13:29:53] Node dissipated | Key: 842
+[13:29:53] Node dissipated | Key: 26
+[13:29:53] Node dissipated | Key: 658
+[13:29:53] Node dissipated | Key: 975
+[13:29:53] Node dissipated | Key: 940
+[13:29:53] Node joined network | Key: 86 | Total: 10
+[13:29:56] Node joined network | Key: 644 | Total: 15
+[13:30:01] Node joined network | Key: 78 | Total: 20
+[13:30:06] Node joined network | Key: 576 | Total: 25
+[13:30:11] Node joined network | Key: 542 | Total: 30
+[13:30:13] Query: Node 644 → Node 528
+[13:30:16] Node joined network | Key: 531 | Total: 35
+[13:30:21] Node joined network | Key: 751 | Total: 40
+[13:30:26] Node joined network | Key: 83 | Total: 45
+[13:30:30] Node joined network | Key: 589 | Total: 50
+[13:30:34] Query: Node 528 → Node 644
+[13:30:35] Node joined network | Key: 806 | Total: 55
+[13:30:40] Node joined network | Key: 457 | Total: 60
+[13:30:45] Node joined network | Key: 559 | Total: 65
+[13:30:50] Node joined network | Key: 16 | Total: 70
+[13:30:51] Query continues: 223 → 544
+[13:31:13] Query: Node 806 → Node 146
+[13:31:37] Node joined network | Key: 725 | Total: 75
+[13:31:37] Node dissipated | Key: 16
+[13:31:37] Node dissipated | Key: 559
+[13:31:37] Node dissipated | Key: 457
+[13:31:37] Node dissipated | Key: 806
+[13:31:37] Node dissipated | Key: 589
+[13:31:37] Node dissipated | Key: 83
+[13:31:37] Node dissipated | Key: 751
+[13:31:37] Node dissipated | Key: 531
+[13:31:37] Node dissipated | Key: 542
+[13:31:37] Node dissipated | Key: 576
+[13:31:37] Node dissipated | Key: 78
+[13:31:37] Node dissipated | Key: 644
+[13:31:37] Node dissipated | Key: 86
+[13:31:37] Node dissipated | Key: 525
+[13:31:38] Node joined network | Key: 119 | Total: 5
+[13:31:38] Node joined network | Key: 281 | Total: 10
+[13:31:42] Node joined network | Key: 888 | Total: 15
+[13:31:43] Node joined network | Key: 187 | Total: 15
+[13:31:43] Node joined network | Key: 732 | Total: 20
+[13:31:43] Node joined network | Key: 903 | Total: 25
+[13:31:43] Query: Node 966 → Node 940
+[13:31:43] Node joined network | Key: 262 | Total: 30
+[13:31:44] Node joined network | Key: 561 | Total: 30
+[13:31:44] Node joined network | Key: 711 | Total: 35
+[13:31:44] Node joined network | Key: 666 | Total: 35
+[13:31:44] Node joined network | Key: 101 | Total: 40
+[13:31:44] Node joined network | Key: 973 | Total: 45
+[13:31:44] Node joined network | Key: 709 | Total: 45
+[13:31:45] Node joined network | Key: 999 | Total: 50
+[13:31:48] Query: Node 940 → Node 422
+[13:31:50] Query continues: 771 → 287
+[13:31:50] Node joined network | Key: 951 | Total: 55
+[13:31:55] Node joined network | Key: 965 | Total: 60
+[13:32:00] Node joined network | Key: 10 | Total: 65
+[13:32:05] Node joined network | Key: 976 | Total: 70
+[13:32:07] Query: Node 231 → Node 294
+[13:32:10] Node joined network | Key: 265 | Total: 75
+[13:32:15] Node joined network | Key: 912 | Total: 80
+[13:32:20] Node joined network | Key: 226 | Total: 85
+[13:32:25] Node joined network | Key: 746 | Total: 90
+[13:32:28] Query: Node 316 → Node 130
+[13:32:30] Node joined network | Key: 958 | Total: 95
+[13:32:35] Node joined network | Key: 482 | Total: 100
+[13:32:40] Node joined network | Key: 553 | Total: 105
+[13:32:45] Node joined network | Key: 637 | Total: 110
+[13:34:13] Query: Node 915 → Node 626
+[13:34:19] Node dissipated | Key: 649
+[13:34:19] Node dissipated | Key: 533
+[13:34:19] Node dissipated | Key: 860
+[13:34:19] Node dissipated | Key: 391
+[13:34:19] Node dissipated | Key: 640
+[13:34:19] Node dissipated | Key: 440
+[13:34:19] Node dissipated | Key: 626
+[13:34:19] Node dissipated | Key: 66
+[13:34:19] Node dissipated | Key: 231
+[13:34:19] Node dissipated | Key: 586
+[13:34:19] Node dissipated | Key: 664
+[13:34:19] Node dissipated | Key: 975
+[13:34:19] Node dissipated | Key: 240
+[13:34:19] Node dissipated | Key: 973
+[13:34:19] Node dissipated | Key: 438
+[13:34:19] Node dissipated | Key: 422
+[13:34:19] Node dissipated | Key: 477
+[13:34:19] Node dissipated | Key: 262
+[13:34:19] Node dissipated | Key: 903
+[13:34:19] Node dissipated | Key: 639
+[13:34:19] Node dissipated | Key: 287
+[13:34:19] Node dissipated | Key: 218
+[13:34:20] Node joined network | Key: 55 | Total: 5
+[13:34:20] Node joined network | Key: 329 | Total: 10
+[13:34:20] Node joined network | Key: 921 | Total: 15
+[13:34:20] Node joined network | Key: 521 | Total: 20
+[13:34:21] Node joined network | Key: 386 | Total: 25
+[13:34:21] Node joined network | Key: 306 | Total: 30
+[13:34:21] Node joined network | Key: 376 | Total: 35
+[13:34:21] Query: Node 169 → Node 376
+[13:34:21] Node joined network | Key: 819 | Total: 40
+[13:34:22] Node joined network | Key: 251 | Total: 45
+[13:34:22] Node joined network | Key: 122 | Total: 50
+[13:34:22] Node joined network | Key: 235 | Total: 50
+[13:34:22] Node joined network | Key: 418 | Total: 50
+[13:34:22] Node joined network | Key: 697 | Total: 55
+[13:34:23] Node joined network | Key: 498 | Total: 60
+[13:34:23] Node joined network | Key: 367 | Total: 65
+[13:34:23] Query: Node 588 → Node 887
+[13:34:23] Node joined network | Key: 281 | Total: 70
+[13:34:23] Node joined network | Key: 836 | Total: 70
+[13:34:23] Query continues: 386 → 808
+[13:34:24] Node joined network | Key: 8 | Total: 75
+[13:34:24] Node joined network | Key: 66 | Total: 75
+[13:34:24] Query: Node 251 → Node 828
+[13:34:24] Query continues: 828 → 392
+[13:34:24] Node joined network | Key: 267 | Total: 80
+[13:34:24] Node joined network | Key: 161 | Total: 80
+[13:34:24] Node joined network | Key: 294 | Total: 80
+[13:34:25] Node joined network | Key: 42 | Total: 85
+[13:34:26] Node joined network | Key: 447 | Total: 90
+[13:34:26] Node joined network | Key: 909 | Total: 90
+[13:34:26] Node joined network | Key: 885 | Total: 90
+[13:34:26] Node joined network | Key: 868 | Total: 95
+[13:34:26] Query: Node 757 → Node 411
+[13:34:27] Node joined network | Key: 83 | Total: 95
+[13:34:28] Query continues: 676 → 821
+[13:34:28] Node joined network | Key: 774 | Total: 100
+[13:34:28] Node joined network | Key: 78 | Total: 100
+[13:34:28] Node joined network | Key: 342 | Total: 100
+[13:34:29] Query: Node 835 → Node 832
+[13:34:29] Node joined network | Key: 843 | Total: 100
+[13:34:29] Node joined network | Key: 364 | Total: 105
+[13:34:29] Node joined network | Key: 181 | Total: 105
+[13:34:29] Query continues: 759 → 233
+[13:34:30] Node joined network | Key: 264 | Total: 105
+[13:34:30] Node joined network | Key: 652 | Total: 105
+[13:34:30] Node joined network | Key: 162 | Total: 105
+[13:34:31] Query: Node 302 → Node 647
+[13:34:31] Node joined network | Key: 707 | Total: 105
+[13:34:31] Node joined network | Key: 757 | Total: 105
+[13:34:31] Node joined network | Key: 729 | Total: 105
+[13:34:31] Node joined network | Key: 433 | Total: 105
+[13:34:32] Node joined network | Key: 967 | Total: 105
+[13:34:32] Node joined network | Key: 748 | Total: 105
+[13:34:32] Node joined network | Key: 149 | Total: 105
+[13:34:32] Node joined network | Key: 552 | Total: 105
+[13:34:32] Node joined network | Key: 73 | Total: 105
+[13:34:32] Node joined network | Key: 894 | Total: 105
+[13:34:32] Query continues: 647 → 593
+[13:34:33] Node joined network | Key: 865 | Total: 105
+[13:34:33] Node joined network | Key: 925 | Total: 100
+[13:34:33] Query: Node 162 → Node 884
+[13:34:33] Query continues: 302 → 757
+[13:34:34] Node joined network | Key: 692 | Total: 105
+[13:34:34] Node joined network | Key: 957 | Total: 105
+[13:34:35] Query continues: 436 → 693
+[13:34:35] Node joined network | Key: 903 | Total: 100
+[13:34:35] Node joined network | Key: 835 | Total: 100
+[13:34:35] Query: Node 11 → Node 741
+[13:34:35] Node joined network | Key: 79 | Total: 100
+[13:34:36] Query continues: 162 → 768
+[13:34:36] Node joined network | Key: 518 | Total: 105
+[13:34:36] Node joined network | Key: 983 | Total: 105
+[13:34:36] Node joined network | Key: 505 | Total: 105
+[13:34:36] Node joined network | Key: 543 | Total: 105
+[13:34:37] Node joined network | Key: 939 | Total: 105
+[13:34:37] Query: Node 367 → Node 875
+[13:34:38] Node joined network | Key: 29 | Total: 105
+[13:34:38] Node joined network | Key: 675 | Total: 105
+[13:34:38] Node joined network | Key: 262 | Total: 105
+[13:34:39] Node joined network | Key: 114 | Total: 100
+[13:34:39] Query: Node 247 → Node 265
+[13:34:39] Node joined network | Key: 772 | Total: 95
+[13:34:39] Node joined network | Key: 30 | Total: 95
+[13:34:40] Node joined network | Key: 134 | Total: 95
+[13:34:40] Node joined network | Key: 476 | Total: 95
+[13:34:40] Node joined network | Key: 473 | Total: 95
+[13:34:40] Query continues: 920 → 985
+[13:34:40] Node joined network | Key: 991 | Total: 95
+[13:34:40] Node joined network | Key: 751 | Total: 100
+[13:34:41] Node joined network | Key: 593 | Total: 100
+[13:34:41] Node joined network | Key: 333 | Total: 100
+[13:34:41] Node joined network | Key: 902 | Total: 105
+[13:34:41] Query: Node 333 → Node 172
+[13:34:41] Node joined network | Key: 667 | Total: 105
+[13:34:42] Node joined network | Key: 956 | Total: 105
+[13:34:42] Node joined network | Key: 369 | Total: 105
+[13:34:42] Node joined network | Key: 133 | Total: 105
+[13:34:42] Node joined network | Key: 190 | Total: 100
+[13:34:42] Node joined network | Key: 195 | Total: 100
+[13:34:43] Node joined network | Key: 679 | Total: 100
+[13:34:43] Query continues: 626 → 521
+[13:34:43] Query: Node 587 → Node 905
+[13:34:44] Node joined network | Key: 637 | Total: 95
+[13:34:44] Node joined network | Key: 4 | Total: 95
+[13:34:44] Node joined network | Key: 409 | Total: 95
+[13:34:44] Query continues: 328 → 318
+[13:34:45] Node joined network | Key: 587 | Total: 90
+[13:34:45] Query: Node 4 → Node 369
+[13:34:45] Node joined network | Key: 704 | Total: 95
+[13:34:45] Node joined network | Key: 245 | Total: 95
+[13:34:46] Node joined network | Key: 570 | Total: 90
+[13:34:46] Node joined network | Key: 245 | Total: 90
+[13:34:46] Node joined network | Key: 379 | Total: 90
+[13:34:46] Node joined network | Key: 721 | Total: 90
+[13:34:46] Node joined network | Key: 510 | Total: 95
+[13:34:47] Node joined network | Key: 810 | Total: 95
+[13:34:47] Node joined network | Key: 676 | Total: 95
+[13:34:47] Node joined network | Key: 365 | Total: 95
+[13:34:47] Node joined network | Key: 900 | Total: 95
+[13:34:47] Node joined network | Key: 942 | Total: 95
+[13:34:47] Node joined network | Key: 604 | Total: 95
+[13:34:47] Node joined network | Key: 611 | Total: 95
+[13:34:48] Query: Node 454 → Node 494
+[13:34:48] Query continues: 494 → 500
+[13:34:48] Node joined network | Key: 167 | Total: 95
+[13:34:48] Node joined network | Key: 522 | Total: 95
+[13:34:48] Node joined network | Key: 792 | Total: 95
+[13:34:49] Node joined network | Key: 789 | Total: 100
+[13:34:49] Node joined network | Key: 393 | Total: 100
+[13:34:49] Node joined network | Key: 681 | Total: 100
+[13:34:50] Query: Node 617 → Node 633
+[13:34:50] Node joined network | Key: 450 | Total: 100
+[13:34:50] Node joined network | Key: 503 | Total: 100
+[13:34:50] Node joined network | Key: 973 | Total: 100
+[13:34:50] Node joined network | Key: 942 | Total: 100
+[13:34:51] Node joined network | Key: 584 | Total: 100
+[13:34:51] Node joined network | Key: 5 | Total: 100
+[13:34:51] Node joined network | Key: 765 | Total: 105
+[13:34:51] Node joined network | Key: 19 | Total: 105
+[13:34:51] Node joined network | Key: 527 | Total: 110
+[13:34:52] Node joined network | Key: 274 | Total: 110
+[13:34:52] Node joined network | Key: 529 | Total: 110
+[13:34:52] Node joined network | Key: 568 | Total: 110
+[13:34:52] Node joined network | Key: 282 | Total: 100
+[13:34:52] Query: Node 936 → Node 336
+[13:34:52] Node joined network | Key: 767 | Total: 100
+[13:34:53] Node joined network | Key: 651 | Total: 100
+[13:34:53] Node joined network | Key: 355 | Total: 100
+[13:34:53] Node joined network | Key: 987 | Total: 100
+[13:34:53] Node joined network | Key: 679 | Total: 100
+[13:34:53] Node joined network | Key: 937 | Total: 100
+[13:34:54] Node joined network | Key: 786 | Total: 100
+[13:34:54] Node joined network | Key: 227 | Total: 100
+[13:34:54] Node joined network | Key: 142 | Total: 100
+[13:34:54] Node joined network | Key: 703 | Total: 100
+[13:34:54] Node joined network | Key: 741 | Total: 100
+[13:34:54] Node joined network | Key: 761 | Total: 100
+[13:34:55] Query: Node 942 → Node 282
+[13:34:55] Node joined network | Key: 673 | Total: 100
+[13:34:56] Node joined network | Key: 74 | Total: 95
+[13:34:56] Node joined network | Key: 81 | Total: 95
+[13:34:56] Node joined network | Key: 263 | Total: 95
+[13:34:56] Node joined network | Key: 911 | Total: 95
+[13:34:56] Node joined network | Key: 453 | Total: 95
+[13:34:56] Query: Node 704 → Node 563
+[13:34:57] Node joined network | Key: 533 | Total: 100
+[13:34:57] Node joined network | Key: 462 | Total: 105
+[13:34:58] Node joined network | Key: 399 | Total: 100
+[13:34:58] Node joined network | Key: 499 | Total: 105
+[13:34:58] Node joined network | Key: 611 | Total: 105
+[13:34:58] Node joined network | Key: 918 | Total: 105
+[13:34:59] Node joined network | Key: 294 | Total: 100
+[13:34:59] Node joined network | Key: 857 | Total: 100
+[13:34:59] Node joined network | Key: 678 | Total: 100
+[13:34:59] Node joined network | Key: 338 | Total: 100
+[13:34:59] Node joined network | Key: 794 | Total: 100
+[13:35:00] Node joined network | Key: 747 | Total: 100
+[13:35:00] Node joined network | Key: 658 | Total: 100
+[13:35:00] Node joined network | Key: 271 | Total: 105
+[13:35:00] Node joined network | Key: 869 | Total: 105
+[13:35:00] Node joined network | Key: 711 | Total: 105
+[13:35:00] Node joined network | Key: 955 | Total: 105
+[13:35:00] Node joined network | Key: 386 | Total: 105
+[13:35:00] Query: Node 869 → Node 745
+[13:35:01] Node joined network | Key: 685 | Total: 105
+[13:35:01] Node joined network | Key: 306 | Total: 100
+[13:35:01] Node joined network | Key: 680 | Total: 100
+[13:35:01] Node joined network | Key: 743 | Total: 100
+[13:35:02] Node joined network | Key: 21 | Total: 100
+[13:35:02] Query: Node 499 → Node 814
+[13:35:02] Node joined network | Key: 709 | Total: 100
+[13:35:02] Node joined network | Key: 679 | Total: 100
+[13:35:03] Node joined network | Key: 117 | Total: 100
+[13:35:03] Query continues: 884 → 995
+[13:35:04] Node joined network | Key: 708 | Total: 100
+[13:35:04] Query: Node 247 → Node 586
+[13:35:04] Node joined network | Key: 730 | Total: 100
+[13:35:04] Node joined network | Key: 784 | Total: 95
+[13:35:04] Node joined network | Key: 597 | Total: 95
+[13:35:04] Node joined network | Key: 323 | Total: 95
+[13:35:05] Node joined network | Key: 316 | Total: 95
+[13:35:05] Node joined network | Key: 143 | Total: 95
+[13:35:05] Node joined network | Key: 658 | Total: 95
+[13:35:05] Query continues: 7 → 92
+[13:35:06] Node joined network | Key: 706 | Total: 100
+[13:35:06] Node joined network | Key: 649 | Total: 100
+[13:35:06] Query: Node 338 → Node 706
+[13:35:07] Query continues: 7 → 614
+[13:35:07] Node joined network | Key: 798 | Total: 105
+[13:35:07] Node joined network | Key: 950 | Total: 105
+[13:35:07] Node joined network | Key: 111 | Total: 105
+[13:35:07] Node joined network | Key: 801 | Total: 105
+[13:35:07] Node joined network | Key: 819 | Total: 100
+[13:35:08] Node joined network | Key: 280 | Total: 100
+[13:35:08] Node joined network | Key: 953 | Total: 100
+[13:35:08] Node joined network | Key: 834 | Total: 100
+[13:35:08] Node joined network | Key: 815 | Total: 100
+[13:35:08] Node joined network | Key: 223 | Total: 100
+[13:35:08] Query: Node 166 → Node 602
+[13:35:08] Node joined network | Key: 431 | Total: 95
+[13:35:08] Node joined network | Key: 324 | Total: 95
+[13:35:09] Node joined network | Key: 269 | Total: 95
+[13:35:09] Node joined network | Key: 893 | Total: 95
+[13:35:09] Node joined network | Key: 145 | Total: 95
+[13:35:10] Node joined network | Key: 64 | Total: 100
+[13:35:10] Query continues: 316 → 354
+[13:35:10] Node joined network | Key: 991 | Total: 105
+[13:35:10] Node joined network | Key: 943 | Total: 105
+[13:35:11] Query: Node 866 → Node 821
+[13:35:11] Node joined network | Key: 601 | Total: 105
+[13:35:12] Node joined network | Key: 806 | Total: 95
+[13:35:12] Node joined network | Key: 182 | Total: 95
+[13:35:12] Node joined network | Key: 495 | Total: 95
+[13:35:12] Query: Node 121 → Node 523
+[13:35:13] Node joined network | Key: 396 | Total: 95
+[13:35:13] Node joined network | Key: 378 | Total: 100
+[13:35:13] Query continues: 419 → 918
+[13:35:14] Node joined network | Key: 580 | Total: 100
+[13:35:14] Query: Node 100 → Node 688
+[13:35:14] Node joined network | Key: 731 | Total: 100
+[13:35:14] Query continues: 236 → 236
+[13:35:14] Node joined network | Key: 757 | Total: 100
+[13:35:15] Node joined network | Key: 438 | Total: 100
+[13:35:15] Node joined network | Key: 152 | Total: 100
+[13:35:16] Node joined network | Key: 59 | Total: 100
+[13:35:16] Node joined network | Key: 289 | Total: 100
+[13:35:16] Node joined network | Key: 767 | Total: 100
+[13:35:16] Node joined network | Key: 379 | Total: 100
+[13:35:16] Query: Node 152 → Node 435
+[13:35:17] Node joined network | Key: 223 | Total: 95
+[13:35:17] Node joined network | Key: 742 | Total: 95
+[13:35:17] Query continues: 303 → 62
+[13:35:17] Node joined network | Key: 668 | Total: 95
+[13:35:17] Node joined network | Key: 936 | Total: 95
+[13:35:18] Node joined network | Key: 36 | Total: 100
+[13:35:18] Node joined network | Key: 239 | Total: 100
+[13:35:18] Node joined network | Key: 502 | Total: 100
+[13:35:18] Node joined network | Key: 850 | Total: 100
+[13:35:18] Node joined network | Key: 309 | Total: 100
+[13:35:18] Node joined network | Key: 239 | Total: 100
+[13:35:18] Node joined network | Key: 264 | Total: 100
+[13:35:18] Node joined network | Key: 908 | Total: 100
+[13:35:19] Query: Node 120 → Node 305
+[13:35:19] Node joined network | Key: 388 | Total: 100
+[13:35:19] Node joined network | Key: 749 | Total: 100
+[13:35:20] Node joined network | Key: 353 | Total: 95
+[13:35:20] Node joined network | Key: 479 | Total: 95
+[13:35:20] Node joined network | Key: 442 | Total: 95
+[13:35:20] Node joined network | Key: 976 | Total: 95
+[13:35:20] Node joined network | Key: 56 | Total: 95
+[13:35:20] Node joined network | Key: 206 | Total: 95
+[13:35:20] Node joined network | Key: 452 | Total: 95
+[13:35:20] Node joined network | Key: 214 | Total: 95
+[13:35:20] Node joined network | Key: 379 | Total: 95
+[13:35:21] Node joined network | Key: 650 | Total: 95
+[13:35:21] Query: Node 947 → Node 7
+[13:35:21] Node joined network | Key: 145 | Total: 95
+[13:35:21] Node joined network | Key: 989 | Total: 100
+[13:35:21] Node joined network | Key: 890 | Total: 100
+[13:35:21] Node joined network | Key: 531 | Total: 100
+[13:35:22] Node joined network | Key: 753 | Total: 100
+[13:35:22] Node joined network | Key: 517 | Total: 100
+[13:35:22] Node joined network | Key: 337 | Total: 100
+[13:35:22] Node joined network | Key: 125 | Total: 105
+[13:35:22] Query: Node 668 → Node 485
+[13:35:22] Node joined network | Key: 591 | Total: 110
+[13:35:22] Node joined network | Key: 611 | Total: 110
+[13:35:23] Node joined network | Key: 811 | Total: 105
+[13:35:23] Node joined network | Key: 141 | Total: 105
+[13:35:23] Node joined network | Key: 647 | Total: 105
+[13:35:23] Node joined network | Key: 55 | Total: 110
+[13:35:23] Node joined network | Key: 363 | Total: 110
+[13:35:23] Node joined network | Key: 2 | Total: 110
+[13:35:24] Node joined network | Key: 792 | Total: 110
+[13:35:24] Node joined network | Key: 506 | Total: 110
+[13:35:24] Node joined network | Key: 964 | Total: 110
+[13:35:24] Query: Node 264 → Node 353
+[13:35:24] Node joined network | Key: 75 | Total: 100
+[13:35:25] Node joined network | Key: 647 | Total: 100
+[13:35:25] Node joined network | Key: 682 | Total: 100
+[13:35:25] Node joined network | Key: 590 | Total: 100
+[13:35:25] Node joined network | Key: 843 | Total: 100
+[13:35:25] Node joined network | Key: 62 | Total: 100
+[13:35:25] Node joined network | Key: 540 | Total: 100
+[13:35:25] Node joined network | Key: 579 | Total: 100
+[13:35:25] Node joined network | Key: 254 | Total: 100
+[13:35:25] Node joined network | Key: 952 | Total: 100
+[13:35:25] Node joined network | Key: 956 | Total: 100
+[13:35:25] Node joined network | Key: 441 | Total: 95
+[13:35:25] Node joined network | Key: 824 | Total: 95
+[13:35:26] Node joined network | Key: 625 | Total: 100
+[13:35:26] Node joined network | Key: 826 | Total: 100
+[13:35:26] Node joined network | Key: 979 | Total: 100
+[13:35:26] Query: Node 591 → Node 517
+[13:35:26] Query continues: 363 → 391
+[13:35:26] Node joined network | Key: 543 | Total: 100
+[13:35:27] Node joined network | Key: 951 | Total: 100
+[13:35:27] Node joined network | Key: 139 | Total: 100
+[13:35:27] Node joined network | Key: 617 | Total: 100
+[13:35:27] Node joined network | Key: 90 | Total: 100
+[13:35:27] Query continues: 363 → 479
+[13:35:27] Query: Node 804 → Node 506
+[13:35:28] Node joined network | Key: 849 | Total: 105
+[13:35:28] Node joined network | Key: 19 | Total: 105
+[13:35:28] Node joined network | Key: 129 | Total: 105
+[13:35:28] Node joined network | Key: 891 | Total: 105
+[13:35:28] Node joined network | Key: 509 | Total: 105
+[13:35:28] Node joined network | Key: 218 | Total: 105
+[13:35:28] Node joined network | Key: 99 | Total: 105
+[13:35:28] Node joined network | Key: 304 | Total: 105
+[13:35:29] Node joined network | Key: 623 | Total: 105
+[13:35:29] Node joined network | Key: 75 | Total: 105
+[13:35:29] Node joined network | Key: 258 | Total: 105
+[13:35:29] Node joined network | Key: 309 | Total: 105
+[13:35:29] Node joined network | Key: 613 | Total: 105
+[13:35:29] Query: Node 595 → Node 719
+[13:35:30] Node joined network | Key: 114 | Total: 110
+[13:35:30] Node joined network | Key: 22 | Total: 105
+[13:35:30] Node joined network | Key: 503 | Total: 105
+[13:35:30] Node joined network | Key: 177 | Total: 105
+[13:35:31] Node joined network | Key: 927 | Total: 110
+[13:35:31] Node joined network | Key: 354 | Total: 110
+[13:35:31] Query: Node 367 → Node 296
+[13:35:31] Node joined network | Key: 145 | Total: 110
+[13:35:31] Node joined network | Key: 172 | Total: 110
+[13:35:32] Node joined network | Key: 57 | Total: 110
+[13:35:32] Node joined network | Key: 441 | Total: 105
+[13:35:32] Node joined network | Key: 920 | Total: 105
+[13:35:32] Node joined network | Key: 949 | Total: 105
+[13:35:32] Query continues: 688 → 555
+[13:35:33] Node joined network | Key: 599 | Total: 105
+[13:35:33] Node joined network | Key: 385 | Total: 105
+[13:35:33] Node joined network | Key: 214 | Total: 105
+[13:35:33] Node joined network | Key: 110 | Total: 105
+[13:35:33] Node joined network | Key: 82 | Total: 105
+[13:35:33] Query: Node 94 → Node 197
+[13:35:33] Node joined network | Key: 405 | Total: 105
+[13:35:33] Node joined network | Key: 497 | Total: 105
+[13:35:34] Node joined network | Key: 150 | Total: 105
+[13:35:34] Node joined network | Key: 798 | Total: 105
+[13:35:34] Node joined network | Key: 3 | Total: 105
+[13:35:35] Node joined network | Key: 983 | Total: 110
+[13:35:35] Node joined network | Key: 369 | Total: 110
+[13:35:35] Node joined network | Key: 648 | Total: 110
+[13:35:35] Node joined network | Key: 300 | Total: 105
+[13:35:35] Node joined network | Key: 673 | Total: 105
+[13:35:35] Query: Node 192 → Node 798
+[13:35:35] Query continues: 673 → 214
+[13:35:36] Node joined network | Key: 555 | Total: 100
+[13:35:36] Query: Node 455 → Node 139
+[13:35:37] Node joined network | Key: 516 | Total: 100
+[13:35:38] Query: Node 845 → Node 38
+[13:35:38] Node joined network | Key: 836 | Total: 100
+[13:35:38] Node joined network | Key: 14 | Total: 100
+[13:35:38] Node joined network | Key: 503 | Total: 100
+[13:35:39] Node joined network | Key: 601 | Total: 100
+[13:35:39] Node joined network | Key: 405 | Total: 100
+[13:35:39] Node joined network | Key: 785 | Total: 100
+[13:35:40] Query continues: 38 → 845
+[13:35:40] Node joined network | Key: 771 | Total: 100
+[13:35:40] Node joined network | Key: 159 | Total: 105
+[13:35:40] Node joined network | Key: 948 | Total: 105
+[13:35:40] Node joined network | Key: 592 | Total: 100
+[13:35:41] Node joined network | Key: 505 | Total: 100
+[13:35:41] Query: Node 774 → Node 408
+[13:35:41] Node joined network | Key: 145 | Total: 100
+[13:35:41] Node joined network | Key: 978 | Total: 100
+[13:35:42] Node joined network | Key: 209 | Total: 100
+[13:35:42] Node joined network | Key: 657 | Total: 100
+[13:35:42] Query continues: 75 → 501
+[13:35:43] Node joined network | Key: 637 | Total: 95
+[13:35:43] Node joined network | Key: 409 | Total: 95
+[13:35:43] Node joined network | Key: 73 | Total: 95
+[13:35:43] Query: Node 81 → Node 451
+[13:35:43] Node joined network | Key: 616 | Total: 95
+[13:35:43] Node joined network | Key: 468 | Total: 95
+[13:35:43] Node joined network | Key: 15 | Total: 95
+[13:35:44] Node joined network | Key: 174 | Total: 95
+[13:35:44] Node joined network | Key: 654 | Total: 95
+[13:35:44] Node joined network | Key: 692 | Total: 100
+[13:35:44] Query: Node 256 → Node 649
+[13:35:45] Node joined network | Key: 230 | Total: 100
+[13:35:45] Node joined network | Key: 742 | Total: 100
+[13:35:45] Node joined network | Key: 679 | Total: 100
+[13:35:45] Node joined network | Key: 72 | Total: 100
+[13:35:45] Node joined network | Key: 750 | Total: 95
+[13:35:45] Node joined network | Key: 801 | Total: 95
+[13:35:45] Node joined network | Key: 509 | Total: 95
+[13:35:46] Node joined network | Key: 365 | Total: 95
+[13:35:46] Node joined network | Key: 817 | Total: 95
+[13:35:46] Node joined network | Key: 739 | Total: 95
+[13:35:46] Node joined network | Key: 883 | Total: 95
+[13:35:46] Node joined network | Key: 262 | Total: 95
+[13:35:47] Node joined network | Key: 885 | Total: 95
+[13:35:47] Node joined network | Key: 810 | Total: 100
+[13:35:47] Node joined network | Key: 582 | Total: 100
+[13:35:47] Query: Node 358 → Node 209
+[13:35:47] Node joined network | Key: 967 | Total: 100
+[13:35:48] Node joined network | Key: 104 | Total: 100
+[13:35:48] Node joined network | Key: 536 | Total: 100
+[13:35:48] Node joined network | Key: 260 | Total: 100
+[13:35:50] Node joined network | Key: 471 | Total: 105
+[13:35:55] Node joined network | Key: 611 | Total: 110
+[13:36:00] Node joined network | Key: 69 | Total: 115
+[13:36:02] Query: Node 187 → Node 773
+[13:36:05] Node joined network | Key: 13 | Total: 120
+[13:36:10] Node joined network | Key: 673 | Total: 125
+[13:36:15] Node joined network | Key: 872 | Total: 130
+[13:36:20] Node joined network | Key: 757 | Total: 135
+[13:36:20] Node dissipated | Key: 542
+[13:36:20] Node dissipated | Key: 914
+[13:36:20] Node dissipated | Key: 12
+[13:36:20] Node dissipated | Key: 707
+[13:36:20] Node dissipated | Key: 773
+[13:36:20] Node dissipated | Key: 392
+[13:36:20] Node dissipated | Key: 744
+[13:36:20] Node dissipated | Key: 104
+[13:36:20] Node dissipated | Key: 192
+[13:36:20] Node dissipated | Key: 739
+[13:36:20] Node dissipated | Key: 810
+[13:36:20] Node dissipated | Key: 228
+[13:36:20] Node dissipated | Key: 883
+[13:36:20] Node dissipated | Key: 432
+[13:36:20] Node dissipated | Key: 817
+[13:36:20] Node dissipated | Key: 327
+[13:36:20] Node dissipated | Key: 625
+[13:36:20] Node dissipated | Key: 434
+[13:36:20] Node dissipated | Key: 768
+[13:36:20] Node dissipated | Key: 692
+[13:36:20] Node dissipated | Key: 358
+[13:36:20] Node dissipated | Key: 174
+[13:36:20] Node dissipated | Key: 73
+[13:36:20] Node dissipated | Key: 358
+[13:36:20] Node dissipated | Key: 413
+[13:36:20] Node dissipated | Key: 505
+[13:36:20] Node joined network | Key: 495 | Total: 10
+[13:36:21] Node joined network | Key: 892 | Total: 15
+[13:36:21] Query: Node 186 → Node 17
+[13:36:23] Node joined network | Key: 414 | Total: 20
+[13:36:25] Node joined network | Key: 478 | Total: 25
+[13:36:25] Node dissipated | Key: 17
+[13:36:26] Node joined network | Key: 396 | Total: 25
+[13:36:31] Node joined network | Key: 449 | Total: 30
+[13:36:34] Query: Node 478 → Node 201
+[13:36:36] Node joined network | Key: 675 | Total: 35
+[13:36:41] Node joined network | Key: 628 | Total: 40
+[13:36:42] Node dissipated | Key: 613
+[13:36:42] Node dissipated | Key: 421
+[13:36:42] Node dissipated | Key: 1000
+[13:36:42] Node dissipated | Key: 359
+[13:36:42] Node dissipated | Key: 414
+[13:36:42] Node dissipated | Key: 318
+[13:36:42] Node dissipated | Key: 126
+[13:36:42] Node joined network | Key: 209 | Total: 10
+[13:36:42] Node joined network | Key: 693 | Total: 15
+[13:36:42] Node joined network | Key: 26 | Total: 20
+[13:36:42] Query: Node 441 → Node 675
+[13:36:43] Node joined network | Key: 268 | Total: 25
+[13:36:43] Node joined network | Key: 622 | Total: 30
+[13:36:43] Node joined network | Key: 350 | Total: 35
+[13:36:43] Node joined network | Key: 180 | Total: 40
+[13:36:44] Node joined network | Key: 183 | Total: 45
+[13:36:44] Node joined network | Key: 137 | Total: 50
+[13:36:44] Node joined network | Key: 431 | Total: 55
+[13:36:45] Node joined network | Key: 728 | Total: 60
+[13:36:45] Query: Node 693 → Node 970
+[13:36:45] Node joined network | Key: 713 | Total: 65
+[13:36:46] Node joined network | Key: 241 | Total: 70
+[13:36:48] Query continues: 733 → 241
+[13:36:51] Node joined network | Key: 326 | Total: 75
+[13:36:56] Node joined network | Key: 207 | Total: 80
+[13:36:57] Query: Node 243 → Node 839
+[13:37:01] Node joined network | Key: 767 | Total: 85
+[13:37:06] Node joined network | Key: 905 | Total: 90
+[13:37:11] Node joined network | Key: 864 | Total: 95
+[13:37:16] Node joined network | Key: 173 | Total: 100
+[13:37:21] Node joined network | Key: 674 | Total: 105
+[13:37:24] Query continues: 733 → 321
+[13:37:26] Node joined network | Key: 950 | Total: 110
+[13:37:29] Query: Node 441 → Node 964
+[13:37:31] Node joined network | Key: 238 | Total: 115
+[13:37:36] Node joined network | Key: 937 | Total: 120
+[13:37:41] Node joined network | Key: 781 | Total: 125
+[13:38:13] Node joined network | Key: 880 | Total: 130
+[13:39:17] Node dissipated | Key: 548
+[13:39:17] Node dissipated | Key: 495
+[13:39:17] Node dissipated | Key: 868
+[13:39:17] Node dissipated | Key: 724
+[13:39:17] Node dissipated | Key: 420
+[13:39:17] Node dissipated | Key: 578
+[13:39:17] Node dissipated | Key: 299
+[13:39:17] Node dissipated | Key: 442
+[13:39:17] Node dissipated | Key: 894
+[13:39:17] Node dissipated | Key: 558
+[13:39:17] Node dissipated | Key: 2
+[13:39:17] Node dissipated | Key: 503
+[13:39:17] Node dissipated | Key: 762
+[13:39:17] Node dissipated | Key: 118
+[13:39:17] Node dissipated | Key: 970
+[13:39:17] Node dissipated | Key: 216
+[13:39:17] Node dissipated | Key: 781
+[13:39:17] Node dissipated | Key: 856
+[13:39:17] Node dissipated | Key: 146
+[13:39:17] Node dissipated | Key: 964
+[13:39:17] Node dissipated | Key: 704
+[13:39:17] Node dissipated | Key: 858
+[13:39:17] Node dissipated | Key: 246
+[13:39:17] Node dissipated | Key: 483
+[13:39:17] Node dissipated | Key: 209
+[13:39:17] Node dissipated | Key: 552
+[13:39:17] Node joined network | Key: 458 | Total: 5
+[13:39:17] Query: Node 603 → Node 398
+[13:39:17] Node joined network | Key: 95 | Total: 10
+[13:39:17] Node joined network | Key: 280 | Total: 15
+[13:39:18] Node joined network | Key: 496 | Total: 20
+[13:39:18] Node joined network | Key: 727 | Total: 25
+[13:39:18] Node joined network | Key: 852 | Total: 30
+[13:39:18] Node joined network | Key: 806 | Total: 35
+[13:39:19] Node joined network | Key: 125 | Total: 40
+[13:39:19] Query: Node 876 → Node 806
+[13:39:19] Node joined network | Key: 83 | Total: 45
+[13:39:19] Query continues: 603 → 904
+[13:39:19] Node joined network | Key: 92 | Total: 50
+[13:39:19] Node joined network | Key: 363 | Total: 55
+[13:39:21] Node joined network | Key: 710 | Total: 60
+[13:39:21] Node dissipated | Key: 622
+[13:39:21] Query continues: 7 → 810
+[13:39:22] Node joined network | Key: 996 | Total: 55
+[13:39:22] Query: Node 35 → Node 652
+[13:39:22] Node joined network | Key: 571 | Total: 60
+[13:39:27] Node joined network | Key: 384 | Total: 65
+[13:39:32] Node joined network | Key: 208 | Total: 70
+[13:39:37] Node joined network | Key: 724 | Total: 75
+[13:39:42] Node joined network | Key: 416 | Total: 80
+[13:39:45] Query: Node 976 → Node 53
+[13:39:47] Node joined network | Key: 788 | Total: 85
+[13:39:52] Node joined network | Key: 503 | Total: 90
+[13:39:57] Node joined network | Key: 930 | Total: 95
+[13:40:02] Node joined network | Key: 11 | Total: 100
+[13:40:06] Query: Node 125 → Node 397
+[13:40:07] Node joined network | Key: 855 | Total: 105
+[13:40:12] Node joined network | Key: 902 | Total: 110
+[13:40:17] Node joined network | Key: 320 | Total: 115
+[13:40:19] Query: Node 125 → Node 397
+[13:40:22] Node joined network | Key: 276 | Total: 120
+[13:42:11] Node dissipated | Key: 493
+[13:42:11] Node dissipated | Key: 937
+[13:42:11] Node dissipated | Key: 696
+[13:42:11] Node dissipated | Key: 457
+[13:42:11] Node dissipated | Key: 572
+[13:42:11] Node dissipated | Key: 720
+[13:42:11] Node dissipated | Key: 184
+[13:42:11] Node dissipated | Key: 460
+[13:42:11] Node dissipated | Key: 825
+[13:42:11] Node dissipated | Key: 610
+[13:42:11] Node dissipated | Key: 292
+[13:42:11] Node dissipated | Key: 575
+[13:42:11] Node dissipated | Key: 272
+[13:42:11] Node dissipated | Key: 224
+[13:42:11] Node dissipated | Key: 681
+[13:42:11] Node dissipated | Key: 765
+[13:42:11] Node dissipated | Key: 52
+[13:42:11] Node dissipated | Key: 462
+[13:42:11] Node dissipated | Key: 83
+[13:42:11] Node dissipated | Key: 125
+[13:42:11] Node dissipated | Key: 132
+[13:42:11] Node dissipated | Key: 7
+[13:42:11] Node dissipated | Key: 882
+[13:42:11] Node dissipated | Key: 835
+[13:42:11] Node joined network | Key: 265 | Total: 5
+[13:42:11] Node joined network | Key: 662 | Total: 10
+[13:42:12] Node joined network | Key: 410 | Total: 15
+[13:42:13] Node joined network | Key: 600 | Total: 20
+[13:42:18] Node joined network | Key: 838 | Total: 25
+[13:42:23] Node joined network | Key: 69 | Total: 30
+[13:42:24] Query: Node 618 → Node 410
+[13:42:26] Query continues: 260 → 327
+[13:42:28] Node joined network | Key: 906 | Total: 35
+[13:42:33] Node joined network | Key: 606 | Total: 40
+[13:42:38] Node joined network | Key: 427 | Total: 45
+[13:42:42] Query: Node 464 → Node 260
+[13:42:43] Node joined network | Key: 690 | Total: 50
+[13:42:48] Node joined network | Key: 190 | Total: 55
+[13:42:53] Node joined network | Key: 975 | Total: 60
+[13:42:58] Node joined network | Key: 816 | Total: 65
+[13:43:03] Node joined network | Key: 712 | Total: 70
+[13:43:04] Query: Node 372 → Node 966
+[13:43:08] Node joined network | Key: 171 | Total: 75
+[13:43:13] Query continues: 966 → 372
+[13:43:13] Node joined network | Key: 600 | Total: 80
+[13:43:49] Node dissipated | Key: 36
+[13:43:49] Node dissipated | Key: 490
+[13:43:49] Node dissipated | Key: 990
+[13:43:49] Node dissipated | Key: 668
+[13:43:49] Node dissipated | Key: 148
+[13:43:49] Node dissipated | Key: 525
+[13:43:49] Node dissipated | Key: 884
+[13:43:49] Node dissipated | Key: 749
+[13:43:49] Node dissipated | Key: 888
+[13:43:49] Node dissipated | Key: 546
+[13:43:49] Node dissipated | Key: 442
+[13:43:49] Node dissipated | Key: 991
+[13:43:49] Node dissipated | Key: 169
+[13:43:49] Node dissipated | Key: 849
+[13:43:49] Node dissipated | Key: 875
+[13:43:49] Node dissipated | Key: 123
+[13:43:52] Node joined network | Key: 989 | Total: 5
+[13:43:55] Query: Node 687 → Node 706
+[13:43:57] Node joined network | Key: 14 | Total: 10
+[13:44:02] Node joined network | Key: 51 | Total: 15
+[13:44:06] Query continues: 687 → 830
+[13:44:07] Node joined network | Key: 965 | Total: 20
+[13:44:12] Node joined network | Key: 41 | Total: 25
+[13:44:17] Node joined network | Key: 295 | Total: 30
+[13:44:20] Query: Node 625 → Node 244
+[13:44:22] Node joined network | Key: 33 | Total: 35
+[13:44:27] Node joined network | Key: 118 | Total: 40
+[13:44:32] Node joined network | Key: 146 | Total: 45
+[13:44:37] Node joined network | Key: 530 | Total: 50
+[13:44:40] KEY FOUND! Node 625 has target 625
