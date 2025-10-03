@@ -1,0 +1,922 @@
+
+                        <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <style>
+                body {
+                  background-color: white; /* Ensure the iframe has a white background */
+                }
+    
+                
+              </style>
+                        </head>
+                        <body>
+                            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHT Network Key Discovery Simulator - Extreme Density</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #1a1a1a;
+            color: #cccccc;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #00ff00;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+        }
+        
+        .rules {
+            background: #2a2a2a;
+            border: 2px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .rules h2 {
+            color: #00ff00;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .rules ul {
+            list-style-position: inside;
+            line-height: 1.6;
+            color: #999;
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background: #00ff00;
+            color: #1a1a1a;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin: 0 5px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+        }
+        
+        button:hover {
+            background: #66ff66;
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+        }
+        
+        button:disabled {
+            background: #555;
+            color: #888;
+            cursor: not-allowed;
+            transform: scale(1);
+            box-shadow: none;
+        }
+        
+        .info-panel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .info-box {
+            background: #2a2a2a;
+            border: 2px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        
+        .info-label {
+            color: #888;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .info-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00ff00;
+        }
+        
+        .target-key {
+            color: #00ff00;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+        
+        .area-status {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .area-box {
+            background: #2a2a2a;
+            border: 2px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            transition: all 0.5s;
+        }
+        
+        .area-box.active {
+            background: #1a3a1a;
+            border-color: #00ff00;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+        }
+        
+        .area-label {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .area-value {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .area-value.active {
+            color: #00ff00;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 20px;
+        }
+        
+        .canvas-container {
+            background: #2a2a2a;
+            border: 2px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 10px;
+            position: relative;
+        }
+        
+        canvas {
+            display: block;
+            width: 100%;
+            background: #1a1a1a;
+            border-radius: 5px;
+        }
+        
+        .log-container {
+            background: #2a2a2a;
+            border: 2px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .log-container h3 {
+            color: #00ff00;
+            margin-bottom: 10px;
+            position: sticky;
+            top: 0;
+            background: #2a2a2a;
+            padding-bottom: 10px;
+        }
+        
+        .log-entry {
+            padding: 8px;
+            margin-bottom: 5px;
+            border-left: 3px solid #3a3a3a;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+        
+        .log-spawn {
+            border-left-color: #666;
+            color: #999;
+        }
+        
+        .log-query {
+            border-left-color: #00ff00;
+            color: #00ff00;
+        }
+        
+        .log-response {
+            border-left-color: #888;
+            color: #aaa;
+        }
+        
+        .log-area-activated {
+            border-left-color: #00ff00;
+            color: #00ff00;
+            font-weight: bold;
+            background: rgba(0, 255, 0, 0.1);
+        }
+        
+        .log-match {
+            border-left-color: #00ff00;
+            color: #00ff00;
+            font-weight: bold;
+            animation: pulse 0.5s ease-in-out;
+            background: rgba(0, 255, 0, 0.1);
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .victory {
+            background: linear-gradient(135deg, #00ff00, #66ff66);
+            color: #1a1a1a;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+        }
+        
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DHT Network Key Discovery Simulator - Extreme Density</h1>
+        
+        <div class="rules">
+            <h2>Extreme-Density DHT Network Rules:</h2>
+            <ul>
+                <li>Network nodes spawn continuously and form a distributed hash table</li>
+                <li>Each node stores a key-value pair (hash: signature key 1-1000)</li>
+                <li>Nodes query their neighbors to search for the target signature</li>
+                <li>Queries propagate through the network via node connections</li>
+                <li>Nodes connect to nearby peers (shown as grey lines)</li>
+                <li>Active queries are shown as green connections</li>
+                <li>Nodes dissipate after variable times (simulating churn)</li>
+                <li>GOAL: Discover the target signature key!</li>
+                <li>EXTREME DENSITY: 10x faster spawning, smaller nodes, more connections</li>
+            </ul>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn" onclick="startGame()">Start Network</button>
+            <button id="resetBtn" onclick="resetGame()" disabled>Reset Network</button>
+        </div>
+        
+        <div class="info-panel">
+            <div class="info-box">
+                <div class="info-label">Target Signature</div>
+                <div class="info-value target-key" id="targetKey">-</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Active Nodes</div>
+                <div class="info-value" id="activeNodes">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Total Queries</div>
+                <div class="info-value" id="totalQueries">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Network Hops</div>
+                <div class="info-value" id="networkHops">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Elapsed Time</div>
+                <div class="info-value" id="elapsedTime">0s</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Node Density</div>
+                <div class="info-value" id="nodeDensity">Extreme</div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="canvas-container">
+                <canvas id="canvas" width="800" height="600"></canvas>
+            </div>
+            
+            <div class="log-container">
+                <h3>Network Activity Log</h3>
+                <div id="log"></div>
+            </div>
+        </div>
+        
+        <div id="victory" style="display: none;"></div>
+    </div>
+    
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let gameActive = false;
+        let nodes = [];
+        let queries = [];
+        let targetKey = 0;
+        let totalQueries = 0;
+        let networkHops = 0;
+        let startTime = 0;
+        let spawnInterval = null;
+        let queryInterval = null;
+        let animationFrame = null;
+        let eventLog = [];
+        let targetFound = false;
+        
+        // Density parameters - only extreme density
+        const densityParams = {
+            name: "Extreme",
+            minSpawnInterval: 10,      // 10x faster than original
+            maxSpawnInterval: 100,     // 10x faster than original
+            minDissipateTime: 2000,
+            maxDissipateTime: 8000,
+            connectionDistance: 80,
+            maxConnections: 15,
+            querySpeed: 8,
+            queryTTL: 6,
+            nodeRadius: 4,
+            initialNodes: 20,
+            queryInterval: 100
+        };
+        
+        // Node ID space (simulating a 160-bit ID space like in Kademlia)
+        const ID_SPACE = 2n ** 160n;
+        const REDUNDANCY_FACTOR = 3;
+        
+        class Node {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.radius = densityParams.nodeRadius;
+                
+                // Generate a realistic node ID (simulating 160-bit hash)
+                this.id = this.generateNodeId();
+                
+                // Generate signature key and store multiple copies for redundancy
+                this.signatureKey = Math.floor(Math.random() * 1000) + 1;
+                this.storedKeys = this.generateKeyCopies(this.signatureKey);
+                
+                // Track if this node knows about the target key
+                this.knowsTargetKey = false;
+                
+                this.spawnTime = Date.now();
+                this.dissipateTime = this.spawnTime + this.randomDissipateTime();
+                this.connections = [];
+                this.alpha = 0;
+                this.targetAlpha = 1;
+                this.queryHistory = new Set();
+                this.routingTable = new Map();
+            }
+            
+            generateNodeId() {
+                const randomValue = BigInt(Math.floor(Math.random() * Number.MAX_SAFE_INTEGER));
+                return (randomValue * BigInt(Math.floor(Math.random() * Number.MAX_SAFE_INTEGER))) % ID_SPACE;
+            }
+            
+            generateKeyCopies(key) {
+                const copies = [];
+                for (let i = 0; i < REDUNDANCY_FACTOR; i++) {
+                    copies.push({
+                        key: key,
+                        id: this.id + BigInt(i),
+                        timestamp: Date.now()
+                    });
+                }
+                return copies;
+            }
+            
+            randomDissipateTime() {
+                return densityParams.minDissipateTime + Math.random() * (densityParams.maxDissipateTime - densityParams.minDissipateTime);
+            }
+            
+            update() {
+                if (this.alpha < this.targetAlpha) {
+                    this.alpha += 0.05;
+                }
+            }
+            
+            draw() {
+                // Draw connections to neighbors
+                ctx.strokeStyle = this.knowsTargetKey ? 
+                    `rgba(0, 255, 0, ${this.alpha * 0.5})` : 
+                    `rgba(100, 100, 100, ${this.alpha * 0.3})`;
+                ctx.lineWidth = this.knowsTargetKey ? 2 : 1;
+                for (const neighbor of this.connections) {
+                    ctx.beginPath();
+                    ctx.moveTo(this.x, this.y);
+                    ctx.lineTo(neighbor.x, neighbor.y);
+                    ctx.stroke();
+                }
+                
+                // Draw node
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                
+                if (this.knowsTargetKey) {
+                    // Bright green for nodes that know the target key
+                    ctx.fillStyle = `rgba(0, 255, 0, ${this.alpha})`;
+                    ctx.strokeStyle = `rgba(100, 255, 100, ${this.alpha})`;
+                } else {
+                    ctx.fillStyle = `rgba(100, 100, 100, ${this.alpha})`;
+                    ctx.strokeStyle = `rgba(150, 150, 150, ${this.alpha})`;
+                }
+                
+                ctx.fill();
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                
+                // Draw signature key (smaller font for smaller nodes)
+                ctx.fillStyle = this.knowsTargetKey ? 
+                    `rgba(255, 255, 255, ${this.alpha})` : 
+                    `rgba(0, 255, 0, ${this.alpha})`;
+                ctx.font = `bold ${Math.max(6, densityParams.nodeRadius)}px Courier New`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(this.signatureKey, this.x, this.y);
+                
+                // Draw knowledge indicator
+                if (this.knowsTargetKey) {
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.radius + 3, 0, Math.PI * 2);
+                    ctx.strokeStyle = `rgba(0, 255, 0, ${this.alpha})`;
+                    ctx.lineWidth = 2;
+                    ctx.stroke();
+                }
+            }
+            
+            distanceTo(other) {
+                const dx = this.x - other.x;
+                const dy = this.y - other.y;
+                return Math.sqrt(dx * dx + dy * dy);
+            }
+            
+            xorDistance(otherId) {
+                return this.id ^ otherId;
+            }
+            
+            findConnections(allNodes) {
+                this.connections = [];
+                
+                const sortedNodes = [...allNodes]
+                    .filter(node => node.id !== this.id)
+                    .sort((a, b) => {
+                        const physicalDistA = this.distanceTo(a);
+                        const physicalDistB = this.distanceTo(b);
+                        const xorDistA = Number(this.xorDistance(a.id));
+                        const xorDistB = Number(this.xorDistance(b.id));
+                        
+                        return (physicalDistA + xorDistA / 1000000) - (physicalDistB + xorDistB / 1000000);
+                    });
+                
+                for (let i = 0; i < Math.min(densityParams.maxConnections, sortedNodes.length); i++) {
+                    const node = sortedNodes[i];
+                    if (this.distanceTo(node) < densityParams.connectionDistance) {
+                        this.connections.push(node);
+                    }
+                }
+            }
+            
+            hasKey(key) {
+                return this.storedKeys.some(stored => stored.key === key);
+            }
+            
+            learnTargetKey() {
+                if (!this.knowsTargetKey) {
+                    this.knowsTargetKey = true;
+                    
+                    // Spread knowledge to connected nodes
+                    for (const neighbor of this.connections) {
+                        if (!neighbor.knowsTargetKey) {
+                            // Simulate knowledge propagation with a small delay
+                            setTimeout(() => {
+                                if (gameActive && nodes.includes(neighbor)) {
+                                    neighbor.learnTargetKey();
+                                }
+                            }, 100);
+                        }
+                    }
+                }
+            }
+        }
+        
+        class Query {
+            constructor(fromNode, toNode, targetKey, ttl = densityParams.queryTTL, queryId = null) {
+                this.fromNode = fromNode;
+                this.toNode = toNode;
+                this.targetKey = targetKey;
+                this.progress = 0;
+                this.x = fromNode.x;
+                this.y = fromNode.y;
+                this.id = queryId || Date.now() + Math.random();
+                this.ttl = ttl;
+                this.visitedNodes = new Set([fromNode.id]);
+            }
+            
+            update() {
+                this.progress += densityParams.querySpeed / 100;
+                
+                if (this.progress >= 1) {
+                    return true;
+                }
+                
+                this.x = this.fromNode.x + (this.toNode.x - this.fromNode.x) * this.progress;
+                this.y = this.fromNode.y + (this.toNode.y - this.fromNode.y) * this.progress;
+                
+                return false;
+            }
+            
+            draw() {
+                // Draw query path
+                ctx.strokeStyle = 'rgba(0, 255, 0, 0.6)';
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(this.fromNode.x, this.fromNode.y);
+                ctx.lineTo(this.toNode.x, this.toNode.y);
+                ctx.stroke();
+                
+                // Draw query packet
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, 4, 0, Math.PI * 2);
+                ctx.fillStyle = '#00ff00';
+                ctx.fill();
+                ctx.strokeStyle = '#66ff66';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                
+                // Draw TTL indicator
+                ctx.fillStyle = '#00ff00';
+                ctx.font = 'bold 7px Courier New';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(this.ttl, this.x, this.y - 8);
+            }
+        }
+        
+        function startGame() {
+            gameActive = true;
+            nodes = [];
+            queries = [];
+            totalQueries = 0;
+            networkHops = 0;
+            startTime = Date.now();
+            targetKey = Math.floor(Math.random() * 1000) + 1;
+            eventLog = [];
+            targetFound = false;
+            
+            // Reset UI
+            document.getElementById('startBtn').disabled = true;
+            document.getElementById('resetBtn').disabled = false;
+            document.getElementById('targetKey').textContent = targetKey;
+            document.getElementById('victory').style.display = 'none';
+            
+            clearLog();
+            addLog(`Network initialized. Target signature: ${targetKey}`, 'spawn');
+            addLog(`${densityParams.name.toUpperCase()} DENSITY MODE: Extreme spawning rate`, 'spawn');
+            addLog(`GOAL: Discover the target signature key!`, 'spawn');
+            addLog(`Redundancy factor: ${REDUNDANCY_FACTOR} copies per key`, 'spawn');
+            
+            // Start continuous spawning
+            spawnInterval = setInterval(spawnNode, 50); // Spawn every 50ms for extreme density
+            
+            // Start queries
+            queryInterval = setInterval(initiateQuery, densityParams.queryInterval);
+            
+            // Spawn initial nodes
+            for (let i = 0; i < densityParams.initialNodes; i++) {
+                spawnNode();
+            }
+            
+            animate();
+        }
+        
+        function resetGame() {
+            gameActive = false;
+            nodes = [];
+            queries = [];
+            totalQueries = 0;
+            networkHops = 0;
+            targetFound = false;
+            
+            if (spawnInterval) clearInterval(spawnInterval);
+            if (queryInterval) clearInterval(queryInterval);
+            if (animationFrame) cancelAnimationFrame(animationFrame);
+            
+            document.getElementById('startBtn').disabled = false;
+            document.getElementById('resetBtn').disabled = true;
+            document.getElementById('activeNodes').textContent = '0';
+            document.getElementById('totalQueries').textContent = '0';
+            document.getElementById('networkHops').textContent = '0';
+            document.getElementById('elapsedTime').textContent = '0s';
+            document.getElementById('targetKey').textContent = '-';
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            clearLog();
+        }
+        
+        function spawnNode() {
+            if (!gameActive || targetFound) return;
+            
+            const x = Math.random() * (canvas.width - 40) + 20;
+            const y = Math.random() * (canvas.height - 40) + 20;
+            const node = new Node(x, y);
+            nodes.push(node);
+            
+            // Only log every 5th node to reduce log spam
+            if (nodes.length % 5 === 0) {
+                addLog(`Node joined network | Key: ${node.signatureKey} | Total: ${nodes.length}`, 'spawn');
+            }
+            
+            // Update connections for all nodes
+            updateAllConnections();
+        }
+        
+        function updateAllConnections() {
+            for (const node of nodes) {
+                node.findConnections(nodes);
+            }
+        }
+        
+        function initiateQuery() {
+            if (!gameActive || targetFound || nodes.length < 2) return;
+            
+            const sourceNode = nodes[Math.floor(Math.random() * nodes.length)];
+            
+            if (sourceNode.connections.length === 0) return;
+            
+            const targetNode = selectClosestNode(sourceNode, sourceNode.connections);
+            
+            const queryId = Date.now() + Math.random();
+            const query = new Query(sourceNode, targetNode, targetKey, densityParams.queryTTL, queryId);
+            queries.push(query);
+            
+            sourceNode.queryHistory.add(queryId);
+            targetNode.queryHistory.add(queryId);
+            
+            totalQueries++;
+            networkHops++;
+            
+            // Only log every 10th query to reduce log spam
+            if (totalQueries % 10 === 0) {
+                addLog(`Query: Node ${sourceNode.signatureKey} → Node ${targetNode.signatureKey}`, 'query');
+            }
+            
+            // Check if target node has the signature
+            setTimeout(() => {
+                if (targetNode.hasKey(targetKey)) {
+                    addLog(`KEY FOUND! Node ${targetNode.signatureKey} has target ${targetKey}`, 'match');
+                    targetNode.learnTargetKey();
+                    targetFound = true;
+                    endGame(true);
+                } else if (query.ttl > 1) {
+                    continueQuery(query, targetNode);
+                }
+            }, (1 / densityParams.querySpeed) * 100);
+        }
+        
+        function selectClosestNode(sourceNode, candidates) {
+            const targetId = BigInt(targetKey) * BigInt(1000000);
+            
+            return candidates.reduce((closest, node) => {
+                const currentDistance = Number(sourceNode.xorDistance(targetId));
+                const candidateDistance = Number(node.xorDistance(targetId));
+                return candidateDistance < currentDistance ? node : closest;
+            }, candidates[0]);
+        }
+        
+        function continueQuery(originalQuery, currentNode) {
+            if (!gameActive || targetFound) return;
+            
+            const candidates = currentNode.connections.filter(
+                node => !originalQuery.visitedNodes.has(node.id)
+            );
+            
+            if (candidates.length === 0) return;
+            
+            const nextNode = selectClosestNode(currentNode, candidates);
+            
+            const newQuery = new Query(
+                currentNode, 
+                nextNode, 
+                originalQuery.targetKey, 
+                originalQuery.ttl - 1,
+                originalQuery.id
+            );
+            
+            originalQuery.visitedNodes.forEach(id => newQuery.visitedNodes.add(id));
+            newQuery.visitedNodes.add(nextNode.id);
+            
+            queries.push(newQuery);
+            networkHops++;
+            
+            // Only log every 10th query to reduce log spam
+            if (networkHops % 10 === 0) {
+                addLog(`Query continues: ${currentNode.signatureKey} → ${nextNode.signatureKey}`, 'query');
+            }
+            
+            setTimeout(() => {
+                if (nextNode.hasKey(originalQuery.targetKey)) {
+                    addLog(`KEY FOUND! Node ${nextNode.signatureKey} has target ${targetKey}`, 'match');
+                    nextNode.learnTargetKey();
+                    targetFound = true;
+                    endGame(true);
+                } else if (newQuery.ttl > 1) {
+                    continueQuery(newQuery, nextNode);
+                }
+            }, (1 / densityParams.querySpeed) * 100);
+        }
+        
+        function checkDissipation() {
+            const now = Date.now();
+            const nodesToRemove = [];
+            
+            for (let i = nodes.length - 1; i >= 0; i--) {
+                const node = nodes[i];
+                if (now >= node.dissipateTime) {
+                    nodesToRemove.push(node);
+                    nodes.splice(i, 1);
+                    // Only log every 5th dissipation to reduce log spam
+                    if (nodesToRemove.length % 5 === 0) {
+                        addLog(`Node dissipated | Key: ${node.signatureKey}`, 'spawn');
+                    }
+                }
+            }
+            
+            if (nodesToRemove.length > 0) {
+                updateAllConnections();
+            }
+        }
+        
+        function animate() {
+            if (!gameActive) return;
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Update and draw nodes
+            for (const node of nodes) {
+                node.update();
+                node.draw();
+            }
+            
+            // Update and draw queries
+            for (let i = queries.length - 1; i >= 0; i--) {
+                const query = queries[i];
+                const complete = query.update();
+                query.draw();
+                
+                if (complete) {
+                    queries.splice(i, 1);
+                }
+            }
+            
+            checkDissipation();
+            
+            document.getElementById('activeNodes').textContent = nodes.length;
+            document.getElementById('totalQueries').textContent = totalQueries;
+            document.getElementById('networkHops').textContent = networkHops;
+            
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            document.getElementById('elapsedTime').textContent = elapsed + 's';
+            
+            animationFrame = requestAnimationFrame(animate);
+        }
+        
+        function endGame(victory) {
+            gameActive = false;
+            if (spawnInterval) clearInterval(spawnInterval);
+            if (queryInterval) clearInterval(queryInterval);
+            
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            
+            if (victory) {
+                const victoryEl = document.getElementById('victory');
+                victoryEl.textContent = `TARGET KEY FOUND! Discovered in ${elapsed}s with ${totalQueries} queries and ${networkHops} hops!`;
+                victoryEl.style.display = 'block';
+                
+                generateLogFile(elapsed);
+            }
+            
+            document.getElementById('startBtn').disabled = false;
+        }
+        
+        function generateLogFile(elapsed) {
+            const now = new Date();
+            const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, -5);
+            const filename = `dht_network_log_${timestamp}.txt`;
+            
+            let content = '';
+            content += '═══════════════════════════════════════════════════════════════\n';
+            content += '       DHT NETWORK KEY DISCOVERY SIMULATOR - RUN LOG\n';
+            content += '═══════════════════════════════════════════════════════════════\n\n';
+            content += `Date: ${now.toLocaleString()}\n`;
+            content += `Target Key: ${targetKey}\n`;
+            content += `Density Mode: ${densityParams.name}\n`;
+            content += `Total Time: ${elapsed} seconds\n`;
+            content += `Total Queries: ${totalQueries}\n`;
+            content += `Network Hops: ${networkHops}\n`;
+            content += `Peak Nodes: ${Math.max(...eventLog.filter(e => e.type === 'spawn').map(e => e.text.match(/Total: (\d+)/)).filter(m => m).map(m => parseInt(m[1])))}\n\n`;
+            
+            content += 'NETWORK ACTIVITY LOG:\n';
+            content += '═══════════════════════════════════════════════════════════════\n';
+            
+            for (const entry of eventLog) {
+                content += `${entry.text}\n`;
+            }
+            
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+        
+        function addLog(text, type = 'spawn') {
+            const logEntry = { text: `[${new Date().toLocaleTimeString()}] ${text}`, type };
+            eventLog.push(logEntry);
+            
+            const logElement = document.getElementById('log');
+            const entryElement = document.createElement('div');
+            entryElement.className = `log-entry log-${type}`;
+            entryElement.textContent = logEntry.text;
+            
+            logElement.appendChild(entryElement);
+            logElement.scrollTop = logElement.scrollHeight;
+            
+            // Limit log entries to prevent memory issues
+            if (logElement.children.length > 200) {
+                logElement.removeChild(logElement.firstChild);
+            }
+        }
+        
+        function clearLog() {
+            document.getElementById('log').innerHTML = '';
+        }
+        
+        // Initialize the canvas
+        canvas.width = 800;
+        canvas.height = 600;
+        
+        // Draw initial network diagram
+        ctx.fillStyle = '#1a1a1a';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        // Draw area boundaries
+        ctx.strokeStyle = '#333';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(canvas.width / 2, 0);
+        ctx.lineTo(canvas.width / 2, canvas.height);
+        ctx.moveTo(0, canvas.height / 2);
+        ctx.lineTo(canvas.width, canvas.height / 2);
+        ctx.stroke();
+        
+        // Draw area labels
+        ctx.fillStyle = '#666';
+        ctx.font = 'bold 16px Courier New';
+        ctx.textAlign = 'center';
+        ctx.fillText('Top-Left', canvas.width / 4, canvas.height / 4);
+        ctx.fillText('Top-Right', canvas.width * 3/4, canvas.height / 4);
+        ctx.fillText('Bottom-Left', canvas.width / 4, canvas.height * 3/4);
+        ctx.fillText('Bottom-Right', canvas.width * 3/4, canvas.height * 3/4);
+    </script>
+</body>
+</html>
+
+
+    
+              <script>
+                              
+              </script>
+                        </body>
+                        </html>
+                    
