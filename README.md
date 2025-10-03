@@ -1,6 +1,8 @@
 # asi-visual-engine
 A machine learning dataset with concepts, code, journaling, and full prototypes for deep learning data visualization, fostering transparency and interpretability in AI decision-making.
 
+![hippo](https://github.com/ronniross/asi-visual-engine/blob/main/assets/gifs/decentralized-node-cluster-dht.gif)
+
 ## 1. Introduction
 
 This Hub will showcase projects and frameworks from the [asi-ecosystem](https://github.com/ronniross/asi-ecosystem) that are related to data visualization.
