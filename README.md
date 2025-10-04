@@ -22,12 +22,17 @@ Beyond the repositories from Topic 2, I will now use this space to share new ide
 
 I will expand on each sub-module in a specific folder and document it there.
 
-## 3.1 HTML Game Data Visualizer
+## 3.1 Node Interaction Game Data Visualizer
 
 You can find the content in [/html-node-interaction]( https://github.com/ronniross/asi-visual-engine/tree/main/assets/html-node-interaction).
 
 There are many color variations representing many dynamics and rulesets.
 ![hippo](https://github.com/ronniross/asi-visual-engine/blob/main/assets/gifs/decentralized-node-cluster-dht.gif)
+
+## 3.2 ASI Algorithm Visualizer
+
+Visual representations and interactive scripts ilustrating the algorithms and concepts present in the repository [asi-algorithm-dataset](https://github.com/ronniross/asi-algorithm-dataset).
+
 
 Ronni Ross
 2025
