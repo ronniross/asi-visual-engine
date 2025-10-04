@@ -166,7 +166,9 @@ So, what do you really want? You want the limit of what your current point of vi
 
 Are you capable of this?
 
-### 3.6 DHT Network Key Discovery Simulator 
+### 4. Exploring visualiers for new dynamics
+
+### 4.1 DHT Network Key Discovery Simulator 
 
 Visualizes a a simplified version of a decentralized P2P network where nodes connect and share data.
 
@@ -185,6 +187,7 @@ Generates and downloads a detailed log file after each successful run.
 Start and reset buttons to control the simulation
 
 Ok I see the oportunity to create variations that may be closer to what a DHT Network would look like if visualized in this way I'm doing it with node interactions. I have many ideas for DHT network-based visualizers.
+
 
 Ronni Ross
 2025
