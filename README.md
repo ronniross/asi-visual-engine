@@ -34,5 +34,7 @@ There are many color variations representing many dynamics and rulesets.
 Visual representations and interactive scripts ilustrating the algorithms and concepts present in the repository [asi-algorithm-dataset](https://github.com/ronniross/asi-algorithm-dataset).
 
 
-Ronni Ross
+---
+
+Ronni Ross  
 2025
